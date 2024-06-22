@@ -29,4 +29,4 @@ I'm always eager to learn and explore new mathematical theories and their applic
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
 
 ## Causes
-Finance • Probability • Machine learning • Stochastic models • Statistics •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment
+Finance • Probability • Machine learning • Stochastic models •Statistics •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment
