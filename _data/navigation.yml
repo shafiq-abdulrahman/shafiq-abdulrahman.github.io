@@ -21,8 +21,8 @@ main:
   - title: "Official Website"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/home"
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
     
   # - title: "Guide"
   #   url: /markdown/

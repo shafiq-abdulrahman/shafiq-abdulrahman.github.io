@@ -22,7 +22,7 @@ repository               : #"academicpages/academicpages.github.io"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Abdul Rahman"
+  name             : #"Abdul Rahman"
   pronouns         : # example: "she/her"  
   bio              : "Master's Student"
   location         : "IIT Madras"
@@ -57,7 +57,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "https://www.linkedin.com/in/abdul-rahman-s/"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username
