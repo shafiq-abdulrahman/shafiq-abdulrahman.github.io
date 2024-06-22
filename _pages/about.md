@@ -1,14 +1,29 @@
 ---
 permalink: /
-title: "Academic Pages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Shafiq Abdul Rahman"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
 
+#### <u> Current Position </u>
+**Research Intern under [Dr.Neelesh Upadhye](https://math.iitm.ac.in/neelesh)  @ IIT Madras  
+(_June 2024 - Present_)**
 
+## Research Interests
+My research interests lie in the fields of [stochastic analysis](https://en.wikipedia.org/wiki/Stochastic_process) and its applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance). In particular, now I'm working on [<u>Limit Order Book Modelling</u>](https://www.5minutefinance.org/concepts/the-limit-order-book) with a queueing system related to the Indian Stock Market using statistical techniques and tools and learning about the latest research advancements in the field of stochastic modeling .
+## Overview
+  I'm Abdul Rahman, a recent graduate with a Master’s degree in Mathematics from the prestigious [Indian Institute of Technology Madras (IIT Madras)](https://www.iitm.ac.in/), where I studied from 2022 to 2024. My academic journey has been driven by a profound interest in stochastic analysis and financial mathematics, areas that fascinate me due to their complex and impactful nature.
 
-For site content, there is one markdown file for each type of content, which are stored in directories like _publications, _talks, _posts, _teaching, or _pages. For example, each talk is a markdown file in the [_talks directory](https://github.com/academicpages/academicpages.github.io/tree/master/_talks). At the top of each markdown file is structured data in YAML about the talk, which the theme will parse to do lots of cool stuff. The same structured data about a talk is used to generate the list of talks on the [Talks page](https://academicpages.github.io/talks), each [individual page](https://academicpages.github.io/talks/2012-03-01-talk-1) for specific talks, the talks section for the [CV page](https://academicpages.github.io/cv), and the [map of places you've given a talk](https://academicpages.github.io/talkmap.html) (if you run this [python file](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.py) or [Jupyter notebook](https://github.com/academicpages/academicpages.github.io/blob/master/talkmap.ipynb), which creates the HTML for the map based on the contents of the _talks directory).
+Prior to my Master's, I completed my undergraduate studies from 2018 to 2021 at [Government Arts College](https://gacbe.ac.in/mathematics-faculty.html),Coimbatore,India . During my time there, I excelled academically and graduated as the department topper, an achievement that underscores my dedication and passion for mathematics.
 
-More info about configuring Academic Pages can be found in [the guide](https://academicpages.github.io/markdown/). The [guides for the Minimal Mistakes theme](https://mmistakes.github.io/minimal-mistakes/docs/configuration/) (which this theme was forked from) might also be helpful.
+Throughout my academic career, I have actively engaged in various projects and seminars that have deepened my understanding of mathematical concepts and their real-world applications. My coursework and research have equipped me with a solid foundation in stochastic processes, mathematical finance, and advanced statistical methods.
+
+I'm always eager to learn and explore new mathematical theories and their applications, and I look forward to contributing to the field through research and professional endeavors.
+
+ _**More details are found in my [<u>official website</u>](https://sites.google.com/view/shafiq-abdulrahman-iitm/home)**_
+## Get in touch
+- Email: [abdulrahman.officiallink@gmail.com](abdulrahman.iitm.math@gmail.com)
+- LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/)
+
