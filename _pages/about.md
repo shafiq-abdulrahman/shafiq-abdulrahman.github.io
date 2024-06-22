@@ -8,6 +8,7 @@ redirect_from:
 ---
 
 ** <u> Current Position </u>**
+
 **Research Intern under [Dr.Neelesh Upadhye](https://math.iitm.ac.in/neelesh)  @ IIT Madras  
 (_June 2024 - Present_)**
 
@@ -27,3 +28,6 @@ I'm always eager to learn and explore new mathematical theories and their applic
 - Email: [abdulrahman.officiallink@gmail.com](abdulrahman.iitm.math@gmail.com)
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
 
+## Causes
+CausesCauses
+Finance • Probability • Machine learning • Stochastic models • Statistics •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment
