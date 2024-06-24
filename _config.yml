@@ -21,7 +21,7 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "profile.jpeg"
+  avatar           : "1.jpeg"
   name             : #"Abdul Rahman"
   pronouns         : # example: "she/her"  
   bio              : "Recent Master Graduate, Computational Mathematics and Data Science lab, Department of Math, IIT Madras"
