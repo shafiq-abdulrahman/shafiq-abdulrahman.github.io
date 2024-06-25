@@ -1,13 +1,14 @@
 ---
 permalink: /
-title: "Shafiq Abdul Rahman"
+title: #"Shafiq Abdul Rahman"
 author_profile: true
 redirect_from: 
   - /about/
   - /about.html
 ---
-
-<u>Current Position</u> <br>
+<!-- 
+##<u>Current Position</u> <br> -->
+## Current Position
 Research Intern under [Dr.Neelesh Upadhye](https://math.iitm.ac.in/neelesh)  @ IIT Madras  (_June 2024 - Present_)
 
 ## Research Interests
