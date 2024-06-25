@@ -6,8 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-
+<!-- Comment this line -->
 ## Current Position
 Research Intern under [Dr.Neelesh Upadhye](https://math.iitm.ac.in/neelesh)  @ IIT Madras  (_June 2024 - Present_)
 
