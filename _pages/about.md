@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![Image Alignment Example](website/images/image-alignment-300x200.jpg)
+![Image Alt Text](website/images/foo-bar-identity-th.jpg)
 
 <!-- Comment this line -->
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Current Position</span>
