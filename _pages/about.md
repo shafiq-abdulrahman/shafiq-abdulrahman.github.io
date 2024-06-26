@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![Image Alt Text](website/images/foo-bar-identity-th.jpg)
+![Image Alt Text](500x300.png)
 
 <!-- Comment this line -->
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Current Position</span>
