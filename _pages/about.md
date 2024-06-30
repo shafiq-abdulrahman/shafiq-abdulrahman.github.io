@@ -31,3 +31,7 @@ I'm always eager to learn and explore new mathematical theories and their applic
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Causes</span>
 <p style="font-size:16px;">Finance • Probability • Machine learning • Stochastic models • Statistics •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p>
+
+<div style="border: 1px solid black; padding: 10px; margin: 10px; display: inline-block; float: right;">
+  <a href="https://sites.google.com/view/shafiq-abdulrahman-iitm/home">Change View</a>
+</div>
