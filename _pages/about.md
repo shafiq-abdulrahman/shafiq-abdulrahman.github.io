@@ -30,7 +30,7 @@ I'm always eager to learn and explore new mathematical theories and their applic
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Causes</span>
-<p style="font-size:16px;">Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p>
+<p style="font-size:16px;"> Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p>
 
 <div style="border: 1px solid black; padding: 10px; margin: 10px; display: inline-block; float: right;">
   <a href="https://sites.google.com/view/shafiq-abdulrahman-iitm/home">Back to home page</a>
