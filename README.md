@@ -4,6 +4,28 @@
 
 Academic Pages is a Github Pages template for academic websites.
 
+
+# Working or MOdifying 
+config.yml   -  left side bar
+data > navigation.yml - header
+## Locations of key files/directories
+
+* Basic config options: _config.yml
+* Top navigation bar config: _data/navigation.yml
+* Single pages: _pages/
+* Collections of pages are .md or .html files in:
+  * _publications/
+  * _portfolio/
+  * _posts/
+  * _teaching/
+  * _talks/
+* Footer: _includes/footer.html
+* Static files (like PDFs): /files/
+* Profile image (can set in _config.yml): images/profile.png
+##  body   - pages /about.md
+ For more go to pages > markdown.md
+
+
 # Getting Started
 
 1. Register a GitHub account if you don't have one and confirm your e-mail (required!)
@@ -37,4 +59,4 @@ This repository was forked (then detached) by [Stuart Geiger](https://github.com
 ## Bugfixes and enhancements
 
 If you have bugfixes and enhancements that you would like to submit as a pull request, you will need to [fork](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/fork-a-repo) this repository as opposed to using it as a template. This will also allow you to [synchronize your copy](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/working-with-forks/syncing-a-fork) of template to your fork as well.
-
+=
