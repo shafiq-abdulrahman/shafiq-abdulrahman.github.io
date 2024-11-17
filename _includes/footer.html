@@ -1,4 +1,4 @@
-{% include base_path %}
+<!-- {% include base_path %}
 
 {% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
 <div class="page__footer-follow">
@@ -21,4 +21,30 @@
 
 
 <div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. </a>.</div>	
-<a href="http://livetrafficfeed.com/3d-visitor-maps" id="LTF_3d_maps">Live 3D Globes Visitor</a><script type="text/javascript" src="//cdn.livetrafficfeed.com/static/3d-maps/live.js?o=000080&amp;l=339966&amp;b=008000&amp;c=ff0000&amp;root=0&amp;timezone=America%2FNew_York&amp;s=200" async="async"></script>
+<a href="http://livetrafficfeed.com/3d-visitor-maps" id="LTF_3d_maps">Live 3D Globes Visitor</a><script type="text/javascript" src="//cdn.livetrafficfeed.com/static/3d-maps/live.js?o=000080&amp;l=339966&amp;b=008000&amp;c=ff0000&amp;root=0&amp;timezone=America%2FNew_York&amp;s=200" async="async"></script> -->
+
+<!-- <script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=Iws0hmHT-UKTOqVboI2kSp3QGP6cSwNj6CY8ilcFNT0"></script> --> -->
+
+{% include base_path %}
+
+{% if site.author.github or site.author.bitbucket or site.atom_feed.hide != true %}
+<div class="page__footer-follow">
+  <ul class="social-icons">
+    {% if site.data.ui-text[site.locale].follow_label %}
+      <li><strong>{{ site.data.ui-text[site.locale].follow_label }}</strong></li>
+    {% endif %}
+    {% if site.author.github %}
+      <li><a href="http://github.com/{{ site.author.github }}"><i class="fab fa-github" aria-hidden="true"></i> GitHub</a></li>
+    {% endif %}
+    {% if site.author.bitbucket %}
+      <li><a href="http://bitbucket.org/{{ site.author.bitbucket }}"><i class="fab fa-bitbucket" aria-hidden="true"></i> Bitbucket</a></li>
+    {% endif %}
+    {% if site.atom_feed.hide != true %}
+    <li><a href="{% if site.atom_feed.path %}{{ site.atom_feed.path }}{% else %}{{ base_path }}/feed.xml{% endif %}"><i class="fa fa-fw fa-rss-square" aria-hidden="true"></i> {{ site.data.ui-text[site.locale].feed_label | default: "Feed" }}</a></li>
+    {% endif %}
+  </ul>
+</div>
+{% endif %}
+
+<div class="page__footer-copyright">&copy; {{ site.time | date: '%Y' }} {{ site.name | default: site.title }}. </div>
+<script type="text/javascript" id="mmvst_globe" src="//mapmyvisitors.com/globe.js?d=Iws0hmHT-UKTOqVboI2kSp3QGP6cSwNj6CY8ilcFNT0"></script>
