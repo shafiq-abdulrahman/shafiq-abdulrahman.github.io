@@ -13,8 +13,12 @@ redirect_from:
 Research Intern under [Dr.Neelesh Upadhye](https://math.iitm.ac.in/neelesh)  @ IIT Madras  (_June 2024 - Present_)
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Research Interests</span>
+<<<<<<< HEAD
 My research interests lie in the fields of [stochastic analysis](https://en.wikipedia.org/wiki/Stochastic_process) and its applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance). In particular, now I'm working on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) using Stochastic process and Machine learning techniques in financial markets by combining agent‑based simulations  with Reinforcement learning and stochastic models to capture market behavior.
 
+=======
+My research interests lie in the fields of [stochastic analysis](https://en.wikipedia.org/wiki/Stochastic_process) and its applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance). In particular, now I'm working on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) using Stochastic process and machine learning in financial markets by combining agent‑based simulations in ABIDES with stochastic models to capture market behavior.
+>>>>>>> 544b008c4ee7901e8532700a35e33fee1bc16f71
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Overview</span>
  I'm Abdul Rahman, a recent graduate with a Master’s degree in Mathematics from the prestigious [Indian Institute of Technology Madras (IIT Madras)](https://www.iitm.ac.in/), where I studied from 2022 to 2024. My academic journey has been driven by a profound interest in stochastic analysis and financial mathematics, areas that fascinate me due to their complex and impactful nature.
