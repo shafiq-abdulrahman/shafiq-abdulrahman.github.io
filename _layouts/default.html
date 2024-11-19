@@ -1,4 +1,4 @@
----
+<!-- ---
 layout: compress
 ---
 
@@ -28,4 +28,54 @@ layout: compress
     {% include scripts.html %}
 
   </body>
-</html>
+</html> -->
+
+<body>
+  {% include browser-upgrade.html %}
+  {% include masthead.html %}
+
+  <!-- Dark/Light Mode Toggle -->
+  <div class="theme-toggle">
+    <label for="theme-switch" class="switch">
+      <input type="checkbox" id="theme-switch">
+      <span class="slider"></span>
+    </label>
+  </div>
+
+  {{ content }}
+
+  <div class="page__footer">
+    <footer>
+      {% include footer/custom.html %}
+      {% include footer.html %}
+    </footer>
+  </div>
+
+  {% include scripts.html %}
+  
+  <!-- Theme Toggle Script -->
+  <script>
+    const themeToggle = document.getElementById('theme-switch');
+    const body = document.body;
+    const currentTheme = localStorage.getItem('theme');
+
+    // Apply stored theme on load
+    if (currentTheme) {
+      body.classList.add(currentTheme);
+      themeToggle.checked = currentTheme === 'dark-theme';
+    }
+
+    // Listen for toggle changes
+    themeToggle.addEventListener('change', function () {
+      if (this.checked) {
+        body.classList.add('dark-theme');
+        localStorage.setItem('theme', 'dark-theme');
+      } else {
+        body.classList.remove('dark-theme');
+        localStorage.setItem('theme', '');
+      }
+    });
+  </script>
+</body>
+
+
