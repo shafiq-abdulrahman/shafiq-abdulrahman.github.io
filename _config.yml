@@ -8,7 +8,7 @@
 
 # Basic Site Settings
 locale                   : "en-US"
-title                    : "About me"
+title                    : "AB"
 title_separator          : "-"
 name                     : &name "Shafiq Abdul Rahman"
 description              : &description "Masters Student"
