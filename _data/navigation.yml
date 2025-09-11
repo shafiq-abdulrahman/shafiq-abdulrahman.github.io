@@ -18,12 +18,16 @@ main:
   # - title: "CV"
   #   url: /cv/
 
-  - title: "Check official Website"
+  - title: "Portfolio"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/home"
 
   # - title: "Change View"
   #   url: "https://shafiq-abdu.github.io/link/"
     
     
-  # - title: "Guide"
-  #   url: /markdown/
+  - title: "Projects"
+    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects_2"
+
+
+  - title: "Teaching"
+    url: "https://sites.google.com/view/shafiqabdulrahmanab/seminar-series-iitm"
