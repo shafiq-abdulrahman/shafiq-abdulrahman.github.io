@@ -24,8 +24,8 @@ main:
   # - title: "Change View"
   #   url: "https://shafiq-abdu.github.io/link/"
     
-  - title: "Publicatons"
-    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/research/publications"
+  # - title: "Publicatons"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/research/publications"
 
   - title: "Publications"
     url: /publications/
