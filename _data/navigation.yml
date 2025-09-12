@@ -24,7 +24,10 @@ main:
   # - title: "Change View"
   #   url: "https://shafiq-abdu.github.io/link/"
     
-    
+  - title: "Publicatons"
+    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/research/publications"
+
+
   - title: "Projects"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects_2"
 
@@ -33,5 +36,3 @@ main:
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
 
 
-  - title: "Teaching"
-    url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
