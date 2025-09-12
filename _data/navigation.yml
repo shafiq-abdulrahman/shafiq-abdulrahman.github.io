@@ -27,6 +27,10 @@ main:
   - title: "Publicatons"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/research/publications"
 
+  - title: "Publications"
+    url: /publications/
+
+
 
   - title: "Projects"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
@@ -34,6 +38,9 @@ main:
 
   - title: "Teaching"
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
+
+  - title: "CV"
+    url: /cv/
 
 
   - title: "Contact"
