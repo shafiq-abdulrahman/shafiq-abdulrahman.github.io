@@ -39,8 +39,8 @@ main:
   - title: "Teaching"
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
 
-  - title: "CV"
-    url: /cv/
+  # - title: "CV"
+  #   url: /cv/
 
 
   - title: "Contact"
