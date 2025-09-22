@@ -19,11 +19,13 @@ My research interests lie in the fields of [random dynamical systems](https://en
 <p style="font-size:16px;"> Dynamical Systems • Computational Mathematics •  Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p>
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Overview</span>
- I'm Abdul Rahman, a recent graduate with a Master’s degree in Mathematics from the prestigious [Indian Institute of Technology Madras (IIT Madras)](https://www.iitm.ac.in/), where I studied from 2022 to 2024. My academic journey has been driven by a profound interest in dynamical systems, stochastic analysis and financial mathematics, areas that fascinate me due to their complex and random nature.
+I’m Abdul Rahman, a recent Master’s graduate in Mathematics from the Indian Institute of Technology Madras (IIT Madras), where I studied from 2022 to 2024. My academic journey has been driven by a deep interest in dynamical systems, stochastic analysis, and mathematical finance, areas that fascinate me for their complexity, randomness, and real-world applications.
 
-Throughout my academic career, I have actively engaged in various projects and seminars that have deepened my understanding of mathematical concepts and their real-world applications. My coursework and research have equipped me with a solid foundation in computational mathematics, dynamical systems, mathematical finance, and advanced statistical and data science methods .
+During my studies, I actively engaged in projects, seminars, and research that strengthened my expertise in computational mathematics, dynamical systems, applied probability, mathematical finance, and advanced statistical and data science methods. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to research and professional endeavors in these fields.
 
-I'm always eager to learn and explore new mathematical theories and their applications, and I look forward to contributing to the field through research and professional endeavors.
+Beyond academics, I have a creative side with interests in artwork, photography, and storytelling. I also enjoy fitness, cricket, chess, football, and thought-provoking movies, which help me maintain balance and perspective.
+
+I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects
 
 
 <!-- ## Get in touch
