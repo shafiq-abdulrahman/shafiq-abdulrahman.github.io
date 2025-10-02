@@ -32,11 +32,11 @@ main:
 
 
 
-  - title: "Projects"
-    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
+  # - title: "Projects"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
 
   - title: "Project"
-    url: /projects/
+    url: /publications/
 
   - title: "Teaching"
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
