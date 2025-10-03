@@ -21,7 +21,7 @@ repository               : #"academicpages/academicpages.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "1000.jpg"   #add 1000.jpg, redbg.jpg
+  avatar           : "redbgg.png"   #add 1000.jpg, redbg.jpg
   name             : "Shafiq Abdul Rahman"
   pronouns         : # example: "she/her"  
   bio              : "Graduate Student,Teaching Assistant Office 345, PGH Hall, College of Natural Science and Mathematics, UH "
