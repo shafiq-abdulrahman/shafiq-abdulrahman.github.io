@@ -30,16 +30,15 @@ main:
   - title: "Publications"
     url: /publications/
 
-  - title: "Projects"
-    url: /portfolio/
+  # - title: "Projects"
+  #   url: /portfolio/
 
 
   - title: "Projects"
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
     external: true
 
-  - title: "Project"
-    url: /projects/
+
 
   - title: "Teaching"
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
