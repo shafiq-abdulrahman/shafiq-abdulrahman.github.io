@@ -15,7 +15,7 @@ collection: portfolio
 
 <div style="display: flex; gap: 20px; align-items: flex-start;">
     <div style="flex: 0 0 300px;">
-        <img src="/images/your_folder/image_de5924.png" alt="AI Snake Game Training Graph and Screenshot" style="max-width: 100%; height: auto; border: 1px solid #ddd;">
+        <img src="/images/ai.gif" alt="AI Snake Game Training Graph and Screenshot" style="max-width: 100%; height: auto; border: 1px solid #ddd;">
     </div>
 
     <div>
