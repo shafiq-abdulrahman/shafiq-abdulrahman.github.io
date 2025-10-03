@@ -38,8 +38,8 @@ main:
     url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
     external: true
 
-  # - title: "Project"
-  #   url: /projects/
+  - title: "Project"
+    url: /projects/
 
   - title: "Teaching"
     url: "https://sites.google.com/view/shafiqabdulrahmanab/teaching"
