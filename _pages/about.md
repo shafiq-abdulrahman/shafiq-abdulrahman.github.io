@@ -43,15 +43,102 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 - First Rank Holder • Gold Medalist  
 
 
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Academic Background</span>
+
 <details>
-  <summary>Click to expand</summary>
+  <summary><span style="color: #1E90FF;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024</summary>
 
-  ## Hidden Content
-  You can put **Markdown** here, including lists, code, images, etc.
+- Master’s Thesis: Technical Analysis in Mathematical Finance  
+- Institute Merit Scholarship recipient  
+- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation
 
-  - Item 1
-  - Item 2
-  - Item 3
+</details>
+
+<details>
+  <summary><span style="color: #1E90FF;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021</summary>
+
+- Undergraduate Project: Linear Algebra and its Applications in Machine Learning  
+- Minor in Physics and Statistics  
+- First Rank Holder • Gold Medalist
+
+</details>
+
+---
+
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Honors and Awards</span>
+
+<details>
+  <summary>Honors & Awards</summary>
+
+- 2025: Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India  
+- 2024: Qualified National level Graduate Aptitude Test in Engineering (GATE)  
+- 2022: All India Rank ‑ 196 in IIT‑JAM (among 12,716 Math aspirants)  
+- 2021: Rank 1, Topper in Department of Mathematics, Government Arts College, Coimbatore  
+- 2018: District Runner, Mathematics Model Exam, CSI College of Engineering, Nilgiris, India  
+- 2018: Rank 1, Young Ramanujam of School Awardee, Dhanish Ahmed Institute of Engineering, Coimbatore  
+- 2016: Topper, Nilgiri District Achiever, Tamil Nadu School Associations  
+- 2016: Topper, Kaitlyn Jeyaraj & Bryan Wood Cash award for centum in Mathematics
+
+</details>
+
+---
+
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Seminars / Presentations</span>
+
+<details>
+  <summary>Seminars & Presentations</summary>
+
+- June 2024: Contributory lectures on "Gaussian Functions, Errors and Stirling’s Approximations" — Summer Workshop on Pure Mathematics  
+- April 2024: Presented "Ito's Rule" proof under Prof. Neelesh Upadhye, IIT Madras — Mathematical Finance  
+- Feb 2024: Proof of "Approximation of class of functions by simple function using convolution and measure theory" under Prof. Barun Sarkar, IIT Madras — Advanced Stochastic Process  
+- Feb 2024: Seminar on "Ito's Integration" for research scholars under Prof. Barun Sarkar, IIT Madras  
+- May 2023: Seminar on "GCD over Euclidean Domains" — Mathematics Training and Talent Search Programme, IIT Madras  
+- May 2022: Co-led discussion on "Significance of eigenvalues and eigenvectors" with Dr. Saranya, Government Arts College, Coimbatore
+
+</details>
+
+---
+
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Workshops / Conferences Attended</span>
+
+<details>
+  <summary>Workshops & Conferences</summary>
+
+- 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore  
+- 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University  
+- 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras  
+- 2024: Workshop on Valuation of Equity Options using Black-Scholes Model, IIQF  
+- 2024: Python in Finance & Open Range Breakout Strategy Workshop, StockGro at IIT Madras  
+- 2024: Statistical Modeling & Quant Challenge, Millennium Investment Management, IIT Madras  
+- 2024: Advanced Training School on PDEs & MATLAB, K. J. Somaiya College, Mumbai  
+- 2023: One-month Summer School integrating Linear Algebra, Probability, Markov Chains, Differential Equations — IIT Madras  
+- 2023: MTTS Programme, Linear Algebra, Complex Analysis, Topology, Module & Ring Theory, IIT Madras  
+- 2023: Mathematics In-house Symposium, IIT Madras  
+- 2022: National Conference on Computational Mathematics, NIT Puducherry  
+- 2022: Workshop on Nonlinear Phenomena in Mathematical Biology (Hybrid), IIITM Gwalior  
+- 2021: NPTEL Modern Algebra Course, Madurai Kamaraj University  
+- 2021: KLA Workshop on AI & HPC in Semiconductor Manufacturing, IIT Madras  
+- 2020: Initiation into Linear Algebra, International Workshop, MAR Thoma College  
+- 2020: Vedic Mathematics & Foundations, Government Arts College, Coimbatore
+
+</details>
+
+---
+
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Entrepreneurial / Extracurricular Activities</span>
+
+<details>
+  <summary>Extracurricular Activities</summary>
+
+- **Organizer & Initiator:** Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)  
+- **Student Chief Coordinator:** MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students  
+- **Super Coordinator:** FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest  
+- **Founder:** SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present)  
+  - Freelance services: Portraits, Doodles, Logo Designing, Calligraphy  
+  - Won 2nd prize, Heritage Centre IIT Madras Doodle Competition  
+- **Photographer:** EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present)  
+  - Tools: Adobe, Snapseed  
+  - Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer
 
 </details>
 
