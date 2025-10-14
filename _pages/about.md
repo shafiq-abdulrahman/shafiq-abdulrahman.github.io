@@ -43,6 +43,24 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 - First Rank Holder • Gold Medalist  
 
 
+<details>
+  <summary>Click to expand</summary>
+
+  ## Hidden Content
+  You can put **Markdown** here, including lists, code, images, etc.
+
+  - Item 1
+  - Item 2
+  - Item 3
+
+</details>
+
+=== "Tab 1"
+    Content for the first tab
+
+=== "Tab 2"
+    Content for the second tab
+
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
