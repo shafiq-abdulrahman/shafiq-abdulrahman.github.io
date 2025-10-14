@@ -12,11 +12,13 @@ redirect_from:
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Research Interests</span>
-My research interests lie in the fields of [random dynamical systems](https://en.wikipedia.org/wiki/Random_dynamical_system), computational mathematics, inverse problems and its applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance). Recently, I was working on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) using Stochastic process and Machine learning techniques in financial markets by combining agent‑based simulations  with Reinforcement learning and time series models to capture market behavior.          
+          
+ ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Research Interests</span>
+
+My research interests lie in the fields of [random dynamical systems](https://en.wikipedia.org/wiki/Random_dynamical_system), computational mathematics, inverse problems, and their applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance) and [computational biology](https://en.wikipedia.org/wiki/Computational_biology). Recently, I have been working on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) using stochastic processes and machine learning techniques in financial markets, combining agent‑based simulations with reinforcement learning and time series models to capture market behavior.
+
  
- 
-<p style="font-size:16px;"> Dynamical Systems • Computational Mathematics •  Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p>
+<p style="font-size:16px;"> Dynamical Systems • Computational Biology • Computational Mathematics •  Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science  • Arts and Culture • Economic Empowerment</p>
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Overview</span>
 I’m Abdul Rahman, a recent Master’s graduate in Mathematics from the [Indian Institute of Technology Madras (IIT Madras)](https://en.wikipedia.org/wiki/IIT_Madras), where I studied from 2022 to 2024. My academic journey has been driven by a deep interest in dynamical systems, stochastic analysis, and mathematical finance, areas that fascinate me for their complexity, randomness, and real-world applications.
