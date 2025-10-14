@@ -34,12 +34,12 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 **M.Sc. in Mathematics (Graduate)** | IIT Madras, India | 2022–2024  
 - Master’s Thesis: Technical Analysis in Mathematical Finance  
 - Institute Merit Scholarship recipient  
-- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation in Python  
+- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation. 
 
 **B.Sc. in Mathematics (Undergraduate)** | Government Arts College, Coimbatore, India | 2018–2021  
 - Undergraduate Project: Linear Algebra and its Applications in Machine Learning  
 - Minor in Physics and Statistics  
-- First Rank Holder | Gold Medalist  
+- First Rank Holder • Gold Medalist  
 
 
 <!-- ## Get in touch
