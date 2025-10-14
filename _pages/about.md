@@ -65,10 +65,10 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 ---
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Honors and Awards</span>
 
 <details>
   <summary>Honors & Awards</summary>
+  
 - 2025: Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India  
 - 2024: Qualified National level Graduate Aptitude Test in Engineering (GATE)  
 - 2022: All India Rank ‑ 196 in IIT‑JAM (among 12,716 Math aspirants)  
@@ -82,10 +82,11 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 ---
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Seminars / Presentations</span>
+
 
 <details>
-  <summary>Seminars & Presentations</summary>
+  <summary>**Seminars & Presentations**</summary>
+
 - June 2024: Contributory lectures on "Gaussian Functions, Errors and Stirling’s Approximations" — Summer Workshop on Pure Mathematics  
 - April 2024: Presented "Ito's Rule" proof under Prof. Neelesh Upadhye, IIT Madras — Mathematical Finance  
 - Feb 2024: Proof of "Approximation of class of functions by simple function using convolution and measure theory" under Prof. Barun Sarkar, IIT Madras — Advanced Stochastic Process  
@@ -97,10 +98,10 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 ---
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Workshops / Conferences Attended</span>
 
 <details>
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black;"><strong>Workshops / Conferences Attended</strong></span></summary>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: #1E90FF; font-weight: bold;">Workshops / Conferences Attended</span></summary>
+
 - 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore  
 - 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University  
 - 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras  
@@ -123,7 +124,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 ---
 
 <details>
-  <summary> <span style="border-bottom: 3px solid #1E90FF; color: black;">Entrepreneurial / Extracurricular Activities</span>
+  <summary> **Entrepreneurial / Extracurricular Activities**</span>
 </summary>
 
 - **Organizer & Initiator:** Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)  
