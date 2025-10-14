@@ -13,7 +13,7 @@ redirect_from:
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
           
- ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Research Interests</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Research Interests</span>
 
 My research interests lie in the fields of [random dynamical systems](https://en.wikipedia.org/wiki/Random_dynamical_system), computational mathematics, inverse problems, and their applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance) and [computational biology](https://en.wikipedia.org/wiki/Computational_biology). Recently, I have been working on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) using stochastic processes and machine learning techniques in financial markets, combining agent‑based simulations with reinforcement learning and time series models to capture market behavior.
 
@@ -34,18 +34,13 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 **M.Sc. in Mathematics (Graduate)** | IIT Madras, India | 2022–2024  
 - Master’s Thesis: Technical Analysis in Mathematical Finance  
 - Institute Merit Scholarship recipient  
-- **Relevant Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation in Python  
+- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation in Python  
 
 **B.Sc. in Mathematics (Undergraduate)** | Government Arts College, Coimbatore, India | 2018–2021  
 - Undergraduate Project: Linear Algebra and its Applications in Machine Learning  
 - Minor in Physics and Statistics  
 - First Rank Holder | Gold Medalist  
 
-**Higher Secondary (Class 11–12)** | 2016–2018  
-- 12th Grade | School Topper  
-
-**Secondary School (Class 1–10)** | 2016  
-- 10th Grade | Centum in Math | District Topper
 
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
