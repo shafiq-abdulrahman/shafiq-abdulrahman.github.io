@@ -102,14 +102,14 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: #1E90FF; font-weight: bold;">Workshops / Conferences Attended</span></summary>
 
-- 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore  
-- 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University  
-- 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras  
-- 2024: Workshop on Valuation of Equity Options using Black-Scholes Model, IIQF  
-- 2024: Python in Finance & Open Range Breakout Strategy Workshop, StockGro at IIT Madras  
-- 2024: Statistical Modeling & Quant Challenge, Millennium Investment Management, IIT Madras  
-- 2024: Advanced Training School on PDEs & MATLAB, K. J. Somaiya College, Mumbai  
-- 2023: One-month Summer School integrating Linear Algebra, Probability, Markov Chains, Differential Equations — IIT Madras  
+- 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore  <br>
+- 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University  <br>
+- 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras  <br>
+- 2024: Workshop on Valuation of Equity Options using Black-Scholes Model, IIQF  <br>
+- 2024: Python in Finance & Open Range Breakout Strategy Workshop, StockGro at IIT Madras  <br>
+- 2024: Statistical Modeling & Quant Challenge, Millennium Investment Management, IIT Madras  <br>
+- 2024: Advanced Training School on PDEs & MATLAB, K. J. Somaiya College, Mumbai  <br>
+- 2023: One-month Summer School integrating Linear Algebra, Probability, Markov Chains, Differential Equations — IIT Madras  <br>
 - 2023: MTTS Programme, Linear Algebra, Complex Analysis, Topology, Module & Ring Theory, IIT Madras  
 - 2023: Mathematics In-house Symposium, IIT Madras  
 - 2022: National Conference on Computational Mathematics, NIT Puducherry  
