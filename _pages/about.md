@@ -29,6 +29,23 @@ Beyond academics, I have a creative side with interests in artwork, photography,
 
 I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects
 
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Education</span>
+
+**M.Sc. in Mathematics (Graduate)** | IIT Madras, India | 2022–2024  
+- Master’s Thesis: Technical Analysis in Mathematical Finance  
+- Institute Merit Scholarship recipient  
+- **Relevant Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation in Python  
+
+**B.Sc. in Mathematics (Undergraduate)** | Government Arts College, Coimbatore, India | 2018–2021  
+- Undergraduate Project: Linear Algebra and its Applications in Machine Learning  
+- Minor in Physics and Statistics  
+- First Rank Holder | Gold Medalist  
+
+**Higher Secondary (Class 11–12)** | 2016–2018  
+- 12th Grade | School Topper  
+
+**Secondary School (Class 1–10)** | 2016  
+- 10th Grade | Centum in Math | District Topper
 
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
