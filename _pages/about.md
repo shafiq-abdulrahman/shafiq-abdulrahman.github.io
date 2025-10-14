@@ -125,10 +125,9 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 ---
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Entrepreneurial / Extracurricular Activities</span>
-
 <details>
-  <summary>Extracurricular Activities</summary>
+  <summary> <span style="border-bottom: 3px solid #1E90FF; color: black;">Entrepreneurial / Extracurricular Activities</span>
+</summary>
 
 - **Organizer & Initiator:** Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)  
 - **Student Chief Coordinator:** MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students  
@@ -141,12 +140,6 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
   - Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer
 
 </details>
-
-=== "Tab 1"
-    Content for the first tab
-
-=== "Tab 2"
-    Content for the second tab
 
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
