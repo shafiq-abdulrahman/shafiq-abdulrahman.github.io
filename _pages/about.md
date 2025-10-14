@@ -100,7 +100,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Workshops / Conferences Attended</span>
 
 <details>
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black;">Workshops / Conferences Attended</span></summary>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black;"><strong>Workshops / Conferences Attended</strong></span></summary>
 - 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore  
 - 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University  
 - 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras  
