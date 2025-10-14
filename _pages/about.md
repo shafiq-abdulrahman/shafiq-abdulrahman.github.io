@@ -38,7 +38,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 
 <span style="color: #1E90FF;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021  
-- Undergraduate Project: Linear Algebra and its Applications in Machine Learning  
+- Undergraduate Project: Linear Algebra and its Applications in Machine Learning  <br>
 - Minor in Physics and Statistics  
 - First Rank Holder • Gold Medalist  
 
@@ -68,8 +68,8 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 <details>
   <summary>Honors & Awards</summary>
-  
-- 2025: Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India  
+
+- 2025: Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India  <br>
 - 2024: Qualified National level Graduate Aptitude Test in Engineering (GATE)  
 - 2022: All India Rank ‑ 196 in IIT‑JAM (among 12,716 Math aspirants)  
 - 2021: Rank 1, Topper in Department of Mathematics, Government Arts College, Coimbatore  
