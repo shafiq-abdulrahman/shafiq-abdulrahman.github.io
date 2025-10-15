@@ -162,9 +162,9 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 <!-- ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Causes</span>
 <p style="font-size:16px;"> Computational Mathematics• Dynamical Systems • Finance • Probability • Statistics • Machine learning • Stochastic models •  Data Science • Applied Mathematics  • Arts and Culture • Economic Empowerment</p> -->
-
+<!-- 
 <div style="border: 1px solid black; padding: 10px; margin: 10px; display: inline-block; float: right;">
   <a href="https://www.linkedin.com/in/abdul-rahman-s/">LinkedIn</a>
-</div>
+</div> -->
 
 
