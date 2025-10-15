@@ -208,9 +208,11 @@ hr, .page__title {
 
 .greedy-nav .visible-links {
   display: flex;
-  gap: 1.5rem; /* spacing between Publications, Projects, etc. */
+  gap: 1rem; /* spacing between Publications, Projects, etc. */
   align-items: center;
-  flex-wrap: wrap; /* allow wrap if too tight */
+  flex-wrap: nowrap; /* prevent wrapping */
+  white-space: nowrap; /* ensure text stays on one line */
+  overflow-x: auto; /* optional: scroll if too wide on small screens */
 }
 
 /* Theme toggle styles */
@@ -243,7 +245,7 @@ hr, .page__title {
 //   }
 
   #theme-toggle {
-  margin-left: 0.5rem; /* instead of auto */
+  margin-left: 0.1rem; /* instead of auto */
   }
 }
 
