@@ -198,9 +198,6 @@ body {
   flex-direction: column;
 }
 
-main {
-  flex: 1; /* ensures footer stays at the bottom */
-}
 
 a {
   color: var(--link-color);
