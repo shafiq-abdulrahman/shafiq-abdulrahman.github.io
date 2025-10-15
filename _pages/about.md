@@ -24,9 +24,9 @@ I’m professionally known as **Abdul Rahman** in all my official documents, but
 
 During my studies, I actively engaged in **projects, seminars, and research** that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
 
-Beyond academics, I have a **creative side**, reveling in the visual arts through both **painting and photography**. I also enjoy **fitness, cricket, chess, football, and thought-provoking movies**, which help me maintain balance and perspective.  
+Beyond academics, I have a creative side, reveling in the visual arts through both painting and photography. I also enjoy fitness, cricket, chess, soccer, and thought-provoking movies, which help me maintain balance and perspective.  
 
-I am always eager to **connect with like-minded individuals** to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
+I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Academic Background</span>
