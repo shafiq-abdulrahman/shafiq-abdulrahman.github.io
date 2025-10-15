@@ -244,7 +244,7 @@ h1, h2, h3, h4, h5, h6,
    HEADER & NAVIGATION
    ========================================== */
 
-/* Masthead menu layout */
+/* Masthead menu */
 .masthead__menu {
   display: flex;
   align-items: center;
@@ -255,12 +255,12 @@ h1, h2, h3, h4, h5, h6,
   border-bottom: 1px solid var(--border-color);
 }
 
-/* Navigation links container */
+/* Navigation container */
 .greedy-nav {
   display: flex;
-  gap: 2rem; /* spacing between menu items */
+  gap: 2rem; /* space between links */
   align-items: center;
-  flex-wrap: nowrap; /* prevent collapsing */
+  flex-wrap: nowrap; /* no wrapping */
   white-space: nowrap;
 }
 
@@ -269,7 +269,7 @@ h1, h2, h3, h4, h5, h6,
   font-weight: 500;
 }
 
-/* Theme toggle button after nav links */
+/* Theme toggle button (after links) */
 #theme-toggle {
   font-size: 1.4rem;
   padding: 0.3rem 0.6rem;
@@ -288,6 +288,7 @@ h1, h2, h3, h4, h5, h6,
   color: #f0c420;
 }
 
+
 /* ==========================================
    FOOTER
    ========================================== */
@@ -302,12 +303,19 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================
    RESPONSIVE FIXES (optional, but safe)
    ========================================== */
-@media (max-width: 1024px) {
-  .masthead__menu {
-    flex-wrap: wrap;
+/* Prevent nav collapsing on desktop */
+@media (min-width: 1024px) {
+  .greedy-nav .visible-links {
+    display: flex !important;
+    flex-wrap: nowrap !important;
+    opacity: 1 !important;
+    visibility: visible !important;
+    transform: none !important;
   }
 
-  .greedy-nav {
-    gap: 1rem;
+  /* Hide any automatic collapsible toggle (burger menu) */
+  .nav-collapse-toggle,
+  .burger-menu {
+    display: none !important;
   }
 }
