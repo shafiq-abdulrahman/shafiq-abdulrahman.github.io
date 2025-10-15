@@ -1,0 +1,52 @@
+/* ================================
+   DARK/LIGHT THEME TOGGLE SUPPORT
+   ================================ */
+
+/* Default (light) theme */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #111111;
+  --link-color: #1e90ff;
+  --header-bg: #f8f9fa;
+  --border-color: #e5e5e5;
+}
+
+/* Dark theme */
+[data-theme="dark"] {
+  --bg-color: #111111;
+  --text-color: #f1f1f1;
+  --link-color: #87cefa;
+  --header-bg: #222222;
+  --border-color: #333333;
+}
+
+/* Apply globally */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+a {
+  color: var(--link-color);
+}
+
+.site-header,
+.site-footer,
+.page__footer {
+  background-color: var(--header-bg);
+  border-color: var(--border-color);
+}
+#theme-toggle {
+  cursor: pointer;
+  border: none;
+  background: transparent;
+  font-size: 1.2rem;
+  margin-left: 10px;
+  color: var(--text-color);
+  transition: transform 0.2s ease;
+}
+
+#theme-toggle:hover {
+  transform: scale(1.2);
+}
