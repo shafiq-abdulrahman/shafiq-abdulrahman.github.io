@@ -1,43 +1,179 @@
-/* ======== THEME COLOR FIXES ======== */
+// /* ======== THEME COLOR FIXES ======== */
 
-/* Default (Light mode) */
+// /* Default (Light mode) */
+// :root {
+//   --bg-color: #ffffff;
+//   --text-color: #222;
+//   --link-color: #1e90ff;
+//   --muted-text: #555;
+//   --heading-color: #111;
+// }
+
+// /* Dark Mode Overrides */
+// [data-theme="dark"] {
+//   --bg-color: #121212;
+//   --text-color: #eaeaea;
+//   --link-color: #4da3ff;
+//   --muted-text: #aaa;
+//   --heading-color: #ffffff;
+// }
+
+// /* Apply the variables globally */
+// body {
+//   background-color: var(--bg-color);
+//   color: var(--text-color);
+//   transition: background-color 0.3s ease, color 0.3s ease;
+// }
+
+// /* Headings (like “Current Position”, “Research Interests”) */
+// h1, h2, h3, h4, h5, h6,
+// .page__content h1, .page__content h2, .page__content h3 {
+//   color: var(--heading-color) !important;
+//   transition: color 0.3s ease;
+// }
+
+// /* Paragraphs, list text, etc. */
+// p, li, span, strong {
+//   color: var(--text-color);
+// }
+
+// /* Links */
+// a {
+//   color: var(--link-color);
+//   text-decoration: none;
+//   transition: color 0.2s ease;
+// }
+
+// a:hover {
+//   color: #ffcc33;
+// }
+
+// /* Subtle line/underline */
+// hr, .page__title {
+//   border-color: var(--muted-text);
+// }
+
+// /* Section heading styling */
+// .section-heading {
+//   color: var(--heading-color); /* black in light mode, white in dark mode */
+//   font-weight: bold;
+//   border-bottom: 3px solid var(--link-color); /* blue underline that adapts to theme */
+//   padding-bottom: 4px;
+//   transition: color 0.3s ease, border-color 0.3s ease;
+// }
+
+// /* Override underline color for dark mode if you want a slightly softer blue */
+// [data-theme="dark"] .section-heading {
+//   border-bottom-color: #4da3ff; /* softer blue in dark mode */
+// }
+
+
+
+
+// .site-header,
+// .site-footer,
+// .page__footer {
+//   background-color: var(--header-bg);
+//   border-color: var(--border-color);
+// }
+
+
+// // newwww
+// /* Masthead menu layout */
+// .masthead__menu {
+//   display: flex;
+//   align-items: center;
+//   justify-content: flex-start; /* keep items aligned left */
+//   padding: 0 1.5rem;
+//   gap: 1rem; /* space between nav items and toggle */
+//   background-color: var(--header-bg);
+//   border-bottom: 1px solid var(--border-color);
+// }
+
+// /* Navigation links */
+// .greedy-nav {
+//   flex-grow: 1; /* allow nav to take available space */
+// }
+
+// .greedy-nav .visible-links {
+//   display: flex;
+//   gap: 1rem; /* spacing between Publications, Projects, etc. */
+//   align-items: center;
+//   flex-wrap: nowrap; /* prevent wrapping */
+//   white-space: nowrap;
+// }
+
+// /* Theme toggle button (on left side) */
+// #theme-toggle {
+//   font-size: 1.4rem;
+//   padding: 0.3rem 0.6rem;
+//   background: none;
+//   border: none;
+//   color: var(--text-color);
+//   cursor: pointer;
+//   transition: transform 0.2s ease, color 0.2s ease;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+// }
+
+// /* Hover effect */
+// #theme-toggle:hover {
+//   transform: rotate(-10deg) scale(1.1);
+//   color: #f0c420;
+// }
+
+
+
+
+// 2versiomn
+/* ==========================================
+   THEME COLOR VARIABLES
+   ========================================== */
+
+/* Light theme (default) */
 :root {
   --bg-color: #ffffff;
   --text-color: #222;
   --link-color: #1e90ff;
   --muted-text: #555;
   --heading-color: #111;
+  --header-bg: #f8f9fa;
+  --border-color: #e5e5e5;
+  --footer-bg: #f8f9fa;
 }
 
-/* Dark Mode Overrides */
+/* Dark theme overrides */
 [data-theme="dark"] {
   --bg-color: #121212;
   --text-color: #eaeaea;
   --link-color: #4da3ff;
   --muted-text: #aaa;
   --heading-color: #ffffff;
+  --header-bg: #111111;
+  --border-color: #333333;
+  --footer-bg: #111111;
 }
 
-/* Apply the variables globally */
+/* ==========================================
+   GLOBAL STYLING
+   ========================================== */
 body {
   background-color: var(--bg-color);
   color: var(--text-color);
   transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
-/* Headings (like “Current Position”, “Research Interests”) */
-h1, h2, h3, h4, h5, h6,
-.page__content h1, .page__content h2, .page__content h3 {
-  color: var(--heading-color) !important;
-  transition: color 0.3s ease;
+main {
+  flex: 1; /* ensures footer stays at the bottom */
 }
 
-/* Paragraphs, list text, etc. */
-p, li, span, strong {
-  color: var(--text-color);
-}
-
-/* Links */
 a {
   color: var(--link-color);
   text-decoration: none;
@@ -48,62 +184,64 @@ a:hover {
   color: #ffcc33;
 }
 
-/* Subtle line/underline */
+p, li, span, strong {
+  color: var(--text-color);
+}
+
 hr, .page__title {
   border-color: var(--muted-text);
 }
 
-/* Section heading styling */
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+.page__content h1, .page__content h2, .page__content h3 {
+  color: var(--heading-color) !important;
+  transition: color 0.3s ease;
+}
+
+/* Section heading with blue underline */
 .section-heading {
-  color: var(--heading-color); /* black in light mode, white in dark mode */
+  color: var(--heading-color);
   font-weight: bold;
-  border-bottom: 3px solid var(--link-color); /* blue underline that adapts to theme */
+  border-bottom: 3px solid var(--link-color);
   padding-bottom: 4px;
   transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Override underline color for dark mode if you want a slightly softer blue */
 [data-theme="dark"] .section-heading {
-  border-bottom-color: #4da3ff; /* softer blue in dark mode */
+  border-bottom-color: #4da3ff;
 }
 
+/* ==========================================
+   HEADER & NAVIGATION
+   ========================================== */
 
-
-
-.site-header,
-.site-footer,
-.page__footer {
-  background-color: var(--header-bg);
-  border-color: var(--border-color);
-}
-
-
-// newwww
 /* Masthead menu layout */
 .masthead__menu {
   display: flex;
   align-items: center;
-  justify-content: flex-start; /* keep items aligned left */
+  justify-content: flex-start;
   padding: 0 1.5rem;
-  gap: 1rem; /* space between nav items and toggle */
+  gap: 1.5rem;
   background-color: var(--header-bg);
   border-bottom: 1px solid var(--border-color);
 }
 
-/* Navigation links */
+/* Navigation links container */
 .greedy-nav {
-  flex-grow: 1; /* allow nav to take available space */
-}
-
-.greedy-nav .visible-links {
   display: flex;
-  gap: 1rem; /* spacing between Publications, Projects, etc. */
+  gap: 2rem; /* spacing between menu items */
   align-items: center;
-  flex-wrap: nowrap; /* prevent wrapping */
+  flex-wrap: nowrap; /* prevent collapsing */
   white-space: nowrap;
 }
 
-/* Theme toggle button (on left side) */
+/* Individual nav links */
+.greedy-nav a {
+  font-weight: 500;
+}
+
+/* Theme toggle button after nav links */
 #theme-toggle {
   font-size: 1.4rem;
   padding: 0.3rem 0.6rem;
@@ -117,8 +255,31 @@ hr, .page__title {
   justify-content: center;
 }
 
-/* Hover effect */
 #theme-toggle:hover {
   transform: rotate(-10deg) scale(1.1);
   color: #f0c420;
+}
+
+/* ==========================================
+   FOOTER
+   ========================================== */
+.site-footer,
+.page__footer {
+  background-color: var(--footer-bg);
+  border-top: 1px solid var(--border-color);
+  padding: 1rem 1.5rem;
+  margin-top: auto; /* ensures footer does not overlap content */
+}
+
+/* ==========================================
+   RESPONSIVE FIXES (optional, but safe)
+   ========================================== */
+@media (max-width: 1024px) {
+  .masthead__menu {
+    flex-wrap: wrap;
+  }
+
+  .greedy-nav {
+    gap: 1rem;
+  }
 }
