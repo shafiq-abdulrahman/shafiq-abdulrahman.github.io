@@ -42,3 +42,43 @@
 
 
 
+/* ===== Footer video background ===== */
+.footer-video-bg {
+  position: relative;
+  overflow: hidden;
+  height: 200px; /* adjust footer height */
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* The looping background video */
+.footer-video-bg video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  min-height: 100%;
+  object-fit: cover;
+  z-index: 0;
+  opacity: 0.6; /* make text readable */
+}
+
+/* All your footer content goes here */
+.footer-overlay {
+  position: relative;
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Optional: text shadow for readability */
+.footer-overlay,
+.footer-overlay a {
+  color: #fff;
+  text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+
+
