@@ -9,18 +9,18 @@ redirect_from:
 ![Image Alt Text](/images/6.jpg)
 
 <!-- Comment this line -->
-## <span class="section-heading">Current Position</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
           
 
-## <span class="section-heading">Research Interests</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Research Interests</span>
 My research interests lie in the fields of [random dynamical systems](https://en.wikipedia.org/wiki/Random_dynamical_system), computational mathematics, inverse problems, and their applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance) and [computational biology](https://en.wikipedia.org/wiki/Computational_biology). I am now exploring projects in <span style="color: #1E90FF;">computational biology and bioinformatics.</span>  Prior to this, I focused on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) applying stochastic processes and machine learning techniques in financial markets by combining agent‑based simulations, reinforcement learning, and time series models to capture market behavior.
 
 <p style="font-size:16px;"> • Dynamical Systems • Computational Biology • Computational Mathematics •  Finance • Probability • Machine learning • Stochastic models •  Data Science  • Arts and Culture • Economic Empowerment</p>
 
 
-## <span class="section-heading">Overview</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Overview</span>
 I’m professionally known as **Abdul Rahman** in all my official documents, but I go by my initials **“A.B.” (/eɪ biː/)**. I am a PhD student diving into the fascinating world of **Applied Mathematics**, with a strong foundation from my Master’s in Mathematics at the [Indian Institute of Technology Madras (IIT Madras)](https://en.wikipedia.org/wiki/IIT_Madras), where I studied from 2022 to 2024. My academic journey has been driven by a deep interest in **dynamical systems, stochastic analysis, compuational biology and mathematical finance**, fields that captivate me for their complexity, randomness, and real-world applications.  
 
 During my studies, I actively engaged in **projects, seminars, and research** that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
@@ -30,7 +30,7 @@ Beyond academics, I have a creative side, reveling in the visual arts through bo
 I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
-## <span class="section-heading">Academic Background</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Academic Background</span>
 <span style="color: #1E90FF;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024  
 - Master’s Thesis: Technical Analysis in Mathematical Finance  
 - Institute Merit Scholarship recipient  
@@ -64,7 +64,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 ---
 
 <details>
-  <summary> <span class="section-heading">Honors & Awards</span></summary>
+   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Honors & Awards</span></summary>
 
   <ul>
     <li><b>2025:</b> Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India</li>
@@ -80,7 +80,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 ---
 <details>
-  <summary> <span class="section-heading">Seminars & Presentation</span></summary>
+   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Seminars & Presentations</span></summary>
 
   <ul>
     <li><b>June 2024:</b> Contributory lectures on "Gaussian Functions, Errors and Stirling’s Approximations" — Summer Workshop on Pure Mathematics</li>
@@ -96,7 +96,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 ---
 
 <details>
-  <summary> <span class="section-heading">Workshop & Conference attended</span></summary>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended</span></summary>
 
   <ul>
     <li><b>2024:</b> Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore</li>
