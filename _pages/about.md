@@ -122,7 +122,8 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 
 <details>
-  <summary> <span class="section-heading">Entrepreneurial / Extracurricular Activities</span></summary>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
+
   <ul>
     <li><b>Founder</b> Theory & Thought, Guided thinking and mentorship in Mathematics and Statistics for Graduate Minds.(Jun 2025- Present)</li>
     <li><b>Organizer & Initiator:</b> Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)</li>
