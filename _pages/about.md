@@ -152,6 +152,14 @@ I am always eager to connect with like-minded individuals to discuss mathematics
     <source src="{{ '/images/k.mp4' | relative_url }}" type="video/mp4">
   </video>
 </div>
+
+
+<div style="text-align:center;">
+  <video autoplay loop muted playsinline
+         style="height:6cm; width:auto; object-fit:cover; border-radius:12px;">
+    <source src="{{ '/images/k.mp4' | relative_url }}" type="video/mp4">
+  </video>
+</div>
 ---
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
