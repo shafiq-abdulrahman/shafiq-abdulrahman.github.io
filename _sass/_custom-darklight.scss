@@ -53,25 +53,64 @@ a {
 
 
 
-#theme-toggle {
-  cursor: pointer;
-  border: none;
-  background: transparent;
-  font-size: 1.3rem;
-  margin-left: 1rem;
-  color: var(--text-color);
-  transition: transform 0.2s ease, color 0.3s ease;
-  vertical-align: middle;
-}
+// #theme-toggle {
+//   cursor: pointer;
+//   border: none;
+//   background: transparent;
+//   font-size: 1.3rem;
+//   margin-left: 1rem;
+//   color: var(--text-color);
+//   transition: transform 0.2s ease, color 0.3s ease;
+//   vertical-align: middle;
+// }
 
-/* Position inside the header nicely */
-.masthead__menu {
+// /* Position inside the header nicely */
+// .masthead__menu {
+//   display: flex;
+//   justify-content: space-between;
+//   align-items: center;
+// }
+
+// #theme-toggle:hover {
+//   transform: scale(1.2);
+//   color: var(--link-color);
+// }
+
+
+/* ======== DARK MODE TOGGLE STYLING ======== */
+
+#theme-toggle {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 1.4rem;
+  line-height: 1;
+  margin-left: auto;
+  margin-right: 0;
+  padding: 0 0.75rem;
   display: flex;
-  justify-content: space-between;
   align-items: center;
+  justify-content: center;
+  color: var(--text-color, #555);
+  transition: transform 0.2s ease, color 0.2s ease;
+  position: relative;
+  top: 0; /* aligned with menu */
 }
 
 #theme-toggle:hover {
-  transform: scale(1.2);
-  color: var(--link-color);
+  transform: rotate(-15deg) scale(1.1);
+  color: #f0c420; /* subtle yellow glow */
+}
+
+/* On wider screens, push the button to the right of nav */
+@media (min-width: 768px) {
+  .masthead__menu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  #theme-toggle {
+    order: 2;
+  }
 }
