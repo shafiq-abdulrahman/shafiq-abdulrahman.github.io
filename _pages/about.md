@@ -43,9 +43,9 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 - First Rank Holder • Gold Medalist   -->
 
 
-## <span style="border-bottom: 3px solid #1E90FF; color: black;">Academic Background</span>
-
 <details>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Academic Background</summary>
+
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024</summary>
 
 - Master’s Thesis: Technical Analysis in Mathematical Finance <br>
