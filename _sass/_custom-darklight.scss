@@ -16,7 +16,7 @@
   --bg-color: #111111;
   --text-color: #f1f1f1;
   --link-color: #87cefa;
-  --header-bg: #222222;
+  --header-bg: #111111;
   --border-color: #333333;
 }
 
@@ -79,38 +79,85 @@ a {
 
 /* ======== DARK MODE TOGGLE STYLING ======== */
 
-#theme-toggle {
-  background: none;
-  border: none;
-  cursor: pointer;
-  font-size: 1.4rem;
-  line-height: 1;
-  margin-left: auto;
-  margin-right: 0;
-  padding: 0 0.75rem;
+// #theme-toggle {
+//   background: none;
+//   border: none;
+//   cursor: pointer;
+//   font-size: 1.4rem;
+//   line-height: 1;
+//   margin-left: auto;
+//   margin-right: 0;
+//   padding: 0 0.75rem;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: var(--text-color, #555);
+//   transition: transform 0.2s ease, color 0.2s ease;
+//   position: relative;
+//   top: 0; /* aligned with menu */
+// }
+
+// #theme-toggle:hover {
+//   transform: rotate(-15deg) scale(1.1);
+//   color: #f0c420; /* subtle yellow glow */
+// }
+
+// /* On wider screens, push the button to the right of nav */
+// @media (min-width: 768px) {
+//   .masthead__menu {
+//     display: flex;
+//     align-items: center;
+//     justify-content: space-between;
+//   }
+
+//   #theme-toggle {
+//     order: 2;
+//   }
+// }
+
+/* ======== HEADER SPACING & ALIGNMENT ======== */
+
+.masthead__menu {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-between;
+  padding: 0 1.2rem; /* give breathing space on both sides */
+  flex-wrap: nowrap;
+}
+
+/* Make sure nav links have space before toggle */
+.greedy-nav .visible-links {
+  display: flex;
+  gap: 1.3rem; /* add spacing between menu items */
+  align-items: center;
+}
+
+/* Adjust the toggle button size and placement */
+#theme-toggle {
+  font-size: 1.4rem;
+  padding: 0.2rem 0.4rem;
+  margin-left: 1rem;
+  background: none;
+  border: none;
   color: var(--text-color, #555);
+  cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
   position: relative;
-  top: 0; /* aligned with menu */
+  top: 2px; /* perfect vertical alignment */
 }
 
 #theme-toggle:hover {
-  transform: rotate(-15deg) scale(1.1);
-  color: #f0c420; /* subtle yellow glow */
+  transform: rotate(-10deg) scale(1.1);
+  color: #f0c420;
 }
 
-/* On wider screens, push the button to the right of nav */
-@media (min-width: 768px) {
+/* Keep toggle visible and clean layout on all screens */
+@media (max-width: 768px) {
   .masthead__menu {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    flex-wrap: wrap;
   }
-
   #theme-toggle {
-    order: 2;
+    margin-left: auto;
+    margin-top: 0.4rem;
   }
 }
