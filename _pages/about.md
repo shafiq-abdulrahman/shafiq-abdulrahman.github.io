@@ -45,17 +45,15 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Academic Background</summary>
-
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024</summary>
+  <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024</span>
 
 - Master’s Thesis: Technical Analysis in Mathematical Finance <br>
 - Institute Merit Scholarship recipient <br>
-- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation <br>
+- Coursework: Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Data Analysis & Visualisation <br>
 
-</details>
 
-<details>
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021</summary>
+
+<span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021</span>
 
 - Undergraduate Project: Linear Algebra and its Applications in Machine Learning <br>
 - Minor in Physics and Statistics <br>
@@ -122,13 +120,13 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
 
-- **Organizer & Initiator:** Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024) <br>
-- **Student Chief Coordinator:** MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students <br>
-- **Super Coordinator:** FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest <br>
-- **Founder:** SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present) <br>
+- Organizer & Initiator: Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024) <br>
+- Student Chief Coordinator: MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students <br>
+- Super Coordinator:FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest <br>
+- Founder: SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present) <br>
   - Freelance services: Portraits, Doodles, Logo Designing, Calligraphy <br>
   - Won 2nd prize, Heritage Centre IIT Madras Doodle Competition <br>
-- **Photographer:** EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present) <br>
+- Photographer: EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present) <br>
   - Tools: Adobe, Snapseed <br>
   - Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer <br>
 
