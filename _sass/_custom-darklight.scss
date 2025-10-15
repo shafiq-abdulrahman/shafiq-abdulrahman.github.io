@@ -97,6 +97,21 @@ hr, .page__title {
   border-color: var(--muted-text);
 }
 
+
+/* Light mode default */
+.section-heading {
+  color: #000; /* black in light mode */
+  font-weight: bold;
+  border-bottom: 3px solid #1E90FF;
+  padding-bottom: 2px;
+}
+
+/* Dark mode version */
+[data-theme="dark"] .section-heading {
+  color: #fff; /* white in dark mode */
+  border-bottom: 3px solid #4da3ff; /* softer blue for dark mode */
+}
+
 // #theme-toggle {
 //   cursor: pointer;
 //   border: none;
