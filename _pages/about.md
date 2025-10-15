@@ -145,12 +145,12 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 ---
 
-
+<!-- 
 <div style="margin-bottom:0; padding-bottom:0;">
   <video autoplay loop muted playsinline style="max-width:100%; height:auto; border-radius:12px;margin-bottom:0;">
     <source src="{{ '/images/f.mp4' | relative_url }}" type="video/mp4">
   </video>
-</div>
+</div> -->
 
 
 ---
