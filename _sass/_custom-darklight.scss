@@ -37,16 +37,41 @@ a {
   background-color: var(--header-bg);
   border-color: var(--border-color);
 }
+// #theme-toggle {
+//   cursor: pointer;
+//   border: none;
+//   background: transparent;
+//   font-size: 1.2rem;
+//   margin-left: 10px;
+//   color: var(--text-color);
+//   transition: transform 0.2s ease;
+// }
+
+// #theme-toggle:hover {
+//   transform: scale(1.2);
+// }
+
+
+
 #theme-toggle {
   cursor: pointer;
   border: none;
   background: transparent;
-  font-size: 1.2rem;
-  margin-left: 10px;
+  font-size: 1.3rem;
+  margin-left: 1rem;
   color: var(--text-color);
-  transition: transform 0.2s ease;
+  transition: transform 0.2s ease, color 0.3s ease;
+  vertical-align: middle;
+}
+
+/* Position inside the header nicely */
+.masthead__menu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 #theme-toggle:hover {
   transform: scale(1.2);
+  color: var(--link-color);
 }
