@@ -263,13 +263,13 @@ h1, h2, h3, h4, h5, h6,
 /* ==========================================
    FOOTER
    ========================================== */
-.site-footer,
-.page__footer {
-  background-color: var(--footer-bg);
-  border-top: 1px solid var(--border-color);
-  padding: 1rem 1.5rem;
-  margin-top: auto; /* ensures footer does not overlap content */
-}
+// .site-footer,
+// .page__footer {
+//   background-color: var(--footer-bg);
+//   border-top: 1px solid var(--border-color);
+//   padding: 1rem 1.5rem;
+//   margin-top: auto; /* ensures footer does not overlap content */
+// }
 
 /* ==========================================
    RESPONSIVE FIXES (optional, but safe)
