@@ -61,7 +61,7 @@
   object-fit: cover;
   z-index: 0;
   opacity: 0.6;
-  filter: contrast(1.4) brightness(0.9); /* tweak to taste */
+  filter: contrast(1.4) brightness(1); /* tweak to taste */
 }
 
 .footer-overlay {
@@ -70,7 +70,7 @@
   width: 100%;
   text-align: center;
   padding: 1rem;
-  background: rgba(0, 0, 0, 0.3); /* light overlay on video */
+  background: rgba(0, 0, 0, 0.5); /* light overlay on video */
 }
 
 .footer-overlay a {
