@@ -45,7 +45,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Academic Background</summary>
-  <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024</span>
+  <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024
 
 - Master’s Thesis: Technical Analysis in Mathematical Finance <br>
 - Institute Merit Scholarship recipient <br>
@@ -53,7 +53,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 
 
-<span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021</span>
+<span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021
 
 - Undergraduate Project: Linear Algebra and its Applications in Machine Learning <br>
 - Minor in Physics and Statistics <br>
