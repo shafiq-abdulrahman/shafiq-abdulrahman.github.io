@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 ![Image Alt Text](/images/6.jpg)
-
+---
 <!-- Comment this line -->
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
@@ -118,7 +118,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
   </ul>
 </details>
 
----
+**---**
 
 
 <details>
@@ -154,6 +154,8 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 </div>
 
 
+
+---
 
 ---
 <!-- ## Get in touch
