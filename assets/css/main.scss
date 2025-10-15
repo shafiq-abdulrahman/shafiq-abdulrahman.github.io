@@ -42,18 +42,16 @@
 
 
 
-/* ===== Footer video background ===== */
 .footer-video-bg {
   position: relative;
   overflow: hidden;
-  height: 200px; /* adjust footer height */
-  color: white;
+  height: 220px;
   display: flex;
   align-items: center;
   justify-content: center;
+  color: white;
 }
 
-/* Looping background video */
 .footer-video-bg video {
   position: absolute;
   top: 0;
@@ -62,29 +60,21 @@
   min-height: 100%;
   object-fit: cover;
   z-index: 0;
-
-  /* ✨ Adjust visibility & color quality */
-  opacity: 0.9; /* slightly darker video */
-  filter: contrast(1.9) brightness(0.85); /* more vivid & darker */
+  opacity: 0.6;
 }
 
-/* Footer overlay (content layer) */
 .footer-overlay {
   position: relative;
   z-index: 1;
   width: 100%;
   text-align: center;
   padding: 1rem;
-
-  /* subtle dark tint over video for better readability */
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.2); /* light overlay on video */
 }
 
-/* Make text pop against the background */
-.footer-overlay,
 .footer-overlay a {
   color: #fff;
-  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 
