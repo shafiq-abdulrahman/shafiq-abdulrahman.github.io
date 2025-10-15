@@ -126,7 +126,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 - Founder: SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present) <br>
   - Freelance services: Portraits, Doodles, Logo Designing, Calligraphy <br>
   - Won 2nd prize, Heritage Centre IIT Madras Doodle Competition <br>
-- Photographer: EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present) <br>
+- **Photographer:** EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present) <br>
   - Tools: Adobe, Snapseed <br>
   - Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer <br>
 
