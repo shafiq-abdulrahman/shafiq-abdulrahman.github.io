@@ -29,7 +29,7 @@ Beyond academics, I have a **creative side**, reveling in the visual arts throug
 I am always eager to **connect with like-minded individuals** to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
-<!-- ## <span style="border-bottom: 3px solid #1E90FF; color: black;">Education</span>
+## <span style="border-bottom: 3px solid #1E90FF; color: black;">Academic Background</span>
 
 <span style="color: #1E90FF;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024  
 - Master’s Thesis: Technical Analysis in Mathematical Finance  
@@ -40,10 +40,10 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 <span style="color: #1E90FF;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021  
 - Undergraduate Project: Linear Algebra and its Applications in Machine Learning  <br>
 - Minor in Physics and Statistics  
-- First Rank Holder • Gold Medalist   -->
+- First Rank Holder • Gold Medalist  
 
 
-<details>
+<!-- <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Academic Background</summary>
   <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024
 
@@ -59,7 +59,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 - Minor in Physics and Statistics <br>
 - First Rank Holder • Gold Medalist <br>
 
-</details>
+</details> -->
 
 ---
 
