@@ -132,6 +132,28 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 
 </details>
 
+<details>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
+
+  <ul>
+    <li><b>Organizer & Initiator:</b> Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)</li>
+    <li><b>Student Chief Coordinator:</b> MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students</li>
+    <li><b>Super Coordinator:</b> FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest</li>
+    <li><b>Founder:</b> SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present)
+      <ul>
+        <li>Freelance services: Portraits, Doodles, Logo Designing, Calligraphy</li>
+        <li>Won 2nd prize, Heritage Centre IIT Madras Doodle Competition</li>
+      </ul>
+    </li>
+    <li><b>Photographer:</b> EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present)
+      <ul>
+        <li>Tools: Adobe, Snapseed</li>
+        <li>Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer</li>
+      </ul>
+    </li>
+  </ul>
+</details>
+
 
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
