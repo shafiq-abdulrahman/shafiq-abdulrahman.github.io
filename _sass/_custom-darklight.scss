@@ -1,251 +1,251 @@
-// // // /* ================================
-// // //    DARK/LIGHT THEME TOGGLE SUPPORT
-// // //    ================================ */
+// // /* ================================
+// //    DARK/LIGHT THEME TOGGLE SUPPORT
+// //    ================================ */
 
-// // // /* Default (light) theme */
-// // // :root {
-// // //   --bg-color: #ffffff;
-// // //   --text-color: #111111;
-// // //   --link-color: #1e90ff;
-// // //   --header-bg: #f8f9fa;
-// // //   --border-color: #e5e5e5;
-// // // }
-
-// // // /* Dark theme */
-// // // [data-theme="dark"] {
-// // //   --bg-color: #111111;
-// // //   --text-color: #f1f1f1;
-// // //   --link-color: #87cefa;
-// // //   --header-bg: #111111;
-// // //   --border-color: #333333;
-// // // }
-
-// // // /* Apply globally */
-// // // body {
-// // //   background-color: var(--bg-color);
-// // //   color: var(--text-color);
-// // //   transition: background-color 0.3s, color 0.3s;
-// // // }
-
-// // // a {
-// // //   color: var(--link-color);
-// // // }
-
-// // // .site-header,
-// // // .site-footer,
-// // // .page__footer {
-// // //   background-color: var(--header-bg);
-// // //   border-color: var(--border-color);
-// // // }
-
-
-
-
-
-// // /* ======== THEME COLOR FIXES ======== */
-
-// // /* Default (Light mode) */
+// // /* Default (light) theme */
 // // :root {
 // //   --bg-color: #ffffff;
-// //   --text-color: #222;
+// //   --text-color: #111111;
 // //   --link-color: #1e90ff;
-// //   --muted-text: #555;
-// //   --heading-color: #111;
+// //   --header-bg: #f8f9fa;
+// //   --border-color: #e5e5e5;
 // // }
 
-// // /* Dark Mode Overrides */
+// // /* Dark theme */
 // // [data-theme="dark"] {
-// //   --bg-color: #121212;
-// //   --text-color: #eaeaea;
-// //   --link-color: #4da3ff;
-// //   --muted-text: #aaa;
-// //   --heading-color: #ffffff;
+// //   --bg-color: #111111;
+// //   --text-color: #f1f1f1;
+// //   --link-color: #87cefa;
+// //   --header-bg: #111111;
+// //   --border-color: #333333;
 // // }
 
-// // /* Apply the variables globally */
+// // /* Apply globally */
 // // body {
 // //   background-color: var(--bg-color);
 // //   color: var(--text-color);
-// //   transition: background-color 0.3s ease, color 0.3s ease;
+// //   transition: background-color 0.3s, color 0.3s;
 // // }
 
-// // /* Headings (like “Current Position”, “Research Interests”) */
-// // h1, h2, h3, h4, h5, h6,
-// // .page__content h1, .page__content h2, .page__content h3 {
-// //   color: var(--heading-color) !important;
-// //   transition: color 0.3s ease;
-// // }
-
-// // /* Paragraphs, list text, etc. */
-// // p, li, span, strong {
-// //   color: var(--text-color);
-// // }
-
-// // /* Links */
 // // a {
 // //   color: var(--link-color);
-// //   text-decoration: none;
-// //   transition: color 0.2s ease;
 // // }
 
-// // a:hover {
-// //   color: #ffcc33;
-// // }
-
-// // /* Subtle line/underline */
-// // hr, .page__title {
-// //   border-color: var(--muted-text);
+// // .site-header,
+// // .site-footer,
+// // .page__footer {
+// //   background-color: var(--header-bg);
+// //   border-color: var(--border-color);
 // // }
 
 
-// // /* Light mode default */
-// // .section-heading {
-// //   color: #000; /* black in light mode */
-// //   font-weight: bold;
-// //   border-bottom: 3px solid #1E90FF;
-// //   padding-bottom: 2px;
-// // }
-
-// // /* Dark mode version */
-// // [data-theme="dark"] .section-heading {
-// //   color: #fff; /* white in dark mode */
-// //   border-bottom: 3px solid #4da3ff; /* softer blue for dark mode */
-// // }
-
-// // // #theme-toggle {
-// // //   cursor: pointer;
-// // //   border: none;
-// // //   background: transparent;
-// // //   font-size: 1.2rem;
-// // //   margin-left: 10px;
-// // //   color: var(--text-color);
-// // //   transition: transform 0.2s ease;
-// // // }
-
-// // // #theme-toggle:hover {
-// // //   transform: scale(1.2);
-// // // }
 
 
 
-// // // #theme-toggle {
-// // //   cursor: pointer;
-// // //   border: none;
-// // //   background: transparent;
-// // //   font-size: 1.3rem;
-// // //   margin-left: 1rem;
-// // //   color: var(--text-color);
-// // //   transition: transform 0.2s ease, color 0.3s ease;
-// // //   vertical-align: middle;
-// // // }
+/* ======== THEME COLOR FIXES ======== */
 
-// // // /* Position inside the header nicely */
-// // // .masthead__menu {
-// // //   display: flex;
-// // //   justify-content: space-between;
-// // //   align-items: center;
-// // // }
+/* Default (Light mode) */
+:root {
+  --bg-color: #ffffff;
+  --text-color: #222;
+  --link-color: #1e90ff;
+  --muted-text: #555;
+  --heading-color: #111;
+}
 
-// // // #theme-toggle:hover {
-// // //   transform: scale(1.2);
-// // //   color: var(--link-color);
-// // // }
+/* Dark Mode Overrides */
+[data-theme="dark"] {
+  --bg-color: #121212;
+  --text-color: #eaeaea;
+  --link-color: #4da3ff;
+  --muted-text: #aaa;
+  --heading-color: #ffffff;
+}
+
+/* Apply the variables globally */
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Headings (like “Current Position”, “Research Interests”) */
+h1, h2, h3, h4, h5, h6,
+.page__content h1, .page__content h2, .page__content h3 {
+  color: var(--heading-color) !important;
+  transition: color 0.3s ease;
+}
+
+/* Paragraphs, list text, etc. */
+p, li, span, strong {
+  color: var(--text-color);
+}
+
+/* Links */
+a {
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+a:hover {
+  color: #ffcc33;
+}
+
+/* Subtle line/underline */
+hr, .page__title {
+  border-color: var(--muted-text);
+}
 
 
-// // /* ======== DARK MODE TOGGLE STYLING ======== */
+/* Light mode default */
+.section-heading {
+  color: #000; /* black in light mode */
+  font-weight: bold;
+  border-bottom: 3px solid #1E90FF;
+  padding-bottom: 2px;
+}
 
-// // // #theme-toggle {
-// // //   background: none;
-// // //   border: none;
-// // //   cursor: pointer;
-// // //   font-size: 1.4rem;
-// // //   line-height: 1;
-// // //   margin-left: auto;
-// // //   margin-right: 0;
-// // //   padding: 0 0.75rem;
-// // //   display: flex;
-// // //   align-items: center;
-// // //   justify-content: center;
-// // //   color: var(--text-color, #555);
-// // //   transition: transform 0.2s ease, color 0.2s ease;
-// // //   position: relative;
-// // //   top: 0; /* aligned with menu */
-// // // }
+/* Dark mode version */
+[data-theme="dark"] .section-heading {
+  color: #fff; /* white in dark mode */
+  border-bottom: 3px solid #4da3ff; /* softer blue for dark mode */
+}
 
-// // // #theme-toggle:hover {
-// // //   transform: rotate(-15deg) scale(1.1);
-// // //   color: #f0c420; /* subtle yellow glow */
-// // // }
-
-// // // /* On wider screens, push the button to the right of nav */
-// // // @media (min-width: 768px) {
-// // //   .masthead__menu {
-// // //     display: flex;
-// // //     align-items: center;
-// // //     justify-content: space-between;
-// // //   }
-
-// // //   #theme-toggle {
-// // //     order: 2;
-// // //   }
-// // // }
-
-// // /* ======== HEADER SPACING & ALIGNMENT ======== */
-
-// // /* Masthead menu layout */
-// // .masthead__menu {
-// //   display: flex;
-// //   align-items: center;
-// //   justify-content: flex-start; /* keeps items aligned left first */
-// //   padding: 0 1.5rem;
-// //   gap: 1rem; /* consistent space between nav and toggle */
-// // }
-
-// // /* Nav bar layout */
-// // .greedy-nav {
-// //   flex-grow: 1; /* allow nav to take as much space as needed */
-// // }
-
-// // .greedy-nav .visible-links {
-// //   display: flex;
-// //   gap: 1.5rem; /* spacing between Publications, Projects, etc. */
-// //   align-items: center;
-// //   flex-wrap: wrap; /* allow wrap if too tight */
-// // }
-
-// // /* Theme toggle styles */
 // // #theme-toggle {
-// //   font-size: 1.4rem;
-// //   padding: 0.3rem 0.6rem;
-// //   margin-left: auto; /* pushes toggle to far right */
-// //   background: none;
-// //   border: none;
-// //   color: var(--text-color, #555);
 // //   cursor: pointer;
-// //   transition: transform 0.2s ease, color 0.2s ease;
+// //   border: none;
+// //   background: transparent;
+// //   font-size: 1.2rem;
+// //   margin-left: 10px;
+// //   color: var(--text-color);
+// //   transition: transform 0.2s ease;
 // // }
 
 // // #theme-toggle:hover {
-// //   transform: rotate(-10deg) scale(1.1);
-// //   color: #f0c420;
+// //   transform: scale(1.2);
 // // }
 
-// // /* Responsive fix for mobile */
-// // @media (max-width: 768px) {
+
+
+// // #theme-toggle {
+// //   cursor: pointer;
+// //   border: none;
+// //   background: transparent;
+// //   font-size: 1.3rem;
+// //   margin-left: 1rem;
+// //   color: var(--text-color);
+// //   transition: transform 0.2s ease, color 0.3s ease;
+// //   vertical-align: middle;
+// // }
+
+// // /* Position inside the header nicely */
+// // .masthead__menu {
+// //   display: flex;
+// //   justify-content: space-between;
+// //   align-items: center;
+// // }
+
+// // #theme-toggle:hover {
+// //   transform: scale(1.2);
+// //   color: var(--link-color);
+// // }
+
+
+// /* ======== DARK MODE TOGGLE STYLING ======== */
+
+// // #theme-toggle {
+// //   background: none;
+// //   border: none;
+// //   cursor: pointer;
+// //   font-size: 1.4rem;
+// //   line-height: 1;
+// //   margin-left: auto;
+// //   margin-right: 0;
+// //   padding: 0 0.75rem;
+// //   display: flex;
+// //   align-items: center;
+// //   justify-content: center;
+// //   color: var(--text-color, #555);
+// //   transition: transform 0.2s ease, color 0.2s ease;
+// //   position: relative;
+// //   top: 0; /* aligned with menu */
+// // }
+
+// // #theme-toggle:hover {
+// //   transform: rotate(-15deg) scale(1.1);
+// //   color: #f0c420; /* subtle yellow glow */
+// // }
+
+// // /* On wider screens, push the button to the right of nav */
+// // @media (min-width: 768px) {
 // //   .masthead__menu {
-// //     flex-wrap: wrap;
+// //     display: flex;
+// //     align-items: center;
 // //     justify-content: space-between;
 // //   }
 
-// // //   #theme-toggle {
-// // //     margin-left: auto;
-// // //     margin-top: 0.4rem;
-// // //   }
-
 // //   #theme-toggle {
-// //   margin-left: 0.5rem; /* instead of auto */
+// //     order: 2;
 // //   }
 // // }
+
+/* ======== HEADER SPACING & ALIGNMENT ======== */
+
+/* Masthead menu layout */
+.masthead__menu {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start; /* keeps items aligned left first */
+  padding: 0 1.5rem;
+  gap: 1rem; /* consistent space between nav and toggle */
+}
+
+/* Nav bar layout */
+.greedy-nav {
+  flex-grow: 1; /* allow nav to take as much space as needed */
+}
+
+.greedy-nav .visible-links {
+  display: flex;
+  gap: 1.5rem; /* spacing between Publications, Projects, etc. */
+  align-items: center;
+  flex-wrap: wrap; /* allow wrap if too tight */
+}
+
+/* Theme toggle styles */
+#theme-toggle {
+  font-size: 1.4rem;
+  padding: 0.3rem 0.6rem;
+  margin-left: auto; /* pushes toggle to far right */
+  background: none;
+  border: none;
+  color: var(--text-color, #555);
+  cursor: pointer;
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+#theme-toggle:hover {
+  transform: rotate(-10deg) scale(1.1);
+  color: #f0c420;
+}
+
+/* Responsive fix for mobile */
+@media (max-width: 768px) {
+  .masthead__menu {
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+//   #theme-toggle {
+//     margin-left: auto;
+//     margin-top: 0.4rem;
+//   }
+
+  #theme-toggle {
+  margin-left: 0.5rem; /* instead of auto */
+  }
+}
 
 
 
