@@ -131,6 +131,33 @@
    THEME COLOR VARIABLES
    ========================================== */
 
+// /* Light theme (default) */
+// :root {
+//   --bg-color: #ffffff;
+//   --text-color: #222;
+//   --link-color: #1e90ff;
+//   --muted-text: #555;
+//   --heading-color: #111;
+//   --header-bg: #f8f9fa;
+//   --border-color: #e5e5e5;
+//   --footer-bg: #f8f9fa;
+// }
+
+// /* Dark theme overrides */
+// [data-theme="dark"] {
+//   --bg-color: #121212;
+//   --text-color: #eaeaea;
+//   --link-color: #4da3ff;
+//   --muted-text: #aaa;
+//   --heading-color: #ffffff;
+//   --header-bg: #111111;
+//   --border-color: #333333;
+//   --footer-bg: #111111;
+// }
+
+
+/* ======= THEME COLOR VARIABLES ======= */
+
 /* Light theme (default) */
 :root {
   --bg-color: #ffffff;
@@ -154,6 +181,7 @@
   --border-color: #333333;
   --footer-bg: #111111;
 }
+
 
 /* ==========================================
    GLOBAL STYLING
