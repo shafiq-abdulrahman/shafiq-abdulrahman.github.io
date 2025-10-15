@@ -177,33 +177,37 @@ hr, .page__title {
 
 /* ======== HEADER SPACING & ALIGNMENT ======== */
 
+/* Masthead menu layout */
 .masthead__menu {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  padding: 0 1.2rem; /* give breathing space on both sides */
-  flex-wrap: nowrap;
+  justify-content: flex-start; /* keeps items aligned left first */
+  padding: 0 1.5rem;
+  gap: 1rem; /* consistent space between nav and toggle */
 }
 
-/* Make sure nav links have space before toggle */
+/* Nav bar layout */
+.greedy-nav {
+  flex-grow: 1; /* allow nav to take as much space as needed */
+}
+
 .greedy-nav .visible-links {
   display: flex;
-  gap: 1.3rem; /* add spacing between menu items */
+  gap: 1.5rem; /* spacing between Publications, Projects, etc. */
   align-items: center;
+  flex-wrap: wrap; /* allow wrap if too tight */
 }
 
-/* Adjust the toggle button size and placement */
+/* Theme toggle styles */
 #theme-toggle {
   font-size: 1.4rem;
-  padding: 0.2rem 0.4rem;
-  margin-left: 1rem;
+  padding: 0.3rem 0.6rem;
+  margin-left: auto; /* pushes toggle to far right */
   background: none;
   border: none;
   color: var(--text-color, #555);
   cursor: pointer;
   transition: transform 0.2s ease, color 0.2s ease;
-  position: relative;
-  top: 2px; /* perfect vertical alignment */
 }
 
 #theme-toggle:hover {
@@ -211,11 +215,13 @@ hr, .page__title {
   color: #f0c420;
 }
 
-/* Keep toggle visible and clean layout on all screens */
+/* Responsive fix for mobile */
 @media (max-width: 768px) {
   .masthead__menu {
     flex-wrap: wrap;
+    justify-content: space-between;
   }
+
   #theme-toggle {
     margin-left: auto;
     margin-top: 0.4rem;
