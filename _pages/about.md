@@ -66,71 +66,60 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Honors & Awards</span></summary>
 
-- 2025: Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India <br>
-- 2024: Qualified National level Graduate Aptitude Test in Engineering (GATE) <br>
-- 2022: All India Rank ‑ 196 in IIT‑JAM (among 12,716 Math aspirants) <br>
-- 2021: Rank 1, Topper in Department of Mathematics, Government Arts College, Coimbatore <br>
-- 2018: District Runner, Mathematics Model Exam, CSI College of Engineering, Nilgiris, India <br>
-- 2018: Rank 1, Young Ramanujam of School Awardee, Dhanish Ahmed Institute of Engineering, Coimbatore <br>
-- 2016: Topper, Nilgiri District Achiever, Tamil Nadu School Associations <br>
-- 2016: Topper, Kaitlyn Jeyaraj & Bryan Wood Cash award for centum in Mathematics <br>
-
+  <ul>
+    <li><b>2025:</b> Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India</li>
+    <li><b>2024:</b> Qualified National level Graduate Aptitude Test in Engineering (GATE)</li>
+    <li><b>2022:</b> All India Rank – 196 in IIT-JAM (among 12,716 Math aspirants)</li>
+    <li><b>2021:</b> Rank 1, Topper in Department of Mathematics, Government Arts College, Coimbatore</li>
+    <li><b>2018:</b> District Runner, Mathematics Model Exam, CSI College of Engineering, Nilgiris, India</li>
+    <li><b>2018:</b> Rank 1, Young Ramanujam of School Awardee, Dhanish Ahmed Institute of Engineering, Coimbatore</li>
+    <li><b>2016:</b> Topper, Nilgiri District Achiever, Tamil Nadu School Associations</li>
+    <li><b>2016:</b> Topper, Kaitlyn Jeyaraj & Bryan Wood Cash Award for Centum in Mathematics</li>
+  </ul>
 </details>
 
 ---
-
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Seminars & Presentations</span></summary>
 
-- June 2024: Contributory lectures on "Gaussian Functions, Errors and Stirling’s Approximations" — Summer Workshop on Pure Mathematics <br>
-- April 2024: Presented "Ito's Rule" proof under Prof. Neelesh Upadhye, IIT Madras — Mathematical Finance <br>
-- Feb 2024: Proof of "Approximation of class of functions by simple function using convolution and measure theory" under Prof. Barun Sarkar, IIT Madras — Advanced Stochastic Process <br>
-- Feb 2024: Seminar on "Ito's Integration" for research scholars under Prof. Barun Sarkar, IIT Madras <br>
-- May 2023: Seminar on "GCD over Euclidean Domains" — Mathematics Training and Talent Search Programme, IIT Madras <br>
-- May 2022: Co-led discussion on "Significance of eigenvalues and eigenvectors" with Dr. Saranya, Government Arts College, Coimbatore <br>
-
+  <ul>
+    <li><b>June 2024:</b> Contributory lectures on "Gaussian Functions, Errors and Stirling’s Approximations" — Summer Workshop on Pure Mathematics</li>
+    <li><b>April 2024:</b> Presented "Ito's Rule" proof under Prof. Neelesh Upadhye, IIT Madras — Mathematical Finance</li>
+    <li><b>Feb 2024:</b> Proof of "Approximation of a class of functions by simple function using convolution and measure theory" under Prof. Barun Sarkar, IIT Madras — Advanced Stochastic Process</li>
+    <li><b>Feb 2024:</b> Seminar on "Ito's Integration" for research scholars under Prof. Barun Sarkar, IIT Madras</li>
+    <li><b>May 2023:</b> Seminar on "GCD over Euclidean Domains" — Mathematics Training and Talent Search Programme, IIT Madras</li>
+    <li><b>May 2022:</b> Co-led discussion on "Significance of Eigenvalues and Eigenvectors" with Dr. Saranya, Government Arts College, Coimbatore</li>
+  </ul>
 </details>
+
 
 ---
 
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended</span></summary>
 
-- 2024: Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore <br>
-- 2024: 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling, VIT AP University <br>
-- 2024: International Conference on Stochastic Calculus & Applications to Finance, Kings College London & IIT Madras <br>
-- 2024: Workshop on Valuation of Equity Options using Black-Scholes Model, IIQF <br>
-- 2024: Python in Finance & Open Range Breakout Strategy Workshop, StockGro at IIT Madras <br>
-- 2024: Statistical Modeling & Quant Challenge, Millennium Investment Management, IIT Madras <br>
-- 2024: Advanced Training School on PDEs & MATLAB, K. J. Somaiya College, Mumbai <br>
-- 2023: One-month Summer School integrating Linear Algebra, Probability, Markov Chains, Differential Equations — IIT Madras <br>
-- 2023: MTTS Programme, Linear Algebra, Complex Analysis, Topology, Module & Ring Theory, IIT Madras <br>
-- 2023: Mathematics In-house Symposium, IIT Madras <br>
-- 2022: National Conference on Computational Mathematics, NIT Puducherry <br>
-- 2022: Workshop on Nonlinear Phenomena in Mathematical Biology (Hybrid), IIITM Gwalior <br>
-- 2021: NPTEL Modern Algebra Course, Madurai Kamaraj University <br>
-- 2021: KLA Workshop on AI & HPC in Semiconductor Manufacturing, IIT Madras <br>
-- 2020: Initiation into Linear Algebra, International Workshop, MAR Thoma College <br>
-- 2020: Vedic Mathematics & Foundations, Government Arts College, Coimbatore <br>
-
+  <ul>
+    <li><b>2024:</b> Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore</li>
+    <li><b>2024:</b> 5-day International FDP on Financial Mathematics, SPDE Theory, Mathematical Modeling — VIT AP University</li>
+    <li><b>2024:</b> International Conference on Stochastic Calculus & Applications to Finance — Kings College London & IIT Madras</li>
+    <li><b>2024:</b> Workshop on Valuation of Equity Options using Black-Scholes Model — IIQF</li>
+    <li><b>2024:</b> Python in Finance & Open Range Breakout Strategy Workshop — StockGro at IIT Madras</li>
+    <li><b>2024:</b> Statistical Modeling & Quant Challenge — Millennium Investment Management, IIT Madras</li>
+    <li><b>2024:</b> Advanced Training School on PDEs & MATLAB — K. J. Somaiya College, Mumbai</li>
+    <li><b>2023:</b> One-month Summer School integrating Linear Algebra, Probability, Markov Chains, Differential Equations — IIT Madras</li>
+    <li><b>2023:</b> MTTS Programme — Linear Algebra, Complex Analysis, Topology, Module & Ring Theory, IIT Madras</li>
+    <li><b>2023:</b> Mathematics In-house Symposium — IIT Madras</li>
+    <li><b>2022:</b> National Conference on Computational Mathematics — NIT Puducherry</li>
+    <li><b>2022:</b> Workshop on Nonlinear Phenomena in Mathematical Biology (Hybrid) — IIITM Gwalior</li>
+    <li><b>2021:</b> NPTEL Modern Algebra Course — Madurai Kamaraj University</li>
+    <li><b>2021:</b> KLA Workshop on AI & HPC in Semiconductor Manufacturing — IIT Madras</li>
+    <li><b>2020:</b> Initiation into Linear Algebra — International Workshop, MAR Thoma College</li>
+    <li><b>2020:</b> Vedic Mathematics & Foundations — Government Arts College, Coimbatore</li>
+  </ul>
 </details>
 
 ---
 
-<details>
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
-
-- Organizer & Initiator: Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024) <br>
-- Student Chief Coordinator: MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students <br>
-- Super Coordinator:FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest <br>
-- Founder: SMART CART OFFICIAL — Online art & craft studio (Jan 2019 – Present) <br>
-  - Freelance services: Portraits, Doodles, Logo Designing, Calligraphy <br>
-  - Won 2nd prize, Heritage Centre IIT Madras Doodle Competition <br>
-- **Photographer:** EYES OF ABDUL — Photography & Videography Portfolio (Jul 2021 – Present) <br>
-  - Tools: Adobe, Snapseed <br>
-  - Galaxy Masterclass attendee, 2021 — Instructor: Mr. Auditya Venkatesh, Travel Photographer <br>
-
-</details>
 
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
@@ -154,7 +143,7 @@ I am always eager to **connect with like-minded individuals** to discuss mathema
   </ul>
 </details>
 
-
+---
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
