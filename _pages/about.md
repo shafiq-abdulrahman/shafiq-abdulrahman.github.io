@@ -145,6 +145,17 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 </details>
 
 ---
+
+## Project Demo 🎥
+
+<div style="text-align:center;">
+  <video width="80%" controls>
+    <source src="{{ '/images/k.mp4' | relative_url }}" type="video/mp4">
+  </video>
+  <p><em>Demo: Model Simulation — k.mp4</em></p>
+</div>
+
+
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
