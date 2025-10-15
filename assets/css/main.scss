@@ -53,7 +53,7 @@
   justify-content: center;
 }
 
-/* The looping background video */
+/* Looping background video */
 .footer-video-bg video {
   position: absolute;
   top: 0;
@@ -62,23 +62,29 @@
   min-height: 100%;
   object-fit: cover;
   z-index: 0;
-  opacity: 0.6; /* make text readable */
+
+  /* ✨ Adjust visibility & color quality */
+  opacity: 0.7; /* slightly darker video */
+  filter: contrast(1.4) brightness(0.85); /* more vivid & darker */
 }
 
-/* All your footer content goes here */
+/* Footer overlay (content layer) */
 .footer-overlay {
   position: relative;
   z-index: 1;
   width: 100%;
   text-align: center;
   padding: 1rem;
+
+  /* subtle dark tint over video for better readability */
+  background: rgba(0, 0, 0, 0.45);
 }
 
-// /* Optional: text shadow for readability */
-// .footer-overlay,
-// .footer-overlay a {
-//   color: #fff;
-//   text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
-// }
+/* Make text pop against the background */
+.footer-overlay,
+.footer-overlay a {
+  color: #fff;
+  text-shadow: 2px 2px 6px rgba(0, 0, 0, 0.9);
+}
 
 
