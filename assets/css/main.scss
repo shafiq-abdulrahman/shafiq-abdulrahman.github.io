@@ -65,7 +65,7 @@
 
   /* ✨ Adjust visibility & color quality */
   opacity: 0.7; /* slightly darker video */
-  filter: contrast(1.4) brightness(0.85); /* more vivid & darker */
+  filter: contrast(2.4) brightness(1); /* more vivid & darker */
 }
 
 /* Footer overlay (content layer) */
@@ -77,7 +77,7 @@
   padding: 1rem;
 
   /* subtle dark tint over video for better readability */
-  background: rgba(0, 0, 0, 0.45);
+  background: rgba(0, 0, 0, 0.5);
 }
 
 /* Make text pop against the background */
