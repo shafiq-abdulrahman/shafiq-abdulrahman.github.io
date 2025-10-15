@@ -97,19 +97,18 @@ hr, .page__title {
   border-color: var(--muted-text);
 }
 
-
-/* Light mode default */
+/* Section heading styling */
 .section-heading {
-  color: #000; /* black in light mode */
+  color: var(--heading-color); /* black in light mode, white in dark mode */
   font-weight: bold;
-  border-bottom: 3px solid #1E90FF;
-  padding-bottom: 2px;
+  border-bottom: 3px solid var(--link-color); /* blue underline that adapts to theme */
+  padding-bottom: 4px;
+  transition: color 0.3s ease, border-color 0.3s ease;
 }
 
-/* Dark mode version */
+/* Override underline color for dark mode if you want a slightly softer blue */
 [data-theme="dark"] .section-heading {
-  color: #fff; /* white in dark mode */
-  border-bottom: 3px solid #4da3ff; /* softer blue for dark mode */
+  border-bottom-color: #4da3ff; /* softer blue in dark mode */
 }
 
 // // #theme-toggle {
@@ -208,7 +207,7 @@ hr, .page__title {
 
 .greedy-nav .visible-links {
   display: flex;
-  gap: 1rem; /* spacing between Publications, Projects, etc. */
+  gap: 0.5rem; /* spacing between Publications, Projects, etc. */
   align-items: center;
   flex-wrap: nowrap; /* prevent wrapping */
   white-space: nowrap; /* ensure text stays on one line */
