@@ -231,4 +231,73 @@ author_profile: false
 </div>
 
 
+<div class="project-section">
+  <div class="project-title">Derivative Instruments and Their Features</div>
+
+  <div class="project-description">
+    <ul>
+      <li>Investigated trading mechanisms and valuation models of futures and options, and developed sophisticated option trading strategies.</li>
+      <li>Conducted three detailed case studies, providing an in-depth exploration of the Black-Scholes and Heston models.</li>
+    </ul>
+    <p><strong>Finlatics | Jun–Aug 2024</strong></p>
+  </div>
+
+  <img src="/images/5.gif alt="Derivative Instruments" class="project-image">
+
+  <div class="project-links">
+    <a href="https://github.com/Shafiq-Abdu/Derivative_market_analysis.git" target="_blank">View Git-repo</a>
+  </div>
+</div>
+
+
+<div class="project-section">
+  <div class="project-title">Optimizing Supertrend Parameters for Enhanced Profit</div>
+
+  <div class="project-description">
+    <p>Framed an algorithm to optimize indicator parameters for maximizing profit gain using <em>Bayesian Optimization</em> techniques.</p>
+    <p><strong>Advisor:</strong> Dr. Neelesh Upadhye, IIT Madras | <strong>Jan–May 2024</strong></p>
+  </div>
+
+  <img src="/images/6.gif" alt="Supertrend Optimization Profit" class="project-image">
+
+  <div class="project-links">
+    <a href="https://drive.google.com/file/d/1LVLeb_6oD-0l1u7OnpLZcG0PR2qSD0y4/view?usp=drive_link">View Thesis</a> |
+    <a href="https://drive.google.com/file/d/1BEsEWh6Sov_E_nqXE6dj1xjnjKQ0alop/view?usp=drive_link">View Slides</a> |
+    <a href="https://github.com/Shafiq-Abdu/Masters_Thesis-Seminar.git">View Gitcode</a>
+  </div>
+</div>
+
+<div class="project-section">
+  <div class="project-title">Optimizing Supertrend Parameters for Enhanced Sharpe Ratio</div>
+
+  <div class="project-description">
+    <p>Developed algorithmic optimization framework using <em>Grid Search Optimization</em> techniques to improve Sharpe ratio performance.</p>
+    <p><strong>Advisor:</strong> Dr. Neelesh Upadhye, IIT Madras | <strong>Jun–Dec 2023</strong></p>
+  </div>
+
+  <img src="/images/7.gif" alt="Supertrend Sharpe Ratio Optimization" class="project-image">
+
+  <div class="project-links">
+    <a href="https://drive.google.com/file/d/12P2fP9daJdOuK8h4ZHe3NVbLzjM3QzZP/view?usp=drive_link.">View Report</a> |
+    <a href="https://drive.google.com/file/d/12U5UjOgF31RsF6qTlEnapLzRuc1a1ElZ/view?usp=drive_link">View Slides</a> |
+    <a href="https://github.com/Shafiq-Abdu/Masters_Thesis-Seminar.git">View Gitcode</a>
+  </div>
+</div>
+
+
+<div class="project-section">
+  <div class="project-title">Linear Algebra for Machine Learning and Data Science</div>
+
+  <div class="project-description">
+    <p>Collaborative project exploring linear algebra’s practical applications in data science and autonomous systems, emphasizing the link between mathematical principles and technological advancements.</p>
+    <p><strong>Advisor:</strong> Dr. Suguna, GACBE | <strong>Jun–Dec 2021</strong></p>
+  </div>
+
+  <img src="/images/8.gif" alt="Linear Algebra Project" class="project-image">
+
+  <div class="project-links">
+    <a href="https://drive.google.com/file/d/17aJOT-fgtL5HDjNwfpwJnS-C-Py9wIw-/view?usp=sharing">View Report</a>
+  </div>
+</div>
+
 
