@@ -66,6 +66,16 @@ author_profile: false
 
 
 <style>
+
+
+.page__content {
+  max-width: 900px;   /* limit the width */
+  margin: 0 auto;     /* center it */
+  padding: 1.5rem;    /* some space on both sides */
+}
+
+
+
 .project-section {
   margin-bottom: 3rem;
   border-bottom: 1px solid #ccc;
@@ -147,7 +157,13 @@ author_profile: false
 }
 </style>
 
+
+
+
+
 <!-- Example project section -->
+
+
 <div class="project-section">
 
   <div class="project-title">AI Snake Game with Reinforcement Learning</div>
