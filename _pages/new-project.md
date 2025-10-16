@@ -7,69 +7,59 @@ author_profile: false
 sidebar:
   nav: none
 ---
-Hiii
 
-
-<!-- layout: page
-title: Contact
-permalink: /contact/ -->
-
-<!-- <style>
-  .contact-container {
-    max-width: 700px;
-    margin: 0 auto;
-    padding: 2rem;
-    background: #f9f9f9;
-    border-radius: 12px;
-    box-shadow: 0px 4px 12px rgba(0,0,0,0.1);
-  }
-  .contact-container h1 {
-    text-align: center;
-    margin-bottom: 1rem;
-    color: #333;
-  }
-  .contact-note {
-    text-align: center;
-    font-style: italic;
-    color: #666;
-    margin-bottom: 2rem;
-  }
-  .contact-form input,
-  .contact-form textarea {
-    width: 100%;
-    padding: 12px;
-    margin-bottom: 1.2rem;
-    border: 1px solid #ccc;
-    border-radius: 8px;
-    font-size: 1rem;
-  }
-  .contact-form button {
-    width: 100%;
-    padding: 14px;
-    background-color: #222;
-    color: #fff;
-    border: none;
-    border-radius: 8px;
-    font-size: 1.1rem;
-    cursor: pointer;
-    transition: background 0.3s ease;
-  }
-  .contact-form button:hover {
-    background-color: #444;
-  }
+<style>
+.project-section {
+  display: flex;
+  align-items: flex-start;
+  gap: 25px;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 1.5rem;
+}
+.project-section img {
+  width: 300px;
+  border-radius: 10px;
+  object-fit: cover;
+  box-shadow: 0 0 5px rgba(0,0,0,0.2);
+}
+.project-details {
+  flex: 1;
+}
+.project-details h2 {
+  color: #1E90FF;
+  margin-top: 0;
+}
+.project-details ul {
+  margin-top: 0.5rem;
+}
+.project-links a {
+  color: #1E90FF;
+  font-weight: 500;
+  text-decoration: none;
+}
+.project-links a:hover {
+  text-decoration: underline;
+}
 </style>
 
-<div class="contact-container">
-  <h1>Feel free to contact me 🚀</h1>
-  <p class="contact-note">
-    I usually reply quickly... unless I’m debugging something 🐛.<br>
-    If I take a while, sorry in advance — but I promise I’ll get back to you! 😉
-  </p>
+<div class="project-section">
+  <img src="/images/4.png" alt="AI Snake Game Screenshot">
 
-  <form class="contact-form" target="_blank" action="https://formsubmit.co/abdul.math@alumni.iitm.ac.in" method="POST">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <textarea name="message" rows="8" placeholder="Your Message..." required></textarea>
-    <button type="submit">Send Message ✉️</button>
-  </form>
-</div> -->
+  <div class="project-details">
+    <h2>AI Snake Game with Reinforcement Learning</h2>
+    <ul>
+      <li>Developed an AI agent to play the classic Snake game using Deep Q-Learning implemented from scratch in Python with Pygame and PyTorch.</li>
+      <li>Built and trained a neural network to predict the AI's actions, achieving consistent gameplay improvement through reinforcement learning.</li>
+    </ul>
+
+    <p><b>Timeline:</b> Nov 2024</p>
+
+    <p class="project-links">
+      <a href="https://github.com/yourusername/snake-ai" target="_blank">View Git-repo</a> |
+      <a href="https://youtu.be/example" target="_blank">View Training Clip</a>
+    </p>
+  </div>
+</div>
+
+
