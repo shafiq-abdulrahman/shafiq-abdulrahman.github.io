@@ -1,6 +1,6 @@
 ---
 layout: single
-title: "My New Project"
+title: "Project"
 permalink: /new-project/
 classes: wide
 author_profile: false
