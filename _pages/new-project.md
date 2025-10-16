@@ -1,8 +1,14 @@
 ---
-layout: page
-title: Contact
-permalink: /contact/
+layout: single
+title: "My New Project"
+permalink: /new-project/
+classes: wide
+author_profile: false
+sidebar:
+  nav: none
 ---
+
+
 
 <style>
   .contact-container {
