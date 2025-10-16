@@ -113,7 +113,7 @@ author_profile: false
 
 
 .project-image {
-  width: 75%;            /* or try 60%, 50%, etc. */
+  width: 60%;            /* or try 60%, 50%, etc. */
   max-width: 400px;      /* controls max width */
   height: auto;          /* keeps proportions */
   display: block;
