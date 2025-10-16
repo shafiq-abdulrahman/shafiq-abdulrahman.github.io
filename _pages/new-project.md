@@ -2,11 +2,10 @@
 layout: page
 title: "Project"
 permalink: /new-project/
-classes: wide
 author_profile: false
-sidebar:
-  nav: none
 ---
+
+
 
 <style>
 .project-section {
