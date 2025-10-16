@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Project"
 permalink: /new-project/
 author_profile: false
