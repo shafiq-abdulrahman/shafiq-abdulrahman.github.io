@@ -1,5 +1,5 @@
 ---
-layout: single
+layout: page
 title: "Project"
 permalink: /new-project/
 classes: wide
@@ -7,10 +7,14 @@ author_profile: false
 sidebar:
   nav: none
 ---
+Hiii
 
 
+<!-- layout: page
+title: Contact
+permalink: /contact/ -->
 
-<style>
+<!-- <style>
   .contact-container {
     max-width: 700px;
     margin: 0 auto;
@@ -68,4 +72,4 @@ sidebar:
     <textarea name="message" rows="8" placeholder="Your Message..." required></textarea>
     <button type="submit">Send Message ✉️</button>
   </form>
-</div>
+</div> -->
