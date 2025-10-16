@@ -169,6 +169,66 @@ author_profile: false
 
 </div>
 
+<!-- Project2 -->
+<div class="project-section">
+  <div class="project-title">Portfolio Optimization with Graph Convolutional Networks (GCN) on Nifty 50 Stocks</div>
+
+  <div class="project-description">
+    <ul>
+      <li>Developed GCN Model: Created a GCN to capture dependencies among Nifty 50 stocks using daily returns, volatility, and RSI.</li>
+      <li>Constructed Stock Graph and Applied Spectral Clustering for Diversification: Built a stock graph with correlations as edges, enhancing diversification.</li>
+      <li>Validated through Backtesting: Demonstrated effective risk-adjusted returns, showcasing GCN’s potential in financial optimization.</li>
+    </ul>
+    <p><strong>Nov 2024</strong></p>
+  </div>
+
+  <img src="/images/2.gif" alt="GCN Portfolio Optimization" class="project-image">
+
+  <div class="project-links">
+    <a href="https://github.com/Shafiq-Abdu/GCN_Spectral_Portfolio.git" target="_blank">View Git-repo</a>
+  </div>
+</div>
+
+
+
+<div class="project-section">
+  <div class="project-title">Monte Carlo Simulation and Risk Management for Nifty 50 Portfolio Optimization</div>
+
+  <div class="project-description">
+    <ul>
+      <li>Applied Monte Carlo simulation to optimize a portfolio of Nifty 50 stocks, selecting top stocks based on Sharpe ratios.</li>
+      <li>Evaluated portfolio risk using Value at Risk (VaR) and Conditional Value at Risk (CVaR).</li>
+      <li>Identified optimal portfolio allocations to maximize returns while managing risk exposure.</li>
+    </ul>
+    <p><strong>May – June 2024</strong></p>
+  </div>
+
+  <img src="/images/3.gif" alt="Monte Carlo Simulation" class="project-image">
+
+  <div class="project-links">
+    <a href="https://github.com/Shafiq-Abdu/Monte-Carlo-portfolio.git" target="_blank">View Git-repo</a>
+  </div>
+</div>
+
+
+<div class="project-section">
+  <div class="project-title">Interest Rate Modeling and Derivative Pricing using the Hull-White Model</div>
+
+  <div class="project-description">
+    <ul>
+      <li>Calibrated the Hull-White model parameters (mean-reversion rate and volatility) using historical interest rate data to simulate short-term interest rate paths.</li>
+      <li>Implemented Monte Carlo simulations to forecast future interest rate scenarios and used these to price interest rate derivatives (Caps and Floors).</li>
+      <li>Conducted scenario analysis by adjusting economic variables (volatility, mean reversion) to assess the impact on derivative pricing and market risks.</li>
+    </ul>
+    <p><strong>May 2024</strong></p>
+  </div>
+
+  <img src="/images/4.gif" alt="Hull-White Model Simulation" class="project-image">
+
+  <div class="project-links">
+    <a href="https://github.com/Shafiq-Abdu/Interest_Model_Hull_White.git" target="_blank">View Git-repo</a>
+  </div>
+</div>
 
 
 
