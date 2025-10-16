@@ -91,7 +91,7 @@ author_profile: false
   padding-left: 1.2rem;
 }
 
-.project-image {
+/* .project-image {
   width: 100%;
   max-width: 600px;
   display: block;
@@ -99,8 +99,18 @@ author_profile: false
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0,0,0,0.15);
   transition: transform 0.2s ease;
-}
+} */
 
+
+.project-image {
+  width: 75%;            /* or try 60%, 50%, etc. */
+  max-width: 400px;      /* controls max width */
+  height: auto;          /* keeps proportions */
+  display: block;
+  margin: 1rem auto;
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}
 .project-image:hover {
   transform: scale(1.03);
 }
