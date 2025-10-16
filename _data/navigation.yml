@@ -52,6 +52,10 @@ main:
   # - title: "Teachingsss"
   #   url: /teaching/    
 
+
+  - title: "Teaching"
+    url: /teach/
+
   - title: "Contact"
     url: /contact/
 
