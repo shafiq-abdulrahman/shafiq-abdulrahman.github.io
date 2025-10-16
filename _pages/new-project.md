@@ -3,8 +3,7 @@ layout: single
 title: "Project"
 permalink: /new-project/
 author_profile: false
-sidebar:
-  nav: none
+
 ---
 
 
@@ -56,7 +55,7 @@ sidebar:
       <li>Built and trained a neural network to predict the AI's actions, achieving consistent gameplay improvement through reinforcement learning.</li>
     </ul>
 
-    <p><b>Timeline:</b> Nov 2024</p>
+    <p><b>-</b> Nov 2024</p>
 
     <p class="project-links">
       <a href="https://github.com/Shafiq-Abdu/Snake_Game_AI.git" target="_blank">View Git-repo</a> |
