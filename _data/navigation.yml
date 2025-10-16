@@ -54,5 +54,5 @@ main:
 
 
 
-  - title: "Project"
-    url: /new-project/
+  # - title: "Project"
+  #   url: /new-project/
