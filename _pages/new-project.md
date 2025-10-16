@@ -51,17 +51,29 @@ author_profile: false
   box-shadow: 0 0 6px rgba(0,0,0,0.15);
   transition: transform 0.2s ease;
 } */
-
-
-.project-image {
-  width: 50%;            /* or try 60%, 50%, etc. */
-  max-width: 400px;      /* controls max width */
-  height: auto;          /* keeps proportions */
+/* .project-image {
+  width: 50%;            
+  max-width: 400px;      
+  height: auto;          
   display: block;
   margin: 1rem auto;
   border-radius: 10px;
   box-shadow: 0 0 6px rgba(0,0,0,0.15);
+}  */
+
+
+.project-image {
+  width: auto;             /* keep natural width */
+  max-width: 400px;        /* shrink if needed on large screens */
+  max-height: 220px;       /* ✨ limit tall images */
+  height: auto;            /* maintain proportions */
+  object-fit: contain;     /* no cropping at all */
+  display: block;
+  margin: 1rem auto;       /* center image */
+  border-radius: 10px;
+  box-shadow: 0 0 6px rgba(0,0,0,0.15);
 }
+
 .project-image:hover {
   transform: scale(1.03);
 }

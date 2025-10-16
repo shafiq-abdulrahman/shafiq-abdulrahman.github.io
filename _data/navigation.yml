@@ -32,7 +32,7 @@ main:
 
   # - title: "Projects"
   #   url: /portfolio/
-  
+
   - title: "Project"
     url: /new-project/
 
@@ -57,5 +57,5 @@ main:
 
 
 
-  - title: "Project"
-    url: /new-project/
+  # - title: "Project"
+  #   url: /new-project/
