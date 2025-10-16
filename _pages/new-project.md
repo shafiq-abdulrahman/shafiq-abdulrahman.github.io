@@ -242,7 +242,7 @@ author_profile: false
     <p><strong>Finlatics | Jun–Aug 2024</strong></p>
   </div>
 
-  <img src="/images/5.gif alt="Derivative Instruments" class="project-image">
+  <img src="/images/5.gif" alt="Derivative Instruments" class="project-image">
 
   <div class="project-links">
     <a href="https://github.com/Shafiq-Abdu/Derivative_market_analysis.git" target="_blank">View Git-repo</a>
