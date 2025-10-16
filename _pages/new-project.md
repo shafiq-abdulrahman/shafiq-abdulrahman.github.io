@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: splash
 title: "Project"
 permalink: /new-project/
 author_profile: false
