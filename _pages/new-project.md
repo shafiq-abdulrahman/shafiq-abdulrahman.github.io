@@ -3,76 +3,17 @@ layout: splash
 title: "Project"
 permalink: /new-project/
 author_profile: false
-
 ---
-
-
-<!-- 
-<style>
-.project-section {
-  display: flex;
-  align-items: flex-start;
-  gap: 25px;
-  margin-bottom: 3rem;
-  border-bottom: 1px solid #ccc;
-  padding-bottom: 1.5rem;
-}
-.project-section img {
-  width: 300px;
-  border-radius: 10px;
-  object-fit: cover;
-  box-shadow: 0 0 5px rgba(0,0,0,0.2);
-}
-.project-details {
-  flex: 1;
-}
-.project-details h2 {
-  color: #1E90FF;
-  margin-top: 0;
-}
-.project-details ul {
-  margin-top: 0.5rem;
-}
-.project-links a {
-  color: #1E90FF;
-  font-weight: 500;
-  text-decoration: none;
-}
-.project-links a:hover {
-  text-decoration: underline;
-}
-</style>
-
----
-
-<div class="project-section">
-  <img src="/images/1.gif" alt="AI Snake Game Screenshot">
-
-  <div class="project-details">
-    <h2>AI Snake Game with Reinforcement Learning</h2>
-    <ul>
-      <li>Developed an AI agent to play the classic Snake game using Deep Q-Learning implemented from scratch in Python with Pygame and PyTorch.</li>
-      <li>Built and trained a neural network to predict the AI's actions, achieving consistent gameplay improvement through reinforcement learning.</li>
-    </ul>
-
-    <p><b>-</b> Nov 2024</p>
-
-    <p class="project-links">
-      <a href="https://github.com/Shafiq-Abdu/Snake_Game_AI.git" target="_blank">View Git-repo</a> |
-      <a href="https://youtu.be/-tuAOXsDKyw" target="_blank">View Training Clip</a>
-    </p>
-  </div>
-</div> -->
 
 
 <style>
 
 
-.page__content {
+/* .page__content {
   max-width: 900px;   /* limit the width */
   margin: 0 auto;     /* center it */
-  padding: 1.5rem;    /* some space on both sides */
-}
+  padding: 1.0rem;    /* some space on both sides */
+} */
 
 
 
@@ -113,7 +54,7 @@ author_profile: false
 
 
 .project-image {
-  width: 60%;            /* or try 60%, 50%, etc. */
+  width: 50%;            /* or try 60%, 50%, etc. */
   max-width: 400px;      /* controls max width */
   height: auto;          /* keeps proportions */
   display: block;
