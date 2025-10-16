@@ -2,7 +2,6 @@
 layout: page
 title: "Project"
 permalink: /new-project/
-author_profile: false
 ---
 
 
@@ -42,6 +41,8 @@ author_profile: false
 }
 </style>
 
+---
+
 <div class="project-section">
   <img src="/images/4.png" alt="AI Snake Game Screenshot">
 
@@ -55,8 +56,8 @@ author_profile: false
     <p><b>Timeline:</b> Nov 2024</p>
 
     <p class="project-links">
-      <a href="https://github.com/yourusername/snake-ai" target="_blank">View Git-repo</a> |
-      <a href="https://youtu.be/example" target="_blank">View Training Clip</a>
+      <a href="https://github.com/Shafiq-Abdu/Snake_Game_AI.git" target="_blank">View Git-repo</a> |
+      <a href="https://youtu.be/-tuAOXsDKyw" target="_blank">View Training Clip</a>
     </p>
   </div>
 </div>
