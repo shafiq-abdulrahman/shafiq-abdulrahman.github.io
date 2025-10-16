@@ -60,7 +60,7 @@ body {
   <img src="/images/teach1.jpg" alt="Teaching Session" class="project-image">
 
   <div class="project-links">
-    <a href="https://example.com/course" target="_blank">View Course Material</a>
+    <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" target="_blank">View temporar Teaching Materials</a>
   </div>
 </div>
 
