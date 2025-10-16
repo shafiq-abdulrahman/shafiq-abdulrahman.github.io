@@ -32,11 +32,14 @@ main:
 
   # - title: "Projects"
   #   url: /portfolio/
+  
+  - title: "Project"
+    url: /new-project/
 
 
-  - title: "Projects"
-    url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
-    external: true
+  # - title: "Projects"
+  #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
+  #   external: true
 
 
 

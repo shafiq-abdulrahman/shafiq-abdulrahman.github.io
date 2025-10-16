@@ -125,7 +125,7 @@ author_profile: false
   </div>
 
 </div>
-
+---
 <!-- Project2 -->
 <div class="project-section">
   <div class="project-title">Portfolio Optimization with Graph Convolutional Networks (GCN) on Nifty 50 Stocks</div>
@@ -146,7 +146,7 @@ author_profile: false
   </div>
 </div>
 
-
+---
 
 <div class="project-section">
   <div class="project-title">Monte Carlo Simulation and Risk Management for Nifty 50 Portfolio Optimization</div>
@@ -167,7 +167,7 @@ author_profile: false
   </div>
 </div>
 
-
+---
 <div class="project-section">
   <div class="project-title">Interest Rate Modeling and Derivative Pricing using the Hull-White Model</div>
 
@@ -187,7 +187,7 @@ author_profile: false
   </div>
 </div>
 
-
+---
 <div class="project-section">
   <div class="project-title">Derivative Instruments and Their Features</div>
 
@@ -205,7 +205,7 @@ author_profile: false
     <a href="https://github.com/Shafiq-Abdu/Derivative_market_analysis.git" target="_blank">View Git-repo</a>
   </div>
 </div>
-
+---
 
 <div class="project-section">
   <div class="project-title">Optimizing Supertrend Parameters for Enhanced Profit</div>
@@ -223,7 +223,7 @@ author_profile: false
     <a href="https://github.com/Shafiq-Abdu/Masters_Thesis-Seminar.git">View Gitcode</a>
   </div>
 </div>
-
+---
 <div class="project-section">
   <div class="project-title">Optimizing Supertrend Parameters for Enhanced Sharpe Ratio</div>
 
@@ -241,7 +241,7 @@ author_profile: false
   </div>
 </div>
 
-
+---
 <div class="project-section">
   <div class="project-title">Linear Algebra for Machine Learning and Data Science</div>
 
@@ -256,5 +256,5 @@ author_profile: false
     <a href="https://drive.google.com/file/d/17aJOT-fgtL5HDjNwfpwJnS-C-Py9wIw-/view?usp=sharing">View Report</a>
   </div>
 </div>
-
+---
 
