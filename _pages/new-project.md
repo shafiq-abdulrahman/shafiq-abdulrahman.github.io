@@ -46,7 +46,7 @@ author_profile: false
 ---
 
 <div class="project-section">
-  <img src="/images/4.png" alt="AI Snake Game Screenshot">
+  <img src="/images/1.gif" alt="AI Snake Game Screenshot">
 
   <div class="project-details">
     <h2>AI Snake Game with Reinforcement Learning</h2>
