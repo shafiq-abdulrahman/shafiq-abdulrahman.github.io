@@ -134,3 +134,98 @@ body {
     </ul>
   </div>
 </details>
+
+
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color: cyan; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+    Grad / Undergrad Math Books 🔗
+  </summary>
+
+  <div style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.7;">
+    <!-- Analysis -->
+    <p style="color: cyan; font-weight: bold;">Analysis</p>
+    <ul>
+      <li>Real Analysis – S. Kumaresan</li>
+      <li>Topology of Metric Spaces – S. Kumaresan</li>
+      <li>Metric Spaces – P. K. Jain, Khalil Ahmad</li>
+      <li>Real Analysis, Carothers – <span style="color: #1E90FF;">PDF</span></li>
+    </ul>
+    <p>Against the common notion, <span style="color: #00FF7F;">"Rudin, Bartle-Shebert, Apostol"</span> aren't of much use. Working with them is like admiring a masterpiece from a distance. To get closer and make your hands dirty, go out with books of average and amazing problems.</p>
+    <p>One would refer to the expository articles of <span style="color: #00FF7F;">Dr. S. Kumaresan</span>:</p>
+    <ul>
+      <li><a href="https://4dspace.mtts.org.in/expository-articles-list.php" target="_blank" style="color: #1E90FF;">MTTS Articles</a></li>
+      <li><a href="https://kumaresanbooks.php" target="_blank" style="color: #1E90FF;">Kumaresan Books</a></li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Algebra -->
+    <p style="color: cyan; font-weight: bold;">Algebra</p>
+    <ul>
+      <li>Contemporary Abstract Algebra – J.A Gallian</li>
+      <li>Abstract Algebra – Frank Ayres (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Abstract Algebra – Gregory T Lee (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Abstract Algebra – Khanna & Bhambri (<span style="color: #1E90FF;">PDF</span>)</li>
+    </ul>
+    <p>Same here — <span style="color: #00FF7F;">"Herstein, Dummit-Foote"</span> are masterpieces for Modern Algebra, but make your hands dirty with Frank Ayres. Alongside, one can make use of video lectures like <span style="color: #00FF7F;">Benedict Gross (YouTube)</span>.</p>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Linear Algebra -->
+    <p style="color: cyan; font-weight: bold;">Linear Algebra</p>
+    <ul>
+      <li>Linear Algebra Done Right – Sheldon Axler (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Linear Algebra – Lipson & Lipschutz – Schaum Problem Outlines</li>
+      <li>Linear Algebra, A Geometric Approach – S. Kumaresan (<span style="color: #1E90FF;">PDF</span>)</li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Complex Analysis -->
+    <p style="color: cyan; font-weight: bold;">Complex Analysis</p>
+    <ul>
+      <li>Complex Variables Demystified – McMahon (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Visual Complex Analysis – Needham (<a href="#" style="color: #1E90FF;">link</a>)</li>
+      <li>Complex Variables – HS Khasana (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Complex Variables – Spiegel & Lipschutz – Schaum Outlines</li>
+      <li>Intro to Complex Analysis – P. Duraipandian</li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Topology -->
+    <p style="color: cyan; font-weight: bold;">Topology</p>
+    <ul>
+      <li>Topology Without Tears – SA Morris (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Topology – J.R. Munkres</li>
+      <li>Full Notes on Topology – <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Notes on Topology: Prof. Veeramani (NPTEL) – <a href="#" style="color: #1E90FF;">link</a></li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- ODE & PDE -->
+    <p style="color: cyan; font-weight: bold;">ODE & PDE</p>
+    <ul>
+      <li>Differential Equations – Bronson – Schaum Outlines (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Differential Equations – M.D. Raisinghania</li>
+      <li>An Elementary Course on PDE – Amarnath (<span style="color: #1E90FF;">PDF</span>)</li>
+    </ul>
+    <p>To be honest, haven’t referred too many books for differential equations — hope this section gets updated in the future.</p>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Functional Analysis -->
+    <p style="color: cyan; font-weight: bold;">Functional Analysis</p>
+    <ul>
+      <li>Intro to Functional Analysis and Applications – Kriezig (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Functional Analysis – B.V. Limaye</li>
+    </ul>
+    <p>These two are the most common books in Functional — good ones but too long. After reading Functional, one could go through this article and book by <span style="color: #00FF7F;">Prof. S. Kumaresan</span>.</p>
+    <p>Highly suggested to refer to the articles and books of <span style="color: #00FF7F;">Dr. Kesavan, IMSc</span> on applying Functional Analysis to Sobolev Space (PDE) — <a href="#" style="color: #1E90FF;">link</a></p>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Measure Theory -->
+    <p style="color: cyan; font-weight: bold;">Measure Theory</p>
+    <ul>
+      <li>Measure and Integration – Inder K. Rana | Math4All Notes1 / Notes2</li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- P.S. -->
+    <p><strong>P.S:</strong> I highly appreciate this channel and works done for math aspirants: 
+      <a href="https://pkalika.in" target="_blank" style="color: #1E90FF;">pkalika.in</a> | Resource File
+    </p>
+    <ul>
+      <li><a href="#" style="color: #1E90FF;">Complete Grad Math Syllabus</a></li>
+      <li><a href="#" style="color: #1E90FF;">Notes for Competitive Exams</a></li>
+    </ul>
+  </div>
+</details>
