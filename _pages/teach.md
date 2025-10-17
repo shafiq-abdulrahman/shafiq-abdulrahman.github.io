@@ -64,3 +64,46 @@ body {
   </div>
 </div>
 
+
+## 🧑‍🏫 Teaching Experience
+
+---
+
+### **Undergraduate Teaching Assistant – University of Houston**
+**Course:** *Math 2413 (UH): Calculus I*  
+**Term:** Fall 2025  
+**Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
+
+- Assisted in delivering course material and conducting tutorial sessions to support student learning.  
+- Ensured fair and consistent evaluation of exams and assignments.  
+
+---
+
+### **Graduate Teaching Assistant – IIT Madras**
+**Course:** *MA5950 (IITM): Mathematical Finance*  
+**Term:** Fall 2024  
+**Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
+
+- Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
+- Supported exam grading and maintained consistency in evaluation standards.  
+
+---
+
+### **Mentor & Teaching Assistant – IIT Madras**
+**Program:** *Math Advancement Classes on Sundays (MAC-S)*  
+**Duration:** Nov 2023 – Dec 2024  
+**Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
+
+- Co-initiated a Sunday mathematics school at IIT Madras to prepare **40+ students** for national competitive exams such as **CSIR-NET, GATE, and NBHM**.  
+- **Courses Taught:** Linear Algebra, Group Theory, Functional Analysis, and Topology.  
+
+---
+
+### **Tutor – Saranya Academy of Mathematics**
+**Type:** Part-time  
+**Duration:** Nov 2023 – Jun 2024  
+
+- Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
+- **Courses Taught:** Linear Algebra.  
+
+---
