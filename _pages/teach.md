@@ -46,8 +46,10 @@ headings
 }
 </style>
 
+<h2 style="text-align: center; color: cyan; letter-spacing: 1px;">
+  <strong>Teaching Experience</strong>
+</h2>
 
-## 🧑‍🏫 Teaching Experience
 
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
