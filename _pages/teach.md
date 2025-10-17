@@ -46,30 +46,8 @@ headings
 }
 </style>
 
-<!-- <div class="project-section">
-  <div class="project-title">Course: Probability and Stochastic Processes</div>
-
-  <div class="project-description">
-    <ul>
-      <li>Delivered lectures on stochastic modeling and applications.</li>
-      <li>Designed weekly problem sheets and tutorials.</li>
-      <li>Integrated real-world financial data for student projects.</li>
-    </ul>
-    <p><strong>Aug 2024 – Dec 2024</strong></p>
-  </div>
-
-  <img src="/images/teach1.jpg" alt="Teaching Session" class="project-image">
-
-  <div class="project-links">
-    <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" target="_blank">View temporary Teaching Materials</a>
-  </div>
-</div> -->
-
-
 
 ## 🧑‍🏫 Teaching Experience
-
----
 
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
