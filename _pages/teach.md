@@ -70,6 +70,7 @@ body {
 ## 🧑‍🏫 Teaching Experience
 
 ---
+
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
 **Term:** Fall 2025  
@@ -109,17 +110,8 @@ body {
 
 ---
 
-
-<br><br>
-
-<h2 style="text-align: center; color: #FFD700; letter-spacing: 1px;">
+<h2 style="text-align: center; color: #47ec47ff; letter-spacing: 1px;">
   <strong>Math Materials</strong>
 </h2>
 
-
-<br><br>
-
-<h2 style="text-align: center; color: #1E90FF; border-bottom: 2px solid #1E90FF; display: inline-block; margin: 0 auto;">
-  Math Materials
-</h2>
-
+---
