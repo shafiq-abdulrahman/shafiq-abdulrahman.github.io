@@ -121,7 +121,6 @@ body {
   </summary>
 
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Course:</strong> Linear Algebra</p>
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 <a href="/pdfs/VectorSpaces.pdf" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
