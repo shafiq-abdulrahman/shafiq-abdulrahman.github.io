@@ -220,7 +220,7 @@ body {
     </ul>
     <hr style="border: 0.5px solid #444;">
     <!-- P.S. -->
-    <p><strong>P.S:</strong> I highly appreciate this channel and works done for math aspirants: 
+    <p><strong>P.S:</strong> I highly appreciate this channel because of the work done for math aspirants: 
       <a href="https://pkalika.in" target="_blank" style="color: #1E90FF;">pkalika.in</a> | Resource File
     </p>
     <ul>
