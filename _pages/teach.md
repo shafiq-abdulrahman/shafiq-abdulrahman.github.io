@@ -114,4 +114,23 @@ body {
   <strong>Math Materials</strong>
 </h2>
 
----
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+    ▸ Linear Algebra
+  </summary>
+
+  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
+    <p><strong>Course:</strong> Linear Algebra</p>
+    <p><strong>Syllabus:</strong></p>
+    <ul style="list-style-type: none; padding-left: 1rem;">
+      <li>📘 <a href="/pdfs/VectorSpaces.pdf" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
+      <li>📘 <a href="/pdfs/LinearIndependence.pdf" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
+      <li>📘 <a href="/pdfs/EigenValuesVectors.pdf" target="_blank" style="color: #1E90FF;">Eigenvalues and Eigenvectors</a></li>
+      <li>📘 <a href="/pdfs/LinearTransformations.pdf" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
+      <li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
+      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
+      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li>
+    </ul>
+  </div>
+</details>
