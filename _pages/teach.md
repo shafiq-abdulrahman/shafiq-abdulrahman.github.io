@@ -1,8 +1,8 @@
 ---
-layout: page
+layout: splash
 title: "Teaching"
 permalink: /teach/
-author_profile: true
+author_profile: false
 
 ---
 <style>
@@ -67,9 +67,7 @@ body {
 
 
 ## 🧑‍🏫 Teaching Experience
-
 ---
-
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
 **Term:** Fall 2025  
@@ -77,7 +75,6 @@ body {
 
 - Assisted in delivering course material and conducting tutorial sessions to support student learning.  
 - Ensured fair and consistent evaluation of exams and assignments.  
-
 ---
 
 ### <span style="color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
@@ -87,7 +84,6 @@ body {
 
 - Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
 - Supported exam grading and maintained consistency in evaluation standards.  
-
 ---
 
 ### <span style="color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
@@ -97,7 +93,6 @@ body {
 
 - Co-initiated a Sunday mathematics school at IIT Madras to prepare **40+ students** for national competitive exams such as **CSIR-NET, GATE, and NBHM**.  
 - **Courses Taught:** Linear Algebra, Group Theory, Functional Analysis, and Topology.  
-
 ---
 
 ### <span style="color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
@@ -106,5 +101,8 @@ body {
 
 - Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
 - **Courses Taught:** Linear Algebra.  
-
 ---
+
+
+
+
