@@ -12,16 +12,16 @@ body {
 }
 
 /* Page content box (keeps text centered and readable) */
-.page__content {
+/* .page__content {
   max-width: 900px;
   margin: 0 auto;
   padding: 2rem;
   background-color: #161b22;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-}
+} */
 
-/* headings */
+headings
 .page__content h1, 
 .page__content h2, 
 .page__content h3 {
