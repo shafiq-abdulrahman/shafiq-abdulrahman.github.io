@@ -65,7 +65,7 @@ body {
   </div>
 </div> -->
 
-<div style="font-size: 0.9rem; line-height: 1.4;">
+
 
 ## 🧑‍🏫 Teaching Experience
 ---
@@ -103,7 +103,6 @@ body {
 - Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
 - **Courses Taught:** Linear Algebra.  
 ---
-</div>
 
 
 
