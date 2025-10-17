@@ -2,7 +2,8 @@
 layout: page
 title: "Teaching"
 permalink: /teach/
-author_profile: false
+author_profile: true
+
 ---
 <style>
 body {
@@ -45,7 +46,7 @@ body {
 }
 </style>
 
-<div class="project-section">
+<!-- <div class="project-section">
   <div class="project-title">Course: Probability and Stochastic Processes</div>
 
   <div class="project-description">
@@ -62,14 +63,14 @@ body {
   <div class="project-links">
     <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" target="_blank">View temporary Teaching Materials</a>
   </div>
-</div>
+</div> -->
 
 
 ## 🧑‍🏫 Teaching Experience
 
 ---
 
-### **Undergraduate Teaching Assistant – University of Houston**
+### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
 **Term:** Fall 2025  
 **Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
@@ -79,7 +80,7 @@ body {
 
 ---
 
-### **Graduate Teaching Assistant – IIT Madras**
+### <span style="color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
 **Course:** *MA5950 (IITM): Mathematical Finance*  
 **Term:** Fall 2024  
 **Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
@@ -89,7 +90,7 @@ body {
 
 ---
 
-### **Mentor & Teaching Assistant – IIT Madras**
+### <span style="color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
 **Program:** *Math Advancement Classes on Sundays (MAC-S)*  
 **Duration:** Nov 2023 – Dec 2024  
 **Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
@@ -99,7 +100,7 @@ body {
 
 ---
 
-### **Tutor – Saranya Academy of Mathematics**
+### <span style="color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
 **Type:** Part-time  
 **Duration:** Nov 2023 – Jun 2024  
 
