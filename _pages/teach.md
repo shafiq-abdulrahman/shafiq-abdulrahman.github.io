@@ -252,3 +252,51 @@ headings
     </ul>
   </div>
 </details>
+
+
+
+<!-- Images -->
+<div class="carousel-container">
+  <div class="carousel-slide">
+    <img src="/images/math.png" alt="Slide 1">
+    <img src="/images/ca1.png" alt="Slide 2">
+    <img src="/images/ca2.png" alt="Slide 3">
+    <img src="/images/topo.png" alt="Slide 4">
+    <img src="/images/fa.png" alt="Slide 5">
+    <img src="/images/aiiiiii.gif" alt="Slide 6">
+  </div>
+</div>
+
+<style>
+.carousel-container {
+  width: 80%;
+  max-width: 700px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+.carousel-slide {
+  display: flex;
+  width: 400%;
+  animation: slide 20s infinite;
+}
+
+.carousel-slide img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@keyframes slide {
+  0%   { transform: translateX(0); }
+  20%  { transform: translateX(0); }
+  25%  { transform: translateX(-100%); }
+  45%  { transform: translateX(-100%); }
+  50%  { transform: translateX(-200%); }
+  70%  { transform: translateX(-200%); }
+  75%  { transform: translateX(-300%); }
+  95%  { transform: translateX(-300%); }
+  100% { transform: translateX(0); }
+}
+</style>
