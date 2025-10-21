@@ -255,106 +255,8 @@ headings
 
 
 
-<style>
-/* ==== Modern Carousel ==== */
-.carousel {
-  position: relative;
-  width: 100vw;
-  height: 90vh;
-  overflow: hidden;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  border-radius: 0;
-}
-
-/* Slide container */
-.carousel-track {
-  display: flex;
-  width: 600%;
-  height: 100%;
-  animation: slide 24s infinite;
-  transition: transform 1s ease-in-out;
-}
-
-/* Each slide */
-.carousel img {
-  width: 100vw;
-  height: 90vh;
-  object-fit: cover;
-  flex-shrink: 0;
-}
-
-/* Caption overlay */
-.carousel-caption {
-  position: absolute;
-  bottom: 60px;
-  left: 60px;
-  background: rgba(0, 0, 0, 0.55);
-  color: #fff;
-  padding: 1rem 1.5rem;
-  border-radius: 12px;
-  font-family: 'Segoe UI', sans-serif;
-  max-width: 40%;
-  backdrop-filter: blur(3px);
-}
-
-/* Optional title inside caption */
-.carousel-caption h2 {
-  margin: 0;
-  font-size: 1.6rem;
-  color: #1e90ff;
-}
-.carousel-caption p {
-  margin-top: 0.4rem;
-  font-size: 1rem;
-  color: #ddd;
-}
-
-/* Pause animation on hover */
-.carousel:hover .carousel-track {
-  animation-play-state: paused;
-}
-
-/* Dots for navigation */
-.carousel-dots {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: flex;
-  gap: 10px;
-}
-.carousel-dots span {
-  width: 12px;
-  height: 12px;
-  border-radius: 50%;
-  background: #777;
-  transition: background 0.3s;
-}
-.carousel:hover .carousel-dots span {
-  background: #1e90ff;
-}
-
-/* Keyframes for sliding animation */
-@keyframes slide {
-  0%   { transform: translateX(0%); }
-  16.6% { transform: translateX(0%); }
-  20%  { transform: translateX(-100vw); }
-  36.6% { transform: translateX(-100vw); }
-  40%  { transform: translateX(-200vw); }
-  56.6% { transform: translateX(-200vw); }
-  60%  { transform: translateX(-300vw); }
-  76.6% { transform: translateX(-300vw); }
-  80%  { transform: translateX(-400vw); }
-  96.6% { transform: translateX(-400vw); }
-  100% { transform: translateX(-500vw); }
-}
-</style>
-
-<div class="carousel">
-  <div class="carousel-track">
+<div class="carousel-container">
+  <div class="carousel-slide fade">
     <img src="/images/math.png" alt="Slide 1">
     <img src="/images/ca1.png" alt="Slide 2">
     <img src="/images/ca2.png" alt="Slide 3">
@@ -362,16 +264,53 @@ headings
     <img src="/images/fa.png" alt="Slide 5">
     <img src="/images/aiiiiii.gif" alt="Slide 6">
   </div>
-
-  <!-- Caption Example -->
-  <div class="carousel-caption">
-    <h2>Mathematical Landscapes</h2>
-    <p>Exploring the beauty of algebra, topology, and functional spaces — visualized through colors and patterns.</p>
-  </div>
-
-  <!-- Navigation dots -->
-  <div class="carousel-dots">
-    <span></span><span></span><span></span><span></span><span></span><span></span>
-  </div>
 </div>
 
+<style>
+.carousel-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 2rem auto;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0,0,0,0.5);
+  position: relative;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 400px;            /* Fixed height for uniformity */
+  object-fit: cover;        /* Crop edges, preserve proportions */
+  border-radius: 16px;
+  display: none;
+  animation: fade 2s ease-in-out;
+}
+
+.carousel-slide img.active {
+  display: block;
+}
+
+@keyframes fade {
+  from { opacity: 0.4; }
+  to { opacity: 1; }
+}
+
+/* Optional hover pause */
+.carousel-container:hover img {
+  animation-play-state: paused;
+}
+</style>
+
+<script>
+let index = 0;
+const slides = document.querySelectorAll(".carousel-slide img");
+
+function showSlides() {
+  slides.forEach(slide => slide.classList.remove("active"));
+  index = (index + 1) % slides.length;
+  slides[index].classList.add("active");
+}
+
+slides[0].classList.add("active");
+setInterval(showSlides, 5000);  // 5 seconds per image
+</script>
