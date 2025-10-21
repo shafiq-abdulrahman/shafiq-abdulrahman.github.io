@@ -256,52 +256,57 @@ headings
 
 
 <style>
-/* ===== Carousel Styling ===== */
-.carousel-container {
+/* ===== Full-Width Carousel ===== */
+.carousel-wrapper {
   position: relative;
-  width: 100%;
-  max-width: 100vw;
+  width: 100vw;
+  height: 90vh;
   overflow: hidden;
-  height: 80vh; /* adjust height (e.g. 70vh or 90vh) */
-  margin: 0 auto;
-  border-radius: 12px;
-  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  box-shadow: 0 0 30px rgba(0,0,0,0.6);
 }
 
 .carousel-slide {
   display: flex;
-  width: 600%; /* 6 images => 100% * 6 */
+  width: 600%; /* 6 slides */
+  height: 100%;
   animation: slide 24s infinite;
+  transition: transform 1s ease-in-out;
 }
 
 .carousel-slide img {
-  width: 100%;
-  height: 80vh;
+  width: 100vw;
+  height: 90vh;
   object-fit: cover;
+  flex-shrink: 0;
+  border-radius: 0;
 }
 
 /* Pause animation on hover */
-.carousel-container:hover .carousel-slide {
+.carousel-wrapper:hover .carousel-slide {
   animation-play-state: paused;
 }
 
-/* Keyframes for smooth sliding */
+/* Smooth sliding animation */
 @keyframes slide {
   0%   { transform: translateX(0%); }
   16.6% { transform: translateX(0%); }
-  20%  { transform: translateX(-100%); }
-  36.6% { transform: translateX(-100%); }
-  40%  { transform: translateX(-200%); }
-  56.6% { transform: translateX(-200%); }
-  60%  { transform: translateX(-300%); }
-  76.6% { transform: translateX(-300%); }
-  80%  { transform: translateX(-400%); }
-  96.6% { transform: translateX(-400%); }
-  100% { transform: translateX(-500%); }
+  20%  { transform: translateX(-100vw); }
+  36.6% { transform: translateX(-100vw); }
+  40%  { transform: translateX(-200vw); }
+  56.6% { transform: translateX(-200vw); }
+  60%  { transform: translateX(-300vw); }
+  76.6% { transform: translateX(-300vw); }
+  80%  { transform: translateX(-400vw); }
+  96.6% { transform: translateX(-400vw); }
+  100% { transform: translateX(-500vw); }
 }
 </style>
 
-<div class="carousel-container">
+<div class="carousel-wrapper">
   <div class="carousel-slide">
     <img src="/images/math.png" alt="Slide 1">
     <img src="/images/ca1.png" alt="Slide 2">
