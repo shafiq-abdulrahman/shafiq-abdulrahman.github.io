@@ -255,7 +255,52 @@ headings
 
 
 
-<!-- Images -->
+<style>
+/* ===== Carousel Styling ===== */
+.carousel-container {
+  position: relative;
+  width: 100%;
+  max-width: 100vw;
+  overflow: hidden;
+  height: 80vh; /* adjust height (e.g. 70vh or 90vh) */
+  margin: 0 auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,0.4);
+}
+
+.carousel-slide {
+  display: flex;
+  width: 600%; /* 6 images => 100% * 6 */
+  animation: slide 24s infinite;
+}
+
+.carousel-slide img {
+  width: 100%;
+  height: 80vh;
+  object-fit: cover;
+}
+
+/* Pause animation on hover */
+.carousel-container:hover .carousel-slide {
+  animation-play-state: paused;
+}
+
+/* Keyframes for smooth sliding */
+@keyframes slide {
+  0%   { transform: translateX(0%); }
+  16.6% { transform: translateX(0%); }
+  20%  { transform: translateX(-100%); }
+  36.6% { transform: translateX(-100%); }
+  40%  { transform: translateX(-200%); }
+  56.6% { transform: translateX(-200%); }
+  60%  { transform: translateX(-300%); }
+  76.6% { transform: translateX(-300%); }
+  80%  { transform: translateX(-400%); }
+  96.6% { transform: translateX(-400%); }
+  100% { transform: translateX(-500%); }
+}
+</style>
+
 <div class="carousel-container">
   <div class="carousel-slide">
     <img src="/images/math.png" alt="Slide 1">
@@ -267,36 +312,3 @@ headings
   </div>
 </div>
 
-<style>
-.carousel-container {
-  width: 80%;
-  max-width: 700px;
-  margin: 2rem auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 0 15px rgba(0,0,0,0.4);
-}
-
-.carousel-slide {
-  display: flex;
-  width: 400%;
-  animation: slide 20s infinite;
-}
-
-.carousel-slide img {
-  width: 100%;
-  border-radius: 10px;
-}
-
-@keyframes slide {
-  0%   { transform: translateX(0); }
-  20%  { transform: translateX(0); }
-  25%  { transform: translateX(-100%); }
-  45%  { transform: translateX(-100%); }
-  50%  { transform: translateX(-200%); }
-  70%  { transform: translateX(-200%); }
-  75%  { transform: translateX(-300%); }
-  95%  { transform: translateX(-300%); }
-  100% { transform: translateX(0); }
-}
-</style>
