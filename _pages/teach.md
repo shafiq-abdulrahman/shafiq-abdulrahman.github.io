@@ -263,7 +263,7 @@ headings
     <img src="/images/ca2.png" alt="Slide 3">
     <img src="/images/topo.png" alt="Slide 4">
     <img src="/images/fa.png" alt="Slide 5">
-    <img src="/images/aiiiiii.gif" alt="Slide 6">
+    <!-- <img src="/images/aiiiiii.gif" alt="Slide 6"> -->
   </div>
 </div>
 
