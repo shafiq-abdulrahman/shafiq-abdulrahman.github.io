@@ -256,8 +256,8 @@ headings
 
 
 <style>
-/* ===== Full-Width Carousel ===== */
-.carousel-wrapper {
+/* ==== Modern Carousel ==== */
+.carousel {
   position: relative;
   width: 100vw;
   height: 90vh;
@@ -266,31 +266,78 @@ headings
   right: 50%;
   margin-left: -50vw;
   margin-right: -50vw;
-  box-shadow: 0 0 30px rgba(0,0,0,0.6);
+  border-radius: 0;
 }
 
-.carousel-slide {
+/* Slide container */
+.carousel-track {
   display: flex;
-  width: 600%; /* 6 slides */
+  width: 600%;
   height: 100%;
   animation: slide 24s infinite;
   transition: transform 1s ease-in-out;
 }
 
-.carousel-slide img {
+/* Each slide */
+.carousel img {
   width: 100vw;
   height: 90vh;
   object-fit: cover;
   flex-shrink: 0;
-  border-radius: 0;
+}
+
+/* Caption overlay */
+.carousel-caption {
+  position: absolute;
+  bottom: 60px;
+  left: 60px;
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  padding: 1rem 1.5rem;
+  border-radius: 12px;
+  font-family: 'Segoe UI', sans-serif;
+  max-width: 40%;
+  backdrop-filter: blur(3px);
+}
+
+/* Optional title inside caption */
+.carousel-caption h2 {
+  margin: 0;
+  font-size: 1.6rem;
+  color: #1e90ff;
+}
+.carousel-caption p {
+  margin-top: 0.4rem;
+  font-size: 1rem;
+  color: #ddd;
 }
 
 /* Pause animation on hover */
-.carousel-wrapper:hover .carousel-slide {
+.carousel:hover .carousel-track {
   animation-play-state: paused;
 }
 
-/* Smooth sliding animation */
+/* Dots for navigation */
+.carousel-dots {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  display: flex;
+  gap: 10px;
+}
+.carousel-dots span {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: #777;
+  transition: background 0.3s;
+}
+.carousel:hover .carousel-dots span {
+  background: #1e90ff;
+}
+
+/* Keyframes for sliding animation */
 @keyframes slide {
   0%   { transform: translateX(0%); }
   16.6% { transform: translateX(0%); }
@@ -306,14 +353,25 @@ headings
 }
 </style>
 
-<div class="carousel-wrapper">
-  <div class="carousel-slide">
+<div class="carousel">
+  <div class="carousel-track">
     <img src="/images/math.png" alt="Slide 1">
     <img src="/images/ca1.png" alt="Slide 2">
     <img src="/images/ca2.png" alt="Slide 3">
     <img src="/images/topo.png" alt="Slide 4">
     <img src="/images/fa.png" alt="Slide 5">
     <img src="/images/aiiiiii.gif" alt="Slide 6">
+  </div>
+
+  <!-- Caption Example -->
+  <div class="carousel-caption">
+    <h2>Mathematical Landscapes</h2>
+    <p>Exploring the beauty of algebra, topology, and functional spaces — visualized through colors and patterns.</p>
+  </div>
+
+  <!-- Navigation dots -->
+  <div class="carousel-dots">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
   </div>
 </div>
 
