@@ -208,3 +208,47 @@ headings
     </ul>
   </div>
 </details>
+
+
+
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+    Data Science , AI & ML
+  </summary>
+
+  <div style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.7;">
+    <!-- Platforms -->
+    <p style="color: cyan; font-weight: bold;">Platforms to be familiar with</p>
+    <p>
+      <span style="color: #1E90FF;">Github</span> | 
+      <span style="color: #1E90FF;">Kaggle Notebooks</span> | 
+      <span style="color: #1E90FF;">Geeks for Geeks</span> | 
+      <span style="color: #1E90FF;">KDNuggets Blog</span> | 
+      <span style="color: #1E90FF;">GateOverflow</span>
+    </p>
+    <p>Articles and Newsletters from 
+      <a href="https://www.kdnuggets.com/" target="_blank" style="color: #1E90FF;">kdnuggets.com</a> 
+      are <span style="color: #00FF7F;">great resources</span> to stay updated in Data Science and AI.
+    </p>
+    <!-- Cheat Sheets -->
+    <ul>
+      <li>Cheat Sheet for Complete Data Science (including Statistics & Math) — <a href="#" style="color: #1E90FF;">PDF (Link)</a></li>
+      <li>Complete Cheat Sheet for ML — <a href="#" style="color: #1E90FF;">PDF (Link2)</a> <span style="color: #00FF7F;">(great!)</span></li>
+      <li>Excellent Materials for GATE DA — <a href="#" style="color: #1E90FF;">link</a></li>
+    </ul>
+    <!-- Articles -->
+    <ul>
+      <li><a href="#" style="color: #1E90FF;">Machine Learning for Beginners</a>: An excellent resource that breaks down machine learning concepts clearly.</li>
+      <li><a href="#" style="color: #1E90FF;">Supervised vs. Unsupervised Learning</a>: Key Differences explained with visuals.</li>
+      <li><a href="#" style="color: #1E90FF;">7 Machine Learning Algorithms Every Data Scientist Should Know</a></li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <!-- Course -->
+    <p style="color: cyan; font-weight: bold;">Course: Intro to Machine Learning / Data Science Materials</p>
+    <ul>
+      <li>Python Intro — Workshop using Google Colab</li>
+      <li>Visualize Neural Networks using <span style="color: #00FF7F;">TensorFlow Playground</span></li>
+    </ul>
+  </div>
+</details>
