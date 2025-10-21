@@ -255,6 +255,7 @@ headings
 
 
 
+
 <div class="carousel-container">
   <div class="carousel-slide fade">
     <img src="/images/math.png" alt="Slide 1">
@@ -267,35 +268,37 @@ headings
 </div>
 
 <style>
+/* === CONTAINER === */
 .carousel-container {
-  width: 90%;
-  max-width: 900px;
+  width: 95%;                      /* wider layout */
+  max-width: 1400px;               /* limit on large screens */
+  height: 480px;                   /* fixed elegant height */
   margin: 2rem auto;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 0 20px rgba(0,0,0,0.5);
   position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+  box-shadow: 0 0 25px rgba(0,0,0,0.6);
 }
 
+/* === IMAGES === */
 .carousel-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
   width: 100%;
-  height: 400px;            /* Fixed height for uniformity */
-  object-fit: cover;        /* Crop edges, preserve proportions */
-  border-radius: 16px;
-  display: none;
-  animation: fade 2s ease-in-out;
+  height: 100%;
+  object-fit: cover;               /* ensures proportional cropping */
+  opacity: 0;
+  transition: opacity 2.5s ease, transform 6s ease; /* smooth fade + slow pan */
+  border-radius: 20px;
 }
 
 .carousel-slide img.active {
-  display: block;
+  opacity: 1;
+  transform: scale(1.05);          /* subtle zoom effect for beauty */
 }
 
-@keyframes fade {
-  from { opacity: 0.4; }
-  to { opacity: 1; }
-}
-
-/* Optional hover pause */
+/* === OPTIONAL: Pause on Hover === */
 .carousel-container:hover img {
   animation-play-state: paused;
 }
@@ -311,6 +314,9 @@ function showSlides() {
   slides[index].classList.add("active");
 }
 
+// Initialize first slide
 slides[0].classList.add("active");
-setInterval(showSlides, 5000);  // 5 seconds per image
+
+// Change every 6 seconds
+setInterval(showSlides, 6000);
 </script>
