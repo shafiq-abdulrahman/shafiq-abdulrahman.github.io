@@ -248,7 +248,7 @@ body {
 
 <!-- GRID GALLERY (copy-paste) -->
 <div class="gallery-grid">
-  <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+  <img src="{{ '/images/math.png' | relative_url }}" alt="ca1">
   <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
   <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
   <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
