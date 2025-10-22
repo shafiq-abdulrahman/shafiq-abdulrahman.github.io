@@ -45,6 +45,45 @@ body {
   box-shadow: 0 0 10px rgba(255,255,255,0.1);
   max-width: 400px;
 }
+
+
+
+.carousel-container{
+  width: 100%;
+  max-width: 1400px;
+  height: 480px;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(255,255,255,0.15);
+  background: #161b22;  /* ensures visibility even if image is transparent */
+}
+/* Carousel images */
+.carousel-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.08) translateX(10px);
+  transition:
+    opacity 2.5s ease-in-out,
+    transform 6s ease-in-out;
+  filter: brightness(1.2) contrast(1.05);
+  border-radius: 16px;
+}
+/* Active image */
+.carousel-slide img.active {
+  opacity: 1;
+  transform: scale(1.02) translateX(0);
+}
+/* Optional pause on hover */
+.carousel-container:hover img {
+  transition-play-state: paused;
+}
 </style>
 
 <h2 style="text-align: center; color: cyan; letter-spacing: 1px;">
@@ -254,46 +293,7 @@ body {
   </div>
 </details>
 
-<style>
-/* === CAROUSEL STYLING === */
-.carousel-container{
-  width: 100%;
-  max-width: 1400px;
-  height: 480px;
-  margin: 2rem auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 16px;
-  box-shadow: 0 0 25px rgba(255,255,255,0.15);
-  background: #161b22;  /* ensures visibility even if image is transparent */
-}
 
-/* Carousel images */
-.carousel-slide img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transform: scale(1.08) translateX(10px);
-  transition:
-    opacity 2.5s ease-in-out,
-    transform 6s ease-in-out;
-  filter: brightness(1.2) contrast(1.05);
-  border-radius: 16px;
-}
-/* Active image */
-.carousel-slide img.active {
-  opacity: 1;
-  transform: scale(1.02) translateX(0);
-}
-/* Optional pause on hover */
-.carousel-container:hover img {
-  transition-play-state: paused;
-}
-</style>
 
 <!-- === CAROUSEL STRUCTURE === -->
 <div class="carousel-container">
@@ -316,6 +316,7 @@ document.addEventListener("DOMContentLoaded", function() {
     index = (index + 1) % slides.length;
     slides[index].classList.add("active");
   }
+
   slides[0].classList.add("active");
   setInterval(showSlides, 6000); // 6 seconds per image
 });
