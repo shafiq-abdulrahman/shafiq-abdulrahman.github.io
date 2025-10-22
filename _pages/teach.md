@@ -256,15 +256,18 @@ body {
   <img src="{{ '/images/as.gif' | relative_url }}" alt="fa">
 </div>
 
+
 <style>
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 16px;
-  width: 100%;
+  width: 95%;
   max-width: 1200px;
   margin: 1.5rem auto;
 }
+
+/* base image style */
 .gallery-grid img {
   width: 100%;
   height: 260px;
@@ -272,12 +275,24 @@ body {
   border-radius: 12px;
   box-shadow: 0 6px 18px rgba(0,0,0,0.45);
   display: block;
+  transition: transform 0.5s ease, box-shadow 0.4s ease;
+  cursor: pointer;
 }
+
+/* hover zoom + glow */
+.gallery-grid img:hover {
+  transform: scale(1.05);
+  box-shadow: 0 10px 25px rgba(255,255,255,0.25);
+  z-index: 2;
+}
+
+/* optional: for smaller screens */
 @media (max-width: 600px) {
-  .gallery-grid img { height: 180px; }
+  .gallery-grid img {
+    height: 180px;
+  }
 }
 </style>
-
 
 
 
