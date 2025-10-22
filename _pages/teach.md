@@ -298,7 +298,7 @@ body {
 <!-- === CAROUSEL STRUCTURE === -->
 <div class="carousel-container">
   <div class="carousel-slide fade">
-    <img src="/images/math.png" alt="Slide 1">
+    <!-- <img src="/images/math.png" alt="Slide 1"> -->
     <img src="/images/ca1.png" alt="Slide 2">
     <img src="/images/ca2.png" alt="Slide 3">
     <img src="/images/topo.png" alt="Slide 4">
