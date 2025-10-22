@@ -243,3 +243,108 @@ body {
 
 
 
+
+
+
+<!-- GRID GALLERY (copy-paste) -->
+<div class="gallery-grid">
+  <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+  <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
+  <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
+  <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
+</div>
+
+<style>
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 1.5rem auto;
+}
+.gallery-grid img {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  display: block;
+}
+@media (max-width: 600px) {
+  .gallery-grid img { height: 180px; }
+}
+</style>
+
+
+
+
+<!-- SLIDING CAROUSEL (translateX) -->
+<div class="simple-carousel">
+  <div class="track">
+    <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+    <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
+    <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
+    <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
+  </div>
+</div>
+
+<style>
+.simple-carousel {
+  width: 100%;
+  max-width: 1200px;
+  height: 420px;
+  margin: 1.5rem auto;
+  overflow: hidden;
+  border-radius: 14px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.45);
+  background: #121212; /* safe background for dark themes */
+}
+.simple-carousel .track {
+  display: flex;
+  width: 400%; /* will stretch automatically for n slides */
+  height: 100%;
+  transition: transform 1s ease;
+}
+.simple-carousel .track img {
+  width: 100%;
+  flex: 0 0 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.simple-carousel:hover .track {
+  transition-duration: 0.5s;
+}
+@media (max-width: 700px) {
+  .simple-carousel { height: 260px; }
+}
+</style>
+
+<script>
+document.addEventListener('DOMContentLoaded', function(){
+  const track = document.querySelector('.simple-carousel .track');
+  const slides = Array.from(track.children);
+  if (!slides.length) return;
+
+  let index = 0;
+  const n = slides.length;
+  const interval = 4000; // 4s per slide
+
+  // Resize track width if needed (flex handles it), ensure starting position:
+  function goTo(i) {
+    index = i % n;
+    track.style.transform = `translateX(-${index * 100}%)`;
+  }
+
+  // auto-cycle
+  let timer = setInterval(()=> goTo(index + 1), interval);
+
+  // pause on hover
+  const container = document.querySelector('.simple-carousel');
+  container.addEventListener('mouseenter', ()=> clearInterval(timer));
+  container.addEventListener('mouseleave', ()=> timer = setInterval(()=> goTo(index + 1), interval));
+
+  // init
+  goTo(0);
+});
+</script>
