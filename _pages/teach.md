@@ -248,7 +248,7 @@ body {
 
 <!-- GRID GALLERY (copy-paste) -->
 <div class="gallery-grid">
-  <img src="{{ '/images/math.png' | relative_url }}" alt="ca1">
+  <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
   <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
   <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
   <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
@@ -256,45 +256,28 @@ body {
   <img src="{{ '/images/as.gif' | relative_url }}" alt="fa">
 </div>
 
-
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* wider cards */
-  gap: 20px;
-  width: 96%;
-  max-width: 1400px;
-  margin: 2rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  width: 95%;
+  max-width: 1200px;
+  margin: 1.5rem auto;
 }
-
-/* base image style */
 .gallery-grid img {
   width: 100%;
-  height: 340px; /* taller for rectangular proportion */
+  height: 260px;
   object-fit: cover;
-  border-radius: 16px;
-  box-shadow: 0 6px 22px rgba(0,0,0,0.55);
+  border-radius: 12px;
+  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
   display: block;
-  transition: transform 0.6s ease, box-shadow 0.5s ease;
-  cursor: pointer;
 }
-
-/* hover zoom + subtle glow */
-.gallery-grid img:hover {
-  transform: scale(1.06);
-  box-shadow: 0 12px 30px rgba(255,255,255,0.2);
-  z-index: 2;
-}
-
-/* optional: smaller screens */
-@media (max-width: 800px) {
-  .gallery-grid {
-    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  }
-  .gallery-grid img {
-    height: 220px;
-  }
+@media (max-width: 600px) {
+  .gallery-grid img { height: 180px; }
 }
 </style>
+
+
 
 
