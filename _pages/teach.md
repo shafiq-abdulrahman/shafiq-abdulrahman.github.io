@@ -260,39 +260,41 @@ body {
 <style>
 .gallery-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  width: 95%;
-  max-width: 1200px;
-  margin: 1.5rem auto;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* wider cards */
+  gap: 20px;
+  width: 96%;
+  max-width: 1400px;
+  margin: 2rem auto;
 }
 
 /* base image style */
 .gallery-grid img {
   width: 100%;
-  height: 260px;
+  height: 340px; /* taller for rectangular proportion */
   object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
+  border-radius: 16px;
+  box-shadow: 0 6px 22px rgba(0,0,0,0.55);
   display: block;
-  transition: transform 0.5s ease, box-shadow 0.4s ease;
+  transition: transform 0.6s ease, box-shadow 0.5s ease;
   cursor: pointer;
 }
 
-/* hover zoom + glow */
+/* hover zoom + subtle glow */
 .gallery-grid img:hover {
-  transform: scale(1.05);
-  box-shadow: 0 10px 25px rgba(255,255,255,0.25);
+  transform: scale(1.06);
+  box-shadow: 0 12px 30px rgba(255,255,255,0.2);
   z-index: 2;
 }
 
-/* optional: for smaller screens */
-@media (max-width: 600px) {
+/* optional: smaller screens */
+@media (max-width: 800px) {
+  .gallery-grid {
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  }
   .gallery-grid img {
-    height: 180px;
+    height: 220px;
   }
 }
 </style>
-
 
 
