@@ -254,8 +254,6 @@ headings
 </details>
 
 
-
-
 <div class="carousel-container">
   <div class="carousel-slide fade">
     <img src="/images/math.png" alt="Slide 1">
@@ -263,21 +261,20 @@ headings
     <img src="/images/ca2.png" alt="Slide 3">
     <img src="/images/topo.png" alt="Slide 4">
     <img src="/images/fa.png" alt="Slide 5">
-    <!-- <img src="/images/aiiiiii.gif" alt="Slide 6"> -->
   </div>
 </div>
 
 <style>
 /* === CONTAINER === */
 .carousel-container {
-  width: 95%;                      /* wider layout */
-  max-width: 1400px;               /* limit on large screens */
-  height: 480px;                   /* fixed elegant height */
-  margin: 2rem auto;
+  width: 100vw;                     /* full browser width */
+  height: 520px;                    /* slightly taller for balance */
+  margin: 0 auto;
   position: relative;
   overflow: hidden;
-  border-radius: 20px;
-  box-shadow: 0 0 25px rgba(0,0,0,0.6);
+  border-radius: 0;                 /* full-width → no rounded corners */
+  box-shadow: 0 0 35px rgba(255,255,255,0.15);
+  background: rgba(255, 255, 255, 0.05);
 }
 
 /* === IMAGES === */
@@ -287,36 +284,41 @@ headings
   left: 0;
   width: 100%;
   height: 100%;
-  object-fit: cover;               /* ensures proportional cropping */
+  object-fit: cover;
   opacity: 0;
-  transition: opacity 2.5s ease, transform 6s ease; /* smooth fade + slow pan */
-  border-radius: 20px;
+  transform: scale(1.1) translateX(15px);  /* slight pan from right */
+  transition:
+    opacity 2.5s ease-in-out,
+    transform 6s ease-in-out;
+  filter: brightness(1.15);                /* visible on dark theme */
 }
 
 .carousel-slide img.active {
   opacity: 1;
-  transform: scale(1.05);          /* subtle zoom effect for beauty */
+  transform: scale(1.03) translateX(0);    /* gentle zoom-in & settle */
 }
 
 /* === OPTIONAL: Pause on Hover === */
 .carousel-container:hover img {
-  animation-play-state: paused;
+  transition-play-state: paused;
 }
 </style>
 
 <script>
-let index = 0;
-const slides = document.querySelectorAll(".carousel-slide img");
+document.addEventListener("DOMContentLoaded", function() {
+  const slides = document.querySelectorAll(".carousel-slide img");
+  let index = 0;
 
-function showSlides() {
-  slides.forEach(slide => slide.classList.remove("active"));
-  index = (index + 1) % slides.length;
-  slides[index].classList.add("active");
-}
+  function showSlides() {
+    slides.forEach(slide => slide.classList.remove("active"));
+    index = (index + 1) % slides.length;
+    slides[index].classList.add("active");
+  }
 
-// Initialize first slide
-slides[0].classList.add("active");
+  // Show first slide immediately
+  slides[0].classList.add("active");
 
-// Change every 6 seconds
-setInterval(showSlides, 6000);
+  // Change every 6 seconds (adjust speed here)
+  setInterval(showSlides, 6000);
+});
 </script>
