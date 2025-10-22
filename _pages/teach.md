@@ -19,9 +19,10 @@ body {
   background-color: #161b22;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0,0,0,0.4);
-} */
+} 
 
-headings
+
+
 .page__content h1, 
 .page__content h2, 
 .page__content h3 {
@@ -253,7 +254,48 @@ headings
   </div>
 </details>
 
+<style>
+/* === CAROUSEL STYLING === */
+.carousel-container{
+  width: 100%;
+  max-width: 1400px;
+  height: 480px;
+  margin: 2rem auto;
+  position: relative;
+  overflow: hidden;
+  border-radius: 16px;
+  box-shadow: 0 0 25px rgba(255,255,255,0.15);
+  background: #161b22;  /* ensures visibility even if image is transparent */
+}
 
+/* Carousel images */
+.carousel-slide img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0;
+  transform: scale(1.08) translateX(10px);
+  transition:
+    opacity 2.5s ease-in-out,
+    transform 6s ease-in-out;
+  filter: brightness(1.2) contrast(1.05);
+  border-radius: 16px;
+}
+/* Active image */
+.carousel-slide img.active {
+  opacity: 1;
+  transform: scale(1.02) translateX(0);
+}
+/* Optional pause on hover */
+.carousel-container:hover img {
+  transition-play-state: paused;
+}
+</style>
+
+<!-- === CAROUSEL STRUCTURE === -->
 <div class="carousel-container">
   <div class="carousel-slide fade">
     <img src="/images/math.png" alt="Slide 1">
@@ -263,46 +305,6 @@ headings
     <img src="/images/fa.png" alt="Slide 5">
   </div>
 </div>
-
-<style>
-/* === CONTAINER === */
-.carousel-container {
-  width: 100vw;                     /* full browser width */
-  height: 520px;                    /* slightly taller for balance */
-  margin: 0 auto;
-  position: relative;
-  overflow: hidden;
-  border-radius: 0;                 /* full-width → no rounded corners */
-  box-shadow: 0 0 35px rgba(255,255,255,0.15);
-  background: rgba(255, 255, 255, 0.05);
-}
-
-/* === IMAGES === */
-.carousel-slide img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  opacity: 0;
-  transform: scale(1.1) translateX(15px);  /* slight pan from right */
-  transition:
-    opacity 2.5s ease-in-out,
-    transform 6s ease-in-out;
-  filter: brightness(1.15);                /* visible on dark theme */
-}
-
-.carousel-slide img.active {
-  opacity: 1;
-  transform: scale(1.03) translateX(0);    /* gentle zoom-in & settle */
-}
-
-/* === OPTIONAL: Pause on Hover === */
-.carousel-container:hover img {
-  transition-play-state: paused;
-}
-</style>
 
 <script>
 document.addEventListener("DOMContentLoaded", function() {
@@ -314,11 +316,7 @@ document.addEventListener("DOMContentLoaded", function() {
     index = (index + 1) % slides.length;
     slides[index].classList.add("active");
   }
-
-  // Show first slide immediately
   slides[0].classList.add("active");
-
-  // Change every 6 seconds (adjust speed here)
-  setInterval(showSlides, 6000);
+  setInterval(showSlides, 6000); // 6 seconds per image
 });
 </script>
