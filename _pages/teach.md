@@ -314,7 +314,7 @@ body {
   justify-content: space-between;
   gap: 20px;
   margin: 2rem auto;
-  color: #e6edf3;
+  color: #000000ff;
 }
 
 .math-column {
@@ -382,7 +382,7 @@ body {
 
   <!-- === High School Column === -->
   <details class="math-column">
-    <summary>High School</summary>
+    <summary>High School >></summary>
     <ul>
       <li>Set theory</li>
       <li>Sequence & Series</li>
@@ -414,8 +414,8 @@ body {
 
   <!-- === Bachelors Column === -->
   <details class="math-column">
-    <summary>Bachelors</summary>
-    <h4 style="color:#f5c518;">Stage 1:</h4>
+    <summary>Undergrad>></summary>
+    <h4 style="color: #f5c518;">Stage 1:</h4>
     <ul>
       <li>Single Variable Calculus</li>
       <li>Classical Algebra</li>
@@ -425,7 +425,7 @@ body {
       <li>Intro to ODE & PDE</li>
     </ul>
     <hr>
-    <h4 style="color:#f5c518;">Stage 2:</h4>
+    <h4 style="color: #f5c518;">Stage 2:</h4>
     <ul>
       <li>Multivariate Calculus</li>
       <li>Fourier Series & Laplace Transform</li>
@@ -436,7 +436,7 @@ body {
       <li>Numerical Analysis</li>
     </ul>
     <hr>
-    <h4 style="color:#f5c518;">Stage 3:</h4>
+    <h4 style="color: #f5c518;">Stage 3:</h4>
     <ul>
       <li>Real Analysis</li>
       <li>Complex Variables</li>
@@ -448,8 +448,8 @@ body {
 
   <!-- === Masters Column === -->
   <details class="math-column">
-    <summary>Masters</summary>
-    <h4 style="color:#f5c518;">Level 1:</h4>
+    <summary>Grad>></summary>
+    <h4 style="color: #f5c518;">Level 1:</h4>
     <ul>
       <li>Real Analysis</li>
       <li>Advanced Linear Algebra</li>
@@ -459,7 +459,7 @@ body {
       <li>Numerical Analysis & Computing</li>
     </ul>
     <hr>
-    <h4 style="color:#f5c518;">Level 2:</h4>
+    <h4 style="color: #f5c518;">Level 2:</h4>
     <ul>
       <li>Partial Differential Equations</li>
       <li>Complex Analysis</li>
@@ -469,7 +469,7 @@ body {
       <li>Functional Analysis</li>
     </ul>
     <hr>
-    <p style="color:#58a6ff;">These areas open up research interests in major fields:</p>
+    <p style="color: #58a6ff;">These areas open up research interests in major fields:</p>
     <ul>
       <li><a href="#">Analysis & PDEs</a></li>
       <li><a href="#">Algebraic Structures</a></li>
