@@ -414,7 +414,7 @@ body {
 
   <!-- === Bachelors Column === -->
   <details class="math-column">
-    <summary>Undergrad</summary>
+    <summary>Undergraduate</summary>
     <h4 style="color: #f5c518;">Stage 1:</h4>
     <ul>
       <li>Single Variable Calculus</li>
@@ -448,7 +448,7 @@ body {
 
   <!-- === Masters Column === -->
   <details class="math-column">
-    <summary>Grad</summary>
+    <summary>Graduate</summary>
     <h4 style="color: #f5c518;">Level 1:</h4>
     <ul>
       <li>Real Analysis</li>
