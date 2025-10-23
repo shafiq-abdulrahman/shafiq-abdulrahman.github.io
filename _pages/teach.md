@@ -319,7 +319,7 @@ body {
 
 .math-column {
   flex: 1 1 30%;
-  background: #161b22;
+  background: #ffffffff;
   border: 1px solid #30363d;
   border-radius: 10px;
   padding: 1rem 1.4rem;
