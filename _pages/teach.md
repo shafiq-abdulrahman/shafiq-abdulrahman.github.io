@@ -339,7 +339,7 @@ body {
     </ul>
     <hr>
     <ul>
-      <li><strong>Trigonometry</strong></li>
+      <li>Trigonometry</li>
       <li>Coordinate Geometry</li>
       <li>Vector Algebra</li>
       <li>3D Geometry</li>
