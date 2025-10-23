@@ -330,7 +330,7 @@ body {
 .math-column summary {
   font-size: 1.2rem;
   font-weight: 700;
-  color: cyan;
+  color: #58a6ff;
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
