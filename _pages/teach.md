@@ -243,6 +243,61 @@ body {
 
 
 
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
+      Quantitative Finance 
+  </summary>
+
+  <div style="margin-top: 1rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
+
+  <h4 style="color:#1E90FF;">📚 Books for References</h4>
+  <ul>
+    <li>Stochastic calculus for finance (two volumes), Steven Shreve, C Mellon — 
+      <a href="http://efinance.org.cn/cn/FEshuo/stochastic.pdf" style="color:#87CEFA;">PDF</a></li>
+    <li>Monte Carlo Methods in Engineering, Glasserman, Columbia Business School — 
+      <a href="https://www/Monte_Carlo_Methods.pdf" style="color:#87CEFA;">PDF</a></li>
+    <li>Options, Futures and other derivatives by John Hull — <a href="#" style="color:#87CEFA;">link</a></li>
+    <li>Stochastic Differential Equations by Øksendal (not for beginners) — <a href="#" style="color:#87CEFA;">link</a></li>
+  </ul>
+
+  <h4 style="color:#1E90FF;">📰 Articles</h4>
+  <ul>
+    <li><a href="#" style="color:#32CD32;">Kaggle Notebook: Stochastic Process</a></li>
+    <li><a href="#" style="color:#32CD32;">Stamatics IITK — Finance and Stochastic Process Project</a></li>
+    <li><a href="#" style="color:#32CD32;">Financial Models / Gitcode</a></li>
+    <li><a href="#" style="color:#32CD32;">Quant Finance Cheat Sheet (PDF)</a></li>
+    <li><a href="#" style="color:#32CD32;">Math Finance Cheat Sheet (PDF)</a></li>
+    <li><a href="#" style="color:#32CD32;">Quant Finance Overview (must look)</a></li>
+  </ul>
+
+  <h4 style="color:#1E90FF;">💻 Softwares and Websites</h4>
+  <ul>
+    <li>TradingView, GoChart, Investopedia Simulator</li>
+    <li>Bonds: Fixed Income by Tipson</li>
+    <li>Futures and Options (FNO) — Grow, Zerodha (India)</li>
+  </ul>
+
+  <h4 style="color:#1E90FF;">📘 Beginners to Read</h4>
+  <ul>
+    <li><a href="#" style="color:#87CEFA;">What is Financial Mathematics? Courses, Books, and History</a></li>
+    <li><a href="#" style="color:#87CEFA;">Suggested Readings by Prof. A. Goswami (IISER Pune)</a></li>
+    <li><a href="#" style="color:#87CEFA;">First Step to Math Finance (Read This)</a></li>
+    <li><a href="#" style="color:#87CEFA;">Slides from Professors in India on Math Finance (FDP Link)</a></li>
+    <li><a href="#" style="color:#87CEFA;">NYC Masters in Finance — <strong>link</strong></a></li>
+    <li><a href="#" style="color:#87CEFA;">Career Guide: Certificate of Quantitative Finance (CQF)</a></li>
+  </ul>
+
+  <h4 style="color:#1E90FF;">🏛️ Finance Courses and Universities</h4>
+  <p><a href="#" style="color:#ADD8E6; text-decoration: underline;">LINK1</a></p>
+
+  <h4 style="color:#1E90FF;">📂 My Projects and Git Resources</h4>
+  <ul>
+    <li><strong>My complete content and project:</strong> <a href="#" style="color:#FFD700;">Git Gist</a></li>
+    <li><strong>Finance in ML (Git Repo):</strong> <em style="color:#32CD32;">Great Python Notebooks</em></li>
+  </ul>
+
+  </div>
+</details>
 
 
 
