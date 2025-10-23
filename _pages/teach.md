@@ -319,7 +319,7 @@ body {
 
 .math-column {
   flex: 1 1 30%;
-  background: #ffffffff;
+  background: #130101ff;
   border: 1px solid #30363d;
   border-radius: 10px;
   padding: 1rem 1.4rem;
@@ -382,7 +382,7 @@ body {
 
   <!-- === High School Column === -->
   <details class="math-column">
-    <summary>High School >></summary>
+    <summary>High School </summary>
     <ul>
       <li>Set theory</li>
       <li>Sequence & Series</li>
@@ -414,7 +414,7 @@ body {
 
   <!-- === Bachelors Column === -->
   <details class="math-column">
-    <summary>Undergrad>></summary>
+    <summary>Undergrad</summary>
     <h4 style="color: #f5c518;">Stage 1:</h4>
     <ul>
       <li>Single Variable Calculus</li>
@@ -448,7 +448,7 @@ body {
 
   <!-- === Masters Column === -->
   <details class="math-column">
-    <summary>Grad>></summary>
+    <summary>Grad</summary>
     <h4 style="color: #f5c518;">Level 1:</h4>
     <ul>
       <li>Real Analysis</li>
