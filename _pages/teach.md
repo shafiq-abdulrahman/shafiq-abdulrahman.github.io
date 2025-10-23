@@ -281,3 +281,173 @@ body {
 
 
 
+<style>
+/* === Overall Layout === */
+.math-columns {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 20px;
+  margin: 2rem auto;
+  color: #e6edf3;
+}
+
+.math-column {
+  flex: 1 1 30%;
+  background: #161b22;
+  border: 1px solid #30363d;
+  border-radius: 10px;
+  padding: 1rem 1.4rem;
+  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+}
+
+/* === Collapsible Header === */
+.math-column summary {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #f5c518;
+  cursor: pointer;
+  padding: 0.4rem 0;
+  border-bottom: 1px solid #30363d;
+}
+
+.math-column summary:hover {
+  color: #58a6ff;
+}
+
+/* === Inside Content === */
+.math-column ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+  line-height: 1.6;
+}
+
+.math-column li {
+  color: #c9d1d9;
+}
+
+.math-column li strong {
+  color: #58a6ff;
+}
+
+.math-column hr {
+  border: none;
+  border-top: 1px dashed #444;
+  margin: 0.8rem 0;
+}
+
+/* Links for research interests */
+.math-column a {
+  color: #79c0ff;
+  text-decoration: none;
+}
+.math-column a:hover {
+  color: #a5d6ff;
+}
+</style>
+
+<div class="math-columns">
+
+  <!-- === High School Column === -->
+  <details class="math-column" open>
+    <summary>High School</summary>
+    <ul>
+      <li>Set theory</li>
+      <li>Sequence & Series</li>
+      <li>Binomial theorem</li>
+      <li>Permutation & Combination</li>
+      <li>Matrices & Determinant</li>
+      <li>Complex Numbers</li>
+      <li>Quadratic Equations</li>
+    </ul>
+    <hr>
+    <ul>
+      <li><strong>Trigonometry</strong></li>
+      <li>Coordinate Geometry</li>
+      <li>Vector Algebra</li>
+      <li>3D Geometry</li>
+    </ul>
+    <hr>
+    <ul>
+      <li>Limits, Continuity & Derivatives</li>
+      <li>Differential Calculus</li>
+      <li>Integral Calculus</li>
+    </ul>
+    <hr>
+    <ul>
+      <li>Statistics & Probability</li>
+      <li>Mathematical Reasoning & Logic</li>
+    </ul>
+  </details>
+
+  <!-- === Bachelors Column === -->
+  <details class="math-column" open>
+    <summary>Bachelors</summary>
+    <h4 style="color:#f5c518;">Stage 1:</h4>
+    <ul>
+      <li>Single Variable Calculus</li>
+      <li>Classical Algebra</li>
+      <li>Analytical Geometry</li>
+      <li>Vector & Integral Calculus</li>
+      <li>Number Theory</li>
+      <li>Intro to ODE & PDE</li>
+    </ul>
+    <hr>
+    <h4 style="color:#f5c518;">Stage 2:</h4>
+    <ul>
+      <li>Multivariate Calculus</li>
+      <li>Fourier Series & Laplace Transform</li>
+      <li>Intro to Probability & Statistics</li>
+      <li>Mathematics for Physics</li>
+      <li>Mathematics for Computer Science</li>
+      <li>Operation Research</li>
+      <li>Numerical Analysis</li>
+    </ul>
+    <hr>
+    <h4 style="color:#f5c518;">Stage 3:</h4>
+    <ul>
+      <li>Real Analysis</li>
+      <li>Complex Variables</li>
+      <li>Linear Algebra & Applications</li>
+      <li>Abstract Algebraic Structures</li>
+      <li>Advanced Fourier & Laplace Transform</li>
+    </ul>
+  </details>
+
+  <!-- === Masters Column === -->
+  <details class="math-column" open>
+    <summary>Masters</summary>
+    <h4 style="color:#f5c518;">Level 1:</h4>
+    <ul>
+      <li>Real Analysis</li>
+      <li>Advanced Linear Algebra</li>
+      <li>Algebraic Structures</li>
+      <li>Ordinary Differential Equations</li>
+      <li>Discrete Mathematics</li>
+      <li>Numerical Analysis & Computing</li>
+    </ul>
+    <hr>
+    <h4 style="color:#f5c518;">Level 2:</h4>
+    <ul>
+      <li>Partial Differential Equations</li>
+      <li>Complex Analysis</li>
+      <li>Measure Theory</li>
+      <li>Topology</li>
+      <li>Probability Theory</li>
+      <li>Functional Analysis</li>
+    </ul>
+    <hr>
+    <p style="color:#58a6ff;">These areas open up research interests in major fields:</p>
+    <ul>
+      <li><a href="#">Analysis & PDEs</a></li>
+      <li><a href="#">Algebraic Structures</a></li>
+      <li><a href="#">Discrete Mathematics & Computation</a></li>
+      <li><a href="#">Geometry and Topology</a></li>
+      <li><a href="#">Physical Applied Mathematics</a></li>
+      <li><a href="#">Probability & Statistics</a></li>
+    </ul>
+  </details>
+
+</div>
+
+
