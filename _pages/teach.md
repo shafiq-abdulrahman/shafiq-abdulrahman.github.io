@@ -34,7 +34,7 @@ body {
 
 </style>
 
-<h2 style="text-align: center; color: cyan; letter-spacing: 1px;">
+<h2 style="text-align: center; color: cyan; letter-spacing: 0.5px;">
   <strong>Teaching Experience</strong>
 </h2>
 
@@ -78,7 +78,7 @@ body {
 
 ---
  <!-- #47ec47ff -->
-<h2 style="text-align: center; color: cyan; letter-spacing: 1px;">
+<h2 style="text-align: center; color: cyan; letter-spacing: 0.5px;">
   <strong>Math Materials</strong>
 </h2>
 
@@ -487,9 +487,11 @@ body {
 
 ---
 
+
+
 <details>
-  <summary style="font-size:1.2rem; font-weight:bold; color:#1E90FF; cursor:pointer;">
-    📸 Image Gallery 
+  <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
+    📸 <strong>Image Gallery </strong> 
   </summary>
 
   <div class="gallery-grid">
