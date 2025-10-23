@@ -309,10 +309,17 @@ body {
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
+  transition: color 0.3s ease;
 }
 
 .math-column summary:hover {
   color: #58a6ff;
+}
+
+/* Add a small arrow icon that rotates when opened */
+.math-column summary::marker {
+  color: #58a6ff;
+  font-size: 1.3em;
 }
 
 /* === Inside Content === */
@@ -349,7 +356,7 @@ body {
 <div class="math-columns">
 
   <!-- === High School Column === -->
-  <details class="math-column" open>
+  <details class="math-column">
     <summary>High School</summary>
     <ul>
       <li>Set theory</li>
@@ -381,7 +388,7 @@ body {
   </details>
 
   <!-- === Bachelors Column === -->
-  <details class="math-column" open>
+  <details class="math-column">
     <summary>Bachelors</summary>
     <h4 style="color:#f5c518;">Stage 1:</h4>
     <ul>
@@ -415,7 +422,7 @@ body {
   </details>
 
   <!-- === Masters Column === -->
-  <details class="math-column" open>
+  <details class="math-column">
     <summary>Masters</summary>
     <h4 style="color:#f5c518;">Level 1:</h4>
     <ul>
@@ -443,7 +450,8 @@ body {
       <li><a href="#">Algebraic Structures</a></li>
       <li><a href="#">Discrete Mathematics & Computation</a></li>
       <li><a href="#">Geometry and Topology</a></li>
-      <li><a href="#">Physical Applied Mathematics</a></li>
+      <li><a href="#">Scientific Computing & Numerical Analysis</a></li>
+      <li><a href="#">Applied Mathematics</a></li>
       <li><a href="#">Probability & Statistics</a></li>
     </ul>
   </details>
