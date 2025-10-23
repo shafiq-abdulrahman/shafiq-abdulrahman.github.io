@@ -77,8 +77,8 @@ body {
 - **Courses Taught:** Linear Algebra.  
 
 ---
-
-<h2 style="text-align: center; color: #47ec47ff; letter-spacing: 1px;">
+ <!-- #47ec47ff -->
+<h2 style="text-align: center; color: cyan; letter-spacing: 1px;">
   <strong>Math Materials</strong>
 </h2>
 
