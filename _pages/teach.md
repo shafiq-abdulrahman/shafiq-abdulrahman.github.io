@@ -432,35 +432,47 @@ body {
 
 ---
 
-<!-- GRID GALLERY (copy-paste) -->
-<div class="gallery-grid">
-  <img src="{{ '/images/math.png' | relative_url }}" alt="ca1">
-  <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
-  <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
-  <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
-  <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
-  <img src="{{ '/images/as.gif' | relative_url }}" alt="fa">
-</div>
+<details>
+  <summary style="font-size:1.2rem; font-weight:bold; color:#1E90FF; cursor:pointer;">
+    📸 Image Gallery 
+  </summary>
 
-<style>
-.gallery-grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-  gap: 16px;
-  width: 95%;
-  max-width: 1200px;
-  margin: 1.5rem auto;
-}
-.gallery-grid img {
-  width: 100%;
-  height: 260px;
-  object-fit: cover;
-  border-radius: 12px;
-  box-shadow: 0 6px 18px rgba(0,0,0,0.45);
-  display: block;
-}
-@media (max-width: 600px) {
-  .gallery-grid img { height: 180px; }
-}
-</style>
+  <div class="gallery-grid">
+    <img src="{{ '/images/math.png' | relative_url }}" alt="math">
+    <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+    <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
+    <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
+    <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
+    <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
+  </div>
+
+  <style>
+  .gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 18px;
+    width: 95%;
+    max-width: 1300px;
+    margin: 1.5rem auto;
+  }
+  .gallery-grid img {
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 14px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
+    display: block;
+    transition: transform 0.4s ease, box-shadow 0.4s ease;
+  }
+  .gallery-grid img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
+  }
+  @media (max-width: 600px) {
+    .gallery-grid img { height: 200px; }
+  }
+  </style>
+
+</details>
+
 ---
