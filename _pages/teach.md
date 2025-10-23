@@ -249,7 +249,7 @@ body {
 
 
 
-
+---
 
 <style>
 /* === Overall Layout === */
@@ -430,7 +430,7 @@ body {
 
 
 
-
+---
 
 <!-- GRID GALLERY (copy-paste) -->
 <div class="gallery-grid">
@@ -463,3 +463,4 @@ body {
   .gallery-grid img { height: 180px; }
 }
 </style>
+---
