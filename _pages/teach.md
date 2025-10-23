@@ -451,7 +451,7 @@ body {
       <li><a href="#">Discrete Mathematics & Computation</a></li>
       <li><a href="#">Geometry and Topology</a></li>
       <li><a href="#">Scientific Computing & Numerical Analysis</a></li>
-      <li><a href="#">Applied Mathematics</a></li>
+      <li><a href="#">Applied Mathematics in CS / Bio / Physics / Finance and many.</a></li>
       <li><a href="#">Probability & Statistics</a></li>
     </ul>
   </details>
