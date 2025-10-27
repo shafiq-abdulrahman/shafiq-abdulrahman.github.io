@@ -373,7 +373,8 @@ body {
         <a href="https://posit.cloud/" target="_blank" style="color:#1E90FF;"> R - Posit Cloud</a>  is much better than others .
       </li>
     </ul>
-
+  </div>
+</details>
 ---
 
 <style>
