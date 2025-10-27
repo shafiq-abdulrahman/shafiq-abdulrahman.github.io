@@ -319,9 +319,6 @@ body {
     <ul>
       <li><b>Elementary books</b>
         <ul>
-          <li>Pishro-Nik, "Introduction to probability, statistics, and random processes", available at 
-            <a href="https://www.probabilitycourse.com" target="_blank" style="color:#1E90FF;">probabilitycourse.com</a>
-          </li>
           <li>
             <a href="#" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
           </li>
