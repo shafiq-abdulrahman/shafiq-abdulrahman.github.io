@@ -300,14 +300,14 @@ body {
 </details>
 
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;" open>
-  <summary style="color: #00E5FF; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
-    Probability / Statistics / Stochastic Processes
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
+      Probability / Statistics / Stochastic Processes 
   </summary>
 
   <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
     <ul>
-      <li><b>Mathematical blog:</b> 
+      <li><b> <em style="color:#32CD32;">Mathematical blog:</em> </b> 
         <a href="https://almostsuremath.com/" target="_blank" style="color:#1E90FF;">almostsuremath.com</a> by George Lowther
       </li>
     </ul>
