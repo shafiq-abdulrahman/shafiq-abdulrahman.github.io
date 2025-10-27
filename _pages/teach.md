@@ -312,6 +312,11 @@ body {
       </li>
     </ul>
     <ul>
+      <li><b> <em style="color:#32CD32;">Complete Probability course </em> </b> 
+        <a href="https://www.probabilitycourse.com/" target="_blank" style="color:#1E90FF;">(link)</a> by Hossein Pishro-Nik
+      </li>
+    </ul>
+    <ul>
       <li><b>Elementary books</b>
         <ul>
           <li>Pishro-Nik, "Introduction to probability, statistics, and random processes", available at 
