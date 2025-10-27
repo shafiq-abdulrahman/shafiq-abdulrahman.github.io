@@ -300,6 +300,56 @@ body {
 </details>
 
 
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;" open>
+  <summary style="color: #00E5FF; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
+    Probability / Statistics / Stochastic Processes
+  </summary>
+
+  <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
+    <ul>
+      <li><b>Mathematical blog:</b> 
+        <a href="https://almostsuremath.com/" target="_blank" style="color:#1E90FF;">almostsuremath.com</a> by George Lowther
+      </li>
+    </ul>
+    <ul>
+      <li><b>Elementary books</b>
+        <ul>
+          <li>Pishro-Nik, "Introduction to probability, statistics, and random processes", available at 
+            <a href="https://www.probabilitycourse.com" target="_blank" style="color:#1E90FF;">probabilitycourse.com</a>
+          </li>
+          <li>
+            <a href="#" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
+          </li>
+          <li>
+            <a href="#" style="color:#1E90FF;">Introduction to Probability</a> by Bertsekas & Tsitsiklis
+          </li>
+          <li>
+            <a href="#" style="color:#1E90FF;">Stochastic Calculus</a> by Paulo Baldi
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <ul>
+      <li><b>Notes for Reference</b>
+        <ul>
+          <li><a href="#" style="color:#1E90FF;">Probability and Statistics - Cheat Sheet</a></li>
+          <li><a href="#" style="color:#1E90FF;">Statistics - Cheat Sheet</a></li>
+          <li>Excellent Lecture Notes:
+            <a href="#" style="color:#1E90FF;">Note 1</a> |
+            <a href="#" style="color:#1E90FF;">Note 2</a>
+          </li>
+        </ul>
+      </li>
+    </ul>
+    <hr style="border: 0.5px solid #444;">
+    <ul>
+      <li><a href="#" style="color:#1E90FF;">Ito's Integration - Link</a></li>
+      <li><a href="#" style="color:#1E90FF;">Random Walks - MIT Link</a></li>
+      <li><a href="#" style="color:#1E90FF;">Ito's Process / Linkedin - Report</a></li>
+      <li><a href="#" style="color:#1E90FF;">Stochastic Calculus for Finance - Syllabus</a></li>
+    </ul>
+  </div>
+</details>
 
 
 
