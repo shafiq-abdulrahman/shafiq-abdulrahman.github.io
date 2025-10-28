@@ -519,7 +519,7 @@ body {
     <hr>
     <h4 style="color: #f5c518;">Stage 3:</h4>
     <ul>
-      <li>Real Analysis</li>
+      <li><a href="https://rethinks.org/posts/cheatsheets/analysis_I.pdf">Real Analysis </a></li> 
       <li>Complex Variables</li>
       <li>Linear Algebra & Applications</li>
       <li>Abstract Algebraic Structures</li>
