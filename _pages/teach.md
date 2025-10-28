@@ -610,3 +610,28 @@ body {
 </details>
 
 ---
+<!-- Feedback Section -->
+<div style="display:flex; align-items:center; justify-content:center; gap:24px; flex-wrap:wrap; margin-top:1.5rem;">
+
+  <!-- QR Code -->
+  <div style="text-align:center;">
+    <a href="https://forms.gle/2q4vPF27ZaLEVfAL9" target="_blank">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://forms.gle/2q4vPF27ZaLEVfAL9&size=140x140" 
+           alt="Feedback QR Code" 
+           style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.25);">
+    </a>
+    <div style="font-size:0.8rem; color:#888; margin-top:6px;">Scan for Feedback</div>
+  </div>
+
+  <!-- Quote -->
+  <div style="max-width:320px; text-align:left; font-size:0.9rem; font-style:italic; color:#ccc;">
+    “Don’t pray for an easy life, pray for the strength to endure a difficult one.”  
+    <br>— <span style="font-weight:bold;">Bruce Lee</span>
+  </div>
+
+</div>
+
+
+
+
+
