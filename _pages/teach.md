@@ -380,7 +380,7 @@ body {
     </ul>
     <ul>
       <li><b> <em style="color:#32CD32;">Python + VS Code + GitHub </em> </b> 
-        <a href="https://colab.google/" target="_blank" style="color:#1E90FF;">Google Colab </a>  ( ( jupyter notebooks), VS Code online , Codespaces in Git.) .
+        <a href="https://colab.google/" target="_blank" style="color:#1E90FF;">Google Colab </a>  ( jupyter notebooks), VS Code online , Codespaces in Git.
       </li>
     </ul>
   </div>
