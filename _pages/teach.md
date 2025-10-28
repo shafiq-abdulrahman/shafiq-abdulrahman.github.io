@@ -619,7 +619,7 @@ body {
            alt="Feedback QR Code" 
            style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.25);">
     </a>
-    <div style="font-size:0.8rem; color:#888; margin-top:6px;">Scan for Feedback</div>
+    <div style="font-size:0.8rem; color:#888; margin-top:6px;">Scan/Click for  Feedback</div>
   </div>
 
   <!-- Quote -->
