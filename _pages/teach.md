@@ -37,8 +37,7 @@ body {
 <h2 style="text-align: center; color: cyan; letter-spacing: 0.5px;">
   <strong>Teaching Experience</strong>
 </h2>
-<small>"A teacher is never a giver of truth - he is a guide, a pointer to the truth that each student must find for himself."  
-— Bruce Lee</small>
+<small>"A teacher is never a giver of truth - he is a guide, a pointer to the truth that each student must find for himself."  — Bruce Lee</small>
 
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*  
