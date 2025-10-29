@@ -40,7 +40,7 @@ body {
 <small>"A teacher is never a giver of truth - he is a guide, a pointer to the truth that each student must find for himself."  — Bruce Lee</small>
 
 ### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
-**Course:** *Math 2413 (UH): Calculus I*   **Term:** Fall 2025   
+**Course:** *Math 2413 (UH): Calculus I*   ( Fall 2025 )
 **Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
 
 - Assisted in delivering course material and conducting tutorial sessions to support student learning.  
@@ -49,7 +49,7 @@ body {
 ---
 
 ### <span style="color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
-**Course:** *MA5950 (IITM): Mathematical Finance*   **Term:** Fall 2024  
+**Course:** *MA5950 (IITM): Mathematical Finance*   ( Fall 2024 )
 **Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
 
 - Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
@@ -58,7 +58,7 @@ body {
 ---
 
 ### <span style="color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
-**Program:** *Math Advancement Classes on Sundays (MAC-S)*   **Duration:** Nov 2023 – Dec 2024  
+**Program:** *Math Advancement Classes on Sundays (MAC-S)*  ( Nov 2023 – Dec 2024 ) 
 **Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
 
 - Co-initiated a Sunday mathematics school at IIT Madras to prepare **40+ students** for national competitive exams such as **CSIR-NET, GATE, and NBHM**.  
@@ -67,7 +67,7 @@ body {
 ---
 
 ### <span style="color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
-**Type:** Part-time   **Duration:** Nov 2023 – Jun 2024  
+**Type:** Part-time (Nov 2023 – Jun 2024  )
 - Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
 - **Courses Taught:** Linear Algebra.  
 
