@@ -9,10 +9,10 @@ redirect_from:
 ![Image Alt Text](/images/6.jpg)
 <!-- Comment this line -->
 
-
+---
 <!-- Typewriter animation -->
 <div id="typewriter-container" style="text-align:center; margin-top:40px;">
-  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color:#1E90FF;"></div>
+  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color: #1E90FF;"></div>
 </div>
 
 <style>
@@ -51,7 +51,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 500); // slight delay before starting
 });
 </script>
-
+---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
