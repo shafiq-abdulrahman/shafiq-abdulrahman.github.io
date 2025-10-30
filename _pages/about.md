@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(type, 50);
     }
   }
-// Set timeout  for speed 
+
   const container = document.getElementById("typewriter-container");
   container.style.opacity = 0;
   container.style.transition = "opacity 1.5s ease-in";
