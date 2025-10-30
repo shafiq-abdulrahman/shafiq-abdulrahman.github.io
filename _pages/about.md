@@ -11,7 +11,7 @@ redirect_from:
 
 
 <div id="typewriter-container" style="margin-top:40px;">
-  <div id="typewriter" style="font-size:1.1em; font-weight:500; color: cyan;"></div>
+  <div id="typewriter" style="font-size:1.0em; font-weight:500; color: #3487dbff;"></div>
 </div>
 
 <style>
@@ -28,7 +28,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hi, Welcome to my website! Thanks for stopping by — you can scroll down to see more 😄";
+  const text = "Hello and welcome — glad you’re here. Scroll down to know a bit more about me. 😄";
   const el = document.getElementById("typewriter");
   let i = 0;
 
