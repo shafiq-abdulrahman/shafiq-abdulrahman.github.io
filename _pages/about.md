@@ -16,7 +16,7 @@ redirect_from:
 
 <style>
 #typewriter::after {
-  content: '|';
+  content: '.';
   animation: blink 1.1 s infinite;
 }
 @keyframes blink {
