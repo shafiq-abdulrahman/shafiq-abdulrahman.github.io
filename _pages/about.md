@@ -11,7 +11,7 @@ redirect_from:
 
 
 <div id="typewriter-container" style="margin-top:40px;">
-  <div id="typewriter" style="font-size:0.9em; font-weight:500; color: #3487dbff;"></div>
+  <div id="typewriter" style="font-size:0.7em; font-weight:500; color: #3487dbff;"></div>
 </div>
 
 <style>
@@ -52,7 +52,6 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 {% endraw %}
 ---
-
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
