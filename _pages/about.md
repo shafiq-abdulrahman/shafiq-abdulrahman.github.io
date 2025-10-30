@@ -9,9 +9,56 @@ redirect_from:
 ![Image Alt Text](/images/6.jpg)
 <!-- Comment this line -->
 
+---
+<br><br>
 
-<div id="typewriter-container" style="margin-top:30px; text-align:left;">
-  <div id="typewriter" style="font-size:1.1em; color:#1E90FF; font-weight:500;"></div>
+<div id="typewriter-container" style="margin-top:40px;">
+  <div id="typewriter" style="font-size:1.5em; font-weight:500; color: cyan;"></div>
+</div>
+
+<style>
+#typewriter::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+</style>
+
+{% raw %}
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const text = "Hi, Welcome to my website! Thanks for stopping by — you can scroll down to see more 😄";
+  const el = document.getElementById("typewriter");
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      el.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 100);
+    }
+  }
+
+  const container = document.getElementById("typewriter-container");
+  container.style.opacity = 0;
+  container.style.transition = "opacity 1.5s ease-in";
+
+  setTimeout(() => {
+    container.style.opacity = 1;
+    type();
+  }, 500);
+});
+</script>
+{% endraw %}
+---
+
+<br><br>
+
+<div id="typewriter-container" style="margin-top:30px; ">
+  <div id="typewriter" style="font-size:1.1em; color: cyan; font-weight:500;"></div>
 </div>
 
 <style>
@@ -52,7 +99,9 @@ document.addEventListener("DOMContentLoaded", function() {
 </script>
 {% endraw %}
 
----
+
+
+
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
