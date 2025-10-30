@@ -8,6 +8,50 @@ redirect_from:
 ---
 ![Image Alt Text](/images/6.jpg)
 <!-- Comment this line -->
+
+
+<!-- Typewriter animation -->
+<div id="typewriter-container" style="text-align:center; margin-top:40px;">
+  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color:#1E90FF;"></div>
+</div>
+
+<style>
+#typewriter::after {
+  content: '|';
+  animation: blink 0.7s infinite;
+}
+@keyframes blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+  const text = "Hi, Welcome to my website!,Thanks for your time. You can scroll down to read more";
+  const el = document.getElementById("typewriter");
+  let i = 0;
+
+  function type() {
+    if (i < text.length) {
+      el.textContent += text.charAt(i);
+      i++;
+      setTimeout(type, 100); // typing speed
+    }
+  }
+
+  // Optional fade-in animation for smooth appearance
+  const container = document.getElementById("typewriter-container");
+  container.style.opacity = 0;
+  container.style.transition = "opacity 1.5s ease-in";
+
+  setTimeout(() => {
+    container.style.opacity = 1;
+    type();
+  }, 500); // slight delay before starting
+});
+</script>
+
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
