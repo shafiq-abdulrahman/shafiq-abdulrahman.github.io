@@ -28,7 +28,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hello and welcome! Scroll down to know a bit more about the person confidently posing on the left 😄 ..";
+  const text = "Hello and welcome! Scroll down to see a bit more about the person confidently posing on the left 😄 ..";
   const el = document.getElementById("typewriter");
   let i = 0;
 
@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", function() {
       setTimeout(type, 50);
     }
   }
-
+// Set timeout  for speed 
   const container = document.getElementById("typewriter-container");
   container.style.opacity = 0;
   container.style.transition = "opacity 1.5s ease-in";
