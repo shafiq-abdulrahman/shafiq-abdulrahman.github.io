@@ -11,7 +11,7 @@ redirect_from:
 
 
 <div id="typewriter-container" style="margin-top:40px;">
-  <div id="typewriter" style="font-size:1.0em; font-weight:500; color: #3487dbff;"></div>
+  <div id="typewriter" style="font-size:0.9em; font-weight:500; color: #3487dbff;"></div>
 </div>
 
 <style>
@@ -53,11 +53,10 @@ document.addEventListener("DOMContentLoaded", function() {
 {% endraw %}
 ---
 
-
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
 
-          
+      
 
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Research Interests</span>
 My research interests lie in the fields of [random dynamical systems](https://en.wikipedia.org/wiki/Random_dynamical_system), computational mathematics, inverse problems, and their applications to [mathematical finance](https://en.wikipedia.org/wiki/Mathematical_finance) and [computational biology](https://en.wikipedia.org/wiki/Computational_biology). I am now exploring projects in <span style="color: #5ea08cff ;">computational biology and bioinformatics.</span>  Prior to this, I focused on [Limit Order Book Modelling](https://www.5minutefinance.org/concepts/the-limit-order-book) applying stochastic processes and machine learning techniques in financial markets by combining agent‑based simulations, reinforcement learning, and time series models to capture market behavior.
