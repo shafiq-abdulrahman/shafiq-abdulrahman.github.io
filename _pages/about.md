@@ -10,9 +10,10 @@ redirect_from:
 <!-- Comment this line -->
 
 ---
-<!-- Typewriter animation -->
+<br><br>
+
 <div id="typewriter-container" style="text-align:center; margin-top:40px;">
-  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color: #1E90FF;"></div>
+  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color:#1E90FF;"></div>
 </div>
 
 <style>
@@ -26,9 +27,10 @@ redirect_from:
 }
 </style>
 
+{% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hi, Welcome to my website!,Thanks for your time. You can scroll down to read more";
+  const text = "Hi, Welcome to my website!";
   const el = document.getElementById("typewriter");
   let i = 0;
 
@@ -36,11 +38,10 @@ document.addEventListener("DOMContentLoaded", function() {
     if (i < text.length) {
       el.textContent += text.charAt(i);
       i++;
-      setTimeout(type, 100); // typing speed
+      setTimeout(type, 100);
     }
   }
 
-  // Optional fade-in animation for smooth appearance
   const container = document.getElementById("typewriter-container");
   container.style.opacity = 0;
   container.style.transition = "opacity 1.5s ease-in";
@@ -48,9 +49,10 @@ document.addEventListener("DOMContentLoaded", function() {
   setTimeout(() => {
     container.style.opacity = 1;
     type();
-  }, 500); // slight delay before starting
+  }, 500);
 });
 </script>
+{% endraw %}
 ---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
