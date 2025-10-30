@@ -9,16 +9,15 @@ redirect_from:
 ![Image Alt Text](/images/6.jpg)
 <!-- Comment this line -->
 
----
-<br><br>
 
-<div id="typewriter-container" style="text-align:center; margin-top:40px;">
-  <div id="typewriter" style="font-size:1.5em; font-weight:bold; color:#1E90FF;"></div>
+<div id="typewriter-container" style="margin-top:30px; text-align:left;">
+  <div id="typewriter" style="font-size:1.1em; color:#1E90FF; font-weight:500;"></div>
 </div>
 
 <style>
 #typewriter::after {
   content: '|';
+  color: #1E90FF;
   animation: blink 0.7s infinite;
 }
 @keyframes blink {
@@ -30,7 +29,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hi, Welcome to my website!";
+  const text = "Hi, Welcome to my website! Thanks for stopping by — you can scroll down to see more 😄";
   const el = document.getElementById("typewriter");
   let i = 0;
 
@@ -38,21 +37,21 @@ document.addEventListener("DOMContentLoaded", function() {
     if (i < text.length) {
       el.textContent += text.charAt(i);
       i++;
-      setTimeout(type, 100);
+      setTimeout(type, 70); // typing speed
+    } else {
+      // stop the blinking cursor after typing finishes
+      el.style.setProperty("--blink", "none");
+      const styleEl = document.createElement("style");
+      styleEl.innerHTML = "#typewriter::after { animation: none; }";
+      document.head.appendChild(styleEl);
     }
   }
 
-  const container = document.getElementById("typewriter-container");
-  container.style.opacity = 0;
-  container.style.transition = "opacity 1.5s ease-in";
-
-  setTimeout(() => {
-    container.style.opacity = 1;
-    type();
-  }, 500);
+  type();
 });
 </script>
 {% endraw %}
+
 ---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
