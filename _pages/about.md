@@ -197,8 +197,6 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 </div> -->
 
 
----
----
 <!-- ## Get in touch
 - Email: [arahmans@uh.edu](arahmans@uh.edu)
 - LinkedIn: [Abdul Rahman](https://www.linkedin.com/in/abdul-rahman-s/) -->
