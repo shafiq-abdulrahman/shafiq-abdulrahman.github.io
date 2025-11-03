@@ -37,7 +37,12 @@ body {
 <h2 style="text-align: center; color: cyan; letter-spacing: 0.4px;">
   <strong>Teaching Experience</strong>
 </h2>
-<small><h4 style = "color: #f3e95fff;">< A teacher is never a giver of truth - he is a guide, a pointer to the truth that each student must find for himself."  — Bruce Lee></small>
+<small>
+  <h4 style="color: #f3e95f;">
+    “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
+    — <em>Bruce Lee</em>
+  </h4>
+</small>
 
 ---
 
