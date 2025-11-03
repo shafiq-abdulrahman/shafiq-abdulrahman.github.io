@@ -426,7 +426,7 @@ body {
 
 /* Add a small arrow icon that rotates when opened */
 .math-column summary::marker {
-  color: #9cf057ff;
+  color: #6ae7a8ff;
   font-size: 1.3em;
 }
 
