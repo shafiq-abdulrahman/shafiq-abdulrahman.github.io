@@ -73,7 +73,7 @@ body {
 
 ---
  <!-- #47ec47ff -->
-<h2 style="text-align: center; color: cyan; letter-spacing: 0.5px;">
+<h2 style="text-align: center; color: cyan; letter-spacing: 0.4px;">
   <strong>Math Materials</strong>
 </h2>
 
@@ -406,7 +406,7 @@ body {
 .math-column summary {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #58a6ff;
+  color: #fadf46ff;
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
