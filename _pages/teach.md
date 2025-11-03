@@ -413,7 +413,7 @@ body {
 .math-column summary {
   font-size: 1.2rem;
   font-weight: 700;
-  color: #dbff58ff;
+  color: #fcef37ff;
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
@@ -426,7 +426,7 @@ body {
 
 /* Add a small arrow icon that rotates when opened */
 .math-column summary::marker {
-  color: #47ec47ff;
+  color: #9cf057ff;
   font-size: 1.3em;
 }
 
