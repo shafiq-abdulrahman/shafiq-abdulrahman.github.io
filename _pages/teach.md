@@ -571,19 +571,30 @@ body {
 ---
 
 
-
 <details>
   <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
     📸 <strong>Image Gallery </strong> 
   </summary>
 
   <div class="gallery-grid">
-    <img src="{{ '/images/math.png' | relative_url }}" alt="math">
-    <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
-    <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
-    <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
-    <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
-    <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
+    <a href="https://shafiq-abdulrahman.github.io/images/math.png" target="_blank">
+      <img src="{{ '/images/math.png' | relative_url }}" alt="math">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank">
+      <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/ca2.png" target="_blank">
+      <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/topo.png" target="_blank">
+      <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/fa.png" target="_blank">
+      <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/as.gif" target="_blank">
+      <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
+    </a>
   </div>
 
   <style>
@@ -594,6 +605,11 @@ body {
     width: 95%;
     max-width: 1300px;
     margin: 1.5rem auto;
+  }
+  .gallery-grid a {
+    display: block;
+    border-radius: 14px;
+    overflow: hidden;
   }
   .gallery-grid img {
     width: 100%;
@@ -612,8 +628,8 @@ body {
     .gallery-grid img { height: 200px; }
   }
   </style>
-
 </details>
+
 
 ---
 <!-- Feedback Section -->
