@@ -420,7 +420,7 @@ body {
 /* === Collapsible Header === */
 .math-column summary {
   font-family: 'Patrick Hand', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.42rem;
   font-weight: 700;
   color: #fcef37ff;
   cursor: pointer;
