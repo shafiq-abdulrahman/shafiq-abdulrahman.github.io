@@ -559,9 +559,9 @@ body {
       <li>Topology</li>
       <li>Probability Theory</li>
       <li>Functional Analysis</li>
-      <li><a href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view">Complete Syllabus link</a></li>
     </ul>
     <hr>
+    <h4 style="color: #f5c518;"><a href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view">Complete Syllabus link</a></h4>
     <p style="color: #58ff6eff;">These areas open up research interests in major fields:</p>
     <ul>
       <li><a href="#">Analysis & PDEs</a></li>
