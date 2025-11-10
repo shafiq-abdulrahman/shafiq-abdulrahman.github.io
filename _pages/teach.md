@@ -34,11 +34,22 @@ body {
 
 </style>
 
-<h2 style="text-align: center; color: cyan; letter-spacing: 0.4px;">
-  <strong>Teaching Experience</strong>
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+<h2 style="
+  font-family: 'Patrick Hand', sans-serif;
+  text-align: center;
+  color: cyan;
+  letter-spacing: 0.4px;font-size: 1.65rem;
+">
+  Teaching Experience
 </h2>
 
-<h4 style="color: #f3e95f; font-size: 0.7rem">
+
+<h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
   — <em>Bruce Lee</em>
 </h4>
@@ -46,7 +57,7 @@ body {
 
 
 
-### <span style="color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
+### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
 **Course:** *Math 2413 (UH): Calculus I*   ( Fall 2025 )
 **Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
 
@@ -55,7 +66,7 @@ body {
 
 ---
 
-### <span style="color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
+### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
 **Course:** *MA5950 (IITM): Mathematical Finance*   ( Fall 2024 )
 **Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
 
@@ -64,7 +75,7 @@ body {
 
 ---
 
-### <span style="color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
+### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
 **Program:** *Math Advancement Classes on Sundays (MAC-S)*  ( Nov 2023 – Dec 2024 ) 
 **Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
 
@@ -73,14 +84,14 @@ body {
 
 ---
 
-### <span style="color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
+### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
 **Type:** Part-time (Nov 2023 – Jun 2024  )
 - Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
 - **Courses Taught:** Linear Algebra.  
 
 ---
  <!-- #47ec47ff -->
-<h2 style="text-align: center; color: cyan; letter-spacing: 0.4px;">
+<h2 style="font-family: 'Patrick Hand', sans-serif;text-align: center; color: cyan; letter-spacing: 0.4px; font-size: 1.65rem;">
   <strong>Math Materials</strong>
 </h2>
 
@@ -646,7 +657,7 @@ body {
   </div>
 
   <!-- Quote -->
-  <div style="max-width:320px; text-align:left; font-size:0.9rem; font-style:italic; color:#ccc;">
+  <div style="font-family: 'Patrick Hand', sans-serif;max-width:320px; text-align:left; font-size:1.09rem; font-style:italic; color:#ccc;">
     “Don’t pray for an easy life, pray for the strength to endure a difficult one.”  
     <br>— <span style="font-weight:bold;">Bruce Lee</span>
   </div>
