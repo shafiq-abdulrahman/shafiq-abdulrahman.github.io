@@ -562,7 +562,7 @@ body {
       <li><a href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view">Complete Syllabus link</a></li>
     </ul>
     <hr>
-    <p style="color: #58a6ff;">These areas open up research interests in major fields:</p>
+    <p style="color: #58ff6eff;">These areas open up research interests in major fields:</p>
     <ul>
       <li><a href="#">Analysis & PDEs</a></li>
       <li><a href="#">Algebraic Structures</a></li>
