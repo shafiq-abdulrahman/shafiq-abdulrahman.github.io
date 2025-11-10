@@ -62,13 +62,15 @@ body {
 **Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
 - Assisted in delivering course material and conducting tutorial sessions to support student learning.  
 - Ensured fair and consistent evaluation of exams and assignments.  
+
 ---
 
 ### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
 **Course:** *MA5950 (IITM): Mathematical Finance*   ( Fall 2024 )
 **Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
 - Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
-- Supported exam grading and maintained consistency in evaluation standards.  
+- Supported exam grading and maintained consistency in evaluation standards. 
+ 
 ---
 
 ### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
