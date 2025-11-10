@@ -586,8 +586,8 @@ body {
   </summary>
 
   <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/math.png" target="_blank">
-      <img src="{{ '/images/math.png' | relative_url }}" alt="math">
+    <a href="https://shafiq-abdulrahman.github.io/images/libr.png" target="_blank">
+      <img src="{{ '/images/libr.png' | relative_url }}" alt="math">
     </a>
     <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank">
       <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
