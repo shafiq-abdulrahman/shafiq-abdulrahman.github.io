@@ -70,7 +70,7 @@ body {
 **Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
 - Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
 - Supported exam grading and maintained consistency in evaluation standards. 
- 
+
 ---
 
 ### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
@@ -419,6 +419,7 @@ body {
 
 /* === Collapsible Header === */
 .math-column summary {
+  font-family: 'Patrick Hand', sans-serif;
   font-size: 1.2rem;
   font-weight: 700;
   color: #fcef37ff;
