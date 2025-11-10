@@ -11,7 +11,7 @@ redirect_from:
 
 
 <div id="typewriter-container" style="margin-top:40px;">
-  <div id="typewriter" style="font-size:0.7em; font-weight:500; color: #3487dbff;"></div>
+  <div id="typewriter" style="font-family: 'Patrick Hand', sans-serif;font-size:0.7em; font-weight:500; color: #3487dbff;"></div>
 </div>
 
 <style>
