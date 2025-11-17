@@ -37,6 +37,7 @@ main:
     url: /new-project/
 
 
+
   # - title: "Projects"
   #   url: "https://sites.google.com/view/shafiq-abdulrahman-iitm/projects"
   #   external: true
@@ -56,8 +57,13 @@ main:
   - title: "Teaching"
     url: /teach/
 
+
+  - title: "My Files"
+    url: /files/
+
   - title: "Contact"
     url: /contact/
+
 
 
 
