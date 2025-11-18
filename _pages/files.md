@@ -56,43 +56,6 @@ body {
 
 
 
-<!-- 
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
-**Course:** *Math 2413 (UH): Calculus I*   ( Fall 2025 )
-**Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
-- Assisted in delivering course material and conducting tutorial sessions to support student learning.  
-- Ensured fair and consistent evaluation of exams and assignments.  
-
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
-**Course:** *MA5950 (IITM): Mathematical Finance*   ( Fall 2024 )
-**Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
-- Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
-- Supported exam grading and maintained consistency in evaluation standards. 
-
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
-**Program:** *Math Advancement Classes on Sundays (MAC-S)*  ( Nov 2023 – Dec 2024 ) 
-**Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
-- Co-initiated a Sunday mathematics school at IIT Madras to prepare **40+ students** for national competitive exams such as **CSIR-NET, GATE, and NBHM**.  
-- **Courses Taught:** Linear Algebra, Group Theory, Functional Analysis, and Topology.  
-
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
-**Type:** Part-time (Nov 2023 – Jun 2024  )
-- Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
-- **Courses Taught:** Linear Algebra.  
-
----
- <!-- #47ec47ff -->
-<h2 style="font-family: 'Patrick Hand', sans-serif;text-align: center; color: cyan; letter-spacing: 0.4px; font-size: 1.65rem;">
-  <strong>Math Materials</strong>
-</h2> -->
-
-
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
      Computaional Biology
@@ -102,9 +65,8 @@ body {
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
-      <li>📘 <a href="" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
       <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
-      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
+      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li>
        <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
       <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
       <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
