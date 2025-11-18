@@ -104,8 +104,8 @@ body {
       <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
       <li>📘 <a href="" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
       <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
-      <!-- <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
-      <li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
+      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
+       <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
       <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
       <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
     </ul>
