@@ -103,7 +103,7 @@ body {
     </a>
   </div> -->
 
-  <style>
+  <!-- <style>
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -134,7 +134,7 @@ body {
     .gallery-grid img { height: 200px; }
   }
   </style>
-</details>
+</details> -->
 
 
  <!-- Quote -->
