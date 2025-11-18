@@ -51,7 +51,6 @@ body {
 
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “Learn , Never stop updating...Become the best version of yourself ”  
-  — <em>Bruce Lee</em>
 </h4>
 
 
@@ -74,7 +73,7 @@ body {
   </div>
 </details>
 
---
+
 <!-- 
 
 <details>
@@ -138,11 +137,6 @@ body {
 
 
  <!-- Quote -->
-<div style="font-family: 'Patrick Hand', sans-serif;max-width:320px; text-align:left; font-size:1.09rem; font-style:italic; color:#ccc;">
-    “Don’t pray for an easy life, pray for the strength to endure a difficult one.”  
-    <br>— <span style="font-weight:bold;">Bruce Lee</span>
-</div>
-
 
 
 
