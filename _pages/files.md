@@ -74,9 +74,7 @@ body {
   </div>
 </details>
 
-
-
----
+--
 <!-- 
 
 <details>
@@ -139,13 +137,13 @@ body {
 </details>
 
 
-  <!-- Quote -->
-  <div style="font-family: 'Patrick Hand', sans-serif;max-width:320px; text-align:left; font-size:1.09rem; font-style:italic; color:#ccc;">
+ <!-- Quote -->
+<div style="font-family: 'Patrick Hand', sans-serif;max-width:320px; text-align:left; font-size:1.09rem; font-style:italic; color:#ccc;">
     “Don’t pray for an easy life, pray for the strength to endure a difficult one.”  
     <br>— <span style="font-weight:bold;">Bruce Lee</span>
-  </div>
-
 </div>
+
+
 
 
 
