@@ -28,7 +28,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hello and welcome! Scroll down to see a bit more about the person confidently posing on the left 😄 ..";
+  const text = "Hello and welcome! Scroll down to see a bit more about me ....";
   const el = document.getElementById("typewriter");
   let i = 0;
 
@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", function() {
     if (i < text.length) {
       el.textContent += text.charAt(i);
       i++;
-      setTimeout(type, 40);
+      setTimeout(type, 30);
     }
   }
 
