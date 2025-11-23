@@ -53,7 +53,7 @@ document.addEventListener("DOMContentLoaded", function() {
 {% endraw %}
 ---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
-Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US
+Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US.
 
       
 
