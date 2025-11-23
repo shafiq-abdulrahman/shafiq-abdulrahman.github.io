@@ -6,7 +6,7 @@ redirect_from:
   - /about/
   - /about.html
 ---
-![Image Alt Text](/images/6.jpg)
+![Image Alt Text](/images/77.png)
 <!-- Comment this line -->
 
 
