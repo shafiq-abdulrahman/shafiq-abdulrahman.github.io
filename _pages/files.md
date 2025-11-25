@@ -162,69 +162,6 @@ body {
 </details>
 
 
-<!-- 
-
-<details>
-  <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
-    📸 <strong>Image Gallery </strong> 
-  </summary>
-
-  <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/libr.png" target="_blank">
-      <img src="{{ '/images/libr.png' | relative_url }}" alt="math">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank">
-      <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca2.png" target="_blank">
-      <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/topo.png" target="_blank">
-      <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/fa.png" target="_blank">
-      <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/as.gif" target="_blank">
-      <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
-    </a>
-  </div> -->
-
-  <!-- <style>
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 18px;
-    width: 95%;
-    max-width: 1300px;
-    margin: 1.5rem auto;
-  }
-  .gallery-grid a {
-    display: block;
-    border-radius: 14px;
-    overflow: hidden;
-  }
-  .gallery-grid img {
-    width: 100%;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-    display: block;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-  }
-  .gallery-grid img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  }
-  @media (max-width: 600px) {
-    .gallery-grid img { height: 200px; }
-  }
-  </style>
-</details> -->
-
-
- <!-- Quote -->
 
 
 
