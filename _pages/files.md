@@ -121,7 +121,7 @@ body {
 
   <div class="gallery-grid">
     <a href="https://shafiq-abdulrahman.github.io/images/na1.png" target="_blank">
-      <img src="{{ '/images/na1.png' | relative_url }}" alt="math">
+      <img src="{{ '/images/naa.png' | relative_url }}" alt="math">
     </a>
     <a href="https://shafiq-abdulrahman.github.io/images/prob.png" target="_blank">
       <img src="{{ '/images/prob.png' | relative_url }}" alt="ca1">
