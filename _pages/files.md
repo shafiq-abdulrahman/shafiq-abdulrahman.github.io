@@ -120,11 +120,11 @@ body {
   </summary>
 
   <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/na1.png" target="_blank">
+    <a href="https://shafiq-abdulrahman.github.io/images/naa.png" target="_blank">
       <img src="{{ '/images/naa.png' | relative_url }}" alt="math">
     </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/prob.png" target="_blank">
-      <img src="{{ '/images/prob.png' | relative_url }}" alt="ca1">
+    <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank">
+      <img src="{{ '/images/probb.png' | relative_url }}" alt="ca1">
     </a>
   </div>
 
