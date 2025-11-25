@@ -123,8 +123,8 @@ body {
     <a href="https://shafiq-abdulrahman.github.io/images/na1.png" target="_blank">
       <img src="{{ '/images/na1.png' | relative_url }}" alt="math">
     </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/prob1.png" target="_blank">
-      <img src="{{ '/images/prob1.png' | relative_url }}" alt="ca1">
+    <a href="https://shafiq-abdulrahman.github.io/images/prob.png" target="_blank">
+      <img src="{{ '/images/prob.png' | relative_url }}" alt="ca1">
     </a>
   </div>
 
