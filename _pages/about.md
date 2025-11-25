@@ -66,10 +66,10 @@ My research interests lie in the fields of [random dynamical systems](https://en
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Overview</span>
 I’m professionally known as **Abdul Rahman** in all my official documents, but I go by my initials **“A.B.” (/eɪ biː/)**. I am a PhD student diving into the fascinating world of **Applied Mathematics**, with a strong foundation from my Master’s in Mathematics at the [Indian Institute of Technology Madras (IIT Madras)](https://en.wikipedia.org/wiki/IIT_Madras), where I studied from 2022 to 2024. My academic journey has been driven by a deep interest in **dynamical systems, stochastic analysis, compuational biology and mathematical finance**, fields that captivate me for their complexity, randomness, and real-world applications.  
 
-During my studies, I actively engaged in **projects, seminars, and research** that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
+During my studies, I actively engaged in projects, seminars, and research that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
 
-Beyond academics, I have a creative side, reveling in the visual arts through both painting and photography. I also enjoy fitness, cricket, chess, soccer, and thought-provoking movies, which help me maintain balance and perspective.  
-
+Beyond academics, I have a creative side, reveling in the visual arts through both painting and photography. 
+<span style="color: #5ea08cff ;">I also enjoy soccer, chess , fitness  and thought-provoking movies, which help me maintain balance and perspective.  </span> 
 I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
