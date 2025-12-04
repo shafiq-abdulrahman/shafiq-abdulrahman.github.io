@@ -494,7 +494,7 @@ body {
     <hr>
     <ul>
       <li><a href="https://sac.edu/AcademicProgs/ScienceMathHealth/MathCenter/Documents/calculus%20cheat%20sheet.pdf">Continuity & Derivatives </a></li> 
-      <li>Differential Calculus</li>
+      <li><a href="https://www.geeksforgeeks.org/maths/math-calculus/">Differential Calculus </a></li> <li></li>
       <li>Integral Calculus</li>
     </ul>
     <hr>
