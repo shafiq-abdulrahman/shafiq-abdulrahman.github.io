@@ -509,7 +509,7 @@ body {
     <summary>Undergraduate</summary>
     <h4 style="color: #f5c518;">Stage 1:</h4>
     <ul>
-      <li>Single Variable Calculus</li>
+      <li><a href="https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf">Single Variable Calculus </a></li> 
       <li>Classical Algebra</li>
       <li>Analytical Geometry</li>
       <li>Vector & Integral Calculus</li>
