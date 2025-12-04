@@ -493,7 +493,7 @@ body {
     </ul>
     <hr>
     <ul>
-      <li>Limits, Continuity & Derivatives</li>
+      <li><a href="https://sac.edu/AcademicProgs/ScienceMathHealth/MathCenter/Documents/calculus%20cheat%20sheet.pdf">Continuity & Derivatives </a></li> 
       <li>Differential Calculus</li>
       <li>Integral Calculus</li>
     </ul>
