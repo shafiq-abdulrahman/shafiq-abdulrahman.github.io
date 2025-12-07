@@ -521,7 +521,7 @@ body {
     <ul>
       <li>Multivariate Calculus</li>
       <li>Fourier Series & Laplace Transform</li>
-      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability theory </a></li>
+      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability and Statistics </a></li>
       <li>Mathematics for Physics</li>
       <li>Mathematics for Computer Science</li>
       <li>Operation Research</li>
@@ -571,13 +571,9 @@ body {
       <li><a href="#">Probability & Statistics</a></li>
     </ul>
   </details>
-
 </div>
 
-
-
 ---
-
 
 <details>
   <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
