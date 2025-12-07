@@ -521,7 +521,7 @@ body {
     <ul>
       <li>Multivariate Calculus</li>
       <li>Fourier Series & Laplace Transform</li>
-      <li>Intro to Probability & Statistics</li>
+      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability theory </a></li>
       <li>Mathematics for Physics</li>
       <li>Mathematics for Computer Science</li>
       <li>Operation Research</li>
@@ -557,10 +557,9 @@ body {
       <li>Complex Analysis</li>
       <li>Measure Theory</li>
       <li>Topology</li>
-      <li>Probability Theory</li>
+      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability theory </a></li>
       <li>Functional Analysis</li>
-    </ul>
-    <hr>
+    
     <h4 style="color: #f5c518;"><a href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view">Complete Syllabus link</a></h4>
     <p style="color: #58ff6eff;">These areas open up research interests in major fields:</p>
     <ul>
