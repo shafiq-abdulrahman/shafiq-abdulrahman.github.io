@@ -74,35 +74,61 @@ body {
 </details>
 
 
-<!-- 
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+     Probability 
+  </summary>
+
+  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
+    <p><strong>Syllabus:</strong></p>
+    <ul style="list-style-type: none; padding-left: 1rem;">
+      <!-- <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
+      <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
+      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li> -->
+       <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
+      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
+      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
+    </ul>
+  </div>
+</details>
+
+
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
+     Numerical Analysis
+  </summary>
+
+  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
+    <p><strong>Syllabus:</strong></p>
+    <ul style="list-style-type: none; padding-left: 1rem;">
+      <!-- <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
+      <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
+      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li> -->
+       <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
+      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
+      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
+    </ul>
+  </div>
+</details>
+
 
 <details>
   <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
-    📸 <strong>Image Gallery </strong> 
+    📸 <strong>Images (Cheat codes) </strong> 
   </summary>
 
   <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/libr.png" target="_blank">
-      <img src="{{ '/images/libr.png' | relative_url }}" alt="math">
+    <a href="https://shafiq-abdulrahman.github.io/images/naa.png" target="_blank">
+      <img src="{{ '/images/naa.png' | relative_url }}" alt="math">
     </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank">
-      <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
+    <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank">
+      <img src="{{ '/images/probb.png' | relative_url }}" alt="ca1">
     </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca2.png" target="_blank">
-      <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/topo.png" target="_blank">
-      <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/fa.png" target="_blank">
-      <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/as.gif" target="_blank">
-      <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
-    </a>
-  </div> -->
+  </div>
 
-  <!-- <style>
+  <style>
   .gallery-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
@@ -133,10 +159,9 @@ body {
     .gallery-grid img { height: 200px; }
   }
   </style>
-</details> -->
+</details>
 
 
- <!-- Quote -->
 
 
 
