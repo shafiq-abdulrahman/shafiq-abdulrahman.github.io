@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US.
 
-<span style="color: #ff831eff;">On My Desk Right Now : </span> Probability & Statistics | Numerical Analysis .  
+<span style="color: #ff831eff;">On My Desk Right Now : </span> Probability & Statistics | Numerical Analysis | Bayesian Statistics 
 
       
 
