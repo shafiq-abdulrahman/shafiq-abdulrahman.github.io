@@ -99,7 +99,7 @@ body {
   </summary>
 
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Syllabus:</strong></p>
+    <p><strong> <li>📘 <a href="https://drive.google.com/file/d/1UVpXSAKbW3JfzdJ9ei3qjzpIuV_dnJph/view?usp=drive_link" target="_blank" style="color: #28caa7ff;">Syllabus:</a></li></strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 <a href="https://drive.google.com/file/d/10iv6LhM5DSCCj0Z_JgXok6LUBxIx0HPj/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
       <li>📘 <a href="https://drive.google.com/file/d/14oWi_m2hGNlsqjmtaofgBRwe-n4hdyJ2/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
