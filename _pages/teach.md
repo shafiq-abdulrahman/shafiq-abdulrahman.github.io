@@ -101,10 +101,10 @@ body {
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
-      <li>📘 <a href="/pdfs/VectorSpaces.pdf" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
-      <li>📘 <a href="/pdfs/LinearIndependence.pdf" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
-      <li>📘 <a href="/pdfs/EigenValuesVectors.pdf" target="_blank" style="color: #1E90FF;">Eigenvalues and Eigenvectors</a></li>
-      <li>📘 <a href="/pdfs/LinearTransformations.pdf" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
+      <li>📘 <a href="https://drive.google.com/file/d/10iv6LhM5DSCCj0Z_JgXok6LUBxIx0HPj/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
+      <li>📘 <a href="https://drive.google.com/file/d/14oWi_m2hGNlsqjmtaofgBRwe-n4hdyJ2/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
+      <li>📘 <a href="https://drive.google.com/file/d/1PGF6YLt2r3eeBtGrDwCOCrrJ__FXU-W1/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Eigenvalues and Eigenvectors</a></li>
+      <li>📘 <a href="https://drive.google.com/file/d/1P2oLO-7jvner4p-05-zDQou_tPElEKdm/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
       <li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
       <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
       <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li>
