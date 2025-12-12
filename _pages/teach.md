@@ -40,7 +40,6 @@ body {
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
 <h2 style="
-  font-family: 'Patrick Hand', sans-serif;
   text-align: center;
   color: cyan;
   letter-spacing: 0.4px;font-size: 1.65rem;
