@@ -16,9 +16,7 @@ author_profile: false
 </h2>
 
 
-<div class="hero-image">
-  <img src="/images/new.png" alt="Hero image">
-</div>
+
 
 <style>
 /* Base page styling */
@@ -35,26 +33,30 @@ body {
 .page__content {
   padding-top: 0 !important;
   padding-bottom: 0 !important;
-  margin-top: 0 !important;
-  margin-bottom: 0 !important;
+  margin: 0 !important;
 }
 
-/* HERO IMAGE – tight & responsive */
-.hero-image {
-  width: 100%;
-  height: 50vh;        /* reduced further */
-  max-height: 700px;  /* tighter on laptops */
+/* WIDE BANNER IMAGE */
+.banner-image {
+  width: 100vw;
+  height: 32vh;        /* banner height */
+  max-height: 360px;  /* desktop cap */
+  min-height: 220px;  /* mobile safety */
   margin: 0 auto;
   overflow: hidden;
 }
 
-.hero-image img {
+.banner-image img {
   width: 100%;
-  height: 500%;
-  object-fit: contain;
+  height: 100%;
+  object-fit: cover;  /* perfect for banners */
   display: block;
 }
 </style>
+
+<div class="hero-image">
+  <img src="/images/new.png" alt="Hero image">
+</div>
 
 
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
