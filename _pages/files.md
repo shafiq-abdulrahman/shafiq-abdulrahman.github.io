@@ -30,27 +30,28 @@ body {
   overflow-x: hidden;
 }
 
-/* Links */
-.page__content a {
-  color: #58a6ff;
-}
-.page__content a:hover {
-  color: #79c0ff;
+/* Remove extra splash spacing */
+.page__hero,
+.page__content {
+  padding-top: 0 !important;
+  padding-bottom: 0 !important;
+  margin-top: 0 !important;
+  margin-bottom: 0 !important;
 }
 
-/* HERO IMAGE – responsive & safe */
+/* HERO IMAGE – tight & responsive */
 .hero-image {
   width: 100%;
-  height: 85vh;        /* fits all devices */
-  max-height: 850px;  /* prevents oversized on large screens */
+  height: 72vh;        /* reduced further */
+  max-height: 720px;  /* tighter on laptops */
   margin: 0 auto;
   overflow: hidden;
 }
 
 .hero-image img {
   width: 100%;
-  height: 70%;
-  object-fit: contain; /* no cropping, no overflow */
+  height: 100%;
+  object-fit: contain;
   display: block;
 }
 </style>
