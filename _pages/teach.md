@@ -48,11 +48,34 @@ body {
 </h2>
 
 
+
+
+<style>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1rem;
+}
+.tile {
+  border-radius: 12px;
+  padding: 1rem;
+  background: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.05);
+}
+</style>
+
+<div class="grid">
+  <div class="tile">
+    <h4>Calculus I (UH)</h4>
+    <p>Undergraduate TA · Fall 2025</p>
+    <p>Dr. Moses Sosa</p>
+  </div>
+</div>
+
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
   — <em>Bruce Lee</em>
 </h4>
-
 
 
 
