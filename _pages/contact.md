@@ -56,7 +56,7 @@ permalink: /contact/
     If I take a while, sorry in advance — but I promise I’ll get back to you! 😉
   </p>
 
-  <form class="contact-form" target="_blank" action="https://formsubmit.co/abdul.math@alumni.iitm.ac.in" method="POST">
+  <form class="contact-form" target="_blank" action="https://formsubmit.co/arahmans@cougarnet.uh.edu" method="POST">
     <input type="text" name="name" placeholder="Full Name" required>
     <input type="email" name="email" placeholder="Email Address" required>
     <textarea name="message" rows="8" placeholder="Your Message..." required></textarea>
