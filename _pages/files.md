@@ -42,15 +42,15 @@ body {
 /* HERO IMAGE – tight & responsive */
 .hero-image {
   width: 100%;
-  height: 72vh;        /* reduced further */
-  max-height: 720px;  /* tighter on laptops */
+  height: 50vh;        /* reduced further */
+  max-height: 700px;  /* tighter on laptops */
   margin: 0 auto;
   overflow: hidden;
 }
 
 .hero-image img {
   width: 100%;
-  height: 100%;
+  height: 500%;
   object-fit: contain;
   display: block;
 }
