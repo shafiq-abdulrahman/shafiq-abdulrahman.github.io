@@ -61,10 +61,10 @@ body {
 ">
   My files
 </h2>
----
+
 
 <div class="hero-image">
-  <img src="/images/new.png" alt="Hero image">
+  <img src="/images/neww.png" alt="Hero image">
 </div>
 
 
