@@ -132,7 +132,7 @@ body {
   </div>
 </details>
 
-
+---
 <details>
   <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
     📸 <strong>Images (Cheat codes) </strong> 
@@ -179,6 +179,7 @@ body {
   }
   </style>
 </details>
+---
 
 
 
