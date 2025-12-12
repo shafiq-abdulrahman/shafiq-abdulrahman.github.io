@@ -6,23 +6,29 @@ author_profile: false
 
 ---
 <style>
-.full-width-image {
+.hero-fullscreen {
+  position: relative;
   width: 100vw;
-  max-width: 100vw;
-  margin-left: calc(-50vw + 50%);
-  margin-right: calc(-50vw + 50%);
+  height: 100vh;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+  overflow: hidden;
 }
 
-.full-width-image img {
+.hero-fullscreen img {
   width: 100%;
-  height: auto;
+  height: 100%;
+  object-fit: cover;
   display: block;
 }
 </style>
 
-<div class="full-width-image">
-  <img src="/images/new.png" alt="Hero Image">
+<div class="hero-fullscreen">
+  <img src="/images/new.png" alt="Hero image">
 </div>
+
 
 <style>
 body {
