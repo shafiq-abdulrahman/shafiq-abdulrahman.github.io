@@ -5,6 +5,7 @@ permalink: /files/
 author_profile: false
 
 ---
+![Image Alt Text](/images/new.png)
 <style>
 body {
   background-color: #0d1117 !important;
