@@ -51,7 +51,7 @@ body {
 </h2>
 
 
-![Image Alt Text](/images/77.png)
+![Image Alt Text](/images/naa.png)
 
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “Learn , Never stop updating...Become the best version of yourself ”  
