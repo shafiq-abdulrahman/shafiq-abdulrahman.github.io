@@ -3,21 +3,18 @@ layout: splash
 title: "My Files"
 permalink: /files/
 author_profile: false
-
-header:
-  overlay_image: /images/new.png
-  overlay_filter: 0.25
-  show_overlay_excerpt: false
 ---
+
+
 
 
 <style>
 body {
   background-color: #0d1117 !important;
   color: #e6edf3 !important;
+  margin: 0;
+  padding: 0;
 }
-
-
 
 /* links */
 .page__content a {
@@ -27,21 +24,28 @@ body {
   color: #79c0ff;
 }
 
-/* images */
-.page__content img {
-  display: block;
-  margin: 1rem auto;
-  border-radius: 10px;
-  box-shadow: 0 0 10px rgba(255,255,255,0.1);
-  max-width: 400px;
+/* FULLSCREEN IMAGE */
+.fullscreen-image {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
 }
 
-
-
+.fullscreen-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;   /* fills screen on all devices */
+  display: block;
+}
 </style>
 
 
 
+<div class="fullscreen-image">
+  <img src="/images/new.png" alt="Full screen image">
+</div>
+
+</style>
 
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
@@ -53,9 +57,6 @@ body {
 ">
   My files
 </h2>
-
-
-![Image Alt Text](/images/naa.png)
 
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “Learn , Never stop updating...Become the best version of yourself ”  
