@@ -88,7 +88,7 @@ body {
 
 ---
  <!-- #47ec47ff -->
-<h2 style="font-family: 'Patrick Hand', sans-serif;text-align: center; color: cyan; letter-spacing: 0.4px; font-size: 1.65rem;">
+<h2 style="text-align: center; color: cyan; letter-spacing: 0.4px; font-size: 1.65rem;">
   <strong>Math Materials</strong>
 </h2>
 
