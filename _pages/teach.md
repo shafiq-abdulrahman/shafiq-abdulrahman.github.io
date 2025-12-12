@@ -410,7 +410,7 @@ body {
 
 .math-column {
   flex: 1 1 30%;
-  background: #130101ff;
+  background: #610a9fff;
   border: 1px solid #30363d;
   border-radius: 10px;
   padding: 1rem 1.4rem;
@@ -422,7 +422,7 @@ body {
   font-family: 'Patrick Hand', sans-serif;
   font-size: 1.42rem;
   font-weight: 700;
-  color: #fcef37ff;
+  color: #37f5ebff;
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
