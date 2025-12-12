@@ -4,6 +4,10 @@ title: "My Files"
 permalink: /files/
 author_profile: false
 
+header:
+  overlay_image: /images/new.png
+  overlay_filter: 0.25
+  show_overlay_excerpt: false
 ---
 
 
