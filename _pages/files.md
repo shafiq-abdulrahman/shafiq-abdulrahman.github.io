@@ -5,15 +5,6 @@ permalink: /files/
 author_profile: false
 ---
 
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
-<h2 style="
-  text-align: center;
-  color: cyan;
-  letter-spacing: 0.4px;font-size: 1.65rem;
-">
-  My files
-</h2>
 
 
 
@@ -40,7 +31,7 @@ body {
 .banner-image {
   width: 100vw;
   height: 32vh;        /* banner height */
-  max-height: 360px;  /* desktop cap */
+  max-height: 340px;  /* desktop cap */
   min-height: 220px;  /* mobile safety */
   margin: 0 auto;
   overflow: hidden;
@@ -53,6 +44,24 @@ body {
   display: block;
 }
 </style>
+
+
+
+
+
+
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+
+---
+<h2 style="
+  text-align: center;
+  color: cyan;
+  letter-spacing: 0.4px;font-size: 1.65rem;
+">
+  My files
+</h2>
+---
 
 <div class="hero-image">
   <img src="/images/new.png" alt="Hero image">
