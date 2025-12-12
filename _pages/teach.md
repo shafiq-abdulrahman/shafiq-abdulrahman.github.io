@@ -59,36 +59,20 @@ body {
 .tile {
   border-radius: 12px;
   padding: 1rem;
-  background: white;
+  background: black;
   box-shadow: 0 4px 10px rgba(0,0,0,0.05);  
 }
-.ta-card {
-  border-left: 4px solid #e63946;
-  padding: 1rem 1.2rem;
-  margin-bottom: 1.5rem;
-  background: #fafafa;
-  transition: transform 0.2s ease;
-}
-.ta-card:hover {
-  transform: translateX(6px);
-}
+
 </style>
 
 
-<div class="ta-card">
-  <h3>Graduate Teaching Assistant</h3>
-  <p class="meta">MA5950 · Mathematical Finance · IIT Madras · Fall 2024</p>
-  <ul>
-    <li>Conducted tutorials and assisted instruction</li>
-    <li>Ensured consistent evaluation standards</li>
-  </ul>
-</div>
 
 <div class="grid">
   <div class="tile">
     <h4>Calculus I (UH)</h4>
     <p>Undergraduate TA · Fall 2025</p>
     <p>Dr. Moses Sosa</p>
+    <p>Conducted tutorials and assisted instruction</p>
   </div>
 </div>
 
