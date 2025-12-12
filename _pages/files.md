@@ -5,6 +5,15 @@ permalink: /files/
 author_profile: false
 ---
 
+<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
+
+<h2 style="
+  text-align: center;
+  color: cyan;
+  letter-spacing: 0.4px;font-size: 1.65rem;
+">
+  My files
+</h2>
 
 
 <div class="hero-image">
@@ -46,16 +55,6 @@ body {
 }
 </style>
 
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
-<h2 style="
-  font-family: 'Patrick Hand', sans-serif;
-  text-align: center;
-  color: cyan;
-  letter-spacing: 0.4px;font-size: 1.65rem;
-">
-  My files
-</h2>
 
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “Learn , Never stop updating...Become the best version of yourself ”  
