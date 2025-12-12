@@ -7,16 +7,21 @@ author_profile: false
 
 
 
+<div class="hero-image">
+  <img src="/images/new.png" alt="Hero image">
+</div>
 
 <style>
+/* Base page styling */
 body {
   background-color: #0d1117 !important;
   color: #e6edf3 !important;
   margin: 0;
   padding: 0;
+  overflow-x: hidden;
 }
 
-/* links */
+/* Links */
 .page__content a {
   color: #58a6ff;
 }
@@ -24,26 +29,23 @@ body {
   color: #79c0ff;
 }
 
-/* FULLSCREEN IMAGE */
-.fullscreen-image {
-  width: 100vw;
-  height: 100vh;
+/* HERO IMAGE – responsive & safe */
+.hero-image {
+  width: 100%;
+  height: 85vh;        /* fits all devices */
+  max-height: 850px;  /* prevents oversized on large screens */
+  margin: 0 auto;
   overflow: hidden;
 }
 
-.fullscreen-image img {
+.hero-image img {
   width: 100%;
   height: 100%;
-  object-fit: cover;   /* fills screen on all devices */
+  object-fit: contain; /* no cropping, no overflow */
   display: block;
 }
 </style>
 
-
-
-<div class="fullscreen-image">
-  <img src="/images/new.png" alt="Full screen image">
-</div>
 
 </style>
 
