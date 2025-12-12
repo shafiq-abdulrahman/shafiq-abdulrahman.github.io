@@ -5,7 +5,25 @@ permalink: /files/
 author_profile: false
 
 ---
-![Image Alt Text](/images/new.png)
+<style>
+.full-width-image {
+  width: 100vw;
+  max-width: 100vw;
+  margin-left: calc(-50vw + 50%);
+  margin-right: calc(-50vw + 50%);
+}
+
+.full-width-image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+</style>
+
+<div class="full-width-image">
+  <img src="/images/new.png" alt="Hero Image">
+</div>
+
 <style>
 body {
   background-color: #0d1117 !important;
