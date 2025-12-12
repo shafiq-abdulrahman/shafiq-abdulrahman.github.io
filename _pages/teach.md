@@ -67,20 +67,83 @@ body {
 
 
 
-<div class="grid">
-  <div class="tile">
-    <h4>Calculus I (UH)</h4>
-    <p>Undergraduate TA · Fall 2025</p>
-    <p>Dr. Moses Sosa</p>
-    <p>Conducted tutorials and assisted instruction</p>
-  </div>
-</div>
-
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
   — <em>Bruce Lee</em>
 </h4>
 
+<style>
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 tiles per row */
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.tile {
+  border-radius: 12px;
+  padding: 1rem;
+  background: black;
+  color: white;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.tile:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.tile h4 {
+  margin: 0 0 0.4rem 0;
+  color: #e63946;
+}
+
+.tile p {
+  margin: 0.2rem 0;
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Mobile friendly */
+@media (max-width: 700px) {
+  .grid {
+    grid-template-columns: 1fr;
+  }
+}
+</style>
+
+<div class="grid">
+
+  <div class="tile">
+    <h4>Undergraduate Teaching Assistant</h4>
+    <p><strong>Math 2413 – Calculus I</strong></p>
+    <p>University of Houston · Fall 2025</p>
+    <p>Instructor: Dr. Moses Sosa</p>
+  </div>
+
+  <div class="tile">
+    <h4>Graduate Teaching Assistant</h4>
+    <p><strong>MA5950 – Mathematical Finance</strong></p>
+    <p>IIT Madras · Fall 2024</p>
+    <p>Instructor: Dr. Barun Sarkar</p>
+  </div>
+
+  <div class="tile">
+    <h4>Mentor & Teaching Assistant</h4>
+    <p><strong>MAC-S Program</strong></p>
+    <p>IIT Madras · Nov 2023 – Dec 2024</p>
+    <p>Courses: LA, GT, FA, Topology</p>
+  </div>
+
+  <div class="tile">
+    <h4>Tutor</h4>
+    <p><strong>Saranya Academy of Mathematics</strong></p>
+    <p>Nov 2023 – Jun 2024</p>
+    <p>Course: Linear Algebra</p>
+  </div>
+
+</div>
 
 
 ### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
