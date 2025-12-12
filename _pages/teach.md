@@ -49,24 +49,6 @@ body {
 
 
 
-
-<style>
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-  gap: 1rem;
-}
-.tile {
-  border-radius: 12px;
-  padding: 1rem;
-  background: black;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.05);  
-}
-
-</style>
-
-
-
 <h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
   “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
   — <em>Bruce Lee</em>
@@ -133,7 +115,7 @@ body {
     <h4>Mentor & Teaching Assistant</h4>
     <p><strong>MAC-S Program</strong></p>
     <p>IIT Madras · Nov 2023 – Dec 2024</p>
-    <p>Courses: LA, GT, FA, Topology</p>
+    <p>Courses: Linear Algebra,Functional Analysis, Topology</p>
   </div>
 
   <div class="tile">
@@ -146,34 +128,7 @@ body {
 </div>
 
 
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Undergraduate Teaching Assistant – University of Houston</strong></span>
-**Course:** *Math 2413 (UH): Calculus I*   ( Fall 2025 )
-**Instructor:** Dr. Moses Sosa, Instructional Faculty, University of Houston  
-- Assisted in delivering course material and conducting tutorial sessions to support student learning.  
-- Ensured fair and consistent evaluation of exams and assignments.  
 
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Graduate Teaching Assistant – IIT Madras</strong></span>
-**Course:** *MA5950 (IITM): Mathematical Finance*   ( Fall 2024 )
-**Instructor:** Dr. Barun Sarkar, Assistant Professor, IIT Madras  
-- Assisted in delivering course content and conducting tutorial sessions to reinforce classroom instruction.  
-- Supported exam grading and maintained consistency in evaluation standards. 
-
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Mentor & Teaching Assistant – IIT Madras</strong></span>
-**Program:** *Math Advancement Classes on Sundays (MAC-S)*  ( Nov 2023 – Dec 2024 ) 
-**Instructor:** Dr. Arunkumar, Assistant Professor, IIT Madras  
-- Co-initiated a Sunday mathematics school at IIT Madras to prepare **40+ students** for national competitive exams such as **CSIR-NET, GATE, and NBHM**.  
-- **Courses Taught:** Linear Algebra, Group Theory, Functional Analysis, and Topology.  
-
----
-
-### <span style="font-family: 'Patrick Hand', sans-serif;color:#e63946;"><strong>Tutor – Saranya Academy of Mathematics</strong></span>
-**Type:** Part-time (Nov 2023 – Jun 2024  )
-- Tutored mathematics aspirants across Southern India for **CSIR-NET, GATE, and NBHM** competitive exams.  
-- **Courses Taught:** Linear Algebra.  
 
 ---
  <!-- #47ec47ff -->
