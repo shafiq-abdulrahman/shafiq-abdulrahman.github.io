@@ -40,13 +40,10 @@ body {
 
 .hero-image img {
   width: 100%;
-  height: 100%;
+  height: 70%;
   object-fit: contain; /* no cropping, no overflow */
   display: block;
 }
-</style>
-
-
 </style>
 
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
