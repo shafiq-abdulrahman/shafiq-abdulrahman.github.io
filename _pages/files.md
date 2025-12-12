@@ -5,30 +5,7 @@ permalink: /files/
 author_profile: false
 
 ---
-<style>
-.hero-fullscreen {
-  position: relative;
-  width: 100vw;
-  height: 100vh;
-  left: 50%;
-  right: 50%;
-  margin-left: -50vw;
-  margin-right: -50vw;
-  overflow: hidden;
-}
-
-.hero-fullscreen img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  display: block;
-}
-</style>
-
-<div class="hero-fullscreen">
-  <img src="/images/new.png" alt="Hero image">
-</div>
-
+![Image Alt Text](/images/77.png)
 
 <style>
 body {
