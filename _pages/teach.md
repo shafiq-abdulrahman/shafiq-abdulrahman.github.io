@@ -445,10 +445,9 @@ body {
 
 /* === Collapsible Header === */
 .math-column summary {
-  font-family: 'Patrick Hand', sans-serif;
   font-size: 1.42rem;
   font-weight: 700;
-  color: #37f5ebff;
+  color: cyan;
   cursor: pointer;
   padding: 0.4rem 0;
   border-bottom: 1px solid #30363d;
@@ -461,7 +460,7 @@ body {
 
 /* Add a small arrow icon that rotates when opened */
 .math-column summary::marker {
-  color: #6ae7a8ff;
+  color: #a0e475ff;
   font-size: 1.3em;
 }
 
