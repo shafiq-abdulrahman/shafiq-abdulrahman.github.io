@@ -113,7 +113,7 @@ body {
 
   <div class="tile">
     <h4>Mentor & Teaching Assistant</h4>
-    <p><strong>MAC-S Program</strong></p>
+    <p><strong>Math Advancement Class on Sunday's(MAC‑S) Program</strong></p>
     <p>IIT Madras · Nov 2023 – Dec 2024</p>
     <p>Courses: Linear Algebra,Functional Analysis, Topology</p>
   </div>
