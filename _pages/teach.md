@@ -231,8 +231,8 @@ body {
       <li>Intro to Functional Analysis and Applications – Kriezig <a href="https://asoimatepn.wordpress.com/wp-content/uploads/2015/04/kreyszig-erwin-introductory-functional-analysis-with-aplications-university-of-windsor-wiley-classics-library-usa-1989.pdf" style="color: #1E90FF;">link</a></li>
       <li>Functional Analysis – B.V. Limaye</li>
     </ul>
-    <p>These two are the most common books in Functional — good ones but too long. After reading Functional, one could go through this article and book by <span style="color: #00FF7F;">Prof. S. Kumaresan</span>.</p>
-    <p>Highly suggested to refer to the articles and books of <span style="color: #00FF7F;">Dr. Kesavan, IMSc</span> on applying Functional Analysis to Sobolev Space (PDE) — <a href="#" style="color: #1E90FF;">link</a></p>
+    <p>These two are the most common books in Functional — good ones but too long. After reading Functional, one could go through this article and book by <span style="color: #00FF7F;">Prof. S. Kumaresan</span>.  <a href="https://4dspace.mtts.org.in/expository-article-download.php?ai=72" style="color: #1E90FF;">link</a></p>
+    <p>Highly suggested to refer to the articles and books of <span style="color: #00FF7F;">Dr. Kesavan, IMSc</span> on applying Functional Analysis to Sobolev Space (PDE) — <a href="https://www.imsc.res.in/~kesh/" style="color: #1E90FF;">link</a></p>
     <hr style="border: 0.5px solid #444;">
     <!-- Measure Theory -->
     <p style="color: cyan; font-weight: bold;">Measure Theory</p>
