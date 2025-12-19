@@ -341,12 +341,12 @@ body {
   </ul>
 
   <h4 style="color:#1E90FF;">🏛️ Finance Courses and Universities</h4>
-  <p><a href="#" style="color:#ADD8E6; text-decoration: underline;">LINK1</a></p>
+  <p><a href="https://homepages.math.uic.edu/~hanson/Finance/FinMathPgms.html" style="color:cyan; text-decoration: underline;">link</a></p>
 
-  <h4 style="color:#1E90FF;">📂 My Projects and Git Resources</h4>
+  <h4 style="color:#1E90FF;">📂 My Projects and Git Resources </h4>
   <ul>
-    <li><strong>My complete content and project:</strong> <a href="#" style="color:#FFD700;">Git Gist</a></li>
-    <li><strong>Finance in ML (Git Repo):</strong> <em style="color:#32CD32;">Great Python Notebooks</em></li>
+    <li><strong>My complete content and project:</strong> <a href="https://gist.github.com/shafiq-abdulrahman/01d0b490cb093fba700c857ede21b8a2" style="color:#FFD700;">Git Gist</a></li>
+    <li><strong>Finance in ML (Git Repo):</strong> <em style="color:#32CD32;">Great Python Notebooks</em>  <a href="https://github.com/Shafiq-Abdu/fin-ml.git" style="color:#FFD700;">Git Gist</a></li></li>
   </ul>
 
   </div>
