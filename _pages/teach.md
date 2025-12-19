@@ -245,8 +245,8 @@ body {
       <a href="https://pkalika.in" target="_blank" style="color: #1E90FF;">pkalika.in</a> | Resource File
     </p>
     <ul>
-      <li><a href="#" style="color: #1E90FF;">Complete Grad Math Syllabus</a></li>
-      <li><a href="#" style="color: #1E90FF;">Notes for Competitive Exams</a></li>
+      <li><a href="https://drive.google.com/file/d/1eqTjUU3Nfgwp2ypqoLgxfAl1fdUVksFP/view" style="color: #1E90FF;">Complete Grad Math Syllabus</a></li>
+      <li><a href="https://drive.google.com/file/d/1PZcR1yPWW0NFy0DsQR-JE5LJjD7J5aAK/view?usp=drive_link" style="color: #1E90FF;">Notes for Competitive Exams</a></li>
     </ul>
   </div>
 </details>
@@ -374,13 +374,13 @@ body {
       <li><b>Elementary books</b>
         <ul>
           <li>
-            <a href="#" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
+            <a href="https://library.lol/main/4D84764491CD2C519E40292818033E1C" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
           </li>
           <li>
-            <a href="#" style="color:#1E90FF;">Introduction to Probability</a> by Bertsekas & Tsitsiklis
+            <a href="https://www.vfu.bg/en/e-Learning/Math--Bertsekas_Tsitsiklis_Introduction_to_probability.pdf" style="color:#1E90FF;">Introduction to Probability</a> by Bertsekas & Tsitsiklis
           </li>
           <li>
-            <a href="#" style="color:#1E90FF;">Stochastic Calculus</a> by Paulo Baldi
+            <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" style="color:#1E90FF;">Stochastic Calculus</a> Teach materials
           </li>
         </ul>
       </li>
@@ -388,11 +388,11 @@ body {
     <ul>
       <li><b>Notes for Reference</b>
         <ul>
-          <li><a href="#" style="color:#1E90FF;">Probability and Statistics - Cheat Sheet</a></li>
-          <li><a href="#" style="color:#1E90FF;">Statistics - Cheat Sheet</a></li>
+          <li><a href="https://drive.google.com/file/d/1T_p2uNHotqsrsOya-kHS_eGQbqF0sOr1/view" style="color:#1E90FF;">Probability and Statistics - Cheat Sheet</a></li>
+          <li><a href="https://drive.google.com/file/d/10wZ7bXOXGXT1dcSE5MTbeGe0kNayerAb/view" style="color:#1E90FF;">Statistics - Cheat Sheet</a></li>
           <li>Excellent Lecture Notes:
-            <a href="#" style="color:#1E90FF;">Note 1</a> |
-            <a href="#" style="color:#1E90FF;">Note 2</a>
+            <a href="https://www.math.nagoya-u.ac.jp/~richard/teaching/f2023/Stochastic.pdf" style="color:#1E90FF;">Note 1</a> |
+            <a href="https://djalil.chafai.net/docs/M2/m2-stochastic-calculus-course-2020-2021.pdf" style="color:#1E90FF;">Note 2</a>
           </li>
         </ul>
       </li>
