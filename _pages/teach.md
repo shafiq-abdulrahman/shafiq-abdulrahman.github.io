@@ -192,7 +192,7 @@ body {
     <!-- Linear Algebra -->
     <p style="color: cyan; font-weight: bold;">Linear Algebra</p>
     <ul>
-      <li>Linear Algebra Done Right – Sheldon Axler <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Linear Algebra Done Right – Sheldon Axler <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-41026-0.pdf" style="color: #1E90FF;">link</a></li>
       <li>Linear Algebra – Lipson & Lipschutz – Schaum Problem Outlines</li>
       <li>Linear Algebra, A Geometric Approach – S. Kumaresan <a href="#" style="color: #1E90FF;">link</a></li>
     </ul>
@@ -200,9 +200,9 @@ body {
     <!-- Complex Analysis -->
     <p style="color: cyan; font-weight: bold;">Complex Analysis</p>
     <ul>
-      <li>Complex Variables Demystified – McMahon <a href="#" style="color: #1E90FF;">link</a></li>
-      <li>Visual Complex Analysis – Needham (<a href="#" style="color: #1E90FF;">link</a>)</li>
-      <li>Complex Variables – HS Khasana <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Complex Variables Demystified – McMahon <a href="https://www.aldebaran.cz/studium/vnp/docs/2018/ComplexVariablesDemystified.pdf" style="color: #1E90FF;">link</a></li>
+      <li>Visual Complex Analysis – Needham (<a href="https://umv.science.upjs.sk/hutnik/NeedhamVCA.pdf" style="color: #1E90FF;">link</a>)</li>
+      <li>Complex Variables – HS Khasana <a href="https://www.anandinstitute.org/pdf/complex%20H%20S%20kasana.pdf" style="color: #1E90FF;">link</a></li>
       <li>Complex Variables – Spiegel & Lipschutz – Schaum Outlines</li>
       <li>Intro to Complex Analysis – P. Duraipandian</li>
     </ul>
@@ -210,16 +210,16 @@ body {
     <!-- Topology -->
     <p style="color: cyan; font-weight: bold;">Topology</p>
     <ul>
-      <li>Topology Without Tears – SA Morris <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Topology Without Tears – SA Morris <a href="https://www.topologywithouttears.net/topbook.pdf" style="color: #1E90FF;">link</a></li>
       <li>Topology – J.R. Munkres</li>
-      <li>Full Notes on Topology – <a href="#" style="color: #1E90FF;">link</a></li>
-      <li>Notes on Topology: Prof. Veeramani (NPTEL) – <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Full Notes on Topology – <a href="https://faculty.etsu.edu/gardnerr/5350/notes.htm" style="color: #1E90FF;">link</a></li>
+      <li>Notes on Topology: Prof. Veeramani (NPTEL) – <a href="https://nptel.ac.in/courses/111106054" style="color: #1E90FF;">link</a></li>
     </ul>
     <hr style="border: 0.5px solid #444;">
     <!-- ODE & PDE -->
     <p style="color: cyan; font-weight: bold;">ODE & PDE</p>
     <ul>
-      <li>Differential Equations – Bronson – Schaum Outlines (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Differential Equations – Bronson – Schaum Outlines <a href="https://math24.wordpress.com/wp-content/uploads/2016/04/shuam-ode-book.pdf" style="color: #1E90FF;">link</a></li>
       <li>Differential Equations – M.D. Raisinghania</li>
       <li>An Elementary Course on PDE – Amarnath (<span style="color: #1E90FF;">PDF</span>)</li>
     </ul>
@@ -228,7 +228,7 @@ body {
     <!-- Functional Analysis -->
     <p style="color: cyan; font-weight: bold;">Functional Analysis</p>
     <ul>
-      <li>Intro to Functional Analysis and Applications – Kriezig (<span style="color: #1E90FF;">PDF</span>)</li>
+      <li>Intro to Functional Analysis and Applications – Kriezig <a href="https://asoimatepn.wordpress.com/wp-content/uploads/2015/04/kreyszig-erwin-introductory-functional-analysis-with-aplications-university-of-windsor-wiley-classics-library-usa-1989.pdf" style="color: #1E90FF;">link</a></li>
       <li>Functional Analysis – B.V. Limaye</li>
     </ul>
     <p>These two are the most common books in Functional — good ones but too long. After reading Functional, one could go through this article and book by <span style="color: #00FF7F;">Prof. S. Kumaresan</span>.</p>
