@@ -306,6 +306,7 @@ body {
 
   <h4 style="color:#1E90FF;">📚 Books for References</h4>
   <ul>
+    <li><a href="https://drive.google.com/file/d/19Lyo51VSc33-pA1Ttpl0fRnxk1aSnC4c/view?usp=drive_link" style="color:#1E90FF;">Stochastic Calculus for Finance - Syllabus</a></li>
     <li>Stochastic calculus for finance (two volumes), Steven Shreve, C Mellon — 
       <a href="http://efinance.org.cn/cn/FEshuo/stochastic.pdf" style="color:#87CEFA;">PDF</a></li>
     <li>Monte Carlo Methods in Engineering, Glasserman, Columbia Business School — 
@@ -316,12 +317,12 @@ body {
 
   <h4 style="color:#1E90FF;">📰 Articles</h4>
   <ul>
-    <li><a href="#" style="color:#32CD32;">Kaggle Notebook: Stochastic Process</a></li>
-    <li><a href="#" style="color:#32CD32;">Stamatics IITK — Finance and Stochastic Process Project</a></li>
-    <li><a href="#" style="color:#32CD32;">Financial Models / Gitcode</a></li>
-    <li><a href="#" style="color:#32CD32;">Quant Finance Cheat Sheet (PDF)</a></li>
-    <li><a href="#" style="color:#32CD32;">Math Finance Cheat Sheet (PDF)</a></li>
-    <li><a href="#" style="color:#32CD32;">Quant Finance Overview (must look)</a></li>
+    <li><a href="https://www.kaggle.com/code/stephen924/stochastic-processes-and-applications#:~:text=This%20notebook%20gave%20a%20very,Process%20or%20even%20Branching%20processes." style="color:#32CD32;">Kaggle Notebook: Stochastic Process</a></li>
+    <li><a href="https://stamatics.github.io/projects-2021/mathematical-finance-and-stochastic-processes" style="color:#32CD32;">Stamatics IITK — Finance and Stochastic Process Project</a></li>
+    <li><a href="https://github.com/cantaro86/Financial-Models-Numerical-Methods" style="color:#32CD32;">Financial Models / Gitcode</a></li>
+    <li><a href="https://drive.google.com/file/d/1k3uMFbNaqtfLJXoTIxOMRWlJpY3-NOF0/view?usp=sharing" style="color:#32CD32;">Quant Finance Cheat Sheet (PDF)</a></li>
+    <li><a href="https://drive.google.com/file/d/1IEcxCN0iLkfqn0JxID_pMbhub20u9d8j/view?usp=sharing" style="color:#32CD32;">Math Finance Cheat Sheet (PDF)</a></li>
+    <li><a href="https://drive.google.com/file/d/1ScCd97eQoThciMhUVytGtpWUZYIXO8Hy/view?usp=drive_link" style="color:#32CD32;">Quant Finance Overview (must look)</a></li>
   </ul>
 
   <h4 style="color:#1E90FF;">💻 Softwares and Websites</h4>
@@ -333,12 +334,10 @@ body {
 
   <h4 style="color:#1E90FF;">📘 Beginners to Read</h4>
   <ul>
-    <li><a href="#" style="color:#87CEFA;">What is Financial Mathematics? Courses, Books, and History</a></li>
-    <li><a href="#" style="color:#87CEFA;">Suggested Readings by Prof. A. Goswami (IISER Pune)</a></li>
-    <li><a href="#" style="color:#87CEFA;">First Step to Math Finance (Read This)</a></li>
-    <li><a href="#" style="color:#87CEFA;">Slides from Professors in India on Math Finance (FDP Link)</a></li>
-    <li><a href="#" style="color:#87CEFA;">NYC Masters in Finance — <strong>link</strong></a></li>
-    <li><a href="#" style="color:#87CEFA;">Career Guide: Certificate of Quantitative Finance (CQF)</a></li>
+    <li><a href="https://maa.org/sites/default/files/MathFinancePASGReport.pdf" style="color:#87CEFA;">What is Financial Mathematics? Courses, Books, and History</a></li>
+    <li><a href="https://maa.org/sites/default/files/MathFinancePASGReport.pdf" style="color:#87CEFA;">Suggested Readings by Prof. A. Goswami (IISER Pune)</a></li>
+    <li><a href="https://drive.google.com/file/d/1YMaLmy14NsZ-uklUSOi-DPXbNUMnDwM6/view?usp=sharing" style="color:#87CEFA;">First Step to Math Finance (Read This)</a></li>
+    <li><a href="https://s3.eu-west-1.amazonaws.com/fl-marketing-cqf.com-001/prod/2024-05/CQF%20Careers%20Guide%20to%20Quantitative%20Finance%202024.pdf?VersionId=Na_pWhI2Sl26Z1bYpQAbY8d1Dr4mHGOz" style="color:#87CEFA;">Career Guide: Certificate of Quantitative Finance (CQF)</a></li>
   </ul>
 
   <h4 style="color:#1E90FF;">🏛️ Finance Courses and Universities</h4>
@@ -400,9 +399,8 @@ body {
     <hr style="border: 0.5px solid #444;">
     <ul>
       <li><a href="#" style="color:#1E90FF;">Ito's Integration - Link</a></li>
-      <li><a href="#" style="color:#1E90FF;">Random Walks - MIT Link</a></li>
-      <li><a href="#" style="color:#1E90FF;">Ito's Process / Linkedin - Report</a></li>
-      <li><a href="#" style="color:#1E90FF;">Stochastic Calculus for Finance - Syllabus</a></li>
+      <li><a href="#https://www.mit.edu/~kardar/teaching/projects/chemotaxis%28AndreaSchmidt%29/random.htm" style="color:#1E90FF;">Random Walks - MIT Link</a></li>
+      <li><a href="https://drive.google.com/file/d/13vJ6x55PoNDCumWCFQZJTNZFCrwpjUM4/view?usp=drive_link" style="color:#1E90FF;">Ito's Process / Linkedin - Report</a></li>
     </ul>
   </div>
 </details>
