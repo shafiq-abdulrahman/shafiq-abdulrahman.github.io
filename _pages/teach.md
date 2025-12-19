@@ -183,9 +183,9 @@ body {
     <p style="color: cyan; font-weight: bold;">Algebra</p>
     <ul>
       <li>Contemporary Abstract Algebra – J.A Gallian</li>
-      <li>Abstract Algebra – Frank Ayres <a href="#" style="color: #1E90FF;">link</a></li>
-      <li>Abstract Algebra – Gregory T Lee <a href="#" style="color: #1E90FF;">link</a></li>
-      <li>Abstract Algebra – Khanna & Bhambri <a href="#" style="color: #1E90FF;">link</a></li>
+      <li>Abstract Algebra – Frank Ayres <a href="https://staffnew.uny.ac.id/upload/132319832/pendidikan/REFERENSI+ABSTRACT+ALGEBRA+SCHAUM.pdf" style="color: #1E90FF;">link</a></li>
+      <li>Abstract Algebra – Gregory T Lee <a href="https://download.library.lol/main/2211000/a738cdc1b1b42c884eb841c5bd2d659a/%28Springer%20Undergraduate%20Mathematics%29%20Gregory%C2%A0T.%C2%A0Lee%20-%20Abstract%20Algebra%20An%20Introductory%20Course-Springer%20%282018%29.pdf" style="color: #1E90FF;">link</a></li>
+      <li>Abstract Algebra – Khanna & Bhambri <a href="https://download.library.lol/main/2385000/1fd6621a4d82c1e2f77d5bfa4d4939a6/Vijay%20K.%20Khanna%2C%20S.K.%20Bhamri%20-%20A%20Course%20in%20Abstract%20Algebra-Vikas%20%282013%29.pdf" style="color: #1E90FF;">link</a></li>
     </ul>
     <p>Same here — <span style="color: #00FF7F;">"Herstein, Dummit-Foote"</span> are masterpieces for Modern Algebra, but make your hands dirty with Frank Ayres. Alongside, one can make use of video lectures like <span style="color: #00FF7F;">Benedict Gross (YouTube)</span>.</p>
     <hr style="border: 0.5px solid #444;">
