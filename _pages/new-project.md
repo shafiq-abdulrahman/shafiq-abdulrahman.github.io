@@ -121,7 +121,7 @@ author_profile: false
     <p><strong>Jan 2026</strong></p>
   </div>
 
-  <img src="/images/1.gif" alt="AI Snake Game" class="project-image">
+  <img src="/images/fl.png" alt="AI Snake Game" class="project-image">
 
   <div class="project-links">
     <a href="https://shafiq-abdu.github.io/flashcards-app/" target="_blank">App link</a> 
