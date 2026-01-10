@@ -110,7 +110,22 @@ author_profile: false
 }
 </style>
 
+<div class="project-section">
 
+  <div class="project-title">AI Flash card Study app</div>
+
+  <div class="project-description">
+    <ul>
+      <li>Built a production web app that generates flashcards from PDFs/notes using FastAPI + OpenAI. Deployed on Render, frontend on GitHub Pages, installable as a PWA.</li>
+    </ul>
+    <p><strong>Jan 2026</strong></p>
+  </div>
+
+  <img src="/images/1.gif" alt="AI Snake Game" class="project-image">
+
+  <div class="project-links">
+    <a href="https://shafiq-abdu.github.io/flashcards-app/" target="_blank">App link</a> 
+  </div>
 
 
 
