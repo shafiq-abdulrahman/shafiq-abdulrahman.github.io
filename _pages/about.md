@@ -28,7 +28,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hello and welcome! Check out my new AI Flashcard app in project section....";
+  const text = "Hello and welcome! Check out my new AI Flashcard app in project section ";
   const el = document.getElementById("typewriter");
   let i = 0;
 
@@ -37,6 +37,20 @@ document.addEventListener("DOMContentLoaded", function() {
       el.textContent += text.charAt(i);
       i++;
       setTimeout(type, 30);
+    } else {
+      // 🔗 Add clickable link AFTER typing completes
+      const link = document.createElement("a");
+      link.href = "https://shafiq-abdu.github.io/flashcards-app/";
+      link.textContent = "here";
+      link.target = "_blank";
+      link.rel = "noopener noreferrer";
+
+      // Optional styling
+      link.style.color = "#4da3ff";
+      link.style.textDecoration = "underline";
+      link.style.marginLeft = "6px";
+
+      el.appendChild(link);
     }
   }
 
@@ -50,6 +64,7 @@ document.addEventListener("DOMContentLoaded", function() {
   }, 500);
 });
 </script>
+
 {% endraw %}
 ---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
