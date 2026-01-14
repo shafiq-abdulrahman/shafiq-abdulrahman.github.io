@@ -93,6 +93,20 @@ author_profile: false
 .project-links a:hover {
   text-decoration: underline;
 }
+.project-media {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.project-qr {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background: white;
+}
+
 
 /* Responsive */
 @media (max-width: 768px) {
@@ -121,8 +135,16 @@ author_profile: false
     <p><strong>Jan 2026</strong></p>
   </div>
 
-  <img src="/images/fl.png" alt="Flash Card App" class="project-image">
+  <!-- <img src="/images/fl.png" alt="Flash Card App" class="project-image"> -->
+  <div class="project-media">
+    <img src="/images/fl.png" alt="AI Flashcard App" class="project-image">
 
+    <img 
+      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shafiq-abdu.github.io/flashcards-app/"
+      alt="QR code for AI Flashcard App"
+      class="project-qr"
+    >
+</div>
   <div class="project-links">
     <a href="https://shafiq-abdu.github.io/flashcards-app/" target="_blank">App link</a> 
   </div>
