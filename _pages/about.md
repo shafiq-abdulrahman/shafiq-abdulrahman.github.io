@@ -28,7 +28,7 @@ redirect_from:
 {% raw %}
 <script>
 document.addEventListener("DOMContentLoaded", function() {
-  const text = "Hello and welcome! Check out my new AI flashcard app in the Projects section above....";
+  const text = "Hello and welcome! Check out my new AI flashcard app in the Projects section above...";
   const el = document.getElementById("typewriter");
   let i = 0;
 
