@@ -138,7 +138,6 @@ author_profile: false
   <!-- <img src="/images/fl.png" alt="Flash Card App" class="project-image"> -->
   <div class="project-media">
     <img src="/images/fl.png" alt="AI Flashcard App" class="project-image">
-
     <img 
       src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shafiq-abdu.github.io/flashcards-app/"
       alt="QR code for AI Flashcard App"
