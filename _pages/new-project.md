@@ -96,7 +96,7 @@ author_profile: false
 .project-media {
   display: flex;
   align-items: center;
-  gap: 16px;
+  gap: 5px;
 }
 
 .project-qr {
