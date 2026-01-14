@@ -135,6 +135,10 @@ author_profile: false
     <p><strong>Jan 2026</strong></p>
   </div>
 
+
+  <div class="project-links">
+    <a href="https://shafiq-abdu.github.io/flashcards-app/" target="_blank">App link</a> 
+  </div>
   <!-- <img src="/images/fl.png" alt="Flash Card App" class="project-image"> -->
   <div class="project-media">
     <img src="/images/fl.png" alt="AI Flashcard App" class="project-image">
@@ -144,11 +148,9 @@ author_profile: false
       class="project-qr"
     >
 </div>
-  <div class="project-links">
-    <a href="https://shafiq-abdu.github.io/flashcards-app/" target="_blank">App link</a> 
-  </div>
 
 
+---
 
 <!-- Example project section -->
 
