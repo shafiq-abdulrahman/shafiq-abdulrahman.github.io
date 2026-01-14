@@ -106,7 +106,7 @@ author_profile: false
   border-radius: 8px;
   background: white;
 }
-
+ 
 
 /* Responsive */
 @media (max-width: 768px) {
