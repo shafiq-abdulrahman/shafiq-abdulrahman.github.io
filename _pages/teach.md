@@ -96,12 +96,26 @@ body {
 </style>
 
 <div class="grid">
+  
+  <div class="tile">
+    <h4>Undergraduate Teaching Assistant</h4>
+    <p><strong>Math 3338 – Probability</strong></p>
+    <p>University of Houston · Spring 2026</p>
+    <p>Instructor: Dr. Fu, Wenjiang </p>
+  </div>
 
   <div class="tile">
     <h4>Undergraduate Teaching Assistant</h4>
     <p><strong>Math 2413 – Calculus I</strong></p>
     <p>University of Houston · Fall 2025</p>
     <p>Instructor: Dr. Moses Sosa</p>
+  </div>
+
+  <div class="tile">
+    <h4> Center for Academic Support and Assessment (CASA)- Tutor</h4>
+    <p><strong>Undergraduate Mathematics and Statistics</strong></p>
+    <p>University of Houston </p>
+    <p>Since 2025</p>
   </div>
 
   <div class="tile">
@@ -116,13 +130,6 @@ body {
     <p><strong>Math Advancement Class on Sunday's(MAC‑S) Program</strong></p>
     <p>IIT Madras · Nov 2023 – Dec 2024</p>
     <p>Courses: Linear Algebra,Functional Analysis, Topology</p>
-  </div>
-
-  <div class="tile">
-    <h4>Tutor</h4>
-    <p><strong>Saranya Academy of Mathematics</strong></p>
-    <p>Nov 2023 – Jun 2024</p>
-    <p>Course: Linear Algebra</p>
   </div>
 
 </div>
