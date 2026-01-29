@@ -85,9 +85,9 @@ body {
       <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
       <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
       <li>📘 <a href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li>
-        <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">EPFL lab of computer neuroscience , go through </a></li>
-         <li>📘 <a href="youtube.com/watch?v=f_9UE5P3KCo&feature=youtu.be" target="_blank" style="color: #1E90FF;">Neuroscience videos</a></li>
-           <li>📘 <a href="https://axiommath.ai/" target="_blank" style="color: #1E90FF;">Axiom AI math</a></li>
+      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">EPFL lab of computer neuroscience , go through </a></li>
+      <li>📘 <a href="youtube.com/watch?v=f_9UE5P3KCo&feature=youtu.be" target="_blank" style="color: #1E90FF;">Neuroscience videos</a></li>
+      <li>📘 <a href="https://axiommath.ai/" target="_blank" style="color: #1E90FF;">Axiom AI math</a></li>
     </ul>
   </div>
 </details>
