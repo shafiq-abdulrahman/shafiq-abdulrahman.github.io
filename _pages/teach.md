@@ -379,6 +379,9 @@ body {
     <ul>
       <li><b>Elementary books</b>
         <ul>
+        <li>
+            <a href="hhttps://api.pageplace.de/preview/DT0400.9781292161419_A27448034/preview-9781292161419_A27448034.pdf" style="color:#1E90FF;">Probability and Stat for engineers</a>, Walpole.Myers.
+          </li>
           <li>
             <a href="https://library.lol/main/4D84764491CD2C519E40292818033E1C" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
           </li>
