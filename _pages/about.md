@@ -55,7 +55,7 @@ document.addEventListener("DOMContentLoaded", function() {
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
 Graduate researcher (PhD in Applied Mathematics) at University of Houston, Texas, US.<br>
 <div style="border: 1px solid #ff831eff; padding: 8px; border-radius: 6px;font-size:14px;">
-  <span style="color: #ff831eff;font-size:14px;">On My Desk Right Now :</span> Probability & Statistics | Numerical Analysis | Bayesian Statistics
+  <span style="color: #ff831eff;font-size:14px;">On My Desk Right Now :</span> Probability & Statistics | Numerical Analysis | Hodgey-Huxley Modelling
 </div>
 
       
@@ -72,7 +72,7 @@ Officially I’m **Abdul Rahman**, a.k.a **Shafiq**, but I often go by **“A.B.
 During my studies, I actively engaged in projects, seminars, and research that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
 
 Beyond academics, I have a creative side, reveling in the visual arts through both painting and photography. 
-<span style="color: #5ea08cff ;">I also enjoy soccer, chess , fitness  and thought-provoking movies, which help me maintain balance and perspective.  </span> 
+<span style="color: #5ea08cff ;">I also enjoy soccer, chess [(Chess.com Friend request)](https://link.chess.com/friend/AUoGGX) , cricket, fitness  and thought-provoking movies, which help me maintain balance and perspective.  </span> 
 I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
