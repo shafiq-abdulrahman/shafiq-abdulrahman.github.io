@@ -72,7 +72,7 @@ Officially I’m **Abdul Rahman**, a.k.a **Shafiq**, but I often go by **“A.B.
 During my studies, I actively engaged in projects, seminars, and research that strengthened my expertise in **computational mathematics, dynamical systems, applied probability, mathematical finance**, and advanced **statistical and data science methods**. I am passionate about exploring new mathematical theories, developing computational skills, and contributing meaningfully to both research and teaching in these areas.  
 
 Beyond academics, I have a creative side, reveling in the visual arts through both painting and photography. 
-<span style="color: #5ea08cff ;">I also enjoy soccer, chess [(Chess.com Friend request)](https://link.chess.com/friend/AUoGGX) , cricket, fitness  and thought-provoking movies, which help me maintain balance and perspective.  </span> 
+<span style="color: #5ea08cff ;">I also enjoy soccer, chess [(Chess.com Friend request)](https://link.chess.com/friend/AUoGGX) , cricket, fitness  and thought-provoking movies, which help me maintain balance and perspective.(Typical Sagittarius traits) 😊:  </span> 
 I am always eager to connect with like-minded individuals to discuss mathematics, technology, finance, or shared interests, and I welcome opportunities to exchange ideas and collaborate on meaningful projects.
 
 
