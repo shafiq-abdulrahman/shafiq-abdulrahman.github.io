@@ -80,7 +80,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 <span style="color: #1E90FF;">M.Sc. in Mathematics (Graduate)</span> | IIT Madras, India | 2022–2024  
 - Master’s Thesis: Technical Analysis in Mathematical Finance <span style="bold;">[(Computational Math and Data Science Lab)](https://ioe.iitm.ac.in/project/computational-mathematics-and-data-science/#project)</span>
 - Institute Merit Scholarship recipient  
-- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Advanced differential equations, Data Analysis & Visualisation. 
+- **Coursework:** Stochastic Calculus in Finance, Advanced Stochastic Process, Mathematical Finance, Applied Statistics, Probability and Measure Theory, Advanced Differential equations, Functional Analysis, Data Analysis & Visualisation. 
 
 
 <span style="color: #1E90FF;">B.Sc. in Mathematics (Undergraduate)</span> | Government Arts College, Coimbatore, India | 2018–2021  
