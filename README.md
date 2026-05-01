@@ -10,8 +10,7 @@ config.yml   -  left side bar
 data > navigation.yml - header
 ## Locations of key files/directories
 
-* Basic config options: _config.yml
-* Top navigation bar config: _data/navigation.yml
+* Basic config options: _config.yml  profile changing
 * Single pages: _pages/ about.md
 * Collections of pages are .md or .html files in:
   * _publications/
