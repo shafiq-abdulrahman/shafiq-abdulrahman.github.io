@@ -92,7 +92,7 @@ body {
   </div>
 </details>
 
-
+https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI
 
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
@@ -102,12 +102,8 @@ body {
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
-      <!-- <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
-      <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
-      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li> -->
-       <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
-      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
-      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
+      <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI" target="_blank" style="color: #1E90FF;">Notes and Lectures (Probability_Dr. Alan Haynes)</a></li>
+       <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Statistics_Mikyoung?csf=1&web=1&e=o78F3P" target="_blank" style="color: #1E90FF;">Notes and Lectures (Statistics_Dr.Mikyoung)</a></li>
     </ul>
   </div>
 </details>
@@ -122,12 +118,7 @@ body {
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
-      <!-- <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics (Fall 2025 text book)</a></li>
-      <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
-      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li> -->
-       <!--<li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
-      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
-      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li> -->
+       <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/NumericalAnalysis_Dr.He?csf=1&web=1&e=RtZVqx" target="_blank" style="color: #1E90FF;">Notes and Lectures (Numerical Analysis_Dr.He)</a></li>
     </ul>
   </div>
 </details>
