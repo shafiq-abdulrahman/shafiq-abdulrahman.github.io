@@ -92,7 +92,6 @@ body {
   </div>
 </details>
 
-https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI
 
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
