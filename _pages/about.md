@@ -10,8 +10,13 @@ redirect_from:
 <!-- Comment this line -->
 
 
-<div id="typewriter-container" style="margin-top:40px;">
-  <div id="typewriter" style="font-family:'Courier New', monospace;font-size:0.7em; font-weight:500; color: #3487dbff;"></div>
+<div id="typewriter-container" style="margin-top: 40px;">
+  <div id="typewriter"
+       style="font-family: 'Courier New', monospace;
+              font-size: 0.7em;
+              font-weight: 500;
+              color: #3487db;">
+  </div>
 </div>
 
 <style>
