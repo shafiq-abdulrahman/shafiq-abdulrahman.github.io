@@ -9,8 +9,7 @@ redirect_from:
 ![Image Alt Text](/images/77.png)
 <!-- Comment this line -->
 
-
-<div id="typewriter-container" style="margin-top: 40px;">
+<div id="typewriter-container" style="margin-top: 40px; opacity: 0; transition: opacity 0.5s ease-in;">
   <div id="typewriter"
        style="font-family: 'Courier New', monospace;
               font-size: 0.7em;
@@ -21,9 +20,10 @@ redirect_from:
 
 <style>
 #typewriter::after {
-  content: '.';
-  animation: blink 1.1 s infinite;
+  content: '|';
+  animation: blink 1.1s infinite;
 }
+
 @keyframes blink {
   0%, 50% { opacity: 1; }
   51%, 100% { opacity: 0; }
@@ -32,9 +32,10 @@ redirect_from:
 
 {% raw %}
 <script>
-document.addEventListener("DOMContentLoaded", function() {
+(function() {
   const text = "Hello and welcome! Check out my new AI flashcard app in the Projects section above...";
   const el = document.getElementById("typewriter");
+  const container = document.getElementById("typewriter-container");
   let i = 0;
 
   function type() {
@@ -45,15 +46,9 @@ document.addEventListener("DOMContentLoaded", function() {
     }
   }
 
-  const container = document.getElementById("typewriter-container");
-  container.style.opacity = 0;
-  container.style.transition = "opacity 1.5s ease-in";
-
-  setTimeout(() => {
-    container.style.opacity = 1;
-    type();
-  }, 500);
-});
+  container.style.opacity = 1;
+  type();
+})();
 </script>
 {% endraw %}
 ---
