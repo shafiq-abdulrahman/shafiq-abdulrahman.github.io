@@ -135,7 +135,7 @@ body {
     <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank">
       <img src="{{ '/images/probb.png' | relative_url }}" alt="ca1">
     </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank">
+    <a href="https://shafiq-abdulrahman.github.io/images/numerical.png" target="_blank">
       <img src="{{ '/images/numerical.png' | relative_url }}" alt="ca1">
     </a>
   </div>
