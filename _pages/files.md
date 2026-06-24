@@ -91,7 +91,33 @@ body {
     </ul>
   </div>
 </details>
-
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
+      Tools and Softwares
+  </summary>
+ <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
+    <ul>
+      <li><b> <em style="color:#32CD32;">Research tools</em> </b> 
+        Litmaps or Research Rabbit (Journal Seeker) ,Overleaf (LaTeX editor), LyX (Word editor), Chatpdf or Pdfdrive , Paperpal(paid) , Hypernotes or Notion , Enago plagiriazer , Mendeley & Mendeley Data.
+      </li>
+    </ul>
+    <ul>
+      <li><b> <em style="color:#32CD32;">Numerical & Scientific Computing,  </em> </b> 
+        <a href="https://matlab.mathworks.com/" target="_blank" style="color:#1E90FF;">MaTLAB online</a>  is the best.
+      </li>
+    </ul>
+     <ul>
+      <li><b> <em style="color:#32CD32;">Probability & Statistics, </em> </b> 
+        <a href="https://posit.cloud/" target="_blank" style="color:#1E90FF;"> R - Posit Cloud</a>  is much better than others .
+      </li>
+    </ul>
+    <ul>
+      <li><b> <em style="color:#32CD32;">Python + VS Code + GitHub </em> </b> 
+        <a href="https://colab.google/" target="_blank" style="color:#1E90FF;">Google Colab </a>  ( jupyter notebooks), VS Code online , Codespaces in Git.
+      </li>
+    </ul>
+  </div>
+</details>
 
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
@@ -121,6 +147,35 @@ body {
     </ul>
   </div>
 </details>
+
+<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
+  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
+      Tools and Softwares
+  </summary>
+ <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
+    <ul>
+      <li><b> <em style="color:#32CD32;">Research tools</em> </b> 
+        Litmaps or Research Rabbit (Journal Seeker) ,Overleaf (LaTeX editor), LyX (Word editor), Chatpdf or Pdfdrive , Paperpal(paid) , Hypernotes or Notion , Enago plagiriazer , Mendeley & Mendeley Data.
+      </li>
+    </ul>
+    <ul>
+      <li><b> <em style="color:#32CD32;">Numerical & Scientific Computing,  </em> </b> 
+        <a href="https://matlab.mathworks.com/" target="_blank" style="color:#1E90FF;">MaTLAB online</a>  is the best.
+      </li>
+    </ul>
+     <ul>
+      <li><b> <em style="color:#32CD32;">Probability & Statistics, </em> </b> 
+        <a href="https://posit.cloud/" target="_blank" style="color:#1E90FF;"> R - Posit Cloud</a>  is much better than others .
+      </li>
+    </ul>
+    <ul>
+      <li><b> <em style="color:#32CD32;">Python + VS Code + GitHub </em> </b> 
+        <a href="https://colab.google/" target="_blank" style="color:#1E90FF;">Google Colab </a>  ( jupyter notebooks), VS Code online , Codespaces in Git.
+      </li>
+    </ul>
+  </div>
+</details>
+
 
 ---
 <details>
