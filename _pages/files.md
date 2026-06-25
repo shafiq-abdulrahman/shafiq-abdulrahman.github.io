@@ -228,7 +228,7 @@ body {
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 Joined PhD at University of Houston (Fall 2025,August)</li>
       <li>📘 Cleared Prelims exam on Probility / Statistics and Numerical Analysis (May 2026)</li>
-      <li>📘 Started reading course on modelling Neural circuits (Book by Robert Rosenbaum) with Dr.Kriemir Josic (June 2026) </li>
+      <li>📘 Started reading course on modelling Neural circuits (Book by Robert Rosenbaum) with Dr.Kresimir Josic (June 2026) </li>
       <li>📘 Summer School on Stochastic dynamics anc persistence in biology at Texas A&M (Jun 21-27,2026) </li>
     </ul>
   </div>
