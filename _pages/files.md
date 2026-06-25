@@ -99,12 +99,12 @@ body {
   </summary>
  <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
     <ul>
-      <li><b> <em style="color:#32CD32;">Research tools</em> </b> 
-        Litmaps or Research Rabbit (Journal Seeker) ,Overleaf (LaTeX editor), LyX (Word editor), Chatpdf or Pdfdrive , Paperpal(paid) , Hypernotes or Notion , Enago plagiriazer , Mendeley & Mendeley Data.
+      <li><b> <em style="color:#32CD32;"> MC Govern MIT Brain institute</em> </b> 
+        \linkattach
       </li>
     </ul>
     <ul>
-      <li><b> <em style="color:#32CD32;">Numerical & Scientific Computing,  </em> </b> 
+      <li><b> <em style="color:#32CD32;">PRinceton institute </em> </b> 
         <a href="https://matlab.mathworks.com/" target="_blank" style="color:#1E90FF;">MaTLAB online</a>  is the best.
       </li>
     </ul>
