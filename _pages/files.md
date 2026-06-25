@@ -179,6 +179,103 @@ body {
 </details>
 
 
+
+
+<details style="background-color:#111; color:white; border:1px solid #444; border-radius:10px; padding:1rem; margin:1.5rem 0;">
+  <summary style="color:#b6131c; font-weight:bold; font-size:1.15rem; cursor:pointer;">
+    🧠 Computational Neuroscience Resource Hub
+  </summary>
+
+  <div style="margin-top:1rem; font-size:0.96rem; line-height:1.7;">
+
+<details open>
+      <summary style="color:#FFD700; font-weight:bold;">Leading Institutes</summary>
+      <ul>
+        <li><a href="https://mcgovern.mit.edu/" target="_blank" style="color:#1E90FF;">MIT McGovern Institute</a></li>
+        <li><a href="https://pni.princeton.edu/" target="_blank" style="color:#1E90FF;">Princeton Neuroscience Institute</a></li>
+        <li><a href="https://www.ucl.ac.uk/life-sciences/gatsby" target="_blank" style="color:#1E90FF;">Gatsby Computational Neuroscience Unit, UCL</a></li>
+        <li><a href="https://www.sainsburywellcome.org/" target="_blank" style="color:#1E90FF;">Sainsbury Wellcome Centre, UCL</a></li>
+        <li><a href="https://alleninstitute.org/" target="_blank" style="color:#1E90FF;">Allen Institute</a></li>
+        <li><a href="https://www.janelia.org/" target="_blank" style="color:#1E90FF;">Janelia Research Campus, HHMI</a></li>
+        <li><a href="https://ctn.zuckermaninstitute.columbia.edu/" target="_blank" style="color:#1E90FF;">Columbia Center for Theoretical Neuroscience</a></li>
+        <li><a href="https://neuroscience.stanford.edu/" target="_blank" style="color:#1E90FF;">Stanford Wu Tsai Neurosciences Institute</a></li>
+        <li><a href="https://cbs.fas.harvard.edu/" target="_blank" style="color:#1E90FF;">Harvard Center for Brain Science</a></li>
+        <li><a href="https://bernstein-network.de/" target="_blank" style="color:#1E90FF;">Bernstein Network Computational Neuroscience</a></li>
+      </ul>
+    </details>
+<details>
+      <summary style="color:#FFD700; font-weight:bold;">Leading Computational Neuroscientists</summary>
+      <ul>
+        <li><a href="https://www.salk.edu/scientist/terrence-sejnowski/" target="_blank" style="color:#1E90FF;">Terrence Sejnowski</a></li>
+        <li><a href="https://www.epfl.ch/labs/lcn/" target="_blank" style="color:#1E90FF;">Wulfram Gerstner</a></li>
+        <li><a href="https://www.simonsfoundation.org/people/larry-abbott/" target="_blank" style="color:#1E90FF;">Larry Abbott</a></li>
+        <li><a href="https://profiles.stanford.edu/surya-ganguli" target="_blank" style="color:#1E90FF;">Surya Ganguli</a></li>
+        <li><a href="https://med.stanford.edu/profiles/scott-linderman" target="_blank" style="color:#1E90FF;">Scott Linderman</a></li>
+        <li><a href="https://www.stat.columbia.edu/~cunningham/" target="_blank" style="color:#1E90FF;">John Cunningham</a></li>
+        <li><a href="https://www.gatsby.ucl.ac.uk/~pel/" target="_blank" style="color:#1E90FF;">Peter Latham</a></li>
+        <li><a href="https://www.ucl.ac.uk/icn/people/maneesh-sahani" target="_blank" style="color:#1E90FF;">Maneesh Sahani</a></li>
+        <li><a href="https://www.ucl.ac.uk/icn/people/claudia-clopath" target="_blank" style="color:#1E90FF;">Claudia Clopath</a></li>
+        <li><a href="https://psychology.princeton.edu/person/jonathan-pillow" target="_blank" style="color:#1E90FF;">Jonathan Pillow</a></li>
+        <li><a href="https://www.buzsakilab.com/" target="_blank" style="color:#1E90FF;">György Buzsáki</a></li>
+        <li><a href="https://www.fil.ion.ucl.ac.uk/~karl/" target="_blank" style="color:#1E90FF;">Karl Friston</a></li>
+      </ul>
+    </details>
+    <details>
+      <summary style="color:#FFD700; font-weight:bold;">Neuroscience Nobel Laureates</summary>
+      <ul>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/1906/cajal/facts/" target="_blank" style="color:#1E90FF;">Santiago Ramón y Cajal</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/1906/golgi/facts/" target="_blank" style="color:#1E90FF;">Camillo Golgi</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/hodgkin/facts/" target="_blank" style="color:#1E90FF;">Alan Hodgkin</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/huxley/facts/" target="_blank" style="color:#1E90FF;">Andrew Huxley</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/eccles/facts/" target="_blank" style="color:#1E90FF;">John Eccles</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/2000/kandel/facts/" target="_blank" style="color:#1E90FF;">Eric Kandel</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/okeefe/facts/" target="_blank" style="color:#1E90FF;">John O’Keefe</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/may-britt-moser/facts/" target="_blank" style="color:#1E90FF;">May-Britt Moser</a></li>
+        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/edvard-moser/facts/" target="_blank" style="color:#1E90FF;">Edvard Moser</a></li>
+      </ul>
+    </details>
+
+  <details>
+      <summary style="color:#FFD700; font-weight:bold;">Courses & Summer Schools</summary>
+      <ul>
+        <li><a href="https://compneuro.neuromatch.io/" target="_blank" style="color:#1E90FF;">Neuromatch Academy Computational Neuroscience</a></li>
+        <li><a href="https://neuromatch.io/computational-neuroscience/" target="_blank" style="color:#1E90FF;">Neuromatch Live Computational Neuroscience Course</a></li>
+        <li><a href="https://www.cshl.edu/courses/" target="_blank" style="color:#1E90FF;">Cold Spring Harbor Laboratory Courses</a></li>
+        <li><a href="https://alleninstitute.org/what-we-do/brain-science/events-training/" target="_blank" style="color:#1E90FF;">Allen Institute Events & Training</a></li>
+      </ul>
+    </details>
+  <details>
+      <summary style="color:#FFD700; font-weight:bold;">Python & Simulation Tools</summary>
+      <ul>
+        <li><a href="https://brian2.readthedocs.io/" target="_blank" style="color:#1E90FF;">Brian2</a> — spiking neural network simulator</li>
+        <li><a href="https://www.neuron.yale.edu/neuron/" target="_blank" style="color:#1E90FF;">NEURON</a> — biophysical neuron simulation</li>
+        <li><a href="https://www.nest-simulator.org/" target="_blank" style="color:#1E90FF;">NEST Simulator</a> — large-scale spiking networks</li>
+        <li><a href="https://pytorch.org/" target="_blank" style="color:#1E90FF;">PyTorch</a> — deep learning and NeuroAI</li>
+        <li><a href="https://jax.readthedocs.io/" target="_blank" style="color:#1E90FF;">JAX</a> — differentiable scientific computing</li>
+      </ul>
+    </details>
+    <details>
+      <summary style="color:#FFD700; font-weight:bold;">Public Brain Datasets</summary>
+      <ul>
+        <li><a href="https://portal.brain-map.org/" target="_blank" style="color:#1E90FF;">Allen Brain Map</a></li>
+        <li><a href="https://openneuro.org/" target="_blank" style="color:#1E90FF;">OpenNeuro</a></li>
+        <li><a href="https://about.dandiarchive.org/" target="_blank" style="color:#1E90FF;">DANDI Archive</a></li>
+        <li><a href="https://www.humanconnectome.org/" target="_blank" style="color:#1E90FF;">Human Connectome Project</a></li>
+      </ul>
+    </details>
+
+   <details>
+      <summary style="color:#FFD700; font-weight:bold;">Recommended Textbooks</summary>
+      <ul>
+        <li><a href="https://neuronaldynamics.epfl.ch/" target="_blank" style="color:#1E90FF;">Neuronal Dynamics</a> — Gerstner et al.</li>
+        <li><a href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/" target="_blank" style="color:#1E90FF;">Theoretical Neuroscience</a> — Dayan & Abbott</li>
+        <li><a href="https://mitpress.mit.edu/9780262514200/models-of-the-mind/" target="_blank" style="color:#1E90FF;">Models of the Mind</a> — Grace Lindsay</li>
+      </ul>
+    </details>
+
+  </div>
+</details>
+
 ---
 <details>
   <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
