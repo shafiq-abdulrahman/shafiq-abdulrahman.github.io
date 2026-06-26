@@ -53,7 +53,7 @@ redirect_from:
 {% endraw %}
 ---
 ## <span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Current Position</span>
-Graduate researcher (PhD in Applied Mathematics) at [Dr.Kreso's lab](https://www.math.uh.edu/~josic/) University of Houston, Texas.<br>
+Graduate researcher (PhD in Applied Mathematics) at [Dr.Kreso's lab,](https://www.math.uh.edu/~josic/) University of Houston, Texas.<br>
 <div style="border: 1px solid #ff831eff; padding: 8px; border-radius: 6px;font-size:14px;">
   <span style="color: #ff831eff;font-size:14px;">On My Desk Right Now :</span>  Computational Neuroscience | Modelling Neural Circuits | Hodgin-Huxley Modelling  .
 </div>
