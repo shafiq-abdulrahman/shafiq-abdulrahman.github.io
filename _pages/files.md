@@ -220,7 +220,7 @@ body {
 
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     🏅Mah PhD journal
+     🏅AB's PhD journal
   </summary>
 
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
@@ -228,8 +228,9 @@ body {
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 Joined PhD at University of Houston (Fall 2025,August)</li>
       <li>📘 Cleared Prelims exam on Probabilty / Statistics and Numerical Analysis (May 2026)</li>
-      <li>📘 Started reading course on modelling Neural circuits (Book by Robert Rosenbaum) with Dr.Kresimir Josic (June 2026) </li>
+      <li>📘 Reading course on modelling Neural circuits (Book by Robert Rosenbaum) with Dr.Kresimir Josic (June -July 2026) </li>
       <li>📘 Summer School on Stochastic dynamics and persistence in biology at Texas A&M (Jun 21-27,2026) </li>
+       <li>📘 Reading papers on neural representation from Dr.Hayden's Lab (BCM) </li>
     </ul>
   </div>
 </details>
