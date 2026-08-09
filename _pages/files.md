@@ -80,9 +80,9 @@ body {
   </summary>
 
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
        <li>📘 <a href="https://compneuro.neuromatch.io/tutorials/intro.html" target="_blank" style="color: #1E90FF;"> Pre- requisite course and videos</a> NeuroMatch</li>
+      <li>📘 <a href="https://www.youtube.com/artemkirsanov" target="_blank" style="color: #1E90FF;">Artem Kirsanov (My fav Neuroscience youtuber)</a></li>
       <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics Robert Rosebaum (Fall 2025 text book)</a></li>
       <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
       <li>📘 <a href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html" target="_blank" style="color: #1E90FF;">EPFL lab of computer neuroscience , Gerstner lab full course </a></li>
