@@ -138,6 +138,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
     <li><b>May 2022:</b> Co-led discussion on "Significance of Eigenvalues and Eigenvectors" with Dr. Saranya, Government Arts College, Coimbatore</li>
   </ul>
 </details>
+
 ---
 
 <details>
