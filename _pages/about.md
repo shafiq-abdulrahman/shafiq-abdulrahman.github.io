@@ -145,7 +145,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended (Grad)</span></summary>
 
   <ul>
-    <li><b>2024:</b> Summer School on Stochastic dynamics and persistence in biology at Texas A&M (Jun 21-27,2026)</li>
+    <li><b>2026:</b> Summer School on Stochastic dynamics and persistence in biology at Texas A&M (Jun 21-27)</li>
   </ul>
 </details>
 
