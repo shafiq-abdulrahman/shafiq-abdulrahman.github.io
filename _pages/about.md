@@ -180,7 +180,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
 
   <ul>
-    <li><b>Founder</b> Theory & Thought, Guided thinking and mentorship in Mathematics and Statistics for Graduate Minds.(Jun 2025- Present)</li>
+    <li><b>Professional Coaching</b> Theory & Thought, Guided thinking and mentorship in Mathematics and Statistics for Graduate Minds.(Jun 2025- Present)</li>
     <li><b>Organizer & Initiator:</b> Weekly Student Seminar Series, Mathematics Department, IIT Madras (Nov 2023 – May 2024)</li>
     <li><b>Student Chief Coordinator:</b> MTTS Programme, IIT Madras (May 2023) — Facilitated 150+ students</li>
     <li><b>Super Coordinator:</b> FORAYS 23, IIT Madras (Feb 2023) — Annual Math Fest</li>
