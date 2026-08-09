@@ -82,6 +82,7 @@ body {
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
     <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
+       <li>📘 <a href="https://compneuro.neuromatch.io/tutorials/intro.html" target="_blank" style="color: #1E90FF;"> Pre- requisite course and videos</a> NeuroMatch</li>
       <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics Robert Rosebaum (Fall 2025 text book)</a></li>
       <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
       <li>📘 <a href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html" target="_blank" style="color: #1E90FF;">Alex, Good book with youtube lectures</a></li>
@@ -91,7 +92,7 @@ body {
     </ul>
   </div>
 </details>
-
+https://compneuro.neuromatch.io/tutorials/intro.html
 
 <details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
   <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
