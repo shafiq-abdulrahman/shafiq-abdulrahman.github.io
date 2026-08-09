@@ -142,7 +142,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 ---
 
 <details>
-  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended</span></summary>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended (Master's)</span></summary>
 
   <ul>
     <li><b>2024:</b> Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore</li>
@@ -166,6 +166,15 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 ---
 
+<details>
+  <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended (Master's)</span></summary>
+
+  <ul>
+    <li><b>2024:</b> Summer School on Stochastic dynamics and persistence in biology at Texas A&M (Jun 21-27,2026)</li>
+  </ul>
+</details>
+
+---
 
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Entrepreneurial / Extracurricular Activities</span></summary>
