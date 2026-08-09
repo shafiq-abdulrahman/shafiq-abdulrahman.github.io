@@ -125,6 +125,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 </details>
 
 ---
+
 <details>
    <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Seminars & Presentations</span></summary>
 
@@ -148,6 +149,7 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 </details>
 
 ---
+
 <details>
   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Workshops / Conferences Attended (Master's)</span></summary>
 
