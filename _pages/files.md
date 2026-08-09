@@ -266,7 +266,7 @@ body {
       <summary style="color:#FFD700; font-weight:bold;">Newsletters/Articles</summary>
       <ul>
         <li><a href="https://www.brainfacts.org/" target="_blank" style="color:#1E90FF;">Brain Facts(SFN)_Education articles</a> (Dana Foundation)</li>
-        <li><a href="https://www.thetransmitter.org/" target="_blank" style="color:#1E90FF;">Transmitters x Neuromatch( Simons foundations) </a> </li>
+        <li><a href="https://www.thetransmitter.org/" target="_blank" style="color:#1E90FF;">Transmitters x Neuromatch </a> (Simons foundations)</li>
         <li><a href="https://www.nitmb.org/" target="_blank" style="color:#1E90FF;">National Institute for Theory and Mathematics in Biology
 </a> Uni Chicago/Northwestern </li>
       </ul>
