@@ -224,7 +224,6 @@ body {
   </summary>
 
   <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Syllabus:</strong></p>
     <ul style="list-style-type: none; padding-left: 1rem;">
       <li>📘 Joined PhD at University of Houston (Fall 2025,August)</li>
       <li>📘 Cleared Prelims exam on Probabilty / Statistics and Numerical Analysis (May 2026)</li>
