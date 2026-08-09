@@ -145,6 +145,50 @@ body {
         <li><a href="https://bernstein-network.de/" target="_blank" style="color:#1E90FF;">Bernstein Network Computational Neuroscience</a></li>
       </ul>
     </details>
+
+<details>
+  <summary style="color:#FFD700; font-weight:bold;">Major Computational Neuroscience Conferences</summary>
+  <ul>
+    <li>
+      <a href="https://www.cosyne.org/" target="_blank" style="color:#1E90FF;">
+        COSYNE – Computational and Systems Neuroscience
+      </a>
+    </li>
+    <li>
+      <a href="https://ccneuro.org/" target="_blank" style="color:#1E90FF;">
+        CCN – Cognitive Computational Neuroscience
+      </a>
+    </li>
+    <li>
+      <a href="https://www.cnsorg.org/" target="_blank" style="color:#1E90FF;">
+        CNS – Annual Computational Neuroscience Meeting
+      </a>
+    </li>
+    <li>
+      <a href="https://www.sfn.org/meetings/neuroscience-2026" target="_blank" style="color:#1E90FF;">
+        SfN – Society for Neuroscience Annual Meeting
+      </a>
+    </li>
+    <li>
+      <a href="https://neurips.cc/" target="_blank" style="color:#1E90FF;">
+        NeurIPS – Conference on Neural Information Processing Systems
+      </a>
+    </li>
+    <li>
+      <a href="https://iclr.cc/" target="_blank" style="color:#1E90FF;">
+        ICLR – International Conference on Learning Representations
+      </a>
+    </li>
+    <li>
+      <a href="https://bernstein-network.de/en/bernstein-conference/" target="_blank" style="color:#1E90FF;">
+        Bernstein Conference – Computational Neuroscience (Germany)
+      </a>
+    </li>
+  </ul>
+</details>
+
+
+    
 <details>
       <summary style="color:#FFD700; font-weight:bold;">Leading Computational Neuroscientists</summary>
       <ul>
