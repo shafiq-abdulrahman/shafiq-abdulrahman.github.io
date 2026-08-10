@@ -615,6 +615,15 @@ author_profile: true
           <p>Neuroscience & Psychology articles for kids .</p>
         </div>
       </a>
+        <a class="resource-card"
+         href="http://www.youtube.com/@BrainPrize"
+         target="_blank">
+        <span class="resource-icon">🔬</span>
+        <div>
+          <strong>Brain Prize</strong>
+          <p>Playlist to get motivation and discipline</p>
+        </div>
+      </a>
       <a class="resource-card"
          href="https://www.nitmb.org/"
          target="_blank">
