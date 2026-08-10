@@ -606,6 +606,15 @@ author_profile: true
           <p>Videos on neuroscience, brain and cognition.</p>
         </div>
       </a>
+        <a class="resource-card"
+         href="https://kids.frontiersin.org/articles/neuroscience-and-psychology?sort=most-popular"
+         target="_blank">
+        <span class="resource-icon">🧠</span>
+        <div>
+          <strong>Frontiers for young minds</strong>
+          <p>Neuroscience & Psychology articles for kids .</p>
+        </div>
+      </a>
       <a class="resource-card"
          href="https://www.nitmb.org/"
          target="_blank">
