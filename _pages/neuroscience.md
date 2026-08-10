@@ -333,6 +333,17 @@ author_profile: true
           <p>Theoretical and computational approaches to neuroscience.</p>
         </div>
       </a>
+        <a class="resource-card"
+         href="https://www.nitmb.org/"
+         target="_blank">
+        <span class="resource-icon">∑</span>
+        <div>
+          <strong>NITMB</strong>
+          <p>
+            National Institute for Theory and Mathematics in Biology.
+          </p>
+        </div>
+      </a>
     </div>
   </div>
 
@@ -622,17 +633,6 @@ author_profile: true
         <div>
           <strong>Brain Prize</strong>
           <p>Playlist to get motivation and discipline</p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://www.nitmb.org/"
-         target="_blank">
-        <span class="resource-icon">∑</span>
-        <div>
-          <strong>NITMB</strong>
-          <p>
-            National Institute for Theory and Mathematics in Biology.
-          </p>
         </div>
       </a>
     </div>
