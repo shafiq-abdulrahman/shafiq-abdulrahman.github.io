@@ -5,5 +5,3 @@ permalink: /neuroscience/
 author_profile: true
 ---
 
-
-
