@@ -138,7 +138,8 @@ Tutoring & Mentoring
 </button>
 
 <button class="teaching-tab" data-teach-tab="philosophy">
-Teaching Philosophy
+My Approach:)
+  
 </button>
 
 </div>
