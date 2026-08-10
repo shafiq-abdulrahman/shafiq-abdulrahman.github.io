@@ -39,103 +39,693 @@ body {
 
 <link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
 
-<h2 style="
-  text-align: center;
-  color: cyan;
-  letter-spacing: 0.4px;font-size: 1.65rem;
-">
-  Teaching Experience
-</h2>
 
 
+<section class="teaching-hero">
 
-<h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
-  “A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”  
-  — <em>Bruce Lee</em>
-</h4>
+<div class="teaching-copy">
 
-<style>
-.grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr); /* 2 tiles per row */
-  gap: 1rem;
-  margin-top: 1rem;
-}
+<p class="teaching-eyebrow">TEACHING & MENTORING</p>
 
-.tile {
-  border-radius: 12px;
-  padding: 1rem;
-  background: black;
-  color: white;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
-  transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
+<h1>Teaching Experience</h1>
 
-.tile:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
-}
+<p class="teaching-intro">
+Teaching mathematics through problem solving, intuition, and clear mathematical reasoning.
+My experience includes undergraduate teaching assistance, academic tutoring, mentoring,
+and supporting students across mathematics, probability, statistics, and mathematical finance.
+</p>
 
-.tile h4 {
-  margin: 0 0 0.4rem 0;
-  color: #e63946;
-}
-
-.tile p {
-  margin: 0.2rem 0;
-  font-size: 0.95rem;
-  line-height: 1.4;
-}
-
-/* Mobile friendly */
-@media (max-width: 700px) {
-  .grid {
-    grid-template-columns: 1fr;
-  }
-}
-</style>
-
-<div class="grid">
-  
-  <div class="tile">
-    <h4>Undergraduate Teaching Assistant</h4>
-    <p><strong>Math 3338 – Probability</strong></p>
-    <p>University of Houston · Spring 2026</p>
-    <p>Instructor: Dr. Fu, Wenjiang </p>
-  </div>
-
-  <div class="tile">
-    <h4>Undergraduate Teaching Assistant</h4>
-    <p><strong>Math 2413 – Calculus I</strong></p>
-    <p>University of Houston · Fall 2025</p>
-    <p>Instructor: Dr. Moses Sosa</p>
-  </div>
-
-  <div class="tile">
-    <h4> Center for Academic Support and Assessment (CASA)- Tutor</h4>
-    <p><strong>Undergraduate Mathematics and Statistics</strong></p>
-    <p>University of Houston </p>
-    <p>Since 2025</p>
-  </div>
-
-  <div class="tile">
-    <h4>Graduate Teaching Assistant</h4>
-    <p><strong>MA5950 – Mathematical Finance</strong></p>
-    <p>IIT Madras · Fall 2024</p>
-    <p>Instructor: Dr. Barun Sarkar</p>
-  </div>
-
-  <div class="tile">
-    <h4>Mentor & Teaching Assistant</h4>
-    <p><strong>Math Advancement Class on Sunday's(MAC‑S) Program</strong></p>
-    <p>IIT Madras · Nov 2023 – Dec 2024</p>
-    <p>Courses: Linear Algebra,Functional Analysis, Topology</p>
-  </div>
+<p class="teaching-quote">
+“A teacher is never a giver of truth — he is a guide, a pointer to the truth that each student must find for himself.”
+<span>— Bruce Lee</span>
+</p>
 
 </div>
 
+<div class="teaching-visual" aria-hidden="true">
 
+<svg viewBox="0 0 700 430" class="teaching-svg">
 
+<defs>
+
+<filter id="teachGlow">
+<feGaussianBlur stdDeviation="5" result="blur"/>
+<feMerge>
+<feMergeNode in="blur"/>
+<feMergeNode in="SourceGraphic"/>
+</feMerge>
+</filter>
+
+</defs>
+
+<g class="math-lines">
+
+<path d="M130 330 C210 270 270 220 345 145"/>
+<path d="M345 145 C405 100 470 80 545 95"/>
+<path d="M345 145 C390 205 445 245 520 270"/>
+<path d="M130 330 C215 345 285 330 355 292"/>
+<path d="M355 292 C430 255 495 250 575 280"/>
+
+</g>
+
+<g class="math-nodes">
+
+<circle cx="130" cy="330" r="7"/>
+<circle cx="345" cy="145" r="9"/>
+<circle cx="545" cy="95" r="6"/>
+<circle cx="520" cy="270" r="6"/>
+<circle cx="575" cy="280" r="6"/>
+
+</g>
+
+<text x="100" y="120" class="formula">∫</text>
+<text x="520" y="160" class="formula">Σ</text>
+<text x="300" y="360" class="formula">P(A)</text>
+<text x="410" y="70" class="formula">∇</text>
+
+</svg>
+
+</div>
+
+</section>
+
+<section class="teaching-section">
+
+<div class="teaching-heading">
+
+<p class="section-label">EXPERIENCE</p>
+
+<h2>Teaching Portfolio</h2>
+
+<p>
+Selected teaching, tutoring, and mentoring roles.
+</p>
+
+</div>
+
+<div class="teaching-tabs">
+
+<button class="teaching-tab active" data-teach-tab="uh">
+University of Houston
+</button>
+
+<button class="teaching-tab" data-teach-tab="iit">
+IIT Madras
+</button>
+
+<button class="teaching-tab" data-teach-tab="support">
+Tutoring & Mentoring
+</button>
+
+<button class="teaching-tab" data-teach-tab="philosophy">
+Teaching Philosophy
+</button>
+
+</div>
+
+<div class="teaching-panel active" id="uh">
+
+<div class="teaching-grid">
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">Undergraduate TA</span>
+
+<span class="semester">Spring 2026</span>
+
+</div>
+
+<h3>Math 3338 · Probability</h3>
+
+<p class="institution">
+University of Houston
+</p>
+
+<p>
+Instructor: Dr. Wenjiang Fu
+</p>
+
+<div class="course-tags">
+
+<span>Probability</span>
+<span>Problem Solving</span>
+<span>Undergraduate</span>
+
+</div>
+
+</div>
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">Undergraduate TA</span>
+
+<span class="semester">Fall 2025</span>
+
+</div>
+
+<h3>Math 2413 · Calculus I</h3>
+
+<p class="institution">
+University of Houston
+</p>
+
+<p>
+Instructor: Dr. Moses Sosa
+</p>
+
+<div class="course-tags">
+
+<span>Calculus</span>
+<span>Recitations</span>
+<span>Undergraduate</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="teaching-panel" id="iit">
+
+<div class="teaching-grid">
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">Graduate TA</span>
+
+<span class="semester">Fall 2024</span>
+
+</div>
+
+<h3>MA5950 · Mathematical Finance</h3>
+
+<p class="institution">
+Indian Institute of Technology Madras
+</p>
+
+<p>
+Instructor: Dr. Barun Sarkar
+</p>
+
+<div class="course-tags">
+
+<span>Stochastic Finance</span>
+<span>Graduate</span>
+<span>Mathematics</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="teaching-panel" id="support">
+
+<div class="teaching-grid">
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">CASA Tutor</span>
+
+<span class="semester">Since 2025</span>
+
+</div>
+
+<h3>Mathematics & Statistics Tutoring</h3>
+
+<p class="institution">
+University of Houston
+</p>
+
+<p>
+Center for Academic Support and Assessment (CASA)
+</p>
+
+<div class="course-tags">
+
+<span>Calculus</span>
+<span>Statistics</span>
+<span>Academic Support</span>
+
+</div>
+
+</div>
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">Mentor & TA</span>
+
+<span class="semester">Nov 2023 · Dec 2024</span>
+
+</div>
+
+<h3>Math Advancement Class on Sundays (MAC-S)</h3>
+
+<p class="institution">
+Indian Institute of Technology Madras
+</p>
+
+<p>
+Mentored students in advanced undergraduate mathematics.
+</p>
+
+<div class="course-tags">
+
+<span>Linear Algebra</span>
+<span>Functional Analysis</span>
+<span>Topology</span>
+
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+<div class="teaching-panel" id="philosophy">
+
+<div class="philosophy-card">
+
+<h3>My Teaching Approach</h3>
+
+<p>
+I try to help students understand why a mathematical idea works before focusing
+only on formulas or procedures.
+</p>
+
+<p>
+My goal is to make difficult concepts approachable by connecting formal mathematics
+with intuition, examples, visualization, and structured problem solving.
+</p>
+
+<div class="philosophy-points">
+
+<div>
+<strong>01</strong>
+<span>Build intuition before abstraction</span>
+</div>
+
+<div>
+<strong>02</strong>
+<span>Encourage students to explain their reasoning</span>
+</div>
+
+<div>
+<strong>03</strong>
+<span>Use examples to connect theory and computation</span>
+</div>
+
+<div>
+<strong>04</strong>
+<span>Treat mistakes as part of mathematical learning</span>
+</div>
+
+</div>
+
+</div>
+
+</div>
+
+</section>
+
+<style>
+
+.teaching-hero{
+min-height:480px;
+display:grid;
+grid-template-columns:minmax(300px,.9fr) minmax(300px,1.1fr);
+align-items:center;
+gap:30px;
+padding:clamp(30px,5vw,65px);
+margin:0;
+border-radius:22px;
+overflow:hidden;
+background:
+radial-gradient(circle at 75% 45%,rgba(0,210,220,.12),transparent 32%),
+radial-gradient(circle at 60% 70%,rgba(65,110,255,.10),transparent 35%),
+linear-gradient(145deg,#060a11,#090f1b 60%,#04070d);
+border:1px solid rgba(85,145,170,.20);
+}
+
+.teaching-eyebrow,
+.section-label{
+font-size:12px;
+letter-spacing:.17em;
+font-weight:700;
+color:#60d6e8;
+margin:0 0 8px;
+}
+
+.teaching-copy h1{
+color:white;
+font-size:clamp(34px,5vw,56px);
+line-height:1.05;
+margin:0 0 18px;
+}
+
+.teaching-intro{
+color:rgba(230,238,245,.75);
+font-size:16px;
+line-height:1.7;
+max-width:600px;
+}
+
+.teaching-quote{
+margin-top:24px;
+padding-left:16px;
+border-left:3px solid #60d6e8;
+color:#d6dce6;
+font-size:14px;
+line-height:1.7;
+font-style:italic;
+}
+
+.teaching-quote span{
+display:block;
+margin-top:5px;
+color:#60d6e8;
+font-style:normal;
+}
+
+.teaching-svg{
+width:100%;
+max-width:650px;
+}
+
+.math-lines path{
+fill:none;
+stroke:rgba(82,207,226,.5);
+stroke-width:2.2;
+stroke-linecap:round;
+filter:url(#teachGlow);
+animation:teachGlowLine 4s ease-in-out infinite alternate;
+}
+
+.math-nodes circle{
+fill:#71ddea;
+filter:url(#teachGlow);
+animation:teachNode 2.7s ease-in-out infinite alternate;
+}
+
+.formula{
+fill:rgba(140,224,235,.85);
+font-size:38px;
+font-family:Georgia,serif;
+filter:url(#teachGlow);
+animation:formulaFloat 4s ease-in-out infinite alternate;
+}
+
+@keyframes teachGlowLine{
+from{stroke:rgba(70,170,195,.25)}
+to{stroke:rgba(96,220,235,.8)}
+}
+
+@keyframes teachNode{
+from{opacity:.45}
+to{opacity:1}
+}
+
+@keyframes formulaFloat{
+from{transform:translateY(0);opacity:.55}
+to{transform:translateY(-5px);opacity:1}
+}
+
+.teaching-section{
+margin-top:18px;
+padding:clamp(24px,4vw,45px);
+background:linear-gradient(145deg,#080c13,#0b111c);
+border-radius:20px;
+border:1px solid #232b37;
+color:white;
+}
+
+.teaching-heading{
+margin-bottom:20px;
+}
+
+.teaching-heading h2{
+color:white;
+margin:0 0 7px;
+}
+
+.teaching-heading p{
+color:#9ea8b7;
+margin:0;
+}
+
+.teaching-tabs{
+display:flex;
+gap:8px;
+overflow-x:auto;
+padding-bottom:10px;
+margin-bottom:22px;
+}
+
+.teaching-tab{
+flex:0 0 auto;
+padding:9px 15px;
+border-radius:30px;
+border:1px solid #303a48;
+background:#111822;
+color:#a9b5c5;
+cursor:pointer;
+font-size:14px;
+transition:all .22s ease;
+}
+
+.teaching-tab:hover{
+color:white;
+border-color:#60d6e8;
+}
+
+.teaching-tab.active{
+background:#168a9c;
+color:white;
+border-color:#168a9c;
+box-shadow:0 0 18px rgba(22,138,156,.28);
+}
+
+.teaching-panel{
+display:none;
+animation:teachFade .3s ease;
+}
+
+.teaching-panel.active{
+display:block;
+}
+
+@keyframes teachFade{
+from{opacity:0;transform:translateY(5px)}
+to{opacity:1;transform:translateY(0)}
+}
+
+.teaching-grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+gap:14px;
+}
+
+.teaching-card{
+padding:20px;
+border-radius:14px;
+background:#0d141d;
+border:1px solid #26303c;
+transition:transform .2s ease,border-color .2s ease,background .2s ease;
+}
+
+.teaching-card:hover{
+transform:translateY(-3px);
+border-color:#3aaaba;
+background:#101923;
+}
+
+.teaching-meta{
+display:flex;
+justify-content:space-between;
+align-items:center;
+gap:10px;
+margin-bottom:12px;
+}
+
+.role-badge{
+font-size:11px;
+font-weight:700;
+letter-spacing:.05em;
+color:#62dbe9;
+background:rgba(62,190,205,.1);
+border:1px solid rgba(62,190,205,.25);
+padding:5px 8px;
+border-radius:20px;
+}
+
+.semester{
+color:#8691a2;
+font-size:12px;
+}
+
+.teaching-card h3{
+margin:0 0 7px;
+color:white;
+font-size:17px;
+}
+
+.teaching-card p{
+margin:4px 0;
+color:#9fa9b7;
+font-size:14px;
+line-height:1.55;
+}
+
+.teaching-card .institution{
+color:#d7dee8;
+font-weight:600;
+}
+
+.course-tags{
+display:flex;
+flex-wrap:wrap;
+gap:6px;
+margin-top:14px;
+}
+
+.course-tags span{
+font-size:11px;
+padding:5px 8px;
+border-radius:20px;
+background:#121d29;
+color:#8dcbd4;
+border:1px solid #263a46;
+}
+
+.philosophy-card{
+padding:22px;
+background:#0d141d;
+border:1px solid #26303c;
+border-radius:14px;
+}
+
+.philosophy-card h3{
+margin-top:0;
+color:white;
+}
+
+.philosophy-card p{
+color:#a8b1bd;
+line-height:1.7;
+}
+
+.philosophy-points{
+display:grid;
+grid-template-columns:repeat(2,1fr);
+gap:10px;
+margin-top:20px;
+}
+
+.philosophy-points div{
+display:flex;
+gap:12px;
+align-items:center;
+padding:12px;
+border-radius:10px;
+background:#101923;
+border:1px solid #24313c;
+}
+
+.philosophy-points strong{
+color:#62dbe9;
+font-size:13px;
+}
+
+.philosophy-points span{
+color:#d8dee6;
+font-size:13px;
+}
+
+@media(max-width:800px){
+
+.teaching-hero{
+grid-template-columns:1fr;
+min-height:auto;
+}
+
+.teaching-visual{
+margin-top:5px;
+}
+
+}
+
+@media(max-width:600px){
+
+.teaching-section{
+padding:20px 14px;
+}
+
+.teaching-grid{
+grid-template-columns:1fr;
+}
+
+.philosophy-points{
+grid-template-columns:1fr;
+}
+
+}
+
+@media(prefers-reduced-motion:reduce){
+
+.math-lines path,
+.math-nodes circle,
+.formula{
+animation:none;
+}
+
+}
+
+</style>
+
+<script>
+
+document.addEventListener("DOMContentLoaded",function(){
+
+const tabs=document.querySelectorAll(".teaching-tab");
+const panels=document.querySelectorAll(".teaching-panel");
+
+tabs.forEach(function(tab){
+
+tab.addEventListener("click",function(){
+
+tabs.forEach(t=>t.classList.remove("active"));
+panels.forEach(panel=>panel.classList.remove("active"));
+
+tab.classList.add("active");
+
+const target=document.getElementById(tab.dataset.teachTab);
+
+if(target){
+target.classList.add("active");
+}
+
+});
+
+});
+
+});
+
+</script>
 
 ---
  <!-- #47ec47ff -->
