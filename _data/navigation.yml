@@ -60,6 +60,9 @@ main:
 
   - title: "My Files"
     url: /files/
+    
+ - title: "CompNeuro"
+    url: /neuroscience/
 
   - title: "Contact"
     url: /contact/
