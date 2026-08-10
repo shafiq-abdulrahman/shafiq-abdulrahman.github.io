@@ -238,6 +238,7 @@ body {
         <li><a href="https://www.nest-simulator.org/" target="_blank" style="color:#1E90FF;">NEST Simulator</a> — large-scale spiking networks</li>
         <li><a href="https://pytorch.org/" target="_blank" style="color:#1E90FF;">PyTorch</a> — deep learning and NeuroAI</li>
         <li><a href="https://jax.readthedocs.io/" target="_blank" style="color:#1E90FF;">JAX</a> — differentiable scientific computing</li>
+       <li><a href="https://www.mooseneuro.org/" target="_blank" style="color:#1E90FF;"></a>Moose _Brain Simulation</li>
       </ul>
     </details>
     <details>
