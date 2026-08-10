@@ -597,6 +597,15 @@ author_profile: true
           <p>Conversations about neuroscience, AI and cognition.</p>
         </div>
       </a>
+         <a class="resource-card"
+         href="https://www.diygenius.com/best-neuroscience-documentaries/"
+         target="_blank">
+        <span class="resource-icon">🎧</span>
+        <div>
+          <strong>Brain -Documentaries</strong>
+          <p>Videos on neuroscience, brain and cognition.</p>
+        </div>
+      </a>
       <a class="resource-card"
          href="https://www.nitmb.org/"
          target="_blank">
