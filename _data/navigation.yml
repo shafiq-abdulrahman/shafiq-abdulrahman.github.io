@@ -62,7 +62,7 @@ main:
     url: /files/
     
  - title: "CompNeuro"
-    url: /neuroscience/
+    url: /neuroscience/ 
 
   - title: "Contact"
     url: /contact/
