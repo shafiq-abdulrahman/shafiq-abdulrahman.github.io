@@ -41,20 +41,21 @@ author_profile: true
       </defs>
       <!-- NEURON BRANCHES -->
       <g class="branches">
-        <path d="M400 250 C340 210 310 160 260 110" />
-        <path d="M260 110 C220 80 180 75 130 95" />
-        <path d="M260 110 C240 75 235 45 245 20" />
-        <path d="M400 250 C330 260 290 300 235 350" />
-        <path d="M235 350 C190 380 150 385 100 370" />
-        <path d="M235 350 C220 385 215 410 220 440" />
-        <path d="M400 250 C410 190 420 140 415 85" />
-        <path d="M415 85 C410 50 395 25 375 5" />
-        <path d="M400 250 C470 205 520 175 575 150" />
-        <path d="M575 150 C620 130 660 90 685 45" />
-        <path d="M575 150 C610 165 645 170 690 165" />
-        <path d="M400 250 C470 265 515 305 565 350" />
-        <path d="M565 350 C610 385 655 395 710 375" />
-        <path d="M565 350 C585 390 585 420 575 455" />
+      <path d="M400 250 C355 215 325 185 298 145 C272 108 238 83 195 78"/>
+      <path d="M298 145 C260 137 226 145 190 165"/>
+      <path d="M298 145 C285 105 289 68 307 35"/>
+      <path d="M400 250 C350 257 307 281 274 320 C241 357 205 377 158 380"/>
+      <path d="M274 320 C243 307 212 304 178 315"/>
+      <path d="M274 320 C259 353 257 389 267 425"/>
+      <path d="M400 250 C403 205 414 164 432 126 C449 91 457 57 449 22"/>
+      <path d="M432 126 C465 113 497 112 527 123"/>
+      <path d="M400 250 C453 218 502 194 550 167 C600 140 638 108 662 67"/>
+      <path d="M550 167 C589 177 625 178 663 166"/>
+      <path d="M550 167 C572 135 580 105 575 79"/>
+      <path d="M400 250 C449 267 491 296 526 333 C561 369 601 387 648 382"/>
+      <path d="M526 333 C558 319 589 312 624 320"/>
+      <path d="M526 333 C547 366 552 399 544 431"/>
+      <path d="M400 250 C374 292 354 332 351 374 C349 401 357 425 376 450"/>
       </g>
       <!-- SMALL TERMINAL NODES -->
       <g class="nodes">
@@ -88,52 +89,17 @@ author_profile: true
         r="7"
       />
       <!-- ELECTRICAL SIGNALS -->
-      <circle class="signal signal1" r="6">
-        <animateMotion
-          dur="3s"
-          repeatCount="indefinite"
-          path="
-          M130 95
-          C180 75 220 80 260 110
-          C310 160 340 210 400 250
-          "
-        />
+      <circle class="signal signal1" r="5">
+      <animateMotion dur="5.4s" repeatCount="indefinite" path="M195 78 C238 83 272 108 298 145 C325 185 355 215 400 250"/>
       </circle>
-      <circle class="signal signal2" r="6">
-        <animateMotion
-          dur="3.5s"
-          begin="0.7s"
-          repeatCount="indefinite"
-          path="
-          M685 45
-          C660 90 620 130 575 150
-          C520 175 470 205 400 250
-          "
-        />
+      <circle class="signal signal2" r="5">
+      <animateMotion dur="6.2s" begin="1.4s" repeatCount="indefinite" path="M662 67 C638 108 600 140 550 167 C502 194 453 218 400 250"/>
       </circle>
-      <circle class="signal signal3" r="5">
-        <animateMotion
-          dur="4s"
-          begin="1.5s"
-          repeatCount="indefinite"
-          path="
-          M100 370
-          C150 385 190 380 235 350
-          C290 300 330 260 400 250
-          "
-        />
+      <circle class="signal signal3" r="4">
+      <animateMotion dur="6.8s" begin="2.2s" repeatCount="indefinite" path="M158 380 C205 377 241 357 274 320 C307 281 350 257 400 250"/>
       </circle>
-      <circle class="signal signal4" r="5">
-        <animateMotion
-          dur="4.5s"
-          begin="2s"
-          repeatCount="indefinite"
-          path="
-          M400 250
-          C470 265 515 305 565 350
-          C610 385 655 395 710 375
-          "
-        />
+      <circle class="signal signal4" r="4">
+      <animateMotion dur="7.4s" begin="3s" repeatCount="indefinite" path="M400 250 C449 267 491 296 526 333 C561 369 601 387 648 382"/>
       </circle>
     </svg>
 
@@ -657,7 +623,7 @@ author_profile: true
 
 .neuro-resources {
 
-  margin-top: 70px;
+  margin-top: 18px;
 
   padding:
     clamp(25px, 5vw, 55px);
@@ -681,7 +647,7 @@ author_profile: true
 
 .resource-heading {
 
-  margin-bottom: 30px;
+  margin-bottom: 18px;
 
 }
 
@@ -1115,7 +1081,7 @@ document.addEventListener(
     clamp(35px, 6vw, 80px)
     clamp(25px, 5vw, 70px);
 
-  margin-top: 20px;
+  margin-top: 0;
 
   border-radius: 22px;
 
@@ -1215,7 +1181,10 @@ document.addEventListener(
 .neuron-container {
 
   width: 100%;
-
+.neuron-container{transition:filter .3s ease}
+.neuron-container:hover{filter:brightness(1.18)}
+.neuron-container:hover .soma{transform:scale(1.12)}
+.soma{transform-origin:400px 250px;transition:transform .3s ease}
 }
 
 
@@ -1450,12 +1419,8 @@ document.addEventListener(
 
 
 
-.research-section {
-
-  padding:
-    70px
-    10px;
-
+.research-section{
+padding:28px 10px 10px;
 }
 
 
