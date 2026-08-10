@@ -230,17 +230,12 @@ author_profile: true
   ====================================================== -->
 
   <div class="neuro-panel active" id="learning">
-
     <h3>Courses & Books</h3>
-
     <div class="resource-grid">
-
       <a class="resource-card"
          href="https://compneuro.neuromatch.io/tutorials/intro.html"
          target="_blank">
-
         <span class="resource-icon">📘</span>
-
         <div>
           <strong>Neuromatch Computational Neuroscience</strong>
           <p>
@@ -248,32 +243,22 @@ author_profile: true
             course videos.
           </p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://neuronaldynamics.epfl.ch/"
          target="_blank">
-
         <span class="resource-icon">📕</span>
-
         <div>
           <strong>Neuronal Dynamics</strong>
           <p>
             Online textbook by Wulfram Gerstner and collaborators.
           </p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html"
          target="_blank">
-
         <span class="resource-icon">🎓</span>
-
         <div>
           <strong>EPFL Neuronal Dynamics Course</strong>
           <p>
@@ -281,57 +266,40 @@ author_profile: true
             Laboratory of Computational Neuroscience.
           </p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368"
          target="_blank">
-
         <span class="resource-icon">🐍</span>
-
         <div>
           <strong>Network Machine Learning with Python</strong>
           <p>
             Networks, machine learning and Python.
           </p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/"
          target="_blank">
-
         <span class="resource-icon">🧬</span>
-
         <div>
           <strong>Introducing Mathematical Biology</strong>
           <p>
             Mathematical biology and network modeling.
           </p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/"
          target="_blank">
-
         <span class="resource-icon">📚</span>
-
         <div>
           <strong>Theoretical Neuroscience</strong>
           <p>
             Dayan & Abbott.
           </p>
         </div>
-
       </a>
-
     </div>
 
   </div>
@@ -343,96 +311,63 @@ author_profile: true
   ====================================================== -->
 
   <div class="neuro-panel" id="institutes">
-
     <h3>Leading Institutes</h3>
-
     <div class="resource-grid">
-
       <a class="resource-card"
          href="https://mcgovern.mit.edu/"
          target="_blank">
-
         <span class="resource-icon">🏛</span>
-
         <div>
           <strong>MIT McGovern Institute</strong>
           <p>Brain and cognitive sciences research.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://pni.princeton.edu/"
          target="_blank">
-
         <span class="resource-icon">🏛</span>
-
         <div>
           <strong>Princeton Neuroscience Institute</strong>
           <p>Neuroscience and computational research.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://www.ucl.ac.uk/life-sciences/gatsby"
          target="_blank">
-
         <span class="resource-icon">🧠</span>
-
         <div>
           <strong>Gatsby Computational Neuroscience Unit</strong>
           <p>UCL theoretical and computational neuroscience.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://alleninstitute.org/"
          target="_blank">
-
         <span class="resource-icon">🔬</span>
-
         <div>
           <strong>Allen Institute</strong>
           <p>Large-scale neuroscience research and open datasets.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://www.janelia.org/"
          target="_blank">
-
         <span class="resource-icon">🔬</span>
-
         <div>
           <strong>Janelia Research Campus</strong>
           <p>HHMI research campus.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://ctn.zuckermaninstitute.columbia.edu/"
          target="_blank">
-
         <span class="resource-icon">🧠</span>
-
         <div>
           <strong>Columbia Center for Theoretical Neuroscience</strong>
           <p>Theoretical and computational approaches to neuroscience.</p>
         </div>
-
       </a>
-
     </div>
-
   </div>
 
 
@@ -442,96 +377,63 @@ author_profile: true
   ====================================================== -->
 
   <div class="neuro-panel" id="conferences">
-
     <h3>Major Conferences</h3>
-
     <div class="resource-grid">
-
-      <a class="resource-card"
+     <a class="resource-card"
          href="https://www.cosyne.org/"
          target="_blank">
-
         <span class="resource-icon">🎤</span>
-
         <div>
           <strong>COSYNE</strong>
           <p>Computational and Systems Neuroscience.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://ccneuro.org/"
          target="_blank">
-
         <span class="resource-icon">🎤</span>
-
         <div>
           <strong>CCN</strong>
           <p>Cognitive Computational Neuroscience.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://www.cnsorg.org/"
          target="_blank">
-
         <span class="resource-icon">🎤</span>
-
         <div>
           <strong>CNS</strong>
           <p>Annual Computational Neuroscience Meeting.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://www.sfn.org/"
          target="_blank">
-
         <span class="resource-icon">🧠</span>
-
         <div>
           <strong>Society for Neuroscience</strong>
           <p>SfN annual neuroscience meeting.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://neurips.cc/"
          target="_blank">
-
         <span class="resource-icon">🤖</span>
-
         <div>
           <strong>NeurIPS</strong>
           <p>Neural information processing systems.</p>
         </div>
-
       </a>
-
-
       <a class="resource-card"
          href="https://bernstein-network.de/en/bernstein-conference/"
          target="_blank">
-
         <span class="resource-icon">🇩🇪</span>
-
         <div>
           <strong>Bernstein Conference</strong>
           <p>Computational neuroscience conference.</p>
         </div>
-
       </a>
-
     </div>
-
   </div>
 
 
@@ -541,49 +443,33 @@ author_profile: true
   ====================================================== -->
 
   <div class="neuro-panel" id="people">
-
     <h3>Computational Neuroscientists</h3>
-
     <div class="people-list">
-
       <a href="https://www.salk.edu/scientist/terrence-sejnowski/"
          target="_blank">Terrence Sejnowski</a>
-
       <a href="https://www.epfl.ch/labs/lcn/"
          target="_blank">Wulfram Gerstner</a>
-
       <a href="https://www.simonsfoundation.org/people/larry-abbott/"
          target="_blank">Larry Abbott</a>
-
       <a href="https://profiles.stanford.edu/surya-ganguli"
          target="_blank">Surya Ganguli</a>
-
       <a href="https://med.stanford.edu/profiles/scott-linderman"
          target="_blank">Scott Linderman</a>
-
       <a href="https://www.stat.columbia.edu/~cunningham/"
          target="_blank">John Cunningham</a>
-
       <a href="https://www.gatsby.ucl.ac.uk/~pel/"
          target="_blank">Peter Latham</a>
-
       <a href="https://www.ucl.ac.uk/icn/people/maneesh-sahani"
          target="_blank">Maneesh Sahani</a>
-
       <a href="https://www.ucl.ac.uk/icn/people/claudia-clopath"
          target="_blank">Claudia Clopath</a>
-
       <a href="https://psychology.princeton.edu/person/jonathan-pillow"
          target="_blank">Jonathan Pillow</a>
-
       <a href="https://www.buzsakilab.com/"
          target="_blank">György Buzsáki</a>
-
       <a href="https://www.fil.ion.ucl.ac.uk/~karl/"
          target="_blank">Karl Friston</a>
-
     </div>
-
   </div>
 
 
