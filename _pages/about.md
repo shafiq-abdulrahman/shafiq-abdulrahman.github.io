@@ -110,6 +110,18 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 ---
 
 <details>
+   <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Professional Membership</span></summary>
+
+  <ul>
+    <li><b>2025:</b> Organization for Computational Neurosciences (OCNS), Student Member</li>
+    <li><b>2024:</b> Society for Industrial and Applied Mathematics (SIAM), Student Member / UH Student Chapter</li>
+  </ul>
+</details>
+
+---
+
+
+<details>
    <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Honors & Awards</span></summary>
 
   <ul>
