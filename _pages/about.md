@@ -123,8 +123,9 @@ I am always eager to connect with like-minded individuals to discuss mathematics
 
 <details>
    <summary><span style="border-bottom: 3px solid #1E90FF; color: black; font-weight: bold;">Honors & Awards</span></summary>
-
+  
   <ul>
+    <li><b>2025:</b> NSM Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship, University of Houston Alumni Association Foundation (UHAAF), 2026-2027 Academic Year</li>
     <li><b>2025:</b> Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India</li>
     <li><b>2024:</b> Qualified National level Graduate Aptitude Test in Engineering (GATE)</li>
     <li><b>2022:</b> All India Rank – 196 in IIT-JAM (among 12,716 Math aspirants)</li>
