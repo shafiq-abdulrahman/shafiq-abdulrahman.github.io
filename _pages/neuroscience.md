@@ -1673,3 +1673,30 @@ padding:28px 10px 10px;
 }
 
 </style>
+
+
+<style>
+
+.neuro-resources {
+  margin-top: 18px;
+}
+
+/* all your existing CSS */
+
+
+/* New people CSS */
+
+.people-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.person {
+  padding: 16px;
+  border: 1px solid rgba(255,255,255,0.12);
+  border-radius: 10px;
+}
+
+
+</style>
