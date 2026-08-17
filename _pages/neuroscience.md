@@ -244,17 +244,6 @@ author_profile: true
           </p>
         </div>
       </a>
-      <a class="resource-card"
-         href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/"
-         target="_blank">
-        <span class="resource-icon">🧬</span>
-        <div>
-          <strong>Introducing Mathematical Biology</strong>
-          <p>
-            Mathematical biology and network modeling.
-          </p>
-        </div>
-      </a>
         <a class="resource-card"
          href="https://kordinglab.com/resources/"
          target="_blank">
@@ -278,7 +267,6 @@ author_profile: true
         </div>
       </a>
     </div>
-
   </div>
 
 
