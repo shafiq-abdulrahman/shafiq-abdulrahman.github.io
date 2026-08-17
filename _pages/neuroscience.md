@@ -266,6 +266,17 @@ author_profile: true
           </p>
         </div>
       </a>
+        <a class="resource-card"
+         href="https://kordinglab.com/resources/"
+         target="_blank">
+       <span class="resource-icon">🤖</span>
+        <div>
+          <strong>Kording Lab(Penn) resources</strong>
+          <p>
+            Lists all resources and links on computational neuroscience
+          </p>
+        </div>
+      </a>
       <a class="resource-card"
          href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/"
          target="_blank">
