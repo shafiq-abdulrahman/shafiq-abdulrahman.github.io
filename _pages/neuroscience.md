@@ -222,22 +222,11 @@ author_profile: true
         </div>
       </a>
       <a class="resource-card"
-         href="https://neuronaldynamics.epfl.ch/"
-         target="_blank">
-        <span class="resource-icon">📕</span>
-        <div>
-          <strong>Neuronal Dynamics</strong>
-          <p>
-            Online textbook by Wulfram Gerstner and collaborators.
-          </p>
-        </div>
-      </a>
-      <a class="resource-card"
          href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html"
          target="_blank">
         <span class="resource-icon">🎓</span>
         <div>
-          <strong>EPFL Neuronal Dynamics Course</strong>
+          <strong>EPFL (Gerstner) Neuronal Dynamics Course</strong>
           <p>
             Full computational neuroscience course from the
             Laboratory of Computational Neuroscience.
