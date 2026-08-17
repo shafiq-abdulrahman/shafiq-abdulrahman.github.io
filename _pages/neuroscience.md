@@ -431,12 +431,11 @@ author_profile: true
   ====================================================== -->
 <div class="neuro-panel" id="people">
   <h3>Computational Neuroscientists</h3>
-
   <div class="people-list">
     <div class="person">
       <a href="https://www.salk.edu/scientist/terrence-sejnowski/"
          target="_blank"><strong>Terrence Sejnowski</strong></a>
-      <span>Salk Institute / UC San Diego — La Jolla, California, USA</span>
+      <span>Salk Institute / UC San Diego </span>
       <small>
         Neural computation • Neural networks • Learning and memory •
         Computational neuroscience • Brain-inspired AI
@@ -445,7 +444,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.epfl.ch/labs/lcn/"
          target="_blank"><strong>Wulfram Gerstner</strong></a>
-      <span>EPFL — Lausanne, Switzerland</span>
+      <span>EPFL Switzerland</span>
       <small>
         Spiking neuron models • Synaptic plasticity • Learning rules •
         Neural dynamics • Computational neuroscience
@@ -454,7 +453,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.simonsfoundation.org/people/larry-abbott/"
          target="_blank"><strong>Larry Abbott</strong></a>
-      <span>Columbia University — New York, USA</span>
+      <span>Columbia University </span>
       <small>
         Neural circuits • Population coding • Neural dynamics •
         Theoretical neuroscience • Learning
@@ -463,7 +462,7 @@ author_profile: true
     <div class="person">
       <a href="https://profiles.stanford.edu/surya-ganguli"
          target="_blank"><strong>Surya Ganguli</strong></a>
-      <span>Stanford University — Stanford, California, USA</span>
+      <span>Stanford University </span>
       <small>
         Neural networks • Deep learning theory • Neural population geometry •
         High-dimensional data • Theoretical neuroscience
@@ -472,7 +471,7 @@ author_profile: true
     <div class="person">
       <a href="https://med.stanford.edu/profiles/scott-linderman"
          target="_blank"><strong>Scott Linderman</strong></a>
-      <span>Stanford University — Stanford, California, USA</span>
+      <span>Stanford University </span>
       <small>
         Statistical neuroscience • Machine learning • Neural data analysis •
         Latent dynamical systems • Bayesian modeling
@@ -481,7 +480,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.stat.columbia.edu/~cunningham/"
          target="_blank"><strong>John Cunningham</strong></a>
-      <span>Columbia University — New York, USA</span>
+      <span>Columbia University </span>
       <small>
         Computational neuroscience • Machine learning • Neural data analysis •
         Dimensionality reduction • Neural population activity
@@ -490,7 +489,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.gatsby.ucl.ac.uk/~pel/"
          target="_blank"><strong>Peter Latham</strong></a>
-      <span>Gatsby Computational Neuroscience Unit, UCL — London, UK</span>
+      <span>Gatsby, UCL </span>
       <small>
         Theoretical neuroscience • Neural coding • Neural computation •
         Probabilistic inference • Network dynamics
@@ -499,7 +498,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.ucl.ac.uk/icn/people/maneesh-sahani"
          target="_blank"><strong>Maneesh Sahani</strong></a>
-      <span>Gatsby Computational Neuroscience Unit, UCL — London, UK</span>
+      <span>Gatsby , UCL</span>
       <small>
         Machine learning • Neural coding • Statistical neuroscience •
         Sensory processing • Neural data analysis
@@ -508,7 +507,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.ucl.ac.uk/icn/people/claudia-clopath"
          target="_blank"><strong>Claudia Clopath</strong></a>
-      <span>Imperial College London — London, UK</span>
+      <span>Imperial College London </span>
       <small>
         Synaptic plasticity • Learning and memory • Neural circuits •
         Network dynamics • Computational neuroscience
@@ -517,7 +516,7 @@ author_profile: true
     <div class="person">
       <a href="https://psychology.princeton.edu/person/jonathan-pillow"
          target="_blank"><strong>Jonathan Pillow</strong></a>
-      <span>Princeton University — Princeton, New Jersey, USA</span>
+      <span>Princeton </span>
       <small>
         Computational neuroscience • Neural coding • Statistical modeling •
         Bayesian inference • Neural data analysis
@@ -526,7 +525,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.buzsakilab.com/"
          target="_blank"><strong>György Buzsáki</strong></a>
-      <span>NYU Grossman School of Medicine — New York, USA</span>
+      <span>NYU Grossman School of Medicine NY</span>
       <small>
         Neural oscillations • Hippocampus • Memory • Neural circuits •
         Population dynamics
@@ -535,7 +534,7 @@ author_profile: true
     <div class="person">
       <a href="https://www.fil.ion.ucl.ac.uk/~karl/"
          target="_blank"><strong>Karl Friston</strong></a>
-      <span>University College London — London, UK</span>
+      <span>UCL</span>
       <small>
         Computational neuroscience • Predictive coding • Free-energy principle •
         Active inference • Neuroimaging
@@ -544,7 +543,7 @@ author_profile: true
     <div class="person">
       <a href="https://neural-reckoning.org/dan_goodman.html"
          target="_blank"><strong>Dan Goodman</strong></a>
-      <span>Imperial College London / Neuromatch — London, UK</span>
+      <span>Imperial College London (Neuromatch)</span>
       <small>
         Computational neuroscience • Auditory neuroscience • Neural coding •
         Spiking neural networks • Neuromatch
