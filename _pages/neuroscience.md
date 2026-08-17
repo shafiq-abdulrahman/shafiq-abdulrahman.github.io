@@ -211,6 +211,17 @@ author_profile: true
         </div>
       </a>
       <a class="resource-card"
+         href="https://neural-reckoning.org/comp-neuro-resources.html"
+         target="_blank">
+        <span class="resource-icon">🎓</span>
+        <div>
+          <strong>Dan Goodmans's (Neural Reckoning) resources</strong>
+          <p>
+            Lists all resources and links on computational neuroscience
+          </p>
+        </div>
+      </a>
+      <a class="resource-card"
          href="https://neuronaldynamics.epfl.ch/"
          target="_blank">
         <span class="resource-icon">📕</span>
@@ -446,6 +457,8 @@ author_profile: true
          target="_blank">György Buzsáki</a>
       <a href="https://www.fil.ion.ucl.ac.uk/~karl/"
          target="_blank">Karl Friston</a>
+      <a href="https://neural-reckoning.org/dan_goodman.html"
+         target="_blank">Dan Goodman(Neuromatch)</a>
     </div>
   </div>
 
