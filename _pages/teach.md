@@ -176,6 +176,35 @@ Instructor: Dr. Wenjiang Fu
 
 </div>
 
+
+<div class="teaching-card">
+
+<div class="teaching-meta">
+
+<span class="role-badge">Undergraduate TA</span>
+
+<span class="semester">Spring 2026</span>
+
+</div>
+
+<h3>Math 3338 · Probability</h3>
+
+<p class="institution">
+University of Houston
+</p>
+
+<p>
+Instructor: Dr. Wenjiang Fu
+</p>
+
+<div class="course-tags">
+
+<span>Probability</span>
+<span>Problem Solving</span>
+<span>Undergraduate</span>
+
+</div>
+
 </div>
 
 <div class="teaching-card">
