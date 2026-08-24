@@ -992,10 +992,6 @@ target.classList.add("active");
             <li>Supervised vs. Unsupervised Learning</li>
             <li>Seven Machine Learning Algorithms Every Data Scientist Should Know</li>
           </ul>
-          <p class="resource-warning">
-            Some links in the original collection were placeholders (#), so I kept
-            the titles but did not fabricate replacement URLs.
-          </p>
         </div>
 
         <div class="resource-group">
@@ -1032,10 +1028,6 @@ target.classList.add("active");
             <li>Options, Futures and Other Derivatives — John Hull</li>
             <li>Stochastic Differential Equations — Øksendal <em>(not for beginners)</em></li>
           </ul>
-          <p class="resource-warning">
-            The original Monte Carlo URL is malformed and some book links were placeholders,
-            so I preserved the titles rather than inventing replacements.
-          </p>
         </div>
 
         <div class="resource-group">
