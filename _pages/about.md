@@ -348,10 +348,9 @@ redirect_from:
 
 <section class="ab-hero">
   <div class="ab-hero-grid">
-
+    <hr class="ab-divider">
     <div>
       <span class="ab-eyebrow">Applied Mathematics × Neuroscience</span>
-    
       <p class="ab-subtitle">
         PhD researcher in Applied Mathematics at
         <a href="https://www.math.uh.edu/~josic/" target="_blank" rel="noopener">Dr. Krešo's lab</a>,
