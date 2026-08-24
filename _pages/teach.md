@@ -1113,10 +1113,6 @@ target.classList.add("active");
             <a href="https://djalil.chafai.net/docs/M2/m2-stochastic-calculus-course-2020-2021.pdf" target="_blank" rel="noopener">Stochastic Calculus Lecture Notes — Note 2 <span>↗</span></a>
             <a href="https://drive.google.com/file/d/13vJ6x55PoNDCumWCFQZJTNZFCrwpjUM4/view?usp=drive_link" target="_blank" rel="noopener">Itô Process / LinkedIn Report <span>↗</span></a>
           </div>
-          <p class="resource-warning">
-            The original “Itô's Integration” item used a placeholder link, and the MIT
-            Random Walk URL had a leading #. I did not invent replacements.
-          </p>
         </div>
       </div>
     </article>
@@ -1272,12 +1268,12 @@ target.classList.add("active");
       <div class="research-directions">
         <p>These areas open into research directions such as:</p>
         <div>
-          <span>Analysis & PDEs</span>
-          <span>Algebraic Structures</span>
-          <span>Discrete Mathematics & Computation</span>
-          <span>Geometry & Topology</span>
-          <span>Scientific Computing</span>
-          <span>Applied Mathematics</span>
+          <span>Analysis & PDEs |</span>
+          <span>Algebraic Structures |</span>
+          <span>Discrete Mathematics & Computation  |</span>
+          <span>Geometry & Topology |</span>
+          <span>Scientific Computing |</span>
+          <span>Applied Mathematics |</span>
           <span>Probability & Statistics</span>
         </div>
       </div>
