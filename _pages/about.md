@@ -347,16 +347,25 @@ redirect_from:
 </div>
 
 <section class="ab-hero">
+
   <div class="ab-hero-grid">
-    <hr class="ab-divider">
-    <div>
-      <span class="ab-eyebrow">Applied Mathematics × Neuroscience</span>
+    <div class="ab-intro">
+
+      <span class="ab-eyebrow">
+        Applied Mathematics × Neuroscience
+      </span>
+
       <p class="ab-subtitle">
         PhD researcher in Applied Mathematics at
-        <a href="https://www.math.uh.edu/~josic/" target="_blank" rel="noopener">Dr. Krešo's lab</a>,
+        <a href="https://www.math.uh.edu/~josic/"
+           target="_blank"
+           rel="noopener">Dr. Krešo's lab</a>,
         University of Houston
       </p>
-    </div>
+
+
+      <!-- Research areas -->
+
       <div class="ab-tags">
         <span class="ab-tag">Computational Neuroscience</span>
         <span class="ab-tag">Neural Representation</span>
@@ -365,26 +374,44 @@ redirect_from:
         <span class="ab-tag">Stochastic Models</span>
         <span class="ab-tag">Statistics</span>
       </div>
-      
-       <div id="typewriter-container">
+
+
+      <!-- Typewriter -->
+
+      <div id="typewriter-container">
         <div id="typewriter"></div>
       </div>
+
+
+      <!-- Small divider -->
+
       <hr class="ab-divider">
-      
+
+
+      <!-- Research description -->
+
       <p class="ab-focus">
-        I work at the intersection of <strong>computational neuroscience</strong>,
-        <strong>dynamical systems</strong>, and <strong>neural data analysis</strong>,
-        with an interest in how mathematical structure can help explain neural
-        computation and representation.
+        I work at the intersection of
+        <strong>computational neuroscience</strong>,
+        <strong>dynamical systems</strong>, and
+        <strong>neural data analysis</strong>, with an interest in how
+        mathematical structure can help explain neural computation
+        and representation.
       </p>
 
+
+      <!-- Current work -->
+
       <div class="ab-current">
-        <span class="ab-current-label">On my desk right now →</span>
-        Neural representation |  Modelling neural circuits | Computational analysis
-        of neural population activity.
+        <span class="ab-current-label">
+          On my desk right now →
+        </span>
+
+        Neural representation · Modelling neural circuits ·
+        Computational analysis of neural population activity
       </div>
     </div>
-  
+  </div>
 </section>
 
 {% raw %}
