@@ -30,6 +30,17 @@ redirect_from:
   box-sizing: border-box;
 }
 
+.ab-top-image {
+  margin: 0 0 22px 0;
+}
+
+.ab-top-image img {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 0;
+}
+
 /* ---------- Hero ---------- */
 
 .ab-hero {
@@ -38,8 +49,8 @@ redirect_from:
 
 .ab-hero-grid {
   display: grid;
-  grid-template-columns: minmax(0, 1.5fr) minmax(220px, 0.7fr);
-  gap: 36px;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 18px;
   align-items: center;
 }
 
@@ -55,22 +66,22 @@ redirect_from:
 
 .ab-title {
   margin: 0;
-  font-size: clamp(2.2rem, 5vw, 4.2rem);
-  line-height: 1.04;
+  font-size: clamp(1.85rem, 3.4vw, 2.75rem);
+  line-height: 1.10;
   letter-spacing: -0.035em;
   font-weight: 800;
 }
 
 .ab-subtitle {
   margin: 14px 0 8px 0;
-  font-size: clamp(1.05rem, 2vw, 1.3rem);
+  font-size: clamp(0.92rem, 1.5vw, 1.05rem);
   color: var(--ab-muted);
   font-weight: 500;
 }
 
 .ab-focus {
   margin-top: 18px;
-  font-size: 1.02rem;
+  font-size: 0.90rem;
 }
 
 .ab-focus strong {
@@ -119,7 +130,7 @@ redirect_from:
 /* ---------- Sections ---------- */
 
 .ab-section {
-  margin-top: 54px;
+  margin-top: 42px;
 }
 
 .ab-section-head {
@@ -136,7 +147,7 @@ redirect_from:
 
 .ab-section-title {
   margin: 3px 0 5px 0;
-  font-size: clamp(1.55rem, 2.8vw, 2.2rem);
+  font-size: clamp(1.28rem, 2vw, 1.65rem);
   line-height: 1.18;
   letter-spacing: -0.02em;
 }
@@ -156,7 +167,7 @@ redirect_from:
 }
 
 .ab-card {
-  padding: 20px;
+  padding: 17px;
   border: 1px solid var(--ab-border);
   border-radius: 16px;
   background: var(--ab-card);
@@ -176,7 +187,7 @@ redirect_from:
 
 .ab-card h3 {
   margin: 0 0 8px 0;
-  font-size: 1.05rem;
+  font-size: 0.98rem;
 }
 
 .ab-card p {
@@ -315,20 +326,6 @@ redirect_from:
   }
 }
 
-@media (prefers-color-scheme: dark) {
-  .ab-home {
-    --ab-text: #edf2f7;
-    --ab-muted: #b8c0cc;
-    --ab-card: rgba(255,255,255,0.025);
-    --ab-border: rgba(113,170,255,0.20);
-    --ab-soft: rgba(47,128,237,0.10);
-  }
-
-  .ab-card,
-  .ab-home details {
-    box-shadow: none;
-  }
-}
 </style>
 
 <div class="ab-home">
@@ -336,6 +333,10 @@ redirect_from:
 <!-- =========================================================
      HERO
 ========================================================= -->
+
+<div class="ab-top-image">
+  <img src="/images/77.png" alt="Shafiq Abdul Rahman">
+</div>
 
 <section class="ab-hero">
   <div class="ab-hero-grid">
@@ -374,15 +375,6 @@ redirect_from:
         <div id="typewriter"></div>
       </div>
     </div>
-
-    <div>
-      <img
-        src="/images/77.png"
-        alt="Shafiq Abdul Rahman"
-        class="ab-hero-photo"
-      >
-    </div>
-
   </div>
 </section>
 
