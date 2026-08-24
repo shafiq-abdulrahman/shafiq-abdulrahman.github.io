@@ -406,9 +406,8 @@ redirect_from:
         <span class="ab-current-label">
           On my desk right now →
         </span>
-
         Neural representation · Modelling neural circuits ·
-        Computational analysis of neural population activity
+        Cognitive Neuroscience · Artem's Neuro playlist 
       </div>
     </div>
   </div>
