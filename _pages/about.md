@@ -344,7 +344,7 @@ redirect_from:
     <div>
       <span class="ab-eyebrow">Applied Mathematics × Neuroscience</span>
       <p class="ab-subtitle">
-        PhD researcher in Applied Mathematics at the University of Houston
+        PhD researcher in Applied Mathematics at Dr.Kreso's lab , University of Houston
       </p>
 
       <p class="ab-focus">
