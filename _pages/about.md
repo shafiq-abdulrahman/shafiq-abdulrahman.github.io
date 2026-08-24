@@ -351,10 +351,14 @@ redirect_from:
 
     <div>
       <span class="ab-eyebrow">Applied Mathematics × Neuroscience</span>
+    
       <p class="ab-subtitle">
-        PhD researcher in Applied Mathematics at Dr.Kreso's lab , University of Houston
+        PhD researcher in Applied Mathematics at
+        <a href="https://www.math.uh.edu/~josic/" target="_blank" rel="noopener">Dr. Krešo's lab</a>,
+        University of Houston
       </p>
-
+    </div>
+       
       <div class="ab-tags">
         <span class="ab-tag">Computational Neuroscience</span>
         <span class="ab-tag">Neural Representation</span>
