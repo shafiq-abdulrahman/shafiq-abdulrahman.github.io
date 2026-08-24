@@ -759,578 +759,1317 @@ target.classList.add("active");
 
 ---
  <!-- #47ec47ff -->
-<h2 style="text-align: center; color: cyan; letter-spacing: 0.4px; font-size: 1.65rem;">
-  <strong>Math Materials</strong>
-</h2>
 
+<!-- =========================================================
+     MATH MATERIALS — REDESIGNED RESOURCE LIBRARY
+========================================================= -->
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     Linear Algebra
-  </summary>
+<section class="materials-section" id="math-materials">
 
-  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong> <li>📘 <a href="https://drive.google.com/file/d/1UVpXSAKbW3JfzdJ9ei3qjzpIuV_dnJph/view?usp=drive_link" target="_blank" style="color: #28caa7ff;">Syllabus:</a></li></strong></p>
-    <ul style="list-style-type: none; padding-left: 1rem;">
-      <li>📘 <a href="https://drive.google.com/file/d/10iv6LhM5DSCCj0Z_JgXok6LUBxIx0HPj/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Vector Spaces</a></li>
-      <li>📘 <a href="https://drive.google.com/file/d/14oWi_m2hGNlsqjmtaofgBRwe-n4hdyJ2/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Linear Independence and Dependence, Basis and Dimension</a></li>
-      <li>📘 <a href="https://drive.google.com/file/d/1PGF6YLt2r3eeBtGrDwCOCrrJ__FXU-W1/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Eigenvalues and Eigenvectors</a></li>
-      <li>📘 <a href="https://drive.google.com/file/d/1P2oLO-7jvner4p-05-zDQou_tPElEKdm/view?usp=drive_link" target="_blank" style="color: #1E90FF;">Linear Transformations</a></li>
-      <li>📘 <a href="/pdfs/Diagonalization.pdf" target="_blank" style="color: #1E90FF;">Diagonalisable and Jordan Blocks</a></li>
-      <li>📘 <a href="/pdfs/InnerProductSpaces.pdf" target="_blank" style="color: #1E90FF;">Inner Product Spaces and Quadratic Forms</a></li>
-      <li>📘 <a href="/pdfs/DualSpaces.pdf" target="_blank" style="color: #1E90FF;">Dual Spaces and Operators</a></li>
-    </ul>
-  </div>
-</details>
-
-
-
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-    Grad / Undergrad Math Books 
-  </summary>
-
-  <div style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.7;">
-    <!-- Analysis -->
-    <p style="color: cyan; font-weight: bold;">Analysis</p>
-    <ul>
-      <li>Real Analysis – S. Kumaresan</li>
-      <li>Topology of Metric Spaces – S. Kumaresan</li>
-      <li>Metric Spaces – P. K. Jain, Khalil Ahmad</li>
-      <li>Real Analysis, Carothers –<a href="https://s2pnd-matematika.fkip.unpatti.ac.id/wp-content/uploads/2019/03/N.-L.-Carothers-Real-analysis-Cambridge-University-Press-2000.pdf" style="color: #1E90FF;">link</a></li>
-    </ul>
-    <p>Against the common notion, <span style="color: #00FF7F;">"Rudin, Bartle-Shebert, Apostol"</span> aren't of much use. Working with them is like admiring a masterpiece from a distance. To get closer and make your hands dirty, go out with books of average and amazing problems.</p>
-    <p>One would refer to the expository articles of <span style="color: #00FF7F;">Dr. S. Kumaresan</span>:</p>
-    <ul>
-      <li><a href="https://4dspace.mtts.org.in/expository-articles-list.php" target="_blank" style="color: #1E90FF;">MTTS Articles</a></li>
-      <li><a href="https://kumaresanbooks.php" target="_blank" style="color: #1E90FF;">Kumaresan Books</a></li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Algebra -->
-    <p style="color: cyan; font-weight: bold;">Algebra</p>
-    <ul>
-      <li>Contemporary Abstract Algebra – J.A Gallian</li>
-      <li>Abstract Algebra – Frank Ayres <a href="https://staffnew.uny.ac.id/upload/132319832/pendidikan/REFERENSI+ABSTRACT+ALGEBRA+SCHAUM.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Abstract Algebra – Gregory T Lee <a href="https://download.library.lol/main/2211000/a738cdc1b1b42c884eb841c5bd2d659a/%28Springer%20Undergraduate%20Mathematics%29%20Gregory%C2%A0T.%C2%A0Lee%20-%20Abstract%20Algebra%20An%20Introductory%20Course-Springer%20%282018%29.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Abstract Algebra – Khanna & Bhambri <a href="https://download.library.lol/main/2385000/1fd6621a4d82c1e2f77d5bfa4d4939a6/Vijay%20K.%20Khanna%2C%20S.K.%20Bhamri%20-%20A%20Course%20in%20Abstract%20Algebra-Vikas%20%282013%29.pdf" style="color: #1E90FF;">link</a></li>
-    </ul>
-    <p>Same here — <span style="color: #00FF7F;">"Herstein, Dummit-Foote"</span> are masterpieces for Modern Algebra, but make your hands dirty with Frank Ayres. Alongside, one can make use of video lectures like <span style="color: #00FF7F;">Benedict Gross (YouTube)</span>.</p>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Linear Algebra -->
-    <p style="color: cyan; font-weight: bold;">Linear Algebra</p>
-    <ul>
-      <li>Linear Algebra Done Right – Sheldon Axler <a href="https://link.springer.com/content/pdf/10.1007/978-3-031-41026-0.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Linear Algebra – Lipson & Lipschutz – Schaum Problem Outlines</li>
-      <li>Linear Algebra, A Geometric Approach – S. Kumaresan <a href="#" style="color: #1E90FF;">link</a></li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Complex Analysis -->
-    <p style="color: cyan; font-weight: bold;">Complex Analysis</p>
-    <ul>
-      <li>Complex Variables Demystified – McMahon <a href="https://www.aldebaran.cz/studium/vnp/docs/2018/ComplexVariablesDemystified.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Visual Complex Analysis – Needham (<a href="https://umv.science.upjs.sk/hutnik/NeedhamVCA.pdf" style="color: #1E90FF;">link</a>)</li>
-      <li>Complex Variables – HS Khasana <a href="https://www.anandinstitute.org/pdf/complex%20H%20S%20kasana.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Complex Variables – Spiegel & Lipschutz – Schaum Outlines</li>
-      <li>Intro to Complex Analysis – P. Duraipandian</li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Topology -->
-    <p style="color: cyan; font-weight: bold;">Topology</p>
-    <ul>
-      <li>Topology Without Tears – SA Morris <a href="https://www.topologywithouttears.net/topbook.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Topology – J.R. Munkres</li>
-      <li>Full Notes on Topology – <a href="https://faculty.etsu.edu/gardnerr/5350/notes.htm" style="color: #1E90FF;">link</a></li>
-      <li>Notes on Topology: Prof. Veeramani (NPTEL) – <a href="https://nptel.ac.in/courses/111106054" style="color: #1E90FF;">link</a></li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- ODE & PDE -->
-    <p style="color: cyan; font-weight: bold;">ODE & PDE</p>
-    <ul>
-      <li>Differential Equations – Bronson – Schaum Outlines <a href="https://math24.wordpress.com/wp-content/uploads/2016/04/shuam-ode-book.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Differential Equations – M.D. Raisinghania</li>
-      <li>An Elementary Course on PDE – Amarnath (<span style="color: #1E90FF;">PDF</span>)</li>
-    </ul>
-    <p>To be honest, haven’t referred too many books for differential equations — hope this section gets updated in the future.</p>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Functional Analysis -->
-    <p style="color: cyan; font-weight: bold;">Functional Analysis</p>
-    <ul>
-      <li>Intro to Functional Analysis and Applications – Kriezig <a href="https://asoimatepn.wordpress.com/wp-content/uploads/2015/04/kreyszig-erwin-introductory-functional-analysis-with-aplications-university-of-windsor-wiley-classics-library-usa-1989.pdf" style="color: #1E90FF;">link</a></li>
-      <li>Functional Analysis – B.V. Limaye</li>
-    </ul>
-    <p>These two are the most common books in Functional — good ones but too long. After reading Functional, one could go through this article and book by <span style="color: #00FF7F;">Prof. S. Kumaresan</span>.  <a href="https://4dspace.mtts.org.in/expository-article-download.php?ai=72" style="color: #1E90FF;">link</a></p>
-    <p>Highly suggested to refer to the articles and books of <span style="color: #00FF7F;">Dr. Kesavan, IMSc</span> on applying Functional Analysis to Sobolev Space (PDE) — <a href="https://www.imsc.res.in/~kesh/" style="color: #1E90FF;">link</a></p>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Measure Theory -->
-    <p style="color: cyan; font-weight: bold;">Measure Theory</p>
-    <ul>
-      <li>Measure and Integration – Inder K. Rana | Math4All Notes1 / Notes2</li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- P.S. -->
-    <p><strong>P.S:</strong> I highly appreciate this channel because of the work done for math aspirants: 
-      <a href="https://pkalika.in" target="_blank" style="color: #1E90FF;">pkalika.in</a> | Resource File
-    </p>
-    <ul>
-      <li><a href="https://drive.google.com/file/d/1eqTjUU3Nfgwp2ypqoLgxfAl1fdUVksFP/view" style="color: #1E90FF;">Complete Grad Math Syllabus</a></li>
-      <li><a href="https://drive.google.com/file/d/1PZcR1yPWW0NFy0DsQR-JE5LJjD7J5aAK/view?usp=drive_link" style="color: #1E90FF;">Notes for Competitive Exams</a></li>
-    </ul>
-  </div>
-</details>
-
-
-
-
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-    Data Science , AI & ML
-  </summary>
-
-  <div style="margin-top: 1rem; font-size: 0.95rem; line-height: 1.7;">
-    <!-- Platforms -->
-    <p style="color: cyan; font-weight: bold;">Platforms to be familiar with</p>
+  <div class="materials-heading">
+    <p class="materials-kicker">MATH RESOURCE LIBRARY</p>
+    <h2>Math Materials</h2>
     <p>
-      <span style="color: #1E90FF;">Github</span> | 
-      <span style="color: #1E90FF;">Kaggle Notebooks</span> | 
-      <span style="color: #1E90FF;">Geeks for Geeks</span> | 
-      <span style="color: #1E90FF;">KDNuggets Blog</span> | 
-      <span style="color: #1E90FF;">GateOverflow</span>
+      A curated collection of notes, books, references, computational tools,
+      learning paths, and resources that I have found useful while studying
+      mathematics and related areas.
     </p>
-    <p>Articles and Newsletters from 
-      <a href="https://www.kdnuggets.com/" target="_blank" style="color: #1E90FF;">kdnuggets.com</a> 
-      are <span style="color: #00FF7F;">great resources</span> to stay updated in Data Science and AI.
+  </div>
+
+  <div class="materials-toolbar">
+    <button class="materials-filter active" data-filter="all">All</button>
+    <button class="materials-filter" data-filter="core">Core Math</button>
+    <button class="materials-filter" data-filter="probability">Probability</button>
+    <button class="materials-filter" data-filter="computing">Computing</button>
+    <button class="materials-filter" data-filter="finance">Quant Finance</button>
+  </div>
+
+  <div class="materials-grid">
+
+    <!-- LINEAR ALGEBRA -->
+    <article class="resource-card" data-category="core">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">𝑨</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">NOTES & SYLLABUS</span>
+          <h3>Linear Algebra</h3>
+          <p>Vector spaces, eigenvalues, transformations, inner products, dual spaces.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+        <div class="resource-group">
+          <h4>Syllabus</h4>
+          <a class="resource-link featured-link"
+             href="https://drive.google.com/file/d/1UVpXSAKbW3JfzdJ9ei3qjzpIuV_dnJph/view?usp=drive_link"
+             target="_blank" rel="noopener">
+            Complete Linear Algebra syllabus <span>↗</span>
+          </a>
+        </div>
+
+        <div class="resource-group">
+          <h4>Topic notes</h4>
+          <div class="resource-link-list">
+            <a href="https://drive.google.com/file/d/10iv6LhM5DSCCj0Z_JgXok6LUBxIx0HPj/view?usp=drive_link" target="_blank" rel="noopener">Vector Spaces <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/14oWi_m2hGNlsqjmtaofgBRwe-n4hdyJ2/view?usp=drive_link" target="_blank" rel="noopener">Linear Independence, Basis & Dimension <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1PGF6YLt2r3eeBtGrDwCOCrrJ__FXU-W1/view?usp=drive_link" target="_blank" rel="noopener">Eigenvalues & Eigenvectors <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1P2oLO-7jvner4p-05-zDQou_tPElEKdm/view?usp=drive_link" target="_blank" rel="noopener">Linear Transformations <span>↗</span></a>
+            <a href="/pdfs/Diagonalization.pdf" target="_blank">Diagonalisation & Jordan Blocks <span>↗</span></a>
+            <a href="/pdfs/InnerProductSpaces.pdf" target="_blank">Inner Product Spaces & Quadratic Forms <span>↗</span></a>
+            <a href="/pdfs/DualSpaces.pdf" target="_blank">Dual Spaces & Operators <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- BOOKS -->
+    <article class="resource-card resource-card-wide" data-category="core">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">📚</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">BOOKS & REFERENCES</span>
+          <h3>Graduate / Undergraduate Mathematics</h3>
+          <p>My personal reference shelf across analysis, algebra, topology, ODE/PDE and more.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+
+        <div class="book-topic-grid">
+
+          <section class="book-topic">
+            <h4>Analysis</h4>
+            <ul>
+              <li>Real Analysis — S. Kumaresan</li>
+              <li>Topology of Metric Spaces — S. Kumaresan</li>
+              <li>Metric Spaces — P. K. Jain, Khalil Ahmad</li>
+              <li><a href="https://s2pnd-matematika.fkip.unpatti.ac.id/wp-content/uploads/2019/03/N.-L.-Carothers-Real-analysis-Cambridge-University-Press-2000.pdf" target="_blank" rel="noopener">Real Analysis — N. L. Carothers ↗</a></li>
+            </ul>
+            <p class="resource-note">
+              Against the common notion, books such as Rudin, Bartle–Sherbert, and Apostol
+              can feel like admiring a masterpiece from a distance. I prefer complementing
+              them with books that contain approachable examples and lots of problems.
+            </p>
+            <div class="mini-links">
+              <a href="https://4dspace.mtts.org.in/expository-articles-list.php" target="_blank" rel="noopener">MTTS expository articles ↗</a>
+              <a href="https://kumaresanbooks.php" target="_blank" rel="noopener">Kumaresan books ↗</a>
+            </div>
+          </section>
+
+          <section class="book-topic">
+            <h4>Algebra</h4>
+            <ul>
+              <li>Contemporary Abstract Algebra — J. A. Gallian</li>
+              <li><a href="https://staffnew.uny.ac.id/upload/132319832/pendidikan/REFERENSI+ABSTRACT+ALGEBRA+SCHAUM.pdf" target="_blank" rel="noopener">Abstract Algebra — Frank Ayres ↗</a></li>
+              <li><a href="https://download.library.lol/main/2211000/a738cdc1b1b42c884eb841c5bd2d659a/%28Springer%20Undergraduate%20Mathematics%29%20Gregory%C2%A0T.%C2%A0Lee%20-%20Abstract%20Algebra%20An%20Introductory%20Course-Springer%20%282018%29.pdf" target="_blank" rel="noopener">Abstract Algebra — Gregory T. Lee ↗</a></li>
+              <li><a href="https://download.library.lol/main/2385000/1fd6621a4d82c1e2f77d5bfa4d4939a6/Vijay%20K.%20Khanna%2C%20S.K.%20Bhamri%20-%20A%20Course%20in%20Abstract%20Algebra-Vikas%20%282013%29.pdf" target="_blank" rel="noopener">A Course in Abstract Algebra — Khanna & Bhambri ↗</a></li>
+            </ul>
+            <p class="resource-note">
+              Herstein and Dummit–Foote are excellent references, but I like pairing
+              them with problem-oriented books such as Frank Ayres. Video lectures,
+              including Benedict Gross's algebra lectures, can also help.
+            </p>
+          </section>
+
+          <section class="book-topic">
+            <h4>Linear Algebra</h4>
+            <ul>
+              <li><a href="https://link.springer.com/content/pdf/10.1007/978-3-031-41026-0.pdf" target="_blank" rel="noopener">Linear Algebra Done Right — Sheldon Axler ↗</a></li>
+              <li>Linear Algebra — Lipson & Lipschutz, Schaum Outlines</li>
+              <li>Linear Algebra: A Geometric Approach — S. Kumaresan</li>
+            </ul>
+          </section>
+
+          <section class="book-topic">
+            <h4>Complex Analysis</h4>
+            <ul>
+              <li><a href="https://www.aldebaran.cz/studium/vnp/docs/2018/ComplexVariablesDemystified.pdf" target="_blank" rel="noopener">Complex Variables Demystified — McMahon ↗</a></li>
+              <li><a href="https://umv.science.upjs.sk/hutnik/NeedhamVCA.pdf" target="_blank" rel="noopener">Visual Complex Analysis — Needham ↗</a></li>
+              <li><a href="https://www.anandinstitute.org/pdf/complex%20H%20S%20kasana.pdf" target="_blank" rel="noopener">Complex Variables — H. S. Kasana ↗</a></li>
+              <li>Complex Variables — Spiegel & Lipschutz, Schaum Outlines</li>
+              <li>Introduction to Complex Analysis — P. Duraipandian</li>
+            </ul>
+          </section>
+
+          <section class="book-topic">
+            <h4>Topology</h4>
+            <ul>
+              <li><a href="https://www.topologywithouttears.net/topbook.pdf" target="_blank" rel="noopener">Topology Without Tears — S. A. Morris ↗</a></li>
+              <li>Topology — J. R. Munkres</li>
+              <li><a href="https://faculty.etsu.edu/gardnerr/5350/notes.htm" target="_blank" rel="noopener">Full Notes on Topology ↗</a></li>
+              <li><a href="https://nptel.ac.in/courses/111106054" target="_blank" rel="noopener">Topology notes — Prof. Veeramani (NPTEL) ↗</a></li>
+            </ul>
+          </section>
+
+          <section class="book-topic">
+            <h4>ODE & PDE</h4>
+            <ul>
+              <li><a href="https://math24.wordpress.com/wp-content/uploads/2016/04/shuam-ode-book.pdf" target="_blank" rel="noopener">Differential Equations — Bronson, Schaum Outlines ↗</a></li>
+              <li>Differential Equations — M. D. Raisinghania</li>
+              <li>An Elementary Course on PDE — Amarnath</li>
+            </ul>
+            <p class="resource-note">
+              I have not referred to as many books for differential equations as for
+              the other subjects, so this section may grow over time.
+            </p>
+          </section>
+
+          <section class="book-topic">
+            <h4>Functional Analysis</h4>
+            <ul>
+              <li><a href="https://asoimatepn.wordpress.com/wp-content/uploads/2015/04/kreyszig-erwin-introductory-functional-analysis-with-aplications-university-of-windsor-wiley-classics-library-usa-1989.pdf" target="_blank" rel="noopener">Introductory Functional Analysis — Kreyszig ↗</a></li>
+              <li>Functional Analysis — B. V. Limaye</li>
+            </ul>
+            <div class="mini-links">
+              <a href="https://4dspace.mtts.org.in/expository-article-download.php?ai=72" target="_blank" rel="noopener">S. Kumaresan article ↗</a>
+              <a href="https://www.imsc.res.in/~kesh/" target="_blank" rel="noopener">Prof. Kesavan, IMSc ↗</a>
+            </div>
+          </section>
+
+          <section class="book-topic">
+            <h4>Measure Theory</h4>
+            <ul>
+              <li>Measure and Integration — Inder K. Rana</li>
+              <li>Math4All notes — Notes 1 / Notes 2</li>
+            </ul>
+          </section>
+
+        </div>
+
+        <div class="resource-callout">
+          <strong>Extra resource shelf</strong>
+          <p>
+            I highly appreciate the work at
+            <a href="https://pkalika.in" target="_blank" rel="noopener">pkalika.in ↗</a>
+            for mathematics aspirants.
+          </p>
+          <div class="resource-link-list">
+            <a href="https://drive.google.com/file/d/1eqTjUU3Nfgwp2ypqoLgxfAl1fdUVksFP/view" target="_blank" rel="noopener">Complete Grad Math Syllabus <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1PZcR1yPWW0NFy0DsQR-JE5LJjD7J5aAK/view?usp=drive_link" target="_blank" rel="noopener">Notes for Competitive Exams <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- DATA SCIENCE -->
+    <article class="resource-card" data-category="computing">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">⌘</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">COMPUTING</span>
+          <h3>Data Science · AI · ML</h3>
+          <p>Platforms, cheat sheets, introductory materials, and computational learning tools.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+        <div class="resource-group">
+          <h4>Platforms to know</h4>
+          <div class="pill-row">
+            <span>GitHub</span>
+            <span>Kaggle Notebooks</span>
+            <span>GeeksforGeeks</span>
+            <span>KDnuggets</span>
+            <span>GateOverflow</span>
+          </div>
+          <p class="resource-note">
+            Articles and newsletters from
+            <a href="https://www.kdnuggets.com/" target="_blank" rel="noopener">KDnuggets ↗</a>
+            are useful for following developments in data science and AI.
+          </p>
+        </div>
+
+        <div class="resource-group">
+          <h4>Cheat sheets & articles</h4>
+          <ul class="clean-list">
+            <li>Complete Data Science cheat sheet — Statistics & Mathematics</li>
+            <li>Complete Machine Learning cheat sheet</li>
+            <li>GATE DA materials</li>
+            <li>Machine Learning for Beginners</li>
+            <li>Supervised vs. Unsupervised Learning</li>
+            <li>Seven Machine Learning Algorithms Every Data Scientist Should Know</li>
+          </ul>
+          <p class="resource-warning">
+            Some links in the original collection were placeholders (#), so I kept
+            the titles but did not fabricate replacement URLs.
+          </p>
+        </div>
+
+        <div class="resource-group">
+          <h4>Intro course ideas</h4>
+          <ul class="clean-list">
+            <li>Python introduction using Google Colab</li>
+            <li>Visualizing neural networks with TensorFlow Playground</li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <!-- QUANT FINANCE -->
+    <article class="resource-card" data-category="finance">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">∿</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">STOCHASTIC FINANCE</span>
+          <h3>Quantitative Finance</h3>
+          <p>Books, stochastic-process references, software, career guides, and project links.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+        <div class="resource-group">
+          <h4>Books & references</h4>
+          <div class="resource-link-list">
+            <a href="https://drive.google.com/file/d/19Lyo51VSc33-pA1Ttpl0fRnxk1aSnC4c/view?usp=drive_link" target="_blank" rel="noopener">Stochastic Calculus for Finance — Syllabus <span>↗</span></a>
+            <a href="http://efinance.org.cn/cn/FEshuo/stochastic.pdf" target="_blank" rel="noopener">Stochastic Calculus for Finance — Steven Shreve <span>↗</span></a>
+          </div>
+          <ul class="clean-list">
+            <li>Monte Carlo Methods in Engineering — Glasserman</li>
+            <li>Options, Futures and Other Derivatives — John Hull</li>
+            <li>Stochastic Differential Equations — Øksendal <em>(not for beginners)</em></li>
+          </ul>
+          <p class="resource-warning">
+            The original Monte Carlo URL is malformed and some book links were placeholders,
+            so I preserved the titles rather than inventing replacements.
+          </p>
+        </div>
+
+        <div class="resource-group">
+          <h4>Articles & notebooks</h4>
+          <div class="resource-link-list">
+            <a href="https://www.kaggle.com/code/stephen924/stochastic-processes-and-applications#:~:text=This%20notebook%20gave%20a%20very,Process%20or%20even%20Branching%20processes." target="_blank" rel="noopener">Kaggle Notebook — Stochastic Processes <span>↗</span></a>
+            <a href="https://stamatics.github.io/projects-2021/mathematical-finance-and-stochastic-processes" target="_blank" rel="noopener">Stamatics IITK — Mathematical Finance & Stochastic Processes <span>↗</span></a>
+            <a href="https://github.com/cantaro86/Financial-Models-Numerical-Methods" target="_blank" rel="noopener">Financial Models / Numerical Methods <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1k3uMFbNaqtfLJXoTIxOMRWlJpY3-NOF0/view?usp=sharing" target="_blank" rel="noopener">Quant Finance Cheat Sheet <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1IEcxCN0iLkfqn0JxID_pMbhub20u9d8j/view?usp=sharing" target="_blank" rel="noopener">Math Finance Cheat Sheet <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1ScCd97eQoThciMhUVytGtpWUZYIXO8Hy/view?usp=drive_link" target="_blank" rel="noopener">Quant Finance Overview <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="resource-group">
+          <h4>Software & markets</h4>
+          <div class="pill-row">
+            <span>TradingView</span>
+            <span>GoChart</span>
+            <span>Investopedia Simulator</span>
+            <span>Fixed Income</span>
+            <span>Futures & Options</span>
+          </div>
+        </div>
+
+        <div class="resource-group">
+          <h4>Beginner reading & careers</h4>
+          <div class="resource-link-list">
+            <a href="https://maa.org/sites/default/files/MathFinancePASGReport.pdf" target="_blank" rel="noopener">What is Financial Mathematics? <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/1YMaLmy14NsZ-uklUSOi-DPXbNUMnDwM6/view?usp=sharing" target="_blank" rel="noopener">First Step to Mathematical Finance <span>↗</span></a>
+            <a href="https://s3.eu-west-1.amazonaws.com/fl-marketing-cqf.com-001/prod/2024-05/CQF%20Careers%20Guide%20to%20Quantitative%20Finance%202024.pdf?VersionId=Na_pWhI2Sl26Z1bYpQAbY8d1Dr4mHGOz" target="_blank" rel="noopener">CQF Career Guide to Quantitative Finance <span>↗</span></a>
+            <a href="https://homepages.math.uic.edu/~hanson/Finance/FinMathPgms.html" target="_blank" rel="noopener">Finance courses & universities <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="resource-group">
+          <h4>My projects & Git resources</h4>
+          <div class="resource-link-list">
+            <a href="https://gist.github.com/shafiq-abdulrahman/01d0b490cb093fba700c857ede21b8a2" target="_blank" rel="noopener">Complete content & project gist <span>↗</span></a>
+            <a href="https://github.com/Shafiq-Abdu/fin-ml.git" target="_blank" rel="noopener">Finance + ML repository <span>↗</span></a>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- PROBABILITY -->
+    <article class="resource-card" data-category="probability">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">𝑷</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">PROBABILITY</span>
+          <h3>Probability · Statistics · Stochastic Processes</h3>
+          <p>Courses, books, reference notes, stochastic calculus, and probability blogs.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+        <div class="resource-group">
+          <h4>Web resources</h4>
+          <div class="resource-link-list">
+            <a href="https://almostsuremath.com/" target="_blank" rel="noopener">Almost Sure Math — George Lowther <span>↗</span></a>
+            <a href="https://www.probabilitycourse.com/" target="_blank" rel="noopener">Complete Probability Course — Hossein Pishro-Nik <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="resource-group">
+          <h4>Elementary books</h4>
+          <div class="resource-link-list">
+            <a href="https://drive.google.com/file/d/1-rIWgC-EWG1_GZo-y4n78tBy35XXrCNG/view?ts=6987a754" target="_blank" rel="noopener">Probability & Statistics for Engineers — Walpole / Myers <span>↗</span></a>
+            <a href="https://library.lol/main/4D84764491CD2C519E40292818033E1C" target="_blank" rel="noopener">Basic Stochastic Processes — A Course Through Exercises <span>↗</span></a>
+            <a href="https://www.vfu.bg/en/e-Learning/Math--Bertsekas_Tsitsiklis_Introduction_to_probability.pdf" target="_blank" rel="noopener">Introduction to Probability — Bertsekas & Tsitsiklis <span>↗</span></a>
+            <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" target="_blank" rel="noopener">Stochastic Calculus teaching materials <span>↗</span></a>
+          </div>
+        </div>
+
+        <div class="resource-group">
+          <h4>Reference notes</h4>
+          <div class="resource-link-list">
+            <a href="https://drive.google.com/file/d/1T_p2uNHotqsrsOya-kHS_eGQbqF0sOr1/view" target="_blank" rel="noopener">Probability & Statistics Cheat Sheet <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/10wZ7bXOXGXT1dcSE5MTbeGe0kNayerAb/view" target="_blank" rel="noopener">Statistics Cheat Sheet <span>↗</span></a>
+            <a href="https://www.math.nagoya-u.ac.jp/~richard/teaching/f2023/Stochastic.pdf" target="_blank" rel="noopener">Stochastic Lecture Notes — Note 1 <span>↗</span></a>
+            <a href="https://djalil.chafai.net/docs/M2/m2-stochastic-calculus-course-2020-2021.pdf" target="_blank" rel="noopener">Stochastic Calculus Lecture Notes — Note 2 <span>↗</span></a>
+            <a href="https://drive.google.com/file/d/13vJ6x55PoNDCumWCFQZJTNZFCrwpjUM4/view?usp=drive_link" target="_blank" rel="noopener">Itô Process / LinkedIn Report <span>↗</span></a>
+          </div>
+          <p class="resource-warning">
+            The original “Itô's Integration” item used a placeholder link, and the MIT
+            Random Walk URL had a leading #. I did not invent replacements.
+          </p>
+        </div>
+      </div>
+    </article>
+
+    <!-- TOOLS -->
+    <article class="resource-card" data-category="computing">
+      <button class="resource-card-head" aria-expanded="false">
+        <div class="resource-icon">⚙</div>
+        <div class="resource-title-wrap">
+          <span class="resource-label">WORKFLOW</span>
+          <h3>Tools & Software</h3>
+          <p>Research, scientific computing, statistics, coding, and writing tools.</p>
+        </div>
+        <span class="resource-toggle">+</span>
+      </button>
+
+      <div class="resource-card-body">
+        <div class="tools-grid">
+          <div class="tool-box">
+            <span>Research</span>
+            <p>Litmaps · Research Rabbit · Overleaf · LyX · ChatPDF · Paperpal · Notion · Mendeley</p>
+          </div>
+          <div class="tool-box">
+            <span>Scientific Computing</span>
+            <p><a href="https://matlab.mathworks.com/" target="_blank" rel="noopener">MATLAB Online ↗</a></p>
+          </div>
+          <div class="tool-box">
+            <span>Probability & Statistics</span>
+            <p><a href="https://posit.cloud/" target="_blank" rel="noopener">R / Posit Cloud ↗</a></p>
+          </div>
+          <div class="tool-box">
+            <span>Python Workflow</span>
+            <p><a href="https://colab.google/" target="_blank" rel="noopener">Google Colab ↗</a> · VS Code · GitHub · Codespaces</p>
+          </div>
+        </div>
+      </div>
+    </article>
+
+  </div>
+</section>
+
+<!-- =========================================================
+     LEARNING ROADMAP
+========================================================= -->
+
+<section class="roadmap-section">
+
+  <div class="materials-heading roadmap-heading">
+    <p class="materials-kicker">LEARNING ROADMAP</p>
+    <h2>A Mathematics Learning Path</h2>
+    <p>
+      One possible progression from foundational mathematics to advanced
+      undergraduate and graduate topics.
     </p>
-    <!-- Cheat Sheets -->
-    <ul>
-      <li>Cheat Sheet for Complete Data Science (including Statistics & Math) — <a href="#" style="color: #1E90FF;">PDF (Link)</a></li>
-      <li>Complete Cheat Sheet for ML — <a href="#" style="color: #1E90FF;">PDF (Link2)</a> <span style="color: #00FF7F;">(great!)</span></li>
-      <li>Excellent Materials for GATE DA — <a href="#" style="color: #1E90FF;">link</a></li>
-    </ul>
-    <!-- Articles -->
-    <ul>
-      <li><a href="#" style="color: #1E90FF;">Machine Learning for Beginners</a>: An excellent resource that breaks down machine learning concepts clearly.</li>
-      <li><a href="#" style="color: #1E90FF;">Supervised vs. Unsupervised Learning</a>: Key Differences explained with visuals.</li>
-      <li><a href="#" style="color: #1E90FF;">7 Machine Learning Algorithms Every Data Scientist Should Know</a></li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <!-- Course -->
-    <p style="color: cyan; font-weight: bold;">Course: Intro to Machine Learning / Data Science Materials</p>
-    <ul>
-      <li>Python Intro — Workshop using Google Colab</li>
-      <li>Visualize Neural Networks using <span style="color: #00FF7F;">TensorFlow Playground</span></li>
-    </ul>
   </div>
-</details>
 
+  <div class="roadmap-track">
 
+    <article class="roadmap-card">
+      <div class="roadmap-number">01</div>
+      <div class="roadmap-dot"></div>
+      <h3>High School</h3>
+      <p class="roadmap-subtitle">Build fluency and intuition.</p>
+      <div class="roadmap-content">
+        <span>Set Theory</span>
+        <span>Sequences & Series</span>
+        <span>Binomial Theorem</span>
+        <span>Permutations & Combinations</span>
+        <span>Matrices & Determinants</span>
+        <span>Complex Numbers</span>
+        <span>Quadratic Equations</span>
+        <span>Trigonometry</span>
+        <span>Coordinate Geometry</span>
+        <span>Vector Algebra</span>
+        <span>3D Geometry</span>
+        <a href="https://sac.edu/AcademicProgs/ScienceMathHealth/MathCenter/Documents/calculus%20cheat%20sheet.pdf" target="_blank" rel="noopener">Continuity & Derivatives ↗</a>
+        <a href="https://www.geeksforgeeks.org/maths/math-calculus/" target="_blank" rel="noopener">Differential Calculus ↗</a>
+        <span>Integral Calculus</span>
+        <span>Statistics & Probability</span>
+        <span>Mathematical Reasoning & Logic</span>
+      </div>
+    </article>
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
-      Quantitative Finance 
-  </summary>
+    <article class="roadmap-card">
+      <div class="roadmap-number">02</div>
+      <div class="roadmap-dot"></div>
+      <h3>Undergraduate</h3>
+      <p class="roadmap-subtitle">Move from calculation to structure.</p>
 
-  <div style="margin-top: 1rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
+      <div class="roadmap-level">
+        <strong>Stage 1</strong>
+        <span><a href="https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf" target="_blank" rel="noopener">Single Variable Calculus ↗</a></span>
+        <span>Classical Algebra</span>
+        <span>Analytical Geometry</span>
+        <span>Vector & Integral Calculus</span>
+        <span>Number Theory</span>
+        <span>Intro to ODE & PDE</span>
+      </div>
 
-  <h4 style="color:#1E90FF;">📚 Books for References</h4>
-  <ul>
-    <li><a href="https://drive.google.com/file/d/19Lyo51VSc33-pA1Ttpl0fRnxk1aSnC4c/view?usp=drive_link" style="color:#1E90FF;">Stochastic Calculus for Finance - Syllabus</a></li>
-    <li>Stochastic calculus for finance (two volumes), Steven Shreve, C Mellon — 
-      <a href="http://efinance.org.cn/cn/FEshuo/stochastic.pdf" style="color:#87CEFA;">PDF</a></li>
-    <li>Monte Carlo Methods in Engineering, Glasserman, Columbia Business School — 
-      <a href="https://www/Monte_Carlo_Methods.pdf" style="color:#87CEFA;">PDF</a></li>
-    <li>Options, Futures and other derivatives by John Hull — <a href="#" style="color:#87CEFA;">link</a></li>
-    <li>Stochastic Differential Equations by Øksendal (not for beginners) — <a href="#" style="color:#87CEFA;">link</a></li>
-  </ul>
+      <div class="roadmap-level">
+        <strong>Stage 2</strong>
+        <span>Multivariate Calculus</span>
+        <span>Fourier Series & Laplace Transform</span>
+        <span><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf" target="_blank" rel="noopener">Probability & Statistics ↗</a></span>
+        <span>Mathematics for Physics</span>
+        <span>Mathematics for Computer Science</span>
+        <span>Operations Research</span>
+        <span>Numerical Analysis</span>
+      </div>
 
-  <h4 style="color:#1E90FF;">📰 Articles</h4>
-  <ul>
-    <li><a href="https://www.kaggle.com/code/stephen924/stochastic-processes-and-applications#:~:text=This%20notebook%20gave%20a%20very,Process%20or%20even%20Branching%20processes." style="color:#32CD32;">Kaggle Notebook: Stochastic Process</a></li>
-    <li><a href="https://stamatics.github.io/projects-2021/mathematical-finance-and-stochastic-processes" style="color:#32CD32;">Stamatics IITK — Finance and Stochastic Process Project</a></li>
-    <li><a href="https://github.com/cantaro86/Financial-Models-Numerical-Methods" style="color:#32CD32;">Financial Models / Gitcode</a></li>
-    <li><a href="https://drive.google.com/file/d/1k3uMFbNaqtfLJXoTIxOMRWlJpY3-NOF0/view?usp=sharing" style="color:#32CD32;">Quant Finance Cheat Sheet (PDF)</a></li>
-    <li><a href="https://drive.google.com/file/d/1IEcxCN0iLkfqn0JxID_pMbhub20u9d8j/view?usp=sharing" style="color:#32CD32;">Math Finance Cheat Sheet (PDF)</a></li>
-    <li><a href="https://drive.google.com/file/d/1ScCd97eQoThciMhUVytGtpWUZYIXO8Hy/view?usp=drive_link" style="color:#32CD32;">Quant Finance Overview (must look)</a></li>
-  </ul>
+      <div class="roadmap-level">
+        <strong>Stage 3</strong>
+        <span><a href="https://rethinks.org/posts/cheatsheets/analysis_I.pdf" target="_blank" rel="noopener">Real Analysis ↗</a></span>
+        <span>Complex Variables</span>
+        <span>Linear Algebra & Applications</span>
+        <span>Abstract Algebraic Structures</span>
+        <span>Advanced Fourier & Laplace Transform</span>
+      </div>
+    </article>
 
-  <h4 style="color:#1E90FF;">💻 Softwares and Websites</h4>
-  <ul>
-    <li>TradingView, GoChart, Investopedia Simulator</li>
-    <li>Bonds: Fixed Income by Tipson</li>
-    <li>Futures and Options (FNO) — Grow, Zerodha (India)</li>
-  </ul>
+    <article class="roadmap-card">
+      <div class="roadmap-number">03</div>
+      <div class="roadmap-dot"></div>
+      <h3>Graduate</h3>
+      <p class="roadmap-subtitle">Develop abstraction and research readiness.</p>
 
-  <h4 style="color:#1E90FF;">📘 Beginners to Read</h4>
-  <ul>
-    <li><a href="https://maa.org/sites/default/files/MathFinancePASGReport.pdf" style="color:#87CEFA;">What is Financial Mathematics? Courses, Books, and History</a></li>
-    <li><a href="https://maa.org/sites/default/files/MathFinancePASGReport.pdf" style="color:#87CEFA;">Suggested Readings by Prof. A. Goswami (IISER Pune)</a></li>
-    <li><a href="https://drive.google.com/file/d/1YMaLmy14NsZ-uklUSOi-DPXbNUMnDwM6/view?usp=sharing" style="color:#87CEFA;">First Step to Math Finance (Read This)</a></li>
-    <li><a href="https://s3.eu-west-1.amazonaws.com/fl-marketing-cqf.com-001/prod/2024-05/CQF%20Careers%20Guide%20to%20Quantitative%20Finance%202024.pdf?VersionId=Na_pWhI2Sl26Z1bYpQAbY8d1Dr4mHGOz" style="color:#87CEFA;">Career Guide: Certificate of Quantitative Finance (CQF)</a></li>
-  </ul>
+      <div class="roadmap-level">
+        <strong>Level 1</strong>
+        <span>Real Analysis</span>
+        <span>Advanced Linear Algebra</span>
+        <span>Algebraic Structures</span>
+        <span>Ordinary Differential Equations</span>
+        <span>Discrete Mathematics</span>
+        <span>Numerical Analysis & Computing</span>
+      </div>
 
-  <h4 style="color:#1E90FF;">🏛️ Finance Courses and Universities</h4>
-  <p><a href="https://homepages.math.uic.edu/~hanson/Finance/FinMathPgms.html" style="color:cyan; text-decoration: underline;">link</a></p>
+      <div class="roadmap-level">
+        <strong>Level 2</strong>
+        <span>Partial Differential Equations</span>
+        <span>Complex Analysis</span>
+        <span>Measure Theory</span>
+        <span>Topology</span>
+        <span><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf" target="_blank" rel="noopener">Probability Theory ↗</a></span>
+        <span>Functional Analysis</span>
+      </div>
 
-  <h4 style="color:#1E90FF;">📂 My Projects and Git Resources </h4>
-  <ul>
-    <li><strong>My complete content and project:</strong> <a href="https://gist.github.com/shafiq-abdulrahman/01d0b490cb093fba700c857ede21b8a2" style="color:#FFD700;">Git Gist</a></li>
-    <li><strong>Finance in ML (Git Repo):</strong> <em style="color:#32CD32;">Great Python Notebooks</em>  <a href="https://github.com/Shafiq-Abdu/fin-ml.git" style="color:#FFD700;">Git Gist</a></li> 
-  </ul>
+      <a class="roadmap-syllabus"
+         href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view"
+         target="_blank" rel="noopener">
+        Complete graduate syllabus ↗
+      </a>
+
+      <div class="research-directions">
+        <p>These areas open into research directions such as:</p>
+        <div>
+          <span>Analysis & PDEs</span>
+          <span>Algebraic Structures</span>
+          <span>Discrete Mathematics & Computation</span>
+          <span>Geometry & Topology</span>
+          <span>Scientific Computing</span>
+          <span>Applied Mathematics</span>
+          <span>Probability & Statistics</span>
+        </div>
+      </div>
+    </article>
 
   </div>
-</details>
+</section>
 
+<!-- =========================================================
+     IMAGE GALLERY
+========================================================= -->
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
-      Probability / Statistics / Stochastic Processes 
-  </summary>
-
-  <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
-    <ul>
-      <li><b> <em style="color:#32CD32;">Mathematical blog:</em> </b> 
-        <a href="https://almostsuremath.com/" target="_blank" style="color:#1E90FF;">almostsuremath.com</a> by George Lowther
-      </li>
-    </ul>
-    <ul>
-      <li><b> <em style="color:#32CD32;">Complete Probability course </em> </b> 
-        <a href="https://www.probabilitycourse.com/" target="_blank" style="color:#1E90FF;">(link)</a> by Hossein Pishro-Nik
-      </li>
-    </ul>
-    <ul>
-      <li><b>Elementary books</b>
-        <ul>
-        <li>
-            <a href="https://drive.google.com/file/d/1-rIWgC-EWG1_GZo-y4n78tBy35XXrCNG/view?ts=6987a754" style="color:#1E90FF;">Probability and Stat for engineers</a>, Walpole.Myers.
-          </li>
-          <li>
-            <a href="https://library.lol/main/4D84764491CD2C519E40292818033E1C" style="color:#1E90FF;">Basic Stochastic Processes: A Course Through Exercises</a>, Springer
-          </li>
-          <li>
-            <a href="https://www.vfu.bg/en/e-Learning/Math--Bertsekas_Tsitsiklis_Introduction_to_probability.pdf" style="color:#1E90FF;">Introduction to Probability</a> by Bertsekas & Tsitsiklis
-          </li>
-          <li>
-            <a href="https://sites.google.com/view/shafiqabdulrahmanab/teaching" style="color:#1E90FF;">Stochastic Calculus</a> Teach materials
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <ul>
-      <li><b>Notes for Reference</b>
-        <ul>
-          <li><a href="https://drive.google.com/file/d/1T_p2uNHotqsrsOya-kHS_eGQbqF0sOr1/view" style="color:#1E90FF;">Probability and Statistics - Cheat Sheet</a></li>
-          <li><a href="https://drive.google.com/file/d/10wZ7bXOXGXT1dcSE5MTbeGe0kNayerAb/view" style="color:#1E90FF;">Statistics - Cheat Sheet</a></li>
-          <li>Excellent Lecture Notes:
-            <a href="https://www.math.nagoya-u.ac.jp/~richard/teaching/f2023/Stochastic.pdf" style="color:#1E90FF;">Note 1</a> |
-            <a href="https://djalil.chafai.net/docs/M2/m2-stochastic-calculus-course-2020-2021.pdf" style="color:#1E90FF;">Note 2</a>
-          </li>
-        </ul>
-      </li>
-    </ul>
-    <hr style="border: 0.5px solid #444;">
-    <ul>
-      <li><a href="#" style="color:#1E90FF;">Ito's Integration - Link</a></li>
-      <li><a href="#https://www.mit.edu/~kardar/teaching/projects/chemotaxis%28AndreaSchmidt%29/random.htm" style="color:#1E90FF;">Random Walks - MIT Link</a></li>
-      <li><a href="https://drive.google.com/file/d/13vJ6x55PoNDCumWCFQZJTNZFCrwpjUM4/view?usp=drive_link" style="color:#1E90FF;">Ito's Process / Linkedin - Report</a></li>
-    </ul>
+<section class="materials-gallery-section">
+  <div class="materials-heading">
+    <p class="materials-kicker">VISUAL NOTES</p>
+    <h2>Image Gallery</h2>
+    <p>A small collection of mathematical notes and visual study material.</p>
   </div>
-</details>
 
-
-
-
-
----
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color:  #b6131cff; font-weight: bold; font-size: 1.15rem; cursor: pointer;">
-      Tools and Softwares
-  </summary>
- <div style="margin-top: 1rem; font-size: 0.96rem; line-height: 1.7;">
-    <ul>
-      <li><b> <em style="color:#32CD32;">Research tools</em> </b> 
-        Litmaps or Research Rabbit (Journal Seeker) ,Overleaf (LaTeX editor), LyX (Word editor), Chatpdf or Pdfdrive , Paperpal(paid) , Hypernotes or Notion , Enago plagiriazer , Mendeley & Mendeley Data.
-      </li>
-    </ul>
-    <ul>
-      <li><b> <em style="color:#32CD32;">Numerical & Scientific Computing,  </em> </b> 
-        <a href="https://matlab.mathworks.com/" target="_blank" style="color:#1E90FF;">MaTLAB online</a>  is the best.
-      </li>
-    </ul>
-     <ul>
-      <li><b> <em style="color:#32CD32;">Probability & Statistics, </em> </b> 
-        <a href="https://posit.cloud/" target="_blank" style="color:#1E90FF;"> R - Posit Cloud</a>  is much better than others .
-      </li>
-    </ul>
-    <ul>
-      <li><b> <em style="color:#32CD32;">Python + VS Code + GitHub </em> </b> 
-        <a href="https://colab.google/" target="_blank" style="color:#1E90FF;">Google Colab </a>  ( jupyter notebooks), VS Code online , Codespaces in Git.
-      </li>
-    </ul>
+  <div class="materials-gallery-grid">
+    <a href="https://shafiq-abdulrahman.github.io/images/libr.png" target="_blank" rel="noopener">
+      <img src="{{ '/images/libr.png' | relative_url }}" alt="Mathematics study material">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank" rel="noopener">
+      <img src="{{ '/images/ca1.png' | relative_url }}" alt="Complex analysis notes 1">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/ca2.png" target="_blank" rel="noopener">
+      <img src="{{ '/images/ca2.png' | relative_url }}" alt="Complex analysis notes 2">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/topo.png" target="_blank" rel="noopener">
+      <img src="{{ '/images/topo.png' | relative_url }}" alt="Topology notes">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/fa.png" target="_blank" rel="noopener">
+      <img src="{{ '/images/fa.png' | relative_url }}" alt="Functional analysis notes">
+    </a>
+    <a href="https://shafiq-abdulrahman.github.io/images/as.gif" target="_blank" rel="noopener">
+      <img src="{{ '/images/as.gif' | relative_url }}" alt="Animated mathematics note">
+    </a>
   </div>
-</details>
----
+</section>
+
+<!-- =========================================================
+     FEEDBACK
+========================================================= -->
+
+<section class="feedback-card">
+
+  <div class="feedback-copy">
+    <p class="materials-kicker">FEEDBACK</p>
+    <h2>Help me improve these materials.</h2>
+    <p>
+      If you have used any of the notes or resources on this page, I would love
+      to hear what helped, what could be clearer, or what you would like to see added.
+    </p>
+
+    <a class="feedback-button"
+       href="https://forms.gle/2q4vPF27ZaLEVfAL9"
+       target="_blank" rel="noopener">
+      Leave feedback <span>↗</span>
+    </a>
+
+    <blockquote>
+      “Don’t pray for an easy life, pray for the strength to endure a difficult one.”
+      <span>— Bruce Lee</span>
+    </blockquote>
+  </div>
+
+  <div class="feedback-qr">
+    <a href="https://forms.gle/2q4vPF27ZaLEVfAL9" target="_blank" rel="noopener">
+      <img
+        src="https://api.qrserver.com/v1/create-qr-code/?data=https://forms.gle/2q4vPF27ZaLEVfAL9&size=180x180"
+        alt="QR code for feedback form">
+    </a>
+    <span>Scan or click</span>
+  </div>
+
+</section>
+
+<!-- =========================================================
+     STYLES
+========================================================= -->
 
 <style>
-/* === Overall Layout === */
-.math-columns {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 20px;
-  margin: 2rem auto;
-  color: #000000ff;
+
+.materials-section,
+.roadmap-section,
+.materials-gallery-section,
+.feedback-card{
+  margin-top:22px;
+  padding:clamp(24px,4vw,44px);
+  border-radius:20px;
+  border:1px solid #232b37;
+  background:
+    radial-gradient(circle at 90% 0%,rgba(52,165,190,.08),transparent 28%),
+    linear-gradient(145deg,#080c13,#0b111c);
+  color:#e6edf3;
 }
 
-.math-column {
-  flex: 1 1 30%;
-  background: #610a9fff;
-  border: 1px solid #30363d;
-  border-radius: 10px;
-  padding: 1rem 1.4rem;
-  box-shadow: 0 0 10px rgba(255,255,255,0.05);
+.materials-heading{
+  max-width:760px;
+  margin-bottom:24px;
 }
 
-/* === Collapsible Header === */
-.math-column summary {
-  font-size: 1.42rem;
-  font-weight: 700;
-  color: cyan;
-  cursor: pointer;
-  padding: 0.4rem 0;
-  border-bottom: 1px solid #30363d;
-  transition: color 0.3s ease;
+.materials-kicker{
+  margin:0 0 7px;
+  color:#60d6e8;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.18em;
 }
 
-.math-column summary:hover {
-  color: #58a6ff;
+.materials-heading h2,
+.feedback-copy h2{
+  margin:0 0 8px;
+  color:#fff;
+  font-size:clamp(24px,3vw,34px);
+  line-height:1.15;
 }
 
-/* Add a small arrow icon that rotates when opened */
-.math-column summary::marker {
-  color: #a0e475ff;
-  font-size: 1.3em;
+.materials-heading p,
+.feedback-copy > p{
+  margin:0;
+  color:#94a0af;
+  font-size:14px;
+  line-height:1.7;
 }
 
-/* === Inside Content === */
-.math-column ul {
-  list-style-type: square;
-  padding-left: 1.5rem;
-  line-height: 1.6;
+.materials-toolbar{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px;
+  margin-bottom:20px;
 }
 
-.math-column li {
-  color: #c9d1d9;
+.materials-filter{
+  border:1px solid #2b3744;
+  border-radius:999px;
+  padding:7px 12px;
+  color:#9eabb9;
+  background:#0d141d;
+  font-size:12px;
+  cursor:pointer;
+  transition:.2s ease;
 }
 
-.math-column li strong {
-  color: #58a6ff;
+.materials-filter:hover,
+.materials-filter.active{
+  color:#fff;
+  border-color:#3ba8b9;
+  background:rgba(31,144,160,.18);
+  box-shadow:0 0 18px rgba(36,150,170,.12);
 }
 
-.math-column hr {
-  border: none;
-  border-top: 1px dashed #444;
-  margin: 0.8rem 0;
+.materials-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
 }
 
-/* Links for research interests */
-.math-column a {
-  color: #79c0ff;
-  text-decoration: none;
+.resource-card{
+  border:1px solid #26303c;
+  border-radius:15px;
+  background:#0d141d;
+  overflow:hidden;
+  transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease;
 }
-.math-column a:hover {
-  color: #a5d6ff;
+
+.resource-card:hover{
+  transform:translateY(-2px);
+  border-color:#3b7c88;
+  box-shadow:0 12px 30px rgba(0,0,0,.18);
 }
+
+.resource-card.hidden{
+  display:none;
+}
+
+.resource-card-wide{
+  grid-column:1 / -1;
+}
+
+.resource-card-head{
+  width:100%;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:14px;
+  align-items:start;
+  padding:18px;
+  border:0;
+  background:transparent;
+  color:inherit;
+  text-align:left;
+  cursor:pointer;
+}
+
+.resource-icon{
+  width:38px;
+  height:38px;
+  border-radius:11px;
+  display:grid;
+  place-items:center;
+  color:#75dfeb;
+  background:rgba(69,190,205,.10);
+  border:1px solid rgba(69,190,205,.20);
+  font-size:18px;
+  font-family:Georgia,serif;
+  transition:transform .25s ease,background .25s ease;
+}
+
+.resource-card:hover .resource-icon{
+  transform:rotate(-4deg) scale(1.04);
+  background:rgba(69,190,205,.16);
+}
+
+.resource-label{
+  display:block;
+  color:#66d6e5;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.16em;
+  margin-bottom:4px;
+}
+
+.resource-title-wrap h3{
+  margin:0 0 5px;
+  color:#fff;
+  font-size:16px;
+}
+
+.resource-title-wrap p{
+  margin:0;
+  color:#8794a4;
+  font-size:12.5px;
+  line-height:1.55;
+}
+
+.resource-toggle{
+  color:#67dbe8;
+  font-size:22px;
+  line-height:1;
+  transition:transform .25s ease;
+}
+
+.resource-card.open .resource-toggle{
+  transform:rotate(45deg);
+}
+
+.resource-card-body{
+  display:none;
+  padding:0 18px 18px;
+  animation:resourceReveal .28s ease;
+}
+
+.resource-card.open .resource-card-body{
+  display:block;
+}
+
+@keyframes resourceReveal{
+  from{opacity:0;transform:translateY(-4px)}
+  to{opacity:1;transform:translateY(0)}
+}
+
+.resource-group{
+  padding-top:14px;
+  margin-top:2px;
+  border-top:1px solid #202936;
+}
+
+.resource-group + .resource-group{
+  margin-top:16px;
+}
+
+.resource-group h4,
+.book-topic h4{
+  margin:0 0 10px;
+  color:#dbe4ee;
+  font-size:13px;
+}
+
+.resource-link-list{
+  display:grid;
+  gap:7px;
+}
+
+.resource-link-list a,
+.featured-link{
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:10px;
+  padding:9px 10px;
+  border-radius:9px;
+  color:#9fcfda !important;
+  background:#101923;
+  border:1px solid #202f3a;
+  text-decoration:none !important;
+  font-size:12.5px;
+  transition:.18s ease;
+}
+
+.resource-link-list a:hover,
+.featured-link:hover{
+  color:#fff !important;
+  border-color:#3b8b98;
+  transform:translateX(2px);
+}
+
+.featured-link{
+  background:rgba(34,145,164,.11);
+  border-color:rgba(68,182,198,.25);
+}
+
+.book-topic-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:12px;
+}
+
+.book-topic{
+  padding:14px;
+  border-radius:12px;
+  border:1px solid #222d39;
+  background:#0f1721;
+}
+
+.book-topic ul,
+.clean-list{
+  margin:0;
+  padding-left:17px;
+  color:#9aa7b5;
+  font-size:12.5px;
+  line-height:1.65;
+}
+
+.book-topic a,
+.clean-list a,
+.resource-note a,
+.mini-links a{
+  color:#85cfdb !important;
+  text-decoration:none !important;
+}
+
+.book-topic a:hover,
+.resource-note a:hover,
+.mini-links a:hover{
+  color:#fff !important;
+}
+
+.resource-note,
+.resource-warning{
+  margin:10px 0 0;
+  color:#8995a4;
+  font-size:11.8px;
+  line-height:1.6;
+}
+
+.resource-warning{
+  padding:9px 10px;
+  border-left:2px solid #d6a24a;
+  color:#c0ad88;
+  background:rgba(197,147,54,.06);
+  border-radius:0 7px 7px 0;
+}
+
+.mini-links{
+  display:flex;
+  flex-wrap:wrap;
+  gap:8px 12px;
+  margin-top:10px;
+  font-size:11.8px;
+}
+
+.resource-callout{
+  margin-top:14px;
+  padding:14px;
+  border-radius:12px;
+  background:linear-gradient(135deg,rgba(45,145,160,.10),rgba(86,99,180,.07));
+  border:1px solid #293945;
+}
+
+.resource-callout strong{
+  color:#fff;
+  font-size:13px;
+}
+
+.resource-callout p{
+  margin:6px 0 10px;
+  color:#8e9aa9;
+  font-size:12px;
+}
+
+.pill-row{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.pill-row span{
+  padding:5px 8px;
+  border-radius:999px;
+  background:#121d29;
+  border:1px solid #263a46;
+  color:#8dcbd4;
+  font-size:11px;
+}
+
+.tools-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:9px;
+}
+
+.tool-box{
+  padding:12px;
+  border-radius:10px;
+  background:#101923;
+  border:1px solid #24313c;
+}
+
+.tool-box span{
+  display:block;
+  margin-bottom:5px;
+  color:#68d8e5;
+  font-size:11px;
+  font-weight:700;
+}
+
+.tool-box p{
+  margin:0;
+  color:#9aa6b3;
+  font-size:12px;
+  line-height:1.55;
+}
+
+.tool-box a{
+  color:#9ed7df !important;
+  text-decoration:none !important;
+}
+
+/* ROADMAP */
+
+.roadmap-track{
+  position:relative;
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:14px;
+}
+
+.roadmap-track::before{
+  content:"";
+  position:absolute;
+  left:7%;
+  right:7%;
+  top:28px;
+  height:1px;
+  background:linear-gradient(90deg,transparent,#2a99aa,#2a99aa,transparent);
+  opacity:.45;
+  animation:roadmapPulse 3s ease-in-out infinite alternate;
+}
+
+@keyframes roadmapPulse{
+  from{opacity:.22}
+  to{opacity:.62}
+}
+
+.roadmap-card{
+  position:relative;
+  padding:19px;
+  border-radius:15px;
+  background:#0d141d;
+  border:1px solid #26303c;
+  transition:transform .2s ease,border-color .2s ease;
+}
+
+.roadmap-card:hover{
+  transform:translateY(-3px);
+  border-color:#3c8390;
+}
+
+.roadmap-number{
+  color:#53616f;
+  font-size:10px;
+  font-weight:800;
+  letter-spacing:.16em;
+}
+
+.roadmap-dot{
+  width:8px;
+  height:8px;
+  margin:13px 0;
+  border-radius:50%;
+  background:#65d8e5;
+  box-shadow:0 0 14px rgba(101,216,229,.7);
+}
+
+.roadmap-card h3{
+  margin:0 0 4px;
+  color:#fff;
+  font-size:16px;
+}
+
+.roadmap-subtitle{
+  margin:0 0 14px;
+  color:#8492a2;
+  font-size:12px;
+}
+
+.roadmap-content,
+.roadmap-level{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+}
+
+.roadmap-content span,
+.roadmap-content a,
+.roadmap-level span,
+.roadmap-level a{
+  padding:5px 7px;
+  border-radius:7px;
+  background:#111b25;
+  border:1px solid #23313d;
+  color:#9eb1be !important;
+  text-decoration:none !important;
+  font-size:10.8px;
+}
+
+.roadmap-level{
+  margin-top:12px;
+}
+
+.roadmap-level strong{
+  width:100%;
+  color:#65d8e5;
+  font-size:10px;
+  letter-spacing:.06em;
+}
+
+.roadmap-syllabus{
+  display:inline-block;
+  margin-top:15px;
+  color:#72dce8 !important;
+  text-decoration:none !important;
+  font-size:12px;
+  font-weight:700;
+}
+
+.research-directions{
+  margin-top:14px;
+  padding-top:13px;
+  border-top:1px solid #24303a;
+}
+
+.research-directions p{
+  margin:0 0 8px;
+  color:#8d99a8;
+  font-size:11px;
+}
+
+.research-directions div{
+  display:flex;
+  flex-wrap:wrap;
+  gap:5px;
+}
+
+.research-directions span{
+  color:#8ec5cd;
+  font-size:10.5px;
+}
+
+/* GALLERY */
+
+.materials-gallery-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+
+.materials-gallery-grid a{
+  display:block;
+  overflow:hidden;
+  border-radius:12px;
+  border:1px solid #27313b;
+  background:#0c121a;
+}
+
+.materials-gallery-grid img{
+  width:100% !important;
+  max-width:none !important;
+  height:210px !important;
+  margin:0 !important;
+  object-fit:cover;
+  border-radius:0 !important;
+  box-shadow:none !important;
+  filter:saturate(.82) contrast(.95);
+  transition:transform .35s ease,filter .35s ease;
+}
+
+.materials-gallery-grid a:hover img{
+  transform:scale(1.035);
+  filter:saturate(1) contrast(1);
+}
+
+/* FEEDBACK */
+
+.feedback-card{
+  display:grid;
+  grid-template-columns:1fr auto;
+  gap:28px;
+  align-items:center;
+  background:
+    radial-gradient(circle at 85% 50%,rgba(57,191,205,.10),transparent 28%),
+    linear-gradient(145deg,#080c13,#0b111c);
+}
+
+.feedback-copy{
+  max-width:650px;
+}
+
+.feedback-button{
+  display:inline-flex;
+  align-items:center;
+  gap:8px;
+  margin-top:16px;
+  padding:9px 13px;
+  border-radius:9px;
+  background:#158a9b;
+  color:#fff !important;
+  text-decoration:none !important;
+  font-size:12px;
+  font-weight:700;
+  transition:.2s ease;
+}
+
+.feedback-button:hover{
+  transform:translateY(-2px);
+  background:#1a9fb1;
+  box-shadow:0 10px 24px rgba(20,137,156,.18);
+}
+
+.feedback-copy blockquote{
+  margin:18px 0 0;
+  padding-left:14px;
+  border-left:2px solid #4fc5d5;
+  color:#c1cad4;
+  font-family:'Patrick Hand',sans-serif;
+  font-size:14px;
+  line-height:1.5;
+}
+
+.feedback-copy blockquote span{
+  display:block;
+  margin-top:4px;
+  color:#65d8e5;
+  font-size:12px;
+}
+
+.feedback-qr{
+  text-align:center;
+}
+
+.feedback-qr img{
+  width:140px !important;
+  height:140px !important;
+  max-width:none !important;
+  margin:0 auto 7px !important;
+  padding:8px;
+  background:#fff;
+  border-radius:13px !important;
+  box-shadow:0 12px 28px rgba(0,0,0,.28) !important;
+}
+
+.feedback-qr span{
+  display:block;
+  color:#778594;
+  font-size:10px;
+  text-transform:uppercase;
+  letter-spacing:.12em;
+}
+
+/* RESPONSIVE */
+
+@media(max-width:850px){
+  .materials-grid{
+    grid-template-columns:1fr;
+  }
+
+  .resource-card-wide{
+    grid-column:auto;
+  }
+
+  .roadmap-track{
+    grid-template-columns:1fr;
+  }
+
+  .roadmap-track::before{
+    display:none;
+  }
+
+  .materials-gallery-grid{
+    grid-template-columns:repeat(2,minmax(0,1fr));
+  }
+}
+
+@media(max-width:600px){
+  .materials-section,
+  .roadmap-section,
+  .materials-gallery-section,
+  .feedback-card{
+    padding:20px 14px;
+  }
+
+  .book-topic-grid,
+  .tools-grid{
+    grid-template-columns:1fr;
+  }
+
+  .materials-gallery-grid{
+    grid-template-columns:1fr;
+  }
+
+  .materials-gallery-grid img{
+    height:220px !important;
+  }
+
+  .feedback-card{
+    grid-template-columns:1fr;
+  }
+
+  .feedback-qr{
+    justify-self:start;
+  }
+}
+
+@media(prefers-reduced-motion:reduce){
+  .resource-card,
+  .resource-icon,
+  .materials-gallery-grid img,
+  .roadmap-track::before{
+    animation:none !important;
+    transition:none !important;
+  }
+}
+
 </style>
 
-<div class="math-columns">
+<!-- =========================================================
+     INTERACTIONS
+========================================================= -->
 
-  <!-- === High School Column === -->
-  <details class="math-column">
-    <summary>High School </summary>
-    <ul>
-      <li>Set theory</li>
-      <li>Sequence & Series</li>
-      <li>Binomial theorem</li>
-      <li>Permutation & Combination</li>
-      <li>Matrices & Determinant</li>
-      <li>Complex Numbers</li>
-      <li>Quadratic Equations</li>
-    </ul>
-    <hr>
-    <ul>
-      <li>Trigonometry</li>
-      <li>Coordinate Geometry</li>
-      <li>Vector Algebra</li>
-      <li>3D Geometry</li>
-    </ul>
-    <hr>
-    <ul>
-      <li><a href="https://sac.edu/AcademicProgs/ScienceMathHealth/MathCenter/Documents/calculus%20cheat%20sheet.pdf">Continuity & Derivatives </a></li> 
-      <li><a href="https://www.geeksforgeeks.org/maths/math-calculus/">Differential Calculus </a></li> 
-      <li>Integral Calculus</li>
-    </ul>
-    <hr>
-    <ul>
-      <li>Statistics & Probability</li>
-      <li>Mathematical Reasoning & Logic</li>
-    </ul>
-  </details>
+<script>
+document.addEventListener("DOMContentLoaded",function(){
 
-  <!-- === Bachelors Column === -->
-  <details class="math-column">
-    <summary>Undergraduate</summary>
-    <h4 style="color: #f5c518;">Stage 1:</h4>
-    <ul>
-      <li><a href="https://tutorial.math.lamar.edu/pdf/calculus_cheat_sheet_all.pdf">Single Variable Calculus </a></li> 
-      <li>Classical Algebra</li>
-      <li>Analytical Geometry</li>
-      <li>Vector & Integral Calculus</li>
-      <li>Number Theory</li>
-      <li>Intro to ODE & PDE</li>
-    </ul>
-    <hr>
-    <h4 style="color: #f5c518;">Stage 2:</h4>
-    <ul>
-      <li>Multivariate Calculus</li>
-      <li>Fourier Series & Laplace Transform</li>
-      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability and Statistics </a></li>
-      <li>Mathematics for Physics</li>
-      <li>Mathematics for Computer Science</li>
-      <li>Operation Research</li>
-      <li>Numerical Analysis</li>
-    </ul>
-    <hr>
-    <h4 style="color: #f5c518;">Stage 3:</h4>
-    <ul>
-      <li><a href="https://rethinks.org/posts/cheatsheets/analysis_I.pdf">Real Analysis </a></li> 
-      <li>Complex Variables</li>
-      <li>Linear Algebra & Applications</li>
-      <li>Abstract Algebraic Structures</li>
-      <li>Advanced Fourier & Laplace Transform</li>
-    </ul>
-  </details>
+  /* Resource accordions */
+  document.querySelectorAll(".resource-card-head").forEach(function(button){
+    button.addEventListener("click",function(){
+      const card=button.closest(".resource-card");
+      const isOpen=card.classList.contains("open");
 
-  <!-- === Masters Column === -->
-  <details class="math-column">
-    <summary>Graduate</summary>
-    <h4 style="color: #f5c518;">Level 1:</h4>
-    <ul>
-      <li>Real Analysis</li>
-      <li>Advanced Linear Algebra</li>
-      <li>Algebraic Structures</li>
-      <li>Ordinary Differential Equations</li>
-      <li>Discrete Mathematics</li>
-      <li>Numerical Analysis & Computing</li>
-    </ul>
-    <hr>
-    <h4 style="color: #f5c518;">Level 2:</h4>
-    <ul>
-      <li>Partial Differential Equations</li>
-      <li>Complex Analysis</li>
-      <li>Measure Theory</li>
-      <li>Topology</li>
-      <li><a href="https://static1.squarespace.com/static/54bf3241e4b0f0d81bf7ff36/t/55e9494fe4b011aed10e48e5/1441352015658/probability_cheatsheet.pdf">Probability theory </a></li>
-      <li>Functional Analysis</li>
-    </ul>
-    <hr>
-    <h4 style="color: #f5c518;"><a href="https://drive.google.com/file/d/14CAA5bk9zLTXe2cRvskZtI1SeU_4OUwp/view">Complete Syllabus link</a></h4>
-    <p style="color: #58ff6eff;">These areas open up research interests in major fields:</p>
-    <ul>
-      <li><a href="#">Analysis & PDEs</a></li>
-      <li><a href="#">Algebraic Structures</a></li>
-      <li><a href="#">Discrete Mathematics & Computation</a></li>
-      <li><a href="#">Geometry and Topology</a></li>
-      <li><a href="#">Scientific Computing & Numerical Analysis</a></li>
-      <li><a href="#">Applied Mathematics in CS / Bio / Physics / Finance and many.</a></li>
-      <li><a href="#">Probability & Statistics</a></li>
-    </ul>
-  </details>
-</div>
+      card.classList.toggle("open");
+      button.setAttribute("aria-expanded", String(!isOpen));
+    });
+  });
 
----
+  /* Resource category filters */
+  const filters=document.querySelectorAll(".materials-filter");
+  const cards=document.querySelectorAll(".resource-card");
 
-<details>
-  <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
-    📸 <strong>Image Gallery </strong> 
-  </summary>
+  filters.forEach(function(filter){
+    filter.addEventListener("click",function(){
+      filters.forEach(f=>f.classList.remove("active"));
+      filter.classList.add("active");
 
-  <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/libr.png" target="_blank">
-      <img src="{{ '/images/libr.png' | relative_url }}" alt="math">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca1.png" target="_blank">
-      <img src="{{ '/images/ca1.png' | relative_url }}" alt="ca1">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/ca2.png" target="_blank">
-      <img src="{{ '/images/ca2.png' | relative_url }}" alt="ca2">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/topo.png" target="_blank">
-      <img src="{{ '/images/topo.png' | relative_url }}" alt="topo">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/fa.png" target="_blank">
-      <img src="{{ '/images/fa.png' | relative_url }}" alt="fa">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/as.gif" target="_blank">
-      <img src="{{ '/images/as.gif' | relative_url }}" alt="as">
-    </a>
-  </div>
+      const category=filter.dataset.filter;
 
-  <style>
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 18px;
-    width: 95%;
-    max-width: 1300px;
-    margin: 1.5rem auto;
-  }
-  .gallery-grid a {
-    display: block;
-    border-radius: 14px;
-    overflow: hidden;
-  }
-  .gallery-grid img {
-    width: 100%;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-    display: block;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-  }
-  .gallery-grid img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  }
-  @media (max-width: 600px) {
-    .gallery-grid img { height: 200px; }
-  }
-  </style>
-</details>
+      cards.forEach(function(card){
+        if(category==="all" || card.dataset.category===category){
+          card.classList.remove("hidden");
+        }else{
+          card.classList.add("hidden");
+        }
+      });
+    });
+  });
 
-
----
-<!-- Feedback Section -->
-<div style="display:flex; align-items:center; justify-content:center; gap:24px; flex-wrap:wrap; margin-top:1.5rem;">
-
-  <!-- QR Code -->
-  <div style="text-align:center;">
-    <a href="https://forms.gle/2q4vPF27ZaLEVfAL9" target="_blank">
-      <img src="https://api.qrserver.com/v1/create-qr-code/?data=https://forms.gle/2q4vPF27ZaLEVfAL9&size=140x140" 
-           alt="Feedback QR Code" 
-           style="border-radius:12px; box-shadow:0 4px 10px rgba(0,0,0,0.25);">
-    </a>
-    <div style="font-size:0.8rem; color:#888; margin-top:6px;">Scan/Click for  Feedback</div>
-  </div>
-
-  <!-- Quote -->
-  <div style="font-family: 'Patrick Hand', sans-serif;max-width:320px; text-align:left; font-size:1.09rem; font-style:italic; color:#ccc;">
-    “Don’t pray for an easy life, pray for the strength to endure a difficult one.”  
-    <br>— <span style="font-weight:bold;">Bruce Lee</span>
-  </div>
-
-</div>
-
-
-
-
-
+});
+</script>
