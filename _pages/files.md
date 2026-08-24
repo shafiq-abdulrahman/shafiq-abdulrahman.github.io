@@ -5,347 +5,422 @@ permalink: /files/
 author_profile: false
 ---
 
-
-
-
-
 <style>
-/* Base page styling */
-body {
-  background-color: #0d1117 !important;
-  color: #e6edf3 !important;
-  margin: 0;
-  padding: 0;
-  overflow-x: hidden;
+body{
+  background:#0d1117!important;
+  color:#e6edf3!important;
+  margin:0;
+  overflow-x:hidden;
+}
+.page__hero,.page__content{
+  padding-top:0!important;
+  padding-bottom:0!important;
+  margin:0!important;
+}
+.page__content a{color:#72d5e2;}
+.page__content a:hover{color:#a7edf5;}
+
+.files-hero{
+  width:100%;
+  margin:0 0 20px;
+  overflow:hidden;
+  border-radius:0 0 20px 20px;
+  border-bottom:1px solid #25303a;
+}
+.files-hero img{
+  width:100%;
+  height:clamp(220px,32vw,360px);
+  object-fit:cover;
+  display:block;
+  margin:0!important;
+  max-width:none!important;
+  border-radius:0!important;
+  box-shadow:none!important;
 }
 
-/* Remove extra splash spacing */
-.page__hero,
-.page__content {
-  padding-top: 0 !important;
-  padding-bottom: 0 !important;
-  margin: 0 !important;
+.files-shell{
+  max-width:1100px;
+  margin:0 auto;
+  padding:14px 18px 40px;
+}
+.files-intro{margin-bottom:20px;}
+.files-eyebrow{
+  margin:0 0 6px;
+  color:#61d7e6;
+  font-size:11px;
+  font-weight:800;
+  letter-spacing:.18em;
+}
+.files-intro h1{
+  margin:0 0 8px;
+  color:#fff;
+  font-size:clamp(25px,3vw,34px);
+}
+.files-intro p{
+  margin:0;
+  max-width:680px;
+  color:#8f9cab;
+  font-size:13px;
+  line-height:1.7;
 }
 
-/* WIDE BANNER IMAGE */
-.banner-image {
-  width: 100vw;
-  height: 32vh;        /* banner height */
-  max-height: 340px;  /* desktop cap */
-  min-height: 220px;  /* mobile safety */
-  margin: 0 auto;
-  overflow: hidden;
+.files-grid{
+  display:grid;
+  grid-template-columns:repeat(2,minmax(0,1fr));
+  gap:14px;
+}
+.file-card{
+  background:#0d141d;
+  border:1px solid #26303c;
+  border-radius:15px;
+  overflow:hidden;
+  transition:transform .22s ease,border-color .22s ease,box-shadow .22s ease;
+}
+.file-card:hover{
+  transform:translateY(-3px);
+  border-color:#3c8b98;
+  box-shadow:0 14px 32px rgba(0,0,0,.2);
+}
+.file-card-head{
+  display:grid;
+  grid-template-columns:auto 1fr;
+  gap:13px;
+  padding:18px;
+}
+.file-icon{
+  width:40px;
+  height:40px;
+  display:grid;
+  place-items:center;
+  border-radius:11px;
+  color:#72dce8;
+  background:rgba(61,184,201,.1);
+  border:1px solid rgba(72,190,206,.22);
+  font-size:18px;
+}
+.file-card h2{
+  margin:0 0 4px;
+  color:#fff;
+  font-size:16px;
+}
+.file-card p{
+  margin:0;
+  color:#8592a2;
+  font-size:12px;
+  line-height:1.55;
+}
+.file-links{
+  display:grid;
+  gap:7px;
+  padding:0 18px 18px;
+}
+.file-links a{
+  display:flex;
+  justify-content:space-between;
+  gap:12px;
+  padding:10px 11px;
+  border-radius:9px;
+  background:#101923;
+  border:1px solid #22313c;
+  color:#9ecbd4!important;
+  text-decoration:none!important;
+  font-size:12.5px;
+  transition:.18s ease;
+}
+.file-links a:hover{
+  color:#fff!important;
+  border-color:#3c8490;
+  transform:translateX(2px);
 }
 
-.banner-image img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;  /* perfect for banners */
-  display: block;
+.journal-section{
+  margin-top:18px;
+  border:1px solid #27313c;
+  border-radius:15px;
+  background:radial-gradient(circle at 90% 10%,rgba(58,170,189,.08),transparent 30%),#0d141d;
+  overflow:hidden;
+}
+.journal-section summary{
+  list-style:none;
+  cursor:pointer;
+  display:grid;
+  grid-template-columns:auto 1fr auto;
+  gap:13px;
+  align-items:center;
+  padding:17px 18px;
+}
+.journal-section summary::-webkit-details-marker{display:none;}
+.journal-mark{
+  width:40px;
+  height:40px;
+  display:grid;
+  place-items:center;
+  border-radius:11px;
+  color:#f1d76d;
+  background:rgba(222,190,75,.08);
+  border:1px solid rgba(222,190,75,.18);
+}
+.journal-title small{
+  display:block;
+  color:#5fd5e4;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.16em;
+  margin-bottom:2px;
+}
+.journal-title strong{color:#fff;font-size:15px;}
+.journal-chevron{
+  color:#66d7e4;
+  font-size:21px;
+  transition:transform .25s ease;
+}
+.journal-section[open] .journal-chevron{transform:rotate(45deg);}
+.journal-body{
+  padding:2px 18px 18px;
+  animation:journalReveal .28s ease;
+}
+@keyframes journalReveal{
+  from{opacity:0;transform:translateY(-5px)}
+  to{opacity:1;transform:translateY(0)}
+}
+.journal-timeline{
+  position:relative;
+  margin:6px 0 0;
+  padding-left:24px;
+}
+.journal-timeline::before{
+  content:"";
+  position:absolute;
+  left:7px;
+  top:8px;
+  bottom:8px;
+  width:1px;
+  background:linear-gradient(#55cbd9,rgba(85,203,217,.08));
+}
+.journal-entry{
+  position:relative;
+  padding:0 0 18px;
+}
+.journal-entry:last-child{padding-bottom:0;}
+.journal-entry::before{
+  content:"";
+  position:absolute;
+  left:-21px;
+  top:7px;
+  width:7px;
+  height:7px;
+  border-radius:50%;
+  background:#62d6e4;
+  box-shadow:0 0 12px rgba(98,214,228,.65);
+}
+.journal-date{
+  display:block;
+  color:#68d6e3;
+  font-size:10px;
+  font-weight:700;
+  letter-spacing:.06em;
+  margin-bottom:3px;
+}
+.journal-entry p{
+  margin:0;
+  color:#a8b2bf;
+  font-size:12.5px;
+  line-height:1.6;
+}
+
+.cheat-section{
+  margin-top:18px;
+  padding:22px;
+  border-radius:15px;
+  border:1px solid #27313c;
+  background:#0d141d;
+}
+.cheat-heading{margin-bottom:15px;}
+.cheat-heading small{
+  display:block;
+  color:#5fd5e4;
+  font-size:9px;
+  font-weight:800;
+  letter-spacing:.16em;
+  margin-bottom:3px;
+}
+.cheat-heading h2{
+  margin:0 0 5px;
+  color:#fff;
+  font-size:17px;
+}
+.cheat-heading p{
+  margin:0;
+  color:#8492a2;
+  font-size:12px;
+}
+.cheat-grid{
+  display:grid;
+  grid-template-columns:repeat(3,minmax(0,1fr));
+  gap:12px;
+}
+.cheat-grid a{
+  display:block;
+  overflow:hidden;
+  border-radius:11px;
+  border:1px solid #28333e;
+  background:#080d13;
+}
+.cheat-grid img{
+  width:100%!important;
+  max-width:none!important;
+  height:220px!important;
+  object-fit:cover;
+  display:block;
+  margin:0!important;
+  border-radius:0!important;
+  box-shadow:none!important;
+  filter:saturate(.82) contrast(.95);
+  transition:transform .35s ease,filter .35s ease;
+}
+.cheat-grid a:hover img{
+  transform:scale(1.035);
+  filter:saturate(1) contrast(1);
+}
+.files-note{
+  margin-top:17px;
+  text-align:center;
+  color:#596675;
+  font-size:10.5px;
+}
+@media(max-width:760px){
+  .files-grid,.cheat-grid{grid-template-columns:1fr;}
+  .cheat-grid img{height:230px!important;}
+}
+@media(prefers-reduced-motion:reduce){
+  .file-card,.file-links a,.journal-body,.journal-chevron,.cheat-grid img{
+    animation:none!important;
+    transition:none!important;
+  }
 }
 </style>
 
-
-
-
-
-
-<link href="https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap" rel="stylesheet">
-
-
----
-<h2 style="
-  text-align: center;
-  color: cyan;
-  letter-spacing: 0.4px;font-size: 1.65rem;
-">
-  My files
-</h2>
-
-
-<div class="hero-image">
-  <img src="/images/neww.png" alt="Hero image">
+<div class="files-hero">
+  <img src="/images/neww.png" alt="My Files">
 </div>
 
+<div class="files-shell">
 
-<h4 style="font-family: 'Patrick Hand', sans-serif;color: #f3e95f; font-size: 1.0rem">
-  “Learn , Never stop updating...Become the best version of yourself ”  
-</h4>
+  <section class="files-intro">
+    <p class="files-eyebrow">ACADEMIC FILES</p>
+    <h1>My Study Library</h1>
+    <p>
+      A compact collection of course notes, lecture files, milestones,
+      and mathematical cheat sheets from my graduate studies.
+    </p>
+  </section>
 
+  <section class="files-grid">
 
+    <article class="file-card">
+      <div class="file-card-head">
+        <div class="file-icon">𝑃</div>
+        <div>
+          <h2>Probability & Statistics</h2>
+          <p>Course notes and lecture material from my graduate coursework.</p>
+        </div>
+      </div>
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     Computational Neuroscience
-  </summary>
+      <div class="file-links">
+        <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI" target="_blank" rel="noopener">
+          Probability · Dr. Alan Haynes <span>↗</span>
+        </a>
+        <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Statistics_Mikyoung?csf=1&web=1&e=o78F3P" target="_blank" rel="noopener">
+          Statistics · Dr. Mikyoung <span>↗</span>
+        </a>
+      </div>
+    </article>
 
-  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <ul style="list-style-type: none; padding-left: 1rem;">
-       <li>📘 <a href="https://compneuro.neuromatch.io/tutorials/intro.html" target="_blank" style="color: #1E90FF;"> Pre- requisite course and videos</a> NeuroMatch</li>
-      <li>📘 <a href="https://www.youtube.com/artemkirsanov" target="_blank" style="color: #1E90FF;">Artem Kirsanov (My fav Neuroscience youtuber)</a></li>
-      <li>📘 <a href="/https://neuronaldynamics.epfl.ch/online/Ch1.S1.html" target="_blank" style="color: #1E90FF;">Neural Dynamics Robert Rosebaum (Fall 2025 text book)</a></li>
-      <li>📘 <a href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368" target="_blank" style="color: #1E90FF;">Undegrad Networking and  Python course</a></li>
-      <li>📘 <a href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html" target="_blank" style="color: #1E90FF;">EPFL lab of computer neuroscience , Gerstner lab full course </a></li>
-      <li>📘 <a href="https://sheffield.pressbooks.pub/introducingmathematicalbiology/" target="_blank" style="color: #1E90FF;">Introducing Networks and Math Biology book </a></li>
-      <li>📘 <a href="https://axiommath.ai/" target="_blank" style="color: #1E90FF;">Axiom AI math (Pure Mathematics tool)</a></li>
-    </ul>
-  </div>
-</details>
+    <article class="file-card">
+      <div class="file-card-head">
+        <div class="file-icon">∑</div>
+        <div>
+          <h2>Numerical Analysis</h2>
+          <p>Graduate notes and lecture material for numerical methods.</p>
+        </div>
+      </div>
 
+      <div class="file-links">
+        <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/NumericalAnalysis_Dr.He?csf=1&web=1&e=RtZVqx" target="_blank" rel="noopener">
+          Numerical Analysis · Dr. He <span>↗</span>
+        </a>
+      </div>
+    </article>
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     Probability/Statistics
-  </summary>
+  </section>
 
-  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Syllabus:</strong></p>
-    <ul style="list-style-type: none; padding-left: 1rem;">
-      <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI" target="_blank" style="color: #1E90FF;">Notes and Lectures (Probability_Dr. Alan Haynes)</a></li>
-       <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Statistics_Mikyoung?csf=1&web=1&e=o78F3P" target="_blank" style="color: #1E90FF;">Notes and Lectures (Statistics_Dr.Mikyoung)</a></li>
-    </ul>
-  </div>
-</details>
+  <!-- No "open" attribute: journal loads closed every time -->
+  <details class="journal-section">
+    <summary>
+      <div class="journal-mark">✦</div>
+      <div class="journal-title">
+        <small>PERSONAL ACADEMIC TIMELINE</small>
+        <strong>AB's PhD Journal</strong>
+      </div>
+      <div class="journal-chevron">+</div>
+    </summary>
 
+    <div class="journal-body">
+      <div class="journal-timeline">
 
+        <div class="journal-entry">
+          <span class="journal-date">AUGUST 2025</span>
+          <p>Joined the PhD program at the University of Houston.</p>
+        </div>
 
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     Numerical Analysis
-  </summary>
+        <div class="journal-entry">
+          <span class="journal-date">MAY 2026</span>
+          <p>Cleared preliminary examinations in Probability / Statistics and Numerical Analysis.</p>
+        </div>
 
-  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <p><strong>Syllabus:</strong></p>
-    <ul style="list-style-type: none; padding-left: 1rem;">
-       <li>📘 <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/NumericalAnalysis_Dr.He?csf=1&web=1&e=RtZVqx" target="_blank" style="color: #1E90FF;">Notes and Lectures (Numerical Analysis_Dr.He)</a></li>
-    </ul>
-  </div>
-</details>
+        <div class="journal-entry">
+          <span class="journal-date">JUNE–JULY 2026</span>
+          <p>Summer reading course on modelling neural circuits using Robert Rosenbaum's book with Dr. Krešimir Josić.</p>
+        </div>
 
+        <div class="journal-entry">
+          <span class="journal-date">JUNE 21–27, 2026</span>
+          <p>Attended the Summer School on Stochastic Dynamics and Persistence in Biology at Texas A&amp;M.</p>
+        </div>
 
-<details style="background-color:#111; color:white; border:1px solid #444; border-radius:10px; padding:1rem; margin:1.5rem 0;">
-  <summary style="color:#b6131c; font-weight:bold; font-size:1.15rem; cursor:pointer;">
-    🧠 Computational Neuroscience Resource Hub
-  </summary>
+        <div class="journal-entry">
+          <span class="journal-date">2026</span>
+          <p>Began reading papers on neural representation from Dr. Hayden's lab at Baylor College of Medicine.</p>
+        </div>
 
-  <div style="margin-top:1rem; font-size:0.96rem; line-height:1.7;">
+      </div>
+    </div>
+  </details>
 
-<details open>
-      <summary style="color:#FFD700; font-weight:bold;">Leading Institutes</summary>
-      <ul>
-        <li><a href="https://mcgovern.mit.edu/" target="_blank" style="color:#1E90FF;">MIT McGovern Institute</a></li>
-        <li><a href="https://pni.princeton.edu/" target="_blank" style="color:#1E90FF;">Princeton Neuroscience Institute</a></li>
-        <li><a href="https://www.ucl.ac.uk/life-sciences/gatsby" target="_blank" style="color:#1E90FF;">Gatsby Computational Neuroscience Unit, UCL</a></li>
-        <li><a href="https://www.sainsburywellcome.org/" target="_blank" style="color:#1E90FF;">Sainsbury Wellcome Centre, UCL</a></li>
-        <li><a href="https://alleninstitute.org/" target="_blank" style="color:#1E90FF;">Allen Institute</a></li>
-        <li><a href="https://www.janelia.org/" target="_blank" style="color:#1E90FF;">Janelia Research Campus, HHMI</a></li>
-        <li><a href="https://ctn.zuckermaninstitute.columbia.edu/" target="_blank" style="color:#1E90FF;">Columbia Center for Theoretical Neuroscience</a></li>
-        <li><a href="https://neuroscience.stanford.edu/" target="_blank" style="color:#1E90FF;">Stanford Wu Tsai Neurosciences Institute</a></li>
-        <li><a href="https://cbs.fas.harvard.edu/" target="_blank" style="color:#1E90FF;">Harvard Center for Brain Science</a></li>
-        <li><a href="https://bernstein-network.de/" target="_blank" style="color:#1E90FF;">Bernstein Network Computational Neuroscience</a></li>
-      </ul>
-    </details>
+  <section class="cheat-section">
+    <div class="cheat-heading">
+      <small>VISUAL REFERENCES</small>
+      <h2>Images · Cheat Sheets</h2>
+      <p>Quick visual references from probability, numerical analysis, and mathematics.</p>
+    </div>
 
-<details>
-  <summary style="color:#FFD700; font-weight:bold;">Major Computational Neuroscience Conferences</summary>
-  <ul>
-    <li>
-      <a href="https://www.cosyne.org/" target="_blank" style="color:#1E90FF;">
-        COSYNE – Computational and Systems Neuroscience
+    <div class="cheat-grid">
+      <a href="https://shafiq-abdulrahman.github.io/images/naa.png" target="_blank" rel="noopener">
+        <img src="{{ '/images/naa.png' | relative_url }}" alt="Mathematics cheat sheet">
       </a>
-    </li>
-    <li>
-      <a href="https://ccneuro.org/" target="_blank" style="color:#1E90FF;">
-        CCN – Cognitive Computational Neuroscience
+
+      <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank" rel="noopener">
+        <img src="{{ '/images/probb.png' | relative_url }}" alt="Probability cheat sheet">
       </a>
-    </li>
-    <li>
-      <a href="https://www.cnsorg.org/" target="_blank" style="color:#1E90FF;">
-        CNS – Annual Computational Neuroscience Meeting
+
+      <a href="https://shafiq-abdulrahman.github.io/images/numerical.png" target="_blank" rel="noopener">
+        <img src="{{ '/images/numerical.png' | relative_url }}" alt="Numerical analysis cheat sheet">
       </a>
-    </li>
-    <li>
-      <a href="https://www.sfn.org/meetings/neuroscience-2026" target="_blank" style="color:#1E90FF;">
-        SfN – Society for Neuroscience Annual Meeting
-      </a>
-    </li>
-    <li>
-      <a href="https://neurips.cc/" target="_blank" style="color:#1E90FF;">
-        NeurIPS – Conference on Neural Information Processing Systems
-      </a>
-    </li>
-    <li>
-      <a href="https://iclr.cc/" target="_blank" style="color:#1E90FF;">
-        ICLR – International Conference on Learning Representations
-      </a>
-    </li>
-    <li>
-      <a href="https://bernstein-network.de/en/bernstein-conference/" target="_blank" style="color:#1E90FF;">
-        Bernstein Conference – Computational Neuroscience (Germany)
-      </a>
-    </li>
-  </ul>
-</details>
+    </div>
+  </section>
 
-
-    
-<details>
-      <summary style="color:#FFD700; font-weight:bold;">Leading Computational Neuroscientists</summary>
-      <ul>
-        <li><a href="https://www.salk.edu/scientist/terrence-sejnowski/" target="_blank" style="color:#1E90FF;">Terrence Sejnowski</a></li>
-        <li><a href="https://www.epfl.ch/labs/lcn/" target="_blank" style="color:#1E90FF;">Wulfram Gerstner</a></li>
-        <li><a href="https://www.simonsfoundation.org/people/larry-abbott/" target="_blank" style="color:#1E90FF;">Larry Abbott</a></li>
-        <li><a href="https://profiles.stanford.edu/surya-ganguli" target="_blank" style="color:#1E90FF;">Surya Ganguli</a></li>
-        <li><a href="https://med.stanford.edu/profiles/scott-linderman" target="_blank" style="color:#1E90FF;">Scott Linderman</a></li>
-        <li><a href="https://www.stat.columbia.edu/~cunningham/" target="_blank" style="color:#1E90FF;">John Cunningham</a></li>
-        <li><a href="https://www.gatsby.ucl.ac.uk/~pel/" target="_blank" style="color:#1E90FF;">Peter Latham</a></li>
-        <li><a href="https://www.ucl.ac.uk/icn/people/maneesh-sahani" target="_blank" style="color:#1E90FF;">Maneesh Sahani</a></li>
-        <li><a href="https://www.ucl.ac.uk/icn/people/claudia-clopath" target="_blank" style="color:#1E90FF;">Claudia Clopath</a></li>
-        <li><a href="https://psychology.princeton.edu/person/jonathan-pillow" target="_blank" style="color:#1E90FF;">Jonathan Pillow</a></li>
-        <li><a href="https://www.buzsakilab.com/" target="_blank" style="color:#1E90FF;">György Buzsáki</a></li>
-        <li><a href="https://www.fil.ion.ucl.ac.uk/~karl/" target="_blank" style="color:#1E90FF;">Karl Friston</a></li>
-      </ul>
-    </details>
-    <details>
-      <summary style="color:#FFD700; font-weight:bold;">Neuroscience Nobel Laureates</summary>
-      <ul>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/1906/cajal/facts/" target="_blank" style="color:#1E90FF;">Santiago Ramón y Cajal</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/1906/golgi/facts/" target="_blank" style="color:#1E90FF;">Camillo Golgi</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/hodgkin/facts/" target="_blank" style="color:#1E90FF;">Alan Hodgkin</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/huxley/facts/" target="_blank" style="color:#1E90FF;">Andrew Huxley</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/1963/eccles/facts/" target="_blank" style="color:#1E90FF;">John Eccles</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/2000/kandel/facts/" target="_blank" style="color:#1E90FF;">Eric Kandel</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/okeefe/facts/" target="_blank" style="color:#1E90FF;">John O’Keefe</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/may-britt-moser/facts/" target="_blank" style="color:#1E90FF;">May-Britt Moser</a></li>
-        <li><a href="https://www.nobelprize.org/prizes/medicine/2014/edvard-moser/facts/" target="_blank" style="color:#1E90FF;">Edvard Moser</a></li>
-      </ul>
-    </details>
-
-  <details>
-      <summary style="color:#FFD700; font-weight:bold;">Courses & Summer Schools</summary>
-      <ul>
-        <li><a href="https://compneuro.neuromatch.io/" target="_blank" style="color:#1E90FF;">Neuromatch Academy Computational Neuroscience</a></li>
-        <li><a href="https://neuromatch.io/computational-neuroscience/" target="_blank" style="color:#1E90FF;">Neuromatch Live Computational Neuroscience Course</a></li>
-        <li><a href="https://www.cshl.edu/courses/" target="_blank" style="color:#1E90FF;">Cold Spring Harbor Laboratory Courses</a></li>
-        <li><a href="https://alleninstitute.org/what-we-do/brain-science/events-training/" target="_blank" style="color:#1E90FF;">Allen Institute Events & Training</a></li>
-      </ul>
-    </details>
-  <details>
-      <summary style="color:#FFD700; font-weight:bold;">Python & Simulation Tools</summary>
-      <ul>
-        <li><a href="https://brian2.readthedocs.io/" target="_blank" style="color:#1E90FF;">Brian2</a> — spiking neural network simulator</li>
-        <li><a href="https://www.neuron.yale.edu/neuron/" target="_blank" style="color:#1E90FF;">NEURON</a> — biophysical neuron simulation</li>
-        <li><a href="https://www.nest-simulator.org/" target="_blank" style="color:#1E90FF;">NEST Simulator</a> — large-scale spiking networks</li>
-        <li><a href="https://pytorch.org/" target="_blank" style="color:#1E90FF;">PyTorch</a> — deep learning and NeuroAI</li>
-        <li><a href="https://jax.readthedocs.io/" target="_blank" style="color:#1E90FF;">JAX</a> — differentiable scientific computing</li>
-       <li><a href="https://www.mooseneuro.org/" target="_blank" style="color:#1E90FF;"></a>Moose _Brain Simulation</li>
-      </ul>
-    </details>
-    <details>
-      <summary style="color:#FFD700; font-weight:bold;">Public Brain Datasets</summary>
-      <ul>
-        <li><a href="https://portal.brain-map.org/" target="_blank" style="color:#1E90FF;">Allen Brain Map</a></li>
-        <li><a href="https://openneuro.org/" target="_blank" style="color:#1E90FF;">OpenNeuro</a></li>
-        <li><a href="https://about.dandiarchive.org/" target="_blank" style="color:#1E90FF;">DANDI Archive</a></li>
-        <li><a href="https://www.humanconnectome.org/" target="_blank" style="color:#1E90FF;">Human Connectome Project</a></li>
-      </ul>
-    </details>
-
-   <details>
-      <summary style="color:#FFD700; font-weight:bold;">Recommended Textbooks</summary>
-      <ul>
-        <li><a href="https://neuronaldynamics.epfl.ch/" target="_blank" style="color:#1E90FF;">Neuronal Dynamics</a> — Gerstner et al.</li>
-        <li><a href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/" target="_blank" style="color:#1E90FF;">Theoretical Neuroscience</a> — Dayan & Abbott</li>
-        <li><a href="https://mitpress.mit.edu/9780262514200/models-of-the-mind/" target="_blank" style="color:#1E90FF;">Models of the Mind</a> — Grace Lindsay</li>
-      </ul>
-    </details>
-    
-   <details>
-      <summary style="color:#FFD700; font-weight:bold;">Newsletters/ Articles / Podcasts / Youtube</summary>
-      <ul>
-        <li><a href="https://www.brainfacts.org/" target="_blank" style="color:#1E90FF;">Brain Facts(SFN)_Education articles</a> (Dana Foundation)</li>
-        <li><a href="https://www.thetransmitter.org/" target="_blank" style="color:#1E90FF;">Transmitters x Neuromatch </a> (Simons foundations)</li>
-        <li><a href="https://www.nitmb.org/" target="_blank" style="color:#1E90FF;">National Institute for Theory and Mathematics in Biology</a> Uni Chicago/Northwestern </li>
-        <li><a href="https://braininspired.co/" target="_blank" style="color:#1E90FF;">Brain Inspired Podcast</a> Middlebrooks x Transmitters</li>
-      </ul>
-    </details>
-
-  </div>
-</details>
-
-
-<details style="background-color: #111; color: white; border: 1px solid #444; border-radius: 10px; padding: 1rem; margin: 1.5rem 0;">
-  <summary style="color: #b6131cff; font-weight: bold; font-size: 1.1rem; cursor: pointer;">
-     🏅AB's PhD journal
-  </summary>
-
-  <div style="margin-top: 0.8rem; color: #DDD; font-size: 0.95rem; line-height: 1.7;">
-    <ul style="list-style-type: none; padding-left: 1rem;">
-      <li>📘 Joined PhD at University of Houston (Fall 2025,August)</li>
-      <li>📘 Cleared Prelims exam on Probabilty / Statistics and Numerical Analysis (May 2026)</li>
-      <li>📘 Summer reading course on modelling Neural circuits (Book by Robert Rosenbaum) with Dr.Kresimir Josic (June -July 2026) </li>
-      <li>📘 Summer School on Stochastic dynamics and persistence in biology at Texas A&M (Jun 21-27,2026) </li>
-      <li>📘 Reading papers on neural representation from Dr.Hayden's Lab (BCM) </li>
-    </ul>
-  </div>
-</details>
-
----
-<details>
-  <summary style="font-size:1.2rem; text-align: center; font-weight:bold; color:cyan; cursor:pointer;">
-    📸 <strong>Images (Cheat codes) </strong> 
-  </summary>
-
-  <div class="gallery-grid">
-    <a href="https://shafiq-abdulrahman.github.io/images/naa.png" target="_blank">
-      <img src="{{ '/images/naa.png' | relative_url }}" alt="math">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/probb.png" target="_blank">
-      <img src="{{ '/images/probb.png' | relative_url }}" alt="ca1">
-    </a>
-    <a href="https://shafiq-abdulrahman.github.io/images/numerical.png" target="_blank">
-      <img src="{{ '/images/numerical.png' | relative_url }}" alt="ca1">
-    </a>
+  <div class="files-note">
+    Learn · update · revisit · repeat.
   </div>
 
-  <style>
-  .gallery-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-    gap: 18px;
-    width: 95%;
-    max-width: 1300px;
-    margin: 1.5rem auto;
-  }
-  .gallery-grid a {
-    display: block;
-    border-radius: 14px;
-    overflow: hidden;
-  }
-  .gallery-grid img {
-    width: 100%;
-    height: 320px;
-    object-fit: cover;
-    border-radius: 14px;
-    box-shadow: 0 6px 20px rgba(0,0,0,0.45);
-    display: block;
-    transition: transform 0.4s ease, box-shadow 0.4s ease;
-  }
-  .gallery-grid img:hover {
-    transform: scale(1.05);
-    box-shadow: 0 10px 25px rgba(0,0,0,0.6);
-  }
-  @media (max-width: 600px) {
-    .gallery-grid img { height: 200px; }
-  }
-  </style>
-</details>
----
-
-
-
-
-
-
-
-
+</div>
