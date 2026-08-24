@@ -347,13 +347,6 @@ redirect_from:
         PhD researcher in Applied Mathematics at Dr.Kreso's lab , University of Houston
       </p>
 
-      <p class="ab-focus">
-        I work at the intersection of <strong>computational neuroscience</strong>,
-        <strong>dynamical systems</strong>, and <strong>neural data analysis</strong>,
-        with an interest in how mathematical structure can help explain neural
-        computation and representation.
-      </p>
-
       <div class="ab-tags">
         <span class="ab-tag">Computational Neuroscience</span>
         <span class="ab-tag">Neural Representation</span>
@@ -362,6 +355,13 @@ redirect_from:
         <span class="ab-tag">Stochastic Models</span>
         <span class="ab-tag">Statistics</span>
       </div>
+      
+      <p class="ab-focus">
+        I work at the intersection of <strong>computational neuroscience</strong>,
+        <strong>dynamical systems</strong>, and <strong>neural data analysis</strong>,
+        with an interest in how mathematical structure can help explain neural
+        computation and representation.
+      </p>
 
       <div class="ab-current">
         <span class="ab-current-label">On my desk right now →</span>
