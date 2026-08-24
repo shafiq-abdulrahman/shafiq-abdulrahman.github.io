@@ -175,7 +175,7 @@ Instructor: Dr. Wenjiang Fu
 <span>Undergraduate</span>
 
 </div>
-
+</div>
 
 <div class="teaching-card">
 
