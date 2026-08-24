@@ -527,15 +527,6 @@ redirect_from:
   <div class="ab-timeline">
 
     <div class="ab-timeline-item">
-      <div class="ab-timeline-title">PhD in Applied Mathematics</div>
-      <div class="ab-timeline-meta">University of Houston · Houston, Texas</div>
-      <p>
-        Current focus: computational neuroscience, neural representation,
-        mathematical modelling, and dynamical systems.
-      </p>
-    </div>
-
-    <div class="ab-timeline-item">
       <div class="ab-timeline-title">M.Sc. in Mathematics</div>
       <div class="ab-timeline-meta">IIT Madras · 2022–2024</div>
       <ul>
