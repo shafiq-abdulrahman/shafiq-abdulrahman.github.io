@@ -355,7 +355,8 @@ redirect_from:
         <span class="ab-tag">Stochastic Models</span>
         <span class="ab-tag">Statistics</span>
       </div>
-      
+
+      ---
       <p class="ab-focus">
         I work at the intersection of <strong>computational neuroscience</strong>,
         <strong>dynamical systems</strong>, and <strong>neural data analysis</strong>,
