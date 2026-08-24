@@ -452,7 +452,7 @@ redirect_from:
      CURRENT WORK
 ========================================================= -->
 
-<section class="ab-section">
+<!-- <section class="ab-section">
 
   <div class="ab-section-head">
     <div class="ab-section-kicker">Current work</div>
@@ -469,7 +469,7 @@ redirect_from:
     </p>
   </div>
 
-</section>
+</section> -->
 
 <!-- =========================================================
      ABOUT
