@@ -154,7 +154,7 @@ My Approach:)
 
 <span class="role-badge">Undergraduate TA</span>
 
-<span class="semester">Spring 2026</span>
+<span class="semester">Fall 2026</span>
 
 </div>
 
@@ -165,7 +165,7 @@ University of Houston
 </p>
 
 <p>
-Instructor: Dr. Wenjiang Fu
+Instructor: Dr. Robert Azencott
 </p>
 
 <div class="course-tags">
