@@ -457,28 +457,143 @@ width:100%;
 max-width:650px;
 }
 
-.math-lines path{
-fill:none;
-stroke:rgba(82,207,226,.5);
-stroke-width:2.2;
-stroke-linecap:round;
-filter:url(#teachGlow);
-animation:teachGlowLine 4s ease-in-out infinite alternate;
+.math-lines path {
+  fill: none;
+  stroke: rgba(82, 207, 226, 0.75);
+  stroke-width: 2.2;
+  stroke-linecap: round;
+  filter: url(#teachGlow);
+
+  stroke-dasharray: 12 10;
+  animation:
+    flowLine 3.8s linear infinite,
+    glowLine 2.8s ease-in-out infinite alternate;
 }
 
-.math-nodes circle{
-fill:#71ddea;
-filter:url(#teachGlow);
-animation:teachNode 2.7s ease-in-out infinite alternate;
+.math-lines path:nth-child(2) {
+  animation-delay: -0.6s;
 }
 
-.formula{
-fill:rgba(140,224,235,.85);
-font-size:38px;
-font-family:Georgia,serif;
-filter:url(#teachGlow);
-animation:formulaFloat 4s ease-in-out infinite alternate;
+.math-lines path:nth-child(3) {
+  animation-delay: -1.2s;
 }
+
+.math-lines path:nth-child(4) {
+  animation-delay: -1.8s;
+}
+
+.math-lines path:nth-child(5) {
+  animation-delay: -2.4s;
+}
+  
+.math-nodes circle {
+  fill: #71ddea;
+  filter: url(#teachGlow);
+  transform-box: fill-box;
+  transform-origin: center;
+
+  animation: nodePulse 2.2s ease-in-out infinite alternate;
+}
+
+.math-nodes circle:nth-child(2) {
+  animation-delay: -0.4s;
+}
+
+.math-nodes circle:nth-child(3) {
+  animation-delay: -0.8s;
+}
+
+.math-nodes circle:nth-child(4) {
+  animation-delay: -1.2s;
+}
+
+.math-nodes circle:nth-child(5) {
+  animation-delay: -1.6s;
+}
+
+
+  @keyframes nodePulse {
+  from {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+}
+
+.formula {
+  fill: rgba(140, 224, 235, 0.9);
+  font-size: 38px;
+  font-family: Georgia, serif;
+  filter: url(#teachGlow);
+
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+.formula:nth-of-type(1) {
+  animation: floatOne 4.2s ease-in-out infinite alternate;
+}
+
+.formula:nth-of-type(2) {
+  animation: floatTwo 5s ease-in-out infinite alternate;
+}
+
+.formula:nth-of-type(3) {
+  animation: floatThree 4.6s ease-in-out infinite alternate;
+}
+
+.formula:nth-of-type(4) {
+  animation: floatFour 5.4s ease-in-out infinite alternate;
+}
+
+
+@keyframes floatOne {
+  from {
+    transform: translate(0, 0) rotate(-2deg);
+    opacity: 0.55;
+  }
+
+  to {
+    transform: translate(7px, -10px) rotate(3deg);
+    opacity: 1;
+  }
+}
+
+@keyframes floatTwo {
+  from {
+    transform: translate(0, 0) rotate(2deg);
+  }
+
+  to {
+    transform: translate(-8px, 8px) rotate(-3deg);
+  }
+}
+
+@keyframes floatThree {
+  from {
+    transform: translate(0, 0) scale(0.97);
+  }
+
+  to {
+    transform: translate(6px, -8px) scale(1.06);
+  }
+}
+
+@keyframes floatFour {
+  from {
+    transform: translate(0, 0) rotate(-3deg);
+  }
+
+  to {
+    transform: translate(-5px, 10px) rotate(3deg);
+  }
+}
+
+
 
 @keyframes teachGlowLine{
 from{stroke:rgba(70,170,195,.25)}
@@ -490,6 +605,29 @@ from{opacity:.45}
 to{opacity:1}
 }
 
+@keyframes flowLine {
+  from {
+    stroke-dashoffset: 0;
+  }
+
+  to {
+    stroke-dashoffset: -44;
+  }
+}
+
+
+/* gentle brightness */
+@keyframes glowLine {
+  from {
+    stroke: rgba(70, 170, 195, 0.35);
+  }
+
+  to {
+    stroke: rgba(96, 220, 235, 0.95);
+  }
+}
+
+  
 @keyframes formulaFloat{
 from{transform:translateY(0);opacity:.55}
 to{transform:translateY(-5px);opacity:1}
@@ -715,14 +853,12 @@ grid-template-columns:1fr;
 
 }
 
-@media(prefers-reduced-motion:reduce){
-
-.math-lines path,
-.math-nodes circle,
-.formula{
-animation:none;
-}
-
+@media (prefers-reduced-motion: reduce) {
+  .math-lines path,
+  .math-nodes circle,
+  .formula {
+    animation: none !important;
+  }
 }
 
 </style>
