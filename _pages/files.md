@@ -389,7 +389,7 @@ body{
         </div>
 
         <div class="journal-entry">
-          <span class="journal-date">2026</span>
+          <span class="journal-date">Fall 2026</span>
           <p>Began reading papers on neural representation from Dr. Hayden's lab at Baylor College of Medicine.</p>
         </div>
 
