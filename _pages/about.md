@@ -358,7 +358,6 @@ redirect_from:
         University of Houston
       </p>
     </div>
-       
       <div class="ab-tags">
         <span class="ab-tag">Computational Neuroscience</span>
         <span class="ab-tag">Neural Representation</span>
@@ -387,7 +386,7 @@ redirect_from:
         <div id="typewriter"></div>
       </div>
     </div>
-  </div>
+  
 </section>
 
 {% raw %}
