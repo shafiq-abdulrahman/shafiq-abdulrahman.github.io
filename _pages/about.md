@@ -379,7 +379,7 @@ redirect_from:
 {% raw %}
 <script>
 (function () {
-  const text = "Check my new flashcard app in the Project section";
+  const text = "Check out my new flashcard app in the Project section";
   const el = document.getElementById("typewriter");
   const container = document.getElementById("typewriter-container");
 
