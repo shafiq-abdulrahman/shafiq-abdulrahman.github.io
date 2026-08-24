@@ -360,11 +360,12 @@ redirect_from:
         <span class="ab-tag">Dynamical Systems</span>
         <span class="ab-tag">Probability</span>
         <span class="ab-tag">Stochastic Models</span>
+        <span class="ab-tag">Statistics</span>
       </div>
 
       <div class="ab-current">
         <span class="ab-current-label">On my desk right now →</span>
-        neural representation, modelling neural circuits, and computational analysis
+        Neural representation |  Modelling neural circuits | Computational analysis
         of neural population activity.
       </div>
 
@@ -378,7 +379,7 @@ redirect_from:
 {% raw %}
 <script>
 (function () {
-  const text = "Exploring mathematics, computation, and the geometry of neural representations.";
+  const text = "Check my new flashcard app in the Project section";
   const el = document.getElementById("typewriter");
   const container = document.getElementById("typewriter-container");
 
