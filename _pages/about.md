@@ -367,6 +367,9 @@ redirect_from:
         <span class="ab-tag">Statistics</span>
       </div>
       
+       <div id="typewriter-container">
+        <div id="typewriter"></div>
+      </div>
       <hr class="ab-divider">
       
       <p class="ab-focus">
@@ -380,10 +383,6 @@ redirect_from:
         <span class="ab-current-label">On my desk right now →</span>
         Neural representation |  Modelling neural circuits | Computational analysis
         of neural population activity.
-      </div>
-
-      <div id="typewriter-container">
-        <div id="typewriter"></div>
       </div>
     </div>
   
