@@ -343,9 +343,6 @@ redirect_from:
 
     <div>
       <span class="ab-eyebrow">Applied Mathematics × Neuroscience</span>
-
-      <h1 class="ab-title">Shafiq Abdul Rahman</h1>
-
       <p class="ab-subtitle">
         PhD researcher in Applied Mathematics at the University of Houston
       </p>
