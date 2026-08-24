@@ -280,6 +280,14 @@ redirect_from:
   color: var(--ab-text);
 }
 
+  .ab-divider {
+  border: 0;
+  height: 1px;
+  background: #dce3ea;
+  margin: 24px 0;
+}
+
+
 .ab-details-body ul {
   margin-bottom: 0;
 }
@@ -355,8 +363,9 @@ redirect_from:
         <span class="ab-tag">Stochastic Models</span>
         <span class="ab-tag">Statistics</span>
       </div>
-
-      ---
+      
+      <hr class="ab-divider">
+      
       <p class="ab-focus">
         I work at the intersection of <strong>computational neuroscience</strong>,
         <strong>dynamical systems</strong>, and <strong>neural data analysis</strong>,
