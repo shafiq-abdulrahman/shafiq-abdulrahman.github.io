@@ -330,7 +330,7 @@ author_profile: true
     <div class="resource-grid">
       <a class="resource-card"
          href="https://compneuro.neuromatch.io/tutorials/intro.html"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">📘</span>
         <div>
           <strong>Neuromatch Computational Neuroscience</strong>
@@ -342,7 +342,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://neural-reckoning.org/comp-neuro-resources.html"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎓</span>
         <div>
           <strong>Dan Goodmans's (Neural Reckoning) resources</strong>
@@ -353,7 +353,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎓</span>
         <div>
           <strong>EPFL (Gerstner) Neuronal Dynamics Course</strong>
@@ -365,7 +365,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🐍</span>
         <div>
           <strong>Network Machine Learning with Python</strong>
@@ -376,7 +376,7 @@ author_profile: true
       </a>
         <a class="resource-card"
          href="https://kordinglab.com/resources/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
        <span class="resource-icon">🤖</span>
         <div>
           <strong>Kording Lab(Penn) resources</strong>
@@ -387,7 +387,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">📚</span>
         <div>
           <strong>Theoretical Neuroscience</strong>
@@ -410,7 +410,7 @@ author_profile: true
     <div class="resource-grid">
       <a class="resource-card"
          href="https://mcgovern.mit.edu/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🏛</span>
         <div>
           <strong>MIT McGovern Institute</strong>
@@ -419,7 +419,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://pni.princeton.edu/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🏛</span>
         <div>
           <strong>Princeton Neuroscience Institute</strong>
@@ -428,7 +428,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.ucl.ac.uk/life-sciences/gatsby"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>Gatsby Computational Neuroscience Unit</strong>
@@ -437,7 +437,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://alleninstitute.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🔬</span>
         <div>
           <strong>Allen Institute</strong>
@@ -446,7 +446,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.janelia.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🔬</span>
         <div>
           <strong>Janelia Research Campus</strong>
@@ -455,7 +455,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://ctn.zuckermaninstitute.columbia.edu/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>Columbia Center for Theoretical Neuroscience</strong>
@@ -464,7 +464,7 @@ author_profile: true
       </a>
         <a class="resource-card"
          href="https://www.nitmb.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">∑</span>
         <div>
           <strong>NITMB</strong>
@@ -487,7 +487,7 @@ author_profile: true
     <div class="resource-grid">
      <a class="resource-card"
          href="https://www.cosyne.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎤</span>
         <div>
           <strong>COSYNE</strong>
@@ -496,7 +496,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://ccneuro.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎤</span>
         <div>
           <strong>CCN</strong>
@@ -505,7 +505,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.cnsorg.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎤</span>
         <div>
           <strong>CNS</strong>
@@ -514,7 +514,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.sfn.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>Society for Neuroscience</strong>
@@ -523,7 +523,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://neurips.cc/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🤖</span>
         <div>
           <strong>NeurIPS</strong>
@@ -532,7 +532,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://bernstein-network.de/en/bernstein-conference/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🇩🇪</span>
         <div>
           <strong>Bernstein Conference</strong>
@@ -552,7 +552,7 @@ author_profile: true
   <div class="people-list">
     <div class="person">
       <a href="https://www.salk.edu/scientist/terrence-sejnowski/"
-         target="_blank"><strong>Terrence Sejnowski</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Terrence Sejnowski</strong></a>
       <span>Salk Institute / UC San Diego </span>
       <small>
         Neural computation • Neural networks • Learning and memory •
@@ -561,7 +561,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.epfl.ch/labs/lcn/"
-         target="_blank"><strong>Wulfram Gerstner</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Wulfram Gerstner</strong></a>
       <span>EPFL Switzerland</span>
       <small>
         Spiking neuron models • Synaptic plasticity • Learning rules •
@@ -570,7 +570,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.simonsfoundation.org/people/larry-abbott/"
-         target="_blank"><strong>Larry Abbott</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Larry Abbott</strong></a>
       <span>Columbia University </span>
       <small>
         Neural circuits • Population coding • Neural dynamics •
@@ -579,7 +579,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://profiles.stanford.edu/surya-ganguli"
-         target="_blank"><strong>Surya Ganguli</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Surya Ganguli</strong></a>
       <span>Stanford University </span>
       <small>
         Neural networks • Deep learning theory • Neural population geometry •
@@ -588,7 +588,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://med.stanford.edu/profiles/scott-linderman"
-         target="_blank"><strong>Scott Linderman</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Scott Linderman</strong></a>
       <span>Stanford University </span>
       <small>
         Statistical neuroscience • Machine learning • Neural data analysis •
@@ -597,7 +597,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.stat.columbia.edu/~cunningham/"
-         target="_blank"><strong>John Cunningham</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>John Cunningham</strong></a>
       <span>Columbia University </span>
       <small>
         Computational neuroscience • Machine learning • Neural data analysis •
@@ -606,7 +606,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.gatsby.ucl.ac.uk/~pel/"
-         target="_blank"><strong>Peter Latham</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Peter Latham</strong></a>
       <span>Gatsby, UCL </span>
       <small>
         Theoretical neuroscience • Neural coding • Neural computation •
@@ -615,7 +615,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.ucl.ac.uk/icn/people/maneesh-sahani"
-         target="_blank"><strong>Maneesh Sahani</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Maneesh Sahani</strong></a>
       <span>Gatsby , UCL</span>
       <small>
         Machine learning • Neural coding • Statistical neuroscience •
@@ -624,7 +624,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.ucl.ac.uk/icn/people/claudia-clopath"
-         target="_blank"><strong>Claudia Clopath</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Claudia Clopath</strong></a>
       <span>Imperial College London </span>
       <small>
         Synaptic plasticity • Learning and memory • Neural circuits •
@@ -633,7 +633,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://psychology.princeton.edu/person/jonathan-pillow"
-         target="_blank"><strong>Jonathan Pillow</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Jonathan Pillow</strong></a>
       <span>Princeton </span>
       <small>
         Computational neuroscience • Neural coding • Statistical modeling •
@@ -642,7 +642,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.buzsakilab.com/"
-         target="_blank"><strong>György Buzsáki</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>György Buzsáki</strong></a>
       <span>NYU Grossman School of Medicine NY</span>
       <small>
         Neural oscillations • Hippocampus • Memory • Neural circuits •
@@ -651,7 +651,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://www.fil.ion.ucl.ac.uk/~karl/"
-         target="_blank"><strong>Karl Friston</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Karl Friston</strong></a>
       <span>UCL</span>
       <small>
         Computational neuroscience • Predictive coding • Free-energy principle •
@@ -660,7 +660,7 @@ author_profile: true
     </div>
     <div class="person">
       <a href="https://neural-reckoning.org/dan_goodman.html"
-         target="_blank"><strong>Dan Goodman</strong></a>
+         target="_blank" rel="noopener noreferrer"><strong>Dan Goodman</strong></a>
       <span>Imperial College London (Neuromatch)</span>
       <small>
         Computational neuroscience • Auditory neuroscience • Neural coding •
@@ -679,7 +679,7 @@ author_profile: true
     <div class="resource-grid">
       <a class="resource-card"
          href="https://brian2.readthedocs.io/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">⚡</span>
         <div>
           <strong>Brian2</strong>
@@ -688,7 +688,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.neuron.yale.edu/neuron/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>NEURON</strong>
@@ -697,7 +697,7 @@ author_profile: true
       </a>
      <a class="resource-card"
          href="https://www.nest-simulator.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🔗</span>
         <div>
           <strong>NEST Simulator</strong>
@@ -706,7 +706,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.mooseneuro.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🫎</span>
         <div>
           <strong>MOOSE Neuro</strong>
@@ -715,7 +715,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://pytorch.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🔥</span>
         <div>
           <strong>PyTorch</strong>
@@ -724,7 +724,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://jax.readthedocs.io/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">∇</span>
         <div>
           <strong>JAX</strong>
@@ -745,7 +745,7 @@ author_profile: true
     <div class="resource-grid">
       <a class="resource-card"
          href="https://portal.brain-map.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🗺</span>
         <div>
           <strong>Allen Brain Map</strong>
@@ -754,7 +754,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://openneuro.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>OpenNeuro</strong>
@@ -763,7 +763,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://about.dandiarchive.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">📊</span>
         <div>
           <strong>DANDI Archive</strong>
@@ -772,7 +772,7 @@ author_profile: true
    </a>
       <a class="resource-card"
          href="https://www.humanconnectome.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🕸</span>
         <div>
           <strong>Human Connectome Project</strong>
@@ -793,7 +793,7 @@ author_profile: true
     <div class="resource-grid">
       <a class="resource-card"
          href="https://www.youtube.com/artemkirsanov"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">▶️</span>
         <div>
           <strong>Artem Kirsanov</strong>
@@ -802,7 +802,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.thetransmitter.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">📰</span>
         <div>
           <strong>The Transmitter</strong>
@@ -811,7 +811,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://www.brainfacts.org/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>BrainFacts</strong>
@@ -820,7 +820,7 @@ author_profile: true
       </a>
       <a class="resource-card"
          href="https://braininspired.co/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎧</span>
         <div>
           <strong>Brain Inspired Podcast</strong>
@@ -829,7 +829,7 @@ author_profile: true
       </a>
          <a class="resource-card"
          href="https://www.diygenius.com/best-neuroscience-documentaries/"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🎧</span>
         <div>
           <strong>Brain -Documentaries</strong>
@@ -838,7 +838,7 @@ author_profile: true
       </a>
         <a class="resource-card"
          href="https://kids.frontiersin.org/articles/neuroscience-and-psychology?sort=most-popular"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🧠</span>
         <div>
           <strong>Frontiers for young minds</strong>
@@ -847,7 +847,7 @@ author_profile: true
       </a>
         <a class="resource-card"
          href="http://www.youtube.com/@BrainPrize"
-         target="_blank">
+         target="_blank" rel="noopener noreferrer">
         <span class="resource-icon">🔬</span>
         <div>
           <strong>Brain Prize</strong>
@@ -859,346 +859,110 @@ author_profile: true
 
 </section>
 
-
-
-<!-- =========================================================
-     STYLE
-========================================================= -->
-
 <style>
-
-.neuro-resources {
-
-  margin-top: 18px;
-
-  padding:
-    clamp(25px, 5vw, 55px);
-
-  background:
-    linear-gradient(
-      145deg,
-      #080b13,
-      #0d111d
-    );
-
-  border:
-    1px solid #252b3a;
-
-  border-radius: 20px;
-
-  color: white;
-
-}
-
-
-.resource-heading {
-
-  margin-bottom: 18px;
-
-}
-
-
-.resource-eyebrow {
-
-  color: #7f9cff;
-
-  font-size: 12px;
-
-  letter-spacing: .15em;
-
-  font-weight: 700;
-
-  margin-bottom: 6px;
-
-}
-
-
-.resource-heading h2 {
-
-  color: white;
-
-  margin-top: 0;
-
-}
-
-
-.resource-heading p {
-
-  color: #aeb5c5;
-
-  max-width: 750px;
-
-}
-
-
-
-/* TAB BAR */
-
-.neuro-tabs {
-
-  display: flex;
-
-  gap: 8px;
-
-  overflow-x: auto;
-
-  padding-bottom: 12px;
-
-  margin-bottom: 30px;
-
-  scrollbar-width: thin;
-
-}
-
-
-.neuro-tab {
-
-  flex: 0 0 auto;
-
-  padding:
-    10px
-    16px;
-
-  border-radius: 30px;
-
-  border:
-    1px solid #343c51;
-
-  background:
-    #111725;
-
-  color:
-    #aeb9d5;
-
-  cursor: pointer;
-
-  font-size: 14px;
-
-  transition:
-    all .25s ease;
-
-}
-
-
-.neuro-tab:hover {
-
-  border-color:
-    #6685ff;
-
-  color: white;
-
-}
-
-
-.neuro-tab.active {
-
-  background:
-    #526fff;
-
-  color: white;
-
-  border-color:
-    #526fff;
-
-  box-shadow:
-    0 0 18px
-    rgba(82,111,255,.35);
-
-}
-
-
-
-/* TAB CONTENT */
-
-.neuro-panel {
-
-  display: none;
-
-  animation:
-    resourceFade
-    .3s ease;
-
-}
-
-
-.neuro-panel.active {
-
-  display: block;
-
-}
-
-
-.neuro-panel h3 {
-
-  color: white;
-
-  margin-bottom: 22px;
-
-}
-
-
-
-/* RESOURCE CARDS */
-
-.resource-grid {
-
+/* =========================
+   Hero
+========================= */
+.compneuro-hero {
   display: grid;
-
-  grid-template-columns:
-    repeat(
-      auto-fit,
-      minmax(230px,1fr)
-    );
-
-  gap: 14px;
-
-}
-
-
-.resource-card {
-
-  display: flex;
-
-  gap: 14px;
-
-  align-items:
-    flex-start;
-
-  padding: 18px;
-
-  border-radius: 12px;
-
-  text-decoration:
-    none !important;
-
-  border:
-    1px solid #262e40;
-
+  grid-template-columns: minmax(280px, 0.85fr) minmax(350px, 1.15fr);
+  align-items: center;
+  gap: 30px;
+  min-height: 600px;
+  margin-top: 0;
+  padding: clamp(35px, 6vw, 80px) clamp(25px, 5vw, 70px);
+  overflow: hidden;
+  border: 1px solid rgba(120, 140, 255, 0.18);
+  border-radius: 22px;
   background:
-    #0e1420;
-
-  transition:
-    transform .2s ease,
-    border-color .2s ease,
-    background .2s ease;
-
+    radial-gradient(circle at 75% 45%, rgba(78, 96, 255, 0.16), transparent 35%),
+    radial-gradient(circle at 60% 70%, rgba(0, 180, 255, 0.08), transparent 40%),
+    linear-gradient(145deg, #050a13, #080d1c 60%, #03050b);
 }
 
-
-.resource-card:hover {
-
-  transform:
-    translateY(-3px);
-
-  border-color:
-    #5d7cff;
-
-  background:
-    #111a2b;
-
+.compneuro-text {
+  z-index: 2;
 }
 
-
-.resource-card strong {
-
-  color:
-    #8fa8ff;
-
-  font-size:
-    15px;
-
+.eyebrow {
+  margin-bottom: 12px;
+  color: #87a7ff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.18em;
 }
 
-
-.resource-card p {
-
-  margin:
-    5px 0 0;
-
-  color:
-    #9da7ba;
-
-  font-size:
-    13px;
-
-  line-height:
-    1.55;
-
+.compneuro-text h1 {
+  margin-bottom: 20px;
+  color: white;
+  font-size: clamp(34px, 5vw, 60px);
+  line-height: 1.05;
 }
 
-
-.resource-icon {
-
-  font-size:
-    22px;
-
+.subtitle {
+  max-width: 520px;
+  color: rgba(235, 240, 255, 0.72);
+  font-size: 17px;
+  line-height: 1.7;
 }
 
+.topics {
+  margin-top: 25px;
+  color: #90a8ff;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+}
 
-/* ================================= */
-/* SIDE-VIEW COMPUTATIONAL BRAIN */
-/* ================================= */
+/* =========================
+   Brain graphic
+========================= */
+.neuron-container {
+  width: 100%;
+  transition: filter 0.3s ease;
+}
 
+.neuron-container:hover {
+  filter: brightness(1.18);
+}
+
+.neuron-svg,
 .brain-svg {
   width: 100%;
+  max-width: 750px;
   height: 100%;
   overflow: visible;
 }
 
-
-/* Brain silhouette */
-
 .side-brain-outline {
   fill: rgba(68, 100, 190, 0.025);
-
   stroke: rgba(110, 145, 255, 0.52);
   stroke-width: 2.5;
-
   stroke-linecap: round;
   stroke-linejoin: round;
-
   filter: url(#brainGlow);
-
   animation: brainOutlinePulse 6s ease-in-out infinite;
 }
-
 
 .secondary-outline {
   stroke-width: 2;
   opacity: 0.65;
 }
 
-
-/* Network connections */
-
 .brain-connections path {
   fill: none;
-
   stroke: rgba(105, 140, 255, 0.38);
   stroke-width: 1.8;
-
   stroke-linecap: round;
-
   animation: connectionBreath 5s ease-in-out infinite;
 }
 
-
-/* Neural nodes */
-
 .brain-nodes circle {
-
   fill: #7797ff;
-
   filter: url(#brainGlow);
-
   transform-box: fill-box;
   transform-origin: center;
-
   animation: nodePulse 3.8s ease-in-out infinite;
 }
-
-
-/* Different timing = less robotic */
 
 .brain-nodes circle:nth-child(2n) {
   animation-delay: 0.7s;
@@ -1212,23 +976,203 @@ author_profile: true
   animation-delay: 2.1s;
 }
 
-
-/* Traveling neural signals */
-
 .brain-signal {
-
   fill: #8df9ff;
-
   filter: url(#brainGlowStrong);
 }
 
+/* =========================
+   Research section
+========================= */
+.research-section {
+  padding: 28px 10px 10px;
+}
 
-/* ============================== */
-/* ANIMATIONS */
-/* ============================== */
+.research-section h2 {
+  margin-bottom: 15px;
+}
 
+.research-section > p {
+  max-width: 700px;
+  line-height: 1.7;
+}
+
+.research-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.research-card {
+  padding: 24px;
+  border: 1px solid #e5e7eb;
+  border-radius: 14px;
+  background: rgba(255, 255, 255, 0.03);
+}
+
+.research-card h3 {
+  margin-top: 0;
+  color: #4c7eff;
+}
+
+.research-card p {
+  font-size: 15px;
+  line-height: 1.6;
+}
+
+/* =========================
+   Resource hub
+========================= */
+.neuro-resources {
+  margin-top: 18px;
+  padding: clamp(25px, 5vw, 55px);
+  color: white;
+  border: 1px solid #252b3a;
+  border-radius: 20px;
+  background: linear-gradient(145deg, #080b13, #0d111d);
+}
+
+.resource-heading {
+  margin-bottom: 18px;
+}
+
+.resource-eyebrow {
+  margin-bottom: 6px;
+  color: #7f9cff;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.15em;
+}
+
+.resource-heading h2 {
+  margin-top: 0;
+  color: white;
+}
+
+.resource-heading p {
+  max-width: 750px;
+  color: #aeb5c5;
+}
+
+/* Tabs */
+.neuro-tabs {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 30px;
+  padding-bottom: 12px;
+  overflow-x: auto;
+  scrollbar-width: thin;
+}
+
+.neuro-tab {
+  flex: 0 0 auto;
+  padding: 10px 16px;
+  color: #aeb9d5;
+  font-size: 14px;
+  cursor: pointer;
+  border: 1px solid #343c51;
+  border-radius: 30px;
+  background: #111725;
+  transition: all 0.25s ease;
+}
+
+.neuro-tab:hover {
+  color: white;
+  border-color: #6685ff;
+}
+
+.neuro-tab.active {
+  color: white;
+  border-color: #526fff;
+  background: #526fff;
+  box-shadow: 0 0 18px rgba(82, 111, 255, 0.35);
+}
+
+.neuro-panel {
+  display: none;
+  animation: resourceFade 0.3s ease;
+}
+
+.neuro-panel.active {
+  display: block;
+}
+
+.neuro-panel h3 {
+  margin-bottom: 22px;
+  color: white;
+}
+
+/* Resource cards */
+.resource-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 14px;
+}
+
+.resource-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 14px;
+  padding: 18px;
+  text-decoration: none !important;
+  border: 1px solid #262e40;
+  border-radius: 12px;
+  background: #0e1420;
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    background 0.2s ease;
+}
+
+.resource-card:hover {
+  transform: translateY(-3px);
+  border-color: #5d7cff;
+  background: #111a2b;
+}
+
+.resource-card strong {
+  color: #8fa8ff;
+  font-size: 15px;
+}
+
+.resource-card p {
+  margin: 5px 0 0;
+  color: #9da7ba;
+  font-size: 13px;
+  line-height: 1.55;
+}
+
+.resource-icon {
+  font-size: 22px;
+}
+
+/* People */
+.people-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 14px;
+}
+
+.person {
+  padding: 16px;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  border-radius: 10px;
+}
+
+.people-list a {
+  color: #91a8ff;
+  text-decoration: none !important;
+}
+
+.people-list a:hover {
+  color: white;
+}
+
+/* =========================
+   Animations
+========================= */
 @keyframes nodePulse {
-
   0%,
   100% {
     opacity: 0.45;
@@ -1239,12 +1183,9 @@ author_profile: true
     opacity: 1;
     transform: scale(1.3);
   }
-
 }
 
-
 @keyframes connectionBreath {
-
   0%,
   100% {
     opacity: 0.35;
@@ -1253,12 +1194,9 @@ author_profile: true
   50% {
     opacity: 0.8;
   }
-
 }
 
-
 @keyframes brainOutlinePulse {
-
   0%,
   100% {
     opacity: 0.55;
@@ -1267,837 +1205,74 @@ author_profile: true
   50% {
     opacity: 0.95;
   }
-
 }
-
-
-
-
-
-
-  
-
-/* PEOPLE */
-
-.people-list {
-
-  display: flex;
-
-  flex-wrap: wrap;
-
-  gap: 10px;
-
-}
-
-
-.people-list a {
-
-  padding:
-    9px 14px;
-
-  border-radius:
-    30px;
-
-  background:
-    #111725;
-
-  border:
-    1px solid #30384b;
-
-  color:
-    #91a8ff;
-
-  text-decoration:
-    none !important;
-
-}
-
-
-.people-list a:hover {
-
-  border-color:
-    #6685ff;
-
-  color:
-    white;
-
-}
-
-
 
 @keyframes resourceFade {
-
   from {
-
     opacity: 0;
-
-    transform:
-      translateY(5px);
-
+    transform: translateY(5px);
   }
 
   to {
-
     opacity: 1;
-
-    transform:
-      translateY(0);
-
+    transform: translateY(0);
   }
-
 }
 
-
-@media(max-width:600px) {
-
-  .neuro-resources {
-
-    padding:
-      22px 16px;
-
+/* =========================
+   Responsive
+========================= */
+@media (max-width: 800px) {
+  .compneuro-hero,
+  .research-grid {
+    grid-template-columns: 1fr;
   }
-
-
-  .resource-grid {
-
-    grid-template-columns:
-      1fr;
-
-  }
-
-}
-
-</style>
-
-
-
-<!-- =========================================================
-     TAB SCRIPT
-========================================================= -->
-
-<script>
-
-document.addEventListener(
-  "DOMContentLoaded",
-  function () {
-
-    const tabs =
-      document.querySelectorAll(
-        ".neuro-tab"
-      );
-
-    const panels =
-      document.querySelectorAll(
-        ".neuro-panel"
-      );
-
-
-    tabs.forEach(
-      function(tab) {
-
-        tab.addEventListener(
-          "click",
-          function() {
-
-            tabs.forEach(
-              t =>
-              t.classList.remove(
-                "active"
-              )
-            );
-
-
-            panels.forEach(
-              panel =>
-              panel.classList.remove(
-                "active"
-              )
-            );
-
-
-            tab.classList.add(
-              "active"
-            );
-
-
-            const target =
-              document.getElementById(
-                tab.dataset.tab
-              );
-
-
-            if(target) {
-
-              target.classList.add(
-                "active"
-              );
-
-            }
-
-          }
-        );
-
-      }
-    );
-
-  }
-);
-
-</script>
-
-
-
-
-<style>
-
-.compneuro-hero {
-
-  min-height: 600px;
-
-  display: grid;
-
-  grid-template-columns:
-    minmax(280px, 0.85fr)
-    minmax(350px, 1.15fr);
-
-  align-items: center;
-
-  gap: 30px;
-
-  padding:
-    clamp(35px, 6vw, 80px)
-    clamp(25px, 5vw, 70px);
-
-  margin-top: 0;
-
-  border-radius: 22px;
-
-  overflow: hidden;
-
-  background:
-
-    radial-gradient(
-      circle at 75% 45%,
-      rgba(78, 96, 255, 0.16),
-      transparent 35%
-    ),
-
-    radial-gradient(
-      circle at 60% 70%,
-      rgba(0, 180, 255, 0.08),
-      transparent 40%
-    ),
-
-    linear-gradient(
-      145deg,
-      #050a13,
-      #080d1c 60%,
-      #03050b
-    );
-
-  border:
-    1px solid rgba(120, 140, 255, 0.18);
-
-}
-
-
-.compneuro-text {
-
-  z-index: 2;
-
-}
-
-
-.eyebrow {
-
-  font-size: 12px;
-
-  letter-spacing: 0.18em;
-
-  font-weight: 700;
-
-  color: #87a7ff;
-
-  margin-bottom: 12px;
-
-}
-
-
-.compneuro-text h1 {
-
-  color: white;
-
-  font-size:
-    clamp(34px, 5vw, 60px);
-
-  line-height: 1.05;
-
-  margin-bottom: 20px;
-
-}
-
-
-.subtitle {
-
-  color:
-    rgba(235, 240, 255, 0.72);
-
-  font-size: 17px;
-
-  max-width: 520px;
-
-  line-height: 1.7;
-
-}
-
-
-.topics {
-
-  margin-top: 25px;
-
-  color: #90a8ff;
-
-  font-size: 14px;
-
-  letter-spacing: 0.03em;
-
-}
-
-
-
-.neuron-container {
-
-  width: 100%;
-.neuron-container{transition:filter .3s ease}
-.neuron-container:hover{filter:brightness(1.18)}
-.neuron-container:hover .soma{transform:scale(1.12)}
-.soma{transform-origin:400px 250px;transition:transform .3s ease}
-}
-
-
-.neuron-svg {
-
-  width: 100%;
-
-  max-width: 750px;
-
-  overflow: visible;
-
-}
-
-
-
-.branches path {
-
-  fill: none;
-
-  stroke:
-    rgba(115, 135, 255, 0.48);
-
-  stroke-width: 2.3;
-
-  stroke-linecap: round;
-
-  filter: url(#glow);
-
-  animation:
-    branchGlow
-    4s
-    ease-in-out
-    infinite alternate;
-
-}
-
-
-.branches path:nth-child(2n) {
-
-  animation-delay: -1s;
-
-}
-
-
-.branches path:nth-child(3n) {
-
-  animation-delay: -2s;
-
-}
-
-
-
-.nodes circle {
-
-  fill: #788cff;
-
-  filter: url(#glow);
-
-  animation:
-    nodePulse
-    3s
-    ease-in-out
-    infinite;
-
-}
-
-
-
-.soma {
-
-  fill:
-    url(#somaGradient);
-
-  filter:
-    url(#glow);
-
-  animation:
-    somaPulse
-    2s
-    ease-in-out
-    infinite alternate;
-
-}
-
-
-.soma-core {
-
-  fill: white;
-
-  filter: url(#glow);
-
-}
-
-
-.soma-ring {
-
-  fill: none;
-
-  stroke:
-    rgba(110, 135, 255, 0.35);
-
-  stroke-width: 2;
-
-  transform-origin:
-    400px
-    250px;
-
-  animation:
-    ringPulse
-    2.8s
-    ease-out
-    infinite;
-
-}
-
-
-
-.signal {
-
-  fill: white;
-
-  filter: url(#glow);
-
-}
-
-
-.signal2 {
-
-  fill: #a9b7ff;
-
-}
-
-
-.signal3 {
-
-  fill: #8deeff;
-
-}
-
-
-.signal4 {
-
-  fill: #c1a3ff;
-
-}
-
-
-
-@keyframes branchGlow {
-
-  from {
-
-    stroke:
-      rgba(90, 110, 220, 0.25);
-
-  }
-
-  to {
-
-    stroke:
-      rgba(125, 150, 255, 0.7);
-
-  }
-
-}
-/* ============================= */
-/* BRAIN NETWORK ANIMATION */
-/* ============================= */
-
-.brain-svg {
-  width: 100%;
-  height: 100%;
-  overflow: visible;
-}
-
-
-/* Brain outer silhouette */
-
-.brain-outline path {
-  fill: none;
-  stroke: rgba(105, 140, 255, 0.45);
-  stroke-width: 2.5;
-  stroke-linecap: round;
-  stroke-linejoin: round;
-  filter: url(#brainGlow);
-
-  animation: brainPulse 5s ease-in-out infinite;
-}
-
-
-/* Neural connections */
-
-.brain-connections path {
-  fill: none;
-  stroke: rgba(100, 135, 255, 0.38);
-  stroke-width: 2;
-  stroke-linecap: round;
-
-  animation: connectionPulse 6s ease-in-out infinite;
-}
-
-
-/* Nodes */
-
-.brain-nodes circle {
-  fill: #7595ff;
-  filter: url(#brainGlow);
-
-  transform-box: fill-box;
-  transform-origin: center;
-
-  animation: nodePulse 3.8s ease-in-out infinite;
-}
-
-
-/* Central node */
-
-.brain-nodes .central-node {
-  fill: #ffffff;
-  stroke: #7f9cff;
-  stroke-width: 5;
-
-  filter: url(#brainGlowStrong);
-
-  animation: centralPulse 2.8s ease-in-out infinite;
-}
-
-
-/* Moving electrical signals */
-
-.brain-signal {
-  fill: #86f7ff;
-
-  filter: url(#brainGlowStrong);
-}
-
-
-/* Slightly vary node timing */
-
-.brain-nodes circle:nth-child(2n) {
-  animation-delay: 0.7s;
-}
-
-.brain-nodes circle:nth-child(3n) {
-  animation-delay: 1.4s;
-}
-
-
-/* Animations */
-
-@keyframes nodePulse {
-
-  0%,
-  100% {
-    opacity: 0.45;
-    transform: scale(0.85);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.25);
-  }
-
-}
-
-
-@keyframes centralPulse {
-
-  0%,
-  100% {
-    opacity: 0.8;
-    transform: scale(0.9);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.35);
-  }
-
-}
-
-
-@keyframes connectionPulse {
-
-  0%,
-  100% {
-    opacity: 0.35;
-  }
-
-  50% {
-    opacity: 0.8;
-  }
-
-}
-
-
-@keyframes brainPulse {
-
-  0%,
-  100% {
-    opacity: 0.45;
-  }
-
-  50% {
-    opacity: 0.85;
-  }
-
-}
-
-
-@keyframes nodePulse {
-
-  0% {
-
-    opacity: 0.3;
-
-  }
-
-  50% {
-
-    opacity: 1;
-
-  }
-
-  100% {
-
-    opacity: 0.4;
-
-  }
-
-}
-
-
-
-@keyframes somaPulse {
-
-  from {
-
-    opacity: 0.75;
-
-  }
-
-  to {
-
-    opacity: 1;
-
-  }
-
-}
-
-
-
-@keyframes ringPulse {
-
-  0% {
-
-    transform:
-      scale(0.65);
-
-    opacity: 0.7;
-
-  }
-
-  100% {
-
-    transform:
-      scale(1.8);
-
-    opacity: 0;
-
-  }
-
-}
-
-
-
-.research-section{
-padding:28px 10px 10px;
-}
-
-
-.research-section h2 {
-
-  margin-bottom: 15px;
-
-}
-
-
-.research-section > p {
-
-  max-width: 700px;
-
-  line-height: 1.7;
-
-}
-
-
-.research-grid {
-
-  display: grid;
-
-  grid-template-columns:
-    repeat(3, 1fr);
-
-  gap: 20px;
-
-  margin-top: 35px;
-
-}
-
-
-.research-card {
-
-  padding: 24px;
-
-  border-radius: 14px;
-
-  border:
-    1px solid #e5e7eb;
-
-  background:
-    rgba(255, 255, 255, 0.03);
-
-}
-
-
-.research-card h3 {
-
-  margin-top: 0;
-
-  color: #4c7eff;
-
-}
-
-
-.research-card p {
-
-  font-size: 15px;
-
-  line-height: 1.6;
-
-}
-
-
-
-@media
-(max-width: 800px) {
 
   .compneuro-hero {
-
-    grid-template-columns:
-      1fr;
-
     min-height: auto;
-
   }
-
 
   .neuron-container {
-
     margin-top: 20px;
-
   }
-
-
-  .research-grid {
-
-    grid-template-columns:
-      1fr;
-
-  }
-
 }
 
+@media (max-width: 600px) {
+  .neuro-resources {
+    padding: 22px 16px;
+  }
 
+  .resource-grid {
+    grid-template-columns: 1fr;
+  }
+}
 
-@media
-(prefers-reduced-motion: reduce) {
-
-  .branches path,
-
-  .nodes circle,
-
-  .soma,
-
-  .soma-ring {
-
+@media (prefers-reduced-motion: reduce) {
+  .side-brain-outline,
+  .brain-connections path,
+  .brain-nodes circle {
     animation: none;
-
   }
 
-
-  .signal {
-
+  .brain-signal {
     display: none;
-
   }
-
 }
-
 </style>
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+  const tabs = document.querySelectorAll(".neuro-tab");
+  const panels = document.querySelectorAll(".neuro-panel");
 
-<style>
+  tabs.forEach((tab) => {
+    tab.addEventListener("click", () => {
+      tabs.forEach((item) => item.classList.remove("active"));
+      panels.forEach((panel) => panel.classList.remove("active"));
 
-.neuro-resources {
-  margin-top: 18px;
-}
-
-/* all your existing CSS */
-
-
-/* New people CSS */
-
-.people-list {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 14px;
-}
-
-.person {
-  padding: 16px;
-  border: 1px solid rgba(255,255,255,0.12);
-  border-radius: 10px;
-}
-
-
-</style>
-
+      tab.classList.add("active");
+      document.getElementById(tab.dataset.tab)?.classList.add("active");
+    });
+  });
+});
+</script>
