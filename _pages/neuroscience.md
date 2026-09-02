@@ -838,6 +838,257 @@ author_profile: true
 
 
 
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+
+  const svgNS = "http://www.w3.org/2000/svg";
+
+  const network = document.getElementById("networkLayer");
+
+
+
+  /* =============================================
+     NEURON POSITIONS
+
+     These coordinates are deliberately distributed
+     according to the lateral brain anatomy.
+  ============================================= */
+
+  const nodes = [
+
+    // frontal cortex
+    [205,190],[225,222],[245,170],[260,205],
+    [275,245],[285,145],[305,185],[310,225],
+
+    // superior cortex
+    [325,115],[350,145],[375,105],[395,150],
+    [420,110],[445,145],[470,110],[495,145],
+
+    // middle cortex
+    [340,205],[370,225],[400,195],[425,235],
+    [455,205],[485,230],[520,190],[545,225],
+
+    // central regions
+    [310,280],[345,270],[380,290],[410,265],
+    [445,290],[480,270],[520,285],[555,270],
+
+    // temporal cortex
+    [245,300],[275,330],[305,310],[335,350],
+    [370,330],[405,355],[445,330],[480,350],
+
+    // posterior cortex
+    [560,175],[590,205],[600,245],
+    [585,295],[560,325],[530,350],
+
+    // lower cortex
+    [310,380],[350,395],[390,380],
+    [430,395],[470,380],[510,390]
+
+  ];
+
+
+
+  /* =============================================
+     DRAW CONNECTIONS
+
+     Nearby neurons have a higher probability
+     of being connected.
+  ============================================= */
+
+  nodes.forEach((a, i) => {
+
+    nodes.forEach((b, j) => {
+
+      if (j <= i) return;
+
+      const dx = a[0] - b[0];
+      const dy = a[1] - b[1];
+
+      const distance = Math.sqrt(dx * dx + dy * dy);
+
+
+
+      /*
+       * Keep network biologically/visually local.
+       */
+
+      if (distance < 105 && Math.random() < 0.36) {
+
+        const line = document.createElementNS(svgNS, "line");
+
+        line.setAttribute("x1", a[0]);
+        line.setAttribute("y1", a[1]);
+
+        line.setAttribute("x2", b[0]);
+        line.setAttribute("y2", b[1]);
+
+        line.classList.add("network-edge");
+
+
+        if (Math.random() > 0.72) {
+          line.classList.add("strong");
+        }
+
+
+        network.appendChild(line);
+
+      }
+
+    });
+
+  });
+
+
+
+  /* =============================================
+     LONG RANGE CONNECTIONS
+
+     These make it look more like a connectome.
+  ============================================= */
+
+  const longConnections = [
+
+    [1,18],
+    [3,25],
+    [5,22],
+    [8,32],
+    [10,24],
+    [12,29],
+    [15,27],
+    [18,40],
+    [20,35],
+    [22,38],
+    [24,43],
+    [27,36],
+    [30,41],
+    [33,45],
+    [35,47]
+
+  ];
+
+
+  longConnections.forEach(pair => {
+
+    const a = nodes[pair[0]];
+    const b = nodes[pair[1]];
+
+    const path =
+      document.createElementNS(svgNS, "path");
+
+
+    const midX =
+      (a[0] + b[0]) / 2;
+
+
+    const curveY =
+      Math.min(a[1], b[1]) - 35;
+
+
+    path.setAttribute(
+      "d",
+      `
+      M ${a[0]} ${a[1]}
+      Q ${midX} ${curveY}
+      ${b[0]} ${b[1]}
+      `
+    );
+
+
+    path.classList.add(
+      "network-edge",
+      "strong"
+    );
+
+
+    network.appendChild(path);
+
+  });
+
+
+
+  /* =============================================
+     DRAW NEURONS
+  ============================================= */
+
+  const circles = [];
+
+
+  nodes.forEach((node, index) => {
+
+    const circle =
+      document.createElementNS(svgNS, "circle");
+
+
+    const size =
+      Math.random() > 0.78
+      ? 4.5
+      : 2.7;
+
+
+    circle.setAttribute("cx", node[0]);
+
+    circle.setAttribute("cy", node[1]);
+
+    circle.setAttribute("r", size);
+
+
+    circle.classList.add("network-node");
+
+
+    if (size < 4) {
+
+      circle.classList.add("minor");
+
+    }
+
+
+    circle.style.animationDelay =
+      `${Math.random() * 4}s`;
+
+
+    network.appendChild(circle);
+
+    circles.push(circle);
+
+  });
+
+
+
+  /* =============================================
+     NEURAL FIRING
+
+     Random neurons briefly activate.
+  ============================================= */
+
+  function fireNeuron() {
+
+    const neuron =
+      circles[
+        Math.floor(
+          Math.random() * circles.length
+        )
+      ];
+
+
+    neuron.classList.add("active");
+
+
+    setTimeout(() => {
+
+      neuron.classList.remove("active");
+
+    }, 550);
+
+  }
+
+
+  setInterval(fireNeuron, 430);
+
+
+
+});
+</script>
+
 <!-- =========================================================
      STYLE
 ========================================================= -->
@@ -2287,254 +2538,3 @@ padding:28px 10px 10px;
 
 </style>
 
-
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-
-  const svgNS = "http://www.w3.org/2000/svg";
-
-  const network = document.getElementById("networkLayer");
-
-
-
-  /* =============================================
-     NEURON POSITIONS
-
-     These coordinates are deliberately distributed
-     according to the lateral brain anatomy.
-  ============================================= */
-
-  const nodes = [
-
-    // frontal cortex
-    [205,190],[225,222],[245,170],[260,205],
-    [275,245],[285,145],[305,185],[310,225],
-
-    // superior cortex
-    [325,115],[350,145],[375,105],[395,150],
-    [420,110],[445,145],[470,110],[495,145],
-
-    // middle cortex
-    [340,205],[370,225],[400,195],[425,235],
-    [455,205],[485,230],[520,190],[545,225],
-
-    // central regions
-    [310,280],[345,270],[380,290],[410,265],
-    [445,290],[480,270],[520,285],[555,270],
-
-    // temporal cortex
-    [245,300],[275,330],[305,310],[335,350],
-    [370,330],[405,355],[445,330],[480,350],
-
-    // posterior cortex
-    [560,175],[590,205],[600,245],
-    [585,295],[560,325],[530,350],
-
-    // lower cortex
-    [310,380],[350,395],[390,380],
-    [430,395],[470,380],[510,390]
-
-  ];
-
-
-
-  /* =============================================
-     DRAW CONNECTIONS
-
-     Nearby neurons have a higher probability
-     of being connected.
-  ============================================= */
-
-  nodes.forEach((a, i) => {
-
-    nodes.forEach((b, j) => {
-
-      if (j <= i) return;
-
-      const dx = a[0] - b[0];
-      const dy = a[1] - b[1];
-
-      const distance = Math.sqrt(dx * dx + dy * dy);
-
-
-
-      /*
-       * Keep network biologically/visually local.
-       */
-
-      if (distance < 105 && Math.random() < 0.36) {
-
-        const line = document.createElementNS(svgNS, "line");
-
-        line.setAttribute("x1", a[0]);
-        line.setAttribute("y1", a[1]);
-
-        line.setAttribute("x2", b[0]);
-        line.setAttribute("y2", b[1]);
-
-        line.classList.add("network-edge");
-
-
-        if (Math.random() > 0.72) {
-          line.classList.add("strong");
-        }
-
-
-        network.appendChild(line);
-
-      }
-
-    });
-
-  });
-
-
-
-  /* =============================================
-     LONG RANGE CONNECTIONS
-
-     These make it look more like a connectome.
-  ============================================= */
-
-  const longConnections = [
-
-    [1,18],
-    [3,25],
-    [5,22],
-    [8,32],
-    [10,24],
-    [12,29],
-    [15,27],
-    [18,40],
-    [20,35],
-    [22,38],
-    [24,43],
-    [27,36],
-    [30,41],
-    [33,45],
-    [35,47]
-
-  ];
-
-
-  longConnections.forEach(pair => {
-
-    const a = nodes[pair[0]];
-    const b = nodes[pair[1]];
-
-    const path =
-      document.createElementNS(svgNS, "path");
-
-
-    const midX =
-      (a[0] + b[0]) / 2;
-
-
-    const curveY =
-      Math.min(a[1], b[1]) - 35;
-
-
-    path.setAttribute(
-      "d",
-      `
-      M ${a[0]} ${a[1]}
-      Q ${midX} ${curveY}
-      ${b[0]} ${b[1]}
-      `
-    );
-
-
-    path.classList.add(
-      "network-edge",
-      "strong"
-    );
-
-
-    network.appendChild(path);
-
-  });
-
-
-
-  /* =============================================
-     DRAW NEURONS
-  ============================================= */
-
-  const circles = [];
-
-
-  nodes.forEach((node, index) => {
-
-    const circle =
-      document.createElementNS(svgNS, "circle");
-
-
-    const size =
-      Math.random() > 0.78
-      ? 4.5
-      : 2.7;
-
-
-    circle.setAttribute("cx", node[0]);
-
-    circle.setAttribute("cy", node[1]);
-
-    circle.setAttribute("r", size);
-
-
-    circle.classList.add("network-node");
-
-
-    if (size < 4) {
-
-      circle.classList.add("minor");
-
-    }
-
-
-    circle.style.animationDelay =
-      `${Math.random() * 4}s`;
-
-
-    network.appendChild(circle);
-
-    circles.push(circle);
-
-  });
-
-
-
-  /* =============================================
-     NEURAL FIRING
-
-     Random neurons briefly activate.
-  ============================================= */
-
-  function fireNeuron() {
-
-    const neuron =
-      circles[
-        Math.floor(
-          Math.random() * circles.length
-        )
-      ];
-
-
-    neuron.classList.add("active");
-
-
-    setTimeout(() => {
-
-      neuron.classList.remove("active");
-
-    }, 550);
-
-  }
-
-
-  setInterval(fireNeuron, 430);
-
-
-
-});
-</script>
