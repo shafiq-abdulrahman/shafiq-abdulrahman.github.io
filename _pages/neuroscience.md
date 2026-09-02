@@ -28,7 +28,6 @@ author_profile: true
   >
 
     <defs>
-
       <filter id="brainGlow">
         <feGaussianBlur stdDeviation="4" result="blur"/>
         <feMerge>
@@ -38,171 +37,197 @@ author_profile: true
       </filter>
 
       <filter id="brainGlowStrong">
-        <feGaussianBlur stdDeviation="8" result="blur"/>
+        <feGaussianBlur stdDeviation="7" result="blur"/>
         <feMerge>
           <feMergeNode in="blur"/>
           <feMergeNode in="SourceGraphic"/>
         </feMerge>
       </filter>
-
     </defs>
 
 
-    <!-- ========================= -->
-    <!-- BRAIN OUTLINE -->
-    <!-- ========================= -->
+    <!-- =================================== -->
+    <!-- SIDE VIEW BRAIN OUTLINE -->
+    <!-- =================================== -->
 
-    <g class="brain-outline">
+    <path
+      class="side-brain-outline"
+      d="
+        M190 265
 
-      <!-- LEFT HEMISPHERE -->
-      <path d="
-        M395 105
-        C350 65 280 65 250 105
-        C205 105 180 140 185 178
-        C145 195 140 240 165 268
-        C145 305 165 350 205 360
-        C207 400 245 425 285 414
-        C312 449 365 438 395 405
-      "/>
+        C160 235 170 195 205 175
 
-      <!-- RIGHT HEMISPHERE -->
-      <path d="
-        M405 105
-        C450 65 520 65 550 105
-        C595 105 620 140 615 178
-        C655 195 660 240 635 268
-        C655 305 635 350 595 360
-        C593 400 555 425 515 414
-        C488 449 435 438 405 405
-      "/>
+        C200 135 240 105 285 112
 
-      <!-- CENTER -->
-      <path d="M400 105 C390 170 410 220 400 275 C390 330 410 370 400 405"/>
+        C310 75 365 63 405 88
 
-    </g>
+        C445 61 505 72 530 108
+
+        C575 103 612 132 615 172
+
+        C650 186 662 223 648 251
+
+        C667 282 650 318 620 331
+
+        C613 368 575 385 540 375
+
+        C515 407 475 410 446 389
+
+        C425 416 385 420 360 398
+
+        C330 415 290 398 282 366
+
+        C247 368 220 346 218 317
+
+        C190 308 174 285 190 265
+      "
+    />
 
 
-    <!-- ========================= -->
-    <!-- INTERNAL NEURAL NETWORK -->
-    <!-- ========================= -->
+    <!-- LOWER TEMPORAL / BRAINSTEM SHAPE -->
+
+    <path
+      class="side-brain-outline secondary-outline"
+      d="
+        M360 398
+        C375 420 390 437 408 450
+        C425 460 444 454 447 438
+        C450 420 445 404 446 389
+      "
+    />
+
+
+    <!-- =================================== -->
+    <!-- INTERNAL CORTICAL CONNECTIONS -->
+    <!-- =================================== -->
 
     <g class="brain-connections">
 
-      <!-- LEFT NETWORK -->
+      <!-- frontal -->
+      <path d="M225 205 C265 185 300 185 330 205"/>
+      <path d="M225 205 C245 235 260 252 290 270"/>
+      <path d="M290 270 C310 235 320 220 330 205"/>
 
-      <path d="M250 130 C280 150 300 165 325 190"/>
-      <path d="M325 190 C290 210 255 220 215 210"/>
-      <path d="M325 190 C345 225 345 250 325 280"/>
-      <path d="M215 210 C220 255 245 280 285 295"/>
-      <path d="M285 295 C255 320 245 350 260 380"/>
-      <path d="M285 295 C320 310 345 330 360 365"/>
-      <path d="M325 280 C360 270 380 270 400 280"/>
-      <path d="M250 130 C225 160 215 180 215 210"/>
+      <!-- upper frontal/parietal -->
+      <path d="M285 135 C320 155 350 175 380 205"/>
+      <path d="M330 205 C350 180 365 165 395 150"/>
+      <path d="M395 150 C430 140 470 150 500 175"/>
 
-      <!-- RIGHT NETWORK -->
+      <!-- parietal -->
+      <path d="M380 205 C420 200 455 205 490 225"/>
+      <path d="M500 175 C510 200 505 215 490 225"/>
+      <path d="M490 225 C525 230 555 250 575 275"/>
 
-      <path d="M550 130 C520 150 500 165 475 190"/>
-      <path d="M475 190 C510 210 545 220 585 210"/>
-      <path d="M475 190 C455 225 455 250 475 280"/>
-      <path d="M585 210 C580 255 555 280 515 295"/>
-      <path d="M515 295 C545 320 555 350 540 380"/>
-      <path d="M515 295 C480 310 455 330 440 365"/>
-      <path d="M475 280 C440 270 420 270 400 280"/>
-      <path d="M550 130 C575 160 585 180 585 210"/>
+      <!-- central -->
+      <path d="M330 205 C350 235 365 255 390 280"/>
+      <path d="M390 280 C425 255 455 240 490 225"/>
 
-      <!-- CROSS CONNECTIONS -->
+      <!-- temporal -->
+      <path d="M290 270 C320 295 350 305 390 305"/>
+      <path d="M390 305 C420 300 450 300 480 315"/>
+      <path d="M480 315 C515 320 545 310 575 275"/>
 
-      <path d="M325 190 C370 170 430 170 475 190"/>
-      <path d="M285 295 C330 280 365 280 400 280"/>
-      <path d="M515 295 C470 280 435 280 400 280"/>
-      <path d="M360 365 C380 350 420 350 440 365"/>
+      <!-- lower / posterior -->
+      <path d="M390 305 C385 335 390 360 415 382"/>
+      <path d="M415 382 C445 365 465 345 480 315"/>
+      <path d="M480 315 C500 340 515 355 540 365"/>
+
+      <!-- long-range connections -->
+      <path d="M225 205 C310 150 405 125 500 175"/>
+      <path d="M290 270 C360 240 430 240 490 225"/>
+      <path d="M330 205 C380 260 430 295 480 315"/>
+      <path d="M290 270 C330 335 370 365 415 382"/>
 
     </g>
 
 
-    <!-- ========================= -->
-    <!-- NETWORK NODES -->
-    <!-- ========================= -->
+    <!-- =================================== -->
+    <!-- NEURAL NODES -->
+    <!-- =================================== -->
 
     <g class="brain-nodes">
 
-      <circle cx="250" cy="130" r="6"/>
-      <circle cx="325" cy="190" r="7"/>
-      <circle cx="215" cy="210" r="5"/>
-      <circle cx="325" cy="280" r="6"/>
-      <circle cx="285" cy="295" r="6"/>
-      <circle cx="260" cy="380" r="5"/>
-      <circle cx="360" cy="365" r="6"/>
+      <circle cx="225" cy="205" r="5"/>
+      <circle cx="285" cy="135" r="5"/>
 
-      <circle cx="550" cy="130" r="6"/>
-      <circle cx="475" cy="190" r="7"/>
-      <circle cx="585" cy="210" r="5"/>
-      <circle cx="475" cy="280" r="6"/>
-      <circle cx="515" cy="295" r="6"/>
-      <circle cx="540" cy="380" r="5"/>
-      <circle cx="440" cy="365" r="6"/>
+      <circle cx="330" cy="205" r="7"/>
+      <circle cx="290" cy="270" r="6"/>
 
-      <circle class="central-node" cx="400" cy="280" r="9"/>
+      <circle cx="395" cy="150" r="6"/>
+      <circle cx="380" cy="205" r="5"/>
+
+      <circle cx="500" cy="175" r="6"/>
+      <circle cx="490" cy="225" r="7"/>
+
+      <circle cx="390" cy="280" r="8"/>
+
+      <circle cx="390" cy="305" r="6"/>
+      <circle cx="480" cy="315" r="7"/>
+
+      <circle cx="575" cy="275" r="5"/>
+
+      <circle cx="415" cy="382" r="6"/>
+      <circle cx="540" cy="365" r="5"/>
 
     </g>
 
 
-    <!-- ========================= -->
-    <!-- SIGNALS -->
-    <!-- ========================= -->
+    <!-- =================================== -->
+    <!-- MOVING ELECTRICAL SIGNALS -->
+    <!-- =================================== -->
 
-    <circle class="brain-signal signal-a" r="5">
+    <circle class="brain-signal" r="5">
       <animateMotion
-        dur="5s"
+        dur="5.5s"
         repeatCount="indefinite"
         path="
-          M250 130
-          C280 150 300 165 325 190
-          C345 225 345 250 325 280
-          C360 270 380 270 400 280
+          M225 205
+          C265 185 300 185 330 205
+          C350 235 365 255 390 280
+          C425 255 455 240 490 225
         "
       />
     </circle>
 
 
-    <circle class="brain-signal signal-b" r="5">
+    <circle class="brain-signal" r="4">
       <animateMotion
-        dur="5.8s"
-        begin="1.3s"
+        dur="6.3s"
+        begin="1.4s"
         repeatCount="indefinite"
         path="
-          M550 130
-          C520 150 500 165 475 190
-          C455 225 455 250 475 280
-          C440 270 420 270 400 280
+          M285 135
+          C320 155 350 175 380 205
+          C420 200 455 205 490 225
+          C525 230 555 250 575 275
         "
       />
     </circle>
 
 
-    <circle class="brain-signal signal-c" r="4">
-      <animateMotion
-        dur="6.5s"
-        begin="2.1s"
-        repeatCount="indefinite"
-        path="
-          M215 210
-          C220 255 245 280 285 295
-          C330 280 365 280 400 280
-        "
-      />
-    </circle>
-
-
-    <circle class="brain-signal signal-d" r="4">
+    <circle class="brain-signal" r="4">
       <animateMotion
         dur="7s"
-        begin="3s"
+        begin="2.8s"
         repeatCount="indefinite"
         path="
-          M585 210
-          C580 255 555 280 515 295
-          C470 280 435 280 400 280
+          M290 270
+          C320 295 350 305 390 305
+          C420 300 450 300 480 315
+          C500 340 515 355 540 365
+        "
+      />
+    </circle>
+
+
+    <circle class="brain-signal" r="4">
+      <animateMotion
+        dur="6.7s"
+        begin="3.6s"
+        repeatCount="indefinite"
+        path="
+          M500 175
+          C430 140 350 150 290 270
         "
       />
     </circle>
@@ -1111,6 +1136,147 @@ author_profile: true
 }
 
 
+/* ================================= */
+/* SIDE-VIEW COMPUTATIONAL BRAIN */
+/* ================================= */
+
+.brain-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+
+/* Brain silhouette */
+
+.side-brain-outline {
+  fill: rgba(68, 100, 190, 0.025);
+
+  stroke: rgba(110, 145, 255, 0.52);
+  stroke-width: 2.5;
+
+  stroke-linecap: round;
+  stroke-linejoin: round;
+
+  filter: url(#brainGlow);
+
+  animation: brainOutlinePulse 6s ease-in-out infinite;
+}
+
+
+.secondary-outline {
+  stroke-width: 2;
+  opacity: 0.65;
+}
+
+
+/* Network connections */
+
+.brain-connections path {
+  fill: none;
+
+  stroke: rgba(105, 140, 255, 0.38);
+  stroke-width: 1.8;
+
+  stroke-linecap: round;
+
+  animation: connectionBreath 5s ease-in-out infinite;
+}
+
+
+/* Neural nodes */
+
+.brain-nodes circle {
+
+  fill: #7797ff;
+
+  filter: url(#brainGlow);
+
+  transform-box: fill-box;
+  transform-origin: center;
+
+  animation: nodePulse 3.8s ease-in-out infinite;
+}
+
+
+/* Different timing = less robotic */
+
+.brain-nodes circle:nth-child(2n) {
+  animation-delay: 0.7s;
+}
+
+.brain-nodes circle:nth-child(3n) {
+  animation-delay: 1.5s;
+}
+
+.brain-nodes circle:nth-child(5n) {
+  animation-delay: 2.1s;
+}
+
+
+/* Traveling neural signals */
+
+.brain-signal {
+
+  fill: #8df9ff;
+
+  filter: url(#brainGlowStrong);
+}
+
+
+/* ============================== */
+/* ANIMATIONS */
+/* ============================== */
+
+@keyframes nodePulse {
+
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.3);
+  }
+
+}
+
+
+@keyframes connectionBreath {
+
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+}
+
+
+@keyframes brainOutlinePulse {
+
+  0%,
+  100% {
+    opacity: 0.55;
+  }
+
+  50% {
+    opacity: 0.95;
+  }
+
+}
+
+
+
+
+
+
+  
 
 /* PEOPLE */
 
