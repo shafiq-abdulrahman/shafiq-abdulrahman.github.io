@@ -20,198 +20,221 @@ author_profile: true
   </div>
 
 <div class="neuron-container">
+
   <svg
-    class="realistic-brain"
-    viewBox="0 0 800 520"
+    class="neuron-svg brain-svg"
+    viewBox="0 0 800 500"
     xmlns="http://www.w3.org/2000/svg"
   >
 
     <defs>
-
-      <!-- Soft blue glow -->
-      <filter id="softGlow" x="-60%" y="-60%" width="220%" height="220%">
-        <feGaussianBlur stdDeviation="5" result="blur"/>
+      <filter id="brainGlow">
+        <feGaussianBlur stdDeviation="4" result="blur"/>
         <feMerge>
           <feMergeNode in="blur"/>
           <feMergeNode in="SourceGraphic"/>
         </feMerge>
       </filter>
 
-      <!-- Strong node glow -->
-      <filter id="nodeGlow" x="-100%" y="-100%" width="300%" height="300%">
-        <feGaussianBlur stdDeviation="9" result="blur"/>
+      <filter id="brainGlowStrong">
+        <feGaussianBlur stdDeviation="7" result="blur"/>
         <feMerge>
           <feMergeNode in="blur"/>
           <feMergeNode in="SourceGraphic"/>
         </feMerge>
       </filter>
-
-      <!-- Brain depth -->
-      <radialGradient id="brainFill" cx="45%" cy="45%" r="65%">
-        <stop offset="0%" stop-color="#5478df" stop-opacity="0.14"/>
-        <stop offset="55%" stop-color="#243e86" stop-opacity="0.07"/>
-        <stop offset="100%" stop-color="#101a38" stop-opacity="0.01"/>
-      </radialGradient>
-
-      <!-- Clip everything to the brain -->
-      <clipPath id="brainClip">
-
-        <path d="
-          M167 272
-
-          C144 250 151 217 180 199
-          C168 165 188 136 220 126
-
-          C229 94 268 77 301 91
-          C327 56 380 52 415 78
-
-          C450 55 500 62 525 92
-          C561 85 595 104 605 137
-
-          C639 145 661 173 656 205
-          C685 226 689 260 671 285
-
-          C686 314 669 347 642 359
-          C638 391 607 413 574 407
-
-          C551 435 511 441 480 420
-          C454 446 414 446 389 420
-
-          C360 445 320 440 299 411
-          C268 422 232 403 226 370
-
-          C194 366 174 345 177 318
-          C151 309 145 286 167 272
-        "/>
-
-      </clipPath>
-
     </defs>
 
 
-    <!-- ====================================================== -->
-    <!-- BRAIN BODY -->
-    <!-- ====================================================== -->
+    <!-- =================================== -->
+    <!-- SIDE VIEW BRAIN OUTLINE -->
+    <!-- =================================== -->
 
-    <g class="brain-body">
+    <path
+      class="side-brain-outline"
+      d="
+        M190 265
 
-      <path
-        class="brain-shell"
-        d="
-          M167 272
+        C160 235 170 195 205 175
 
-          C144 250 151 217 180 199
-          C168 165 188 136 220 126
+        C200 135 240 105 285 112
 
-          C229 94 268 77 301 91
-          C327 56 380 52 415 78
+        C310 75 365 63 405 88
 
-          C450 55 500 62 525 92
-          C561 85 595 104 605 137
+        C445 61 505 72 530 108
 
-          C639 145 661 173 656 205
-          C685 226 689 260 671 285
+        C575 103 612 132 615 172
 
-          C686 314 669 347 642 359
-          C638 391 607 413 574 407
+        C650 186 662 223 648 251
 
-          C551 435 511 441 480 420
-          C454 446 414 446 389 420
+        C667 282 650 318 620 331
 
-          C360 445 320 440 299 411
-          C268 422 232 403 226 370
+        C613 368 575 385 540 375
 
-          C194 366 174 345 177 318
-          C151 309 145 286 167 272
+        C515 407 475 410 446 389
+
+        C425 416 385 420 360 398
+
+        C330 415 290 398 282 366
+
+        C247 368 220 346 218 317
+
+        C190 308 174 285 190 265
+      "
+    />
+
+
+    <!-- LOWER TEMPORAL / BRAINSTEM SHAPE -->
+
+    <path
+      class="side-brain-outline secondary-outline"
+      d="
+        M360 398
+        C375 420 390 437 408 450
+        C425 460 444 454 447 438
+        C450 420 445 404 446 389
+      "
+    />
+
+
+    <!-- =================================== -->
+    <!-- INTERNAL CORTICAL CONNECTIONS -->
+    <!-- =================================== -->
+
+    <g class="brain-connections">
+
+      <!-- frontal -->
+      <path d="M225 205 C265 185 300 185 330 205"/>
+      <path d="M225 205 C245 235 260 252 290 270"/>
+      <path d="M290 270 C310 235 320 220 330 205"/>
+
+      <!-- upper frontal/parietal -->
+      <path d="M285 135 C320 155 350 175 380 205"/>
+      <path d="M330 205 C350 180 365 165 395 150"/>
+      <path d="M395 150 C430 140 470 150 500 175"/>
+
+      <!-- parietal -->
+      <path d="M380 205 C420 200 455 205 490 225"/>
+      <path d="M500 175 C510 200 505 215 490 225"/>
+      <path d="M490 225 C525 230 555 250 575 275"/>
+
+      <!-- central -->
+      <path d="M330 205 C350 235 365 255 390 280"/>
+      <path d="M390 280 C425 255 455 240 490 225"/>
+
+      <!-- temporal -->
+      <path d="M290 270 C320 295 350 305 390 305"/>
+      <path d="M390 305 C420 300 450 300 480 315"/>
+      <path d="M480 315 C515 320 545 310 575 275"/>
+
+      <!-- lower / posterior -->
+      <path d="M390 305 C385 335 390 360 415 382"/>
+      <path d="M415 382 C445 365 465 345 480 315"/>
+      <path d="M480 315 C500 340 515 355 540 365"/>
+
+      <!-- long-range connections -->
+      <path d="M225 205 C310 150 405 125 500 175"/>
+      <path d="M290 270 C360 240 430 240 490 225"/>
+      <path d="M330 205 C380 260 430 295 480 315"/>
+      <path d="M290 270 C330 335 370 365 415 382"/>
+
+    </g>
+
+
+    <!-- =================================== -->
+    <!-- NEURAL NODES -->
+    <!-- =================================== -->
+
+    <g class="brain-nodes">
+
+      <circle cx="225" cy="205" r="5"/>
+      <circle cx="285" cy="135" r="5"/>
+
+      <circle cx="330" cy="205" r="7"/>
+      <circle cx="290" cy="270" r="6"/>
+
+      <circle cx="395" cy="150" r="6"/>
+      <circle cx="380" cy="205" r="5"/>
+
+      <circle cx="500" cy="175" r="6"/>
+      <circle cx="490" cy="225" r="7"/>
+
+      <circle cx="390" cy="280" r="8"/>
+
+      <circle cx="390" cy="305" r="6"/>
+      <circle cx="480" cy="315" r="7"/>
+
+      <circle cx="575" cy="275" r="5"/>
+
+      <circle cx="415" cy="382" r="6"/>
+      <circle cx="540" cy="365" r="5"/>
+
+    </g>
+
+
+    <!-- =================================== -->
+    <!-- MOVING ELECTRICAL SIGNALS -->
+    <!-- =================================== -->
+
+    <circle class="brain-signal" r="5">
+      <animateMotion
+        dur="5.5s"
+        repeatCount="indefinite"
+        path="
+          M225 205
+          C265 185 300 185 330 205
+          C350 235 365 255 390 280
+          C425 255 455 240 490 225
         "
       />
+    </circle>
 
 
-      <!-- Brain stem -->
-
-      <path
-        class="brain-stem"
-        d="
-          M389 420
-          C402 446 415 469 438 481
-          C456 487 470 476 466 457
-          C463 440 466 428 480 420
+    <circle class="brain-signal" r="4">
+      <animateMotion
+        dur="6.3s"
+        begin="1.4s"
+        repeatCount="indefinite"
+        path="
+          M285 135
+          C320 155 350 175 380 205
+          C420 200 455 205 490 225
+          C525 230 555 250 575 275
         "
       />
-
-    </g>
-
+    </circle>
 
 
-    <!-- ====================================================== -->
-    <!-- CORTICAL FOLDS / GYRI -->
-    <!-- ====================================================== -->
-
-    <g class="cortex-folds" clip-path="url(#brainClip)">
-
-      <path d="M205 178 C250 137 315 141 348 174 C372 198 362 226 330 238"/>
-      <path d="M224 140 C273 110 328 111 366 140"/>
-
-      <path d="M292 95 C322 117 335 143 324 169"/>
-      <path d="M352 80 C377 105 388 131 376 158"/>
-
-      <path d="M410 79 C397 110 402 139 427 163"/>
-      <path d="M456 81 C487 109 493 137 478 162"/>
-
-      <path d="M503 106 C537 124 548 153 533 181"/>
-      <path d="M554 132 C585 151 589 181 570 205"/>
-
-      <path d="M180 222 C225 200 270 202 303 226"/>
-      <path d="M203 260 C238 238 280 241 304 265"/>
-
-      <path d="M320 190 C358 167 407 172 438 199"/>
-      <path d="M352 225 C388 203 437 207 465 235"/>
-
-      <path d="M456 184 C499 166 546 177 573 209"/>
-      <path d="M479 225 C521 211 566 224 590 253"/>
-
-      <path d="M187 302 C230 280 272 287 302 315"/>
-      <path d="M214 341 C250 318 292 325 320 350"/>
-
-      <path d="M316 278 C354 250 402 254 433 280"/>
-      <path d="M335 319 C373 291 419 296 447 324"/>
-      <path d="M351 365 C382 339 425 342 454 367"/>
-
-      <path d="M452 276 C493 252 546 258 577 289"/>
-      <path d="M477 318 C518 295 559 307 584 335"/>
-      <path d="M481 367 C517 348 551 357 568 382"/>
-
-    </g>
+    <circle class="brain-signal" r="4">
+      <animateMotion
+        dur="7s"
+        begin="2.8s"
+        repeatCount="indefinite"
+        path="
+          M290 270
+          C320 295 350 305 390 305
+          C420 300 450 300 480 315
+          C500 340 515 355 540 365
+        "
+      />
+    </circle>
 
 
-
-    <!-- ====================================================== -->
-    <!-- PROCEDURAL NETWORK -->
-    <!-- JavaScript fills this -->
-    <!-- ====================================================== -->
-
-    <g id="networkLayer" clip-path="url(#brainClip)"></g>
-
-
-    <!-- ====================================================== -->
-    <!-- EXTRA HIGHLIGHT FOLDS -->
-    <!-- ====================================================== -->
-
-    <g class="highlight-folds">
-
-      <path d="M215 183 C261 144 311 150 344 177"/>
-      <path d="M330 191 C377 163 428 174 457 205"/>
-      <path d="M458 187 C505 168 548 185 569 217"/>
-
-      <path d="M211 300 C256 273 299 288 325 318"/>
-      <path d="M332 300 C378 272 423 288 449 320"/>
-      <path d="M459 291 C510 267 554 282 580 316"/>
-
-    </g>
+    <circle class="brain-signal" r="4">
+      <animateMotion
+        dur="6.7s"
+        begin="3.6s"
+        repeatCount="indefinite"
+        path="
+          M500 175
+          C430 140 350 150 290 270
+        "
+      />
+    </circle>
 
   </svg>
-</div>
 
+</div>
 </section>
 
 
@@ -838,173 +861,6 @@ author_profile: true
 
 
 
-<script>
-document.addEventListener("DOMContentLoaded", () => {
-
-  const svgNS = "http://www.w3.org/2000/svg";
-
-  const network = document.getElementById("networkLayer");
-
-
-
-  /* =============================================
-     NEURON POSITIONS
-
-     These coordinates are deliberately distributed
-     according to the lateral brain anatomy.
-  ============================================= */
-
-  const nodes = [
-
-    // frontal cortex
-    [205,190],[225,222],[245,170],[260,205],
-    [275,245],[285,145],[305,185],[310,225],
-
-    // superior cortex
-    [325,115],[350,145],[375,105],[395,150],
-    [420,110],[445,145],[470,110],[495,145],
-
-    // middle cortex
-    [340,205],[370,225],[400,195],[425,235],
-    [455,205],[485,230],[520,190],[545,225],
-
-    // central regions
-    [310,280],[345,270],[380,290],[410,265],
-    [445,290],[480,270],[520,285],[555,270],
-
-    // temporal cortex
-    [245,300],[275,330],[305,310],[335,350],
-    [370,330],[405,355],[445,330],[480,350],
-
-    // posterior cortex
-    [560,175],[590,205],[600,245],
-    [585,295],[560,325],[530,350],
-
-    // lower cortex
-    [310,380],[350,395],[390,380],
-    [430,395],[470,380],[510,390]
-
-  ];
-
-
-
-  /* =============================================
-     DRAW CONNECTIONS
-
-     Nearby neurons have a higher probability
-     of being connected.
-  ============================================= */
-
-  nodes.forEach((a, i) => {
-
-    nodes.forEach((b, j) => {
-
-      if (j <= i) return;
-
-      const dx = a[0] - b[0];
-      const dy = a[1] - b[1];
-
-      const distance = Math.sqrt(dx * dx + dy * dy);
-
-
-
-      /*
-       * Keep network biologically/visually local.
-       */
-
-      if (distance < 105 && Math.random() < 0.36) {
-
-        const line = document.createElementNS(svgNS, "line");
-
-        line.setAttribute("x1", a[0]);
-        line.setAttribute("y1", a[1]);
-
-        line.setAttribute("x2", b[0]);
-        line.setAttribute("y2", b[1]);
-
-        line.classList.add("network-edge");
-
-
-        if (Math.random() > 0.72) {
-          line.classList.add("strong");
-        }
-
-
-        network.appendChild(line);
-
-      }
-
-    });
-
-  });
-
-
-
-  /* =============================================
-     LONG RANGE CONNECTIONS
-
-     These make it look more like a connectome.
-  ============================================= */
-
-  const longConnections = [
-
-    [1,18],
-    [3,25],
-    [5,22],
-    [8,32],
-    [10,24],
-    [12,29],
-    [15,27],
-    [18,40],
-    [20,35],
-    [22,38],
-    [24,43],
-    [27,36],
-    [30,41],
-    [33,45],
-    [35,47]
-
-  ];
-
-
-  longConnections.forEach(pair => {
-
-    const a = nodes[pair[0]];
-    const b = nodes[pair[1]];
-
-    const path =
-      document.createElementNS(svgNS, "path");
-
-
-    const midX =
-      (a[0] + b[0]) / 2;
-
-
-    const curveY =
-      Math.min(a[1], b[1]) - 35;
-
-
-    path.setAttribute(
-      "d",
-      `
-      M ${a[0]} ${a[1]}
-      Q ${midX} ${curveY}
-      ${b[0]} ${b[1]}
-      `
-    );
-
-
-    path.classList.add(
-      "network-edge",
-      "strong"
-    );
-
-
-    network.appendChild(path);
-
-  });
-
-
 
   /* =============================================
      DRAW NEURONS
@@ -1362,215 +1218,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
 }
 
-/* ================================================
-   REALISTIC COMPUTATIONAL NEUROSCIENCE BRAIN
-================================================ */
-
-.neuron-container {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-
-.realistic-brain {
-  width: min(100%, 760px);
-  height: auto;
-  overflow: visible;
-
-  filter:
-    drop-shadow(0 0 25px rgba(57, 95, 210, 0.12))
-    drop-shadow(0 0 60px rgba(41, 81, 190, 0.07));
-}
-
-
-/* ================================================
-   ANATOMICAL OUTLINE
-================================================ */
-
-.brain-shell {
-
-  fill: url(#brainFill);
-
-  stroke: rgba(107, 145, 255, 0.48);
-
-  stroke-width: 2;
-
-  stroke-linejoin: round;
-
-  filter: url(#softGlow);
-
-  animation: shellBreath 7s ease-in-out infinite;
-}
-
-
-.brain-stem {
-
-  fill: rgba(59, 89, 175, 0.03);
-
-  stroke: rgba(107, 145, 255, 0.36);
-
-  stroke-width: 1.8;
-
-  filter: url(#softGlow);
-}
-
-
-/* ================================================
-   CORTEX / GYRI
-================================================ */
-
-.cortex-folds path {
-
-  fill: none;
-
-  stroke: rgba(131, 162, 255, 0.18);
-
-  stroke-width: 1.6;
-
-  stroke-linecap: round;
-
-  filter: url(#softGlow);
-}
-
-
-.cortex-folds path:nth-child(3n) {
-  stroke: rgba(137, 168, 255, 0.11);
-}
-
-.cortex-folds path:nth-child(4n) {
-  stroke-width: 1.1;
-}
-
-
-/* slightly stronger folds */
-
-.highlight-folds path {
-
-  fill: none;
-
-  stroke: rgba(154, 183, 255, 0.13);
-
-  stroke-width: 1.3;
-
-  filter: url(#softGlow);
-}
-
-
-/* ================================================
-   NETWORK
-================================================ */
-
-.network-edge {
-
-  stroke: rgba(103, 137, 255, 0.16);
-
-  stroke-width: 1;
-
-  fill: none;
-
-  transition: opacity 0.5s ease;
-}
-
-
-.network-edge.strong {
-
-  stroke: rgba(112, 149, 255, 0.27);
-
-  stroke-width: 1.25;
-}
-
-
-.network-node {
-
-  fill: rgba(119, 153, 255, 0.72);
-
-  filter: url(#softGlow);
-
-  transform-box: fill-box;
-  transform-origin: center;
-
-  animation: neuronBreath 4s ease-in-out infinite;
-}
-
-
-.network-node.minor {
-
-  fill: rgba(113, 144, 238, 0.4);
-}
-
-
-.network-node.active {
-
-  fill: #8ef8ff;
-
-  filter: url(#nodeGlow);
-}
-
-
-/* moving signal */
-
-.network-signal {
-
-  fill: #9afaff;
-
-  filter: url(#nodeGlow);
-
-  pointer-events: none;
-}
-
-
-/* ================================================
-   ANIMATIONS
-================================================ */
-
-@keyframes shellBreath {
-
-  0%,
-  100% {
-    stroke-opacity: 0.50;
-  }
-
-  50% {
-    stroke-opacity: 0.95;
-  }
-
-}
-
-
-@keyframes neuronBreath {
-
-  0%,
-  100% {
-    opacity: 0.45;
-    transform: scale(0.85);
-  }
-
-  50% {
-    opacity: 1;
-    transform: scale(1.2);
-  }
-
-}
-
-
-/* accessibility */
-
-@media (prefers-reduced-motion: reduce) {
-
-  .brain-shell,
-  .network-node {
-
-    animation: none;
-
-  }
-
-}
-
-  
 
 /* ================================= */
 /* SIDE-VIEW COMPUTATIONAL BRAIN */
