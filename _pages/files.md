@@ -368,31 +368,30 @@ body{
     <div class="journal-body">
       <div class="journal-timeline">
 
-        <div class="journal-entry">
-          <span class="journal-date">AUGUST 2025</span>
-          <p>Joined the PhD program at the University of Houston.</p>
-        </div>
-
-        <div class="journal-entry">
-          <span class="journal-date">MAY 2026</span>
-          <p>Cleared preliminary examinations in Probability / Statistics and Numerical Analysis.</p>
-        </div>
-
-        <div class="journal-entry">
-          <span class="journal-date">JUNE–JULY 2026</span>
-          <p>Summer reading course on modelling neural circuits using Robert Rosenbaum's book with Dr. Krešimir Josić.</p>
-        </div>
-
-        <div class="journal-entry">
-          <span class="journal-date">JUNE 21–27, 2026</span>
-          <p>Attended the Summer School on Stochastic Dynamics and Persistence in Biology at Texas A&amp;M.</p>
-        </div>
-
-        <div class="journal-entry">
-          <span class="journal-date">Fall 2026</span>
-          <p>Began reading papers on neural representation from Dr. Hayden's lab at Baylor College of Medicine.</p>
-        </div>
-
+      <div class="journal-entry">
+        <span class="journal-date">FALL 2026</span>
+        <p>Began reading papers on neural representation from Dr. Hayden's lab at Baylor College of Medicine.</p>
+      </div>
+      
+      <div class="journal-entry">
+        <span class="journal-date">JUNE–JULY 2026</span>
+        <p>Summer reading course on modelling neural circuits using Robert Rosenbaum's book with Dr. Krešimir Josić.</p>
+      </div>
+      
+      <div class="journal-entry">
+        <span class="journal-date">JUNE 21–27, 2026</span>
+        <p>Attended the Summer School on Stochastic Dynamics and Persistence in Biology at Texas A&amp;M.</p>
+      </div>
+      
+      <div class="journal-entry">
+        <span class="journal-date">MAY 2026</span>
+        <p>Cleared preliminary examinations in Probability / Statistics and Numerical Analysis.</p>
+      </div>
+      
+      <div class="journal-entry">
+        <span class="journal-date">AUGUST 2025</span>
+        <p>Joined the PhD program at the University of Houston.</p>
+      </div>
       </div>
     </div>
   </details>
