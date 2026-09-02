@@ -19,91 +19,197 @@ author_profile: true
     </div>
   </div>
 
-  <div class="neuron-container">
-    <svg
-      class="neuron-svg"
-      viewBox="0 0 800 500"
-      xmlns="http://www.w3.org/2000/svg"
-    >
-      <defs>
-        <filter id="glow">
-          <feGaussianBlur stdDeviation="5" result="blur"/>
-          <feMerge>
-            <feMergeNode in="blur"/>
-            <feMergeNode in="SourceGraphic"/>
-          </feMerge>
-        </filter>
-        <radialGradient id="somaGradient">
-          <stop offset="0%" stop-color="#ffffff"/>
-          <stop offset="40%" stop-color="#8fb7ff"/>
-          <stop offset="100%" stop-color="#516cff"/>
-        </radialGradient>
-      </defs>
-      <!-- NEURON BRANCHES -->
-      <g class="branches">
-      <path d="M400 250 C355 215 325 185 298 145 C272 108 238 83 195 78"/>
-      <path d="M298 145 C260 137 226 145 190 165"/>
-      <path d="M298 145 C285 105 289 68 307 35"/>
-      <path d="M400 250 C350 257 307 281 274 320 C241 357 205 377 158 380"/>
-      <path d="M274 320 C243 307 212 304 178 315"/>
-      <path d="M274 320 C259 353 257 389 267 425"/>
-      <path d="M400 250 C403 205 414 164 432 126 C449 91 457 57 449 22"/>
-      <path d="M432 126 C465 113 497 112 527 123"/>
-      <path d="M400 250 C453 218 502 194 550 167 C600 140 638 108 662 67"/>
-      <path d="M550 167 C589 177 625 178 663 166"/>
-      <path d="M550 167 C572 135 580 105 575 79"/>
-      <path d="M400 250 C449 267 491 296 526 333 C561 369 601 387 648 382"/>
-      <path d="M526 333 C558 319 589 312 624 320"/>
-      <path d="M526 333 C547 366 552 399 544 431"/>
-      <path d="M400 250 C374 292 354 332 351 374 C349 401 357 425 376 450"/>
-      </g>
-      <!-- SMALL TERMINAL NODES -->
-      <g class="nodes">
-        <circle cx="130" cy="95" r="5"/>
-        <circle cx="245" cy="20" r="5"/>
-        <circle cx="100" cy="370" r="5"/>
-        <circle cx="220" cy="440" r="5"/>
-        <circle cx="375" cy="5" r="5"/>
-        <circle cx="685" cy="45" r="5"/>
-        <circle cx="690" cy="165" r="5"/>
-        <circle cx="710" cy="375" r="5"/>
-        <circle cx="575" cy="455" r="5"/>
-      </g>
-      <!-- SOMA -->
-      <circle
-        class="soma-ring"
-        cx="400"
-        cy="250"
-        r="40"
-      />
-      <circle
-        class="soma"
-        cx="400"
-        cy="250"
-        r="22"
-      />
-      <circle
-        class="soma-core"
-        cx="400"
-        cy="250"
-        r="7"
-      />
-      <!-- ELECTRICAL SIGNALS -->
-      <circle class="signal signal1" r="5">
-      <animateMotion dur="5.4s" repeatCount="indefinite" path="M195 78 C238 83 272 108 298 145 C325 185 355 215 400 250"/>
-      </circle>
-      <circle class="signal signal2" r="5">
-      <animateMotion dur="6.2s" begin="1.4s" repeatCount="indefinite" path="M662 67 C638 108 600 140 550 167 C502 194 453 218 400 250"/>
-      </circle>
-      <circle class="signal signal3" r="4">
-      <animateMotion dur="6.8s" begin="2.2s" repeatCount="indefinite" path="M158 380 C205 377 241 357 274 320 C307 281 350 257 400 250"/>
-      </circle>
-      <circle class="signal signal4" r="4">
-      <animateMotion dur="7.4s" begin="3s" repeatCount="indefinite" path="M400 250 C449 267 491 296 526 333 C561 369 601 387 648 382"/>
-      </circle>
-    </svg>
+<div class="neuron-container">
 
-  </div>
+  <svg
+    class="neuron-svg brain-svg"
+    viewBox="0 0 800 500"
+    xmlns="http://www.w3.org/2000/svg"
+  >
+
+    <defs>
+
+      <filter id="brainGlow">
+        <feGaussianBlur stdDeviation="4" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+
+      <filter id="brainGlowStrong">
+        <feGaussianBlur stdDeviation="8" result="blur"/>
+        <feMerge>
+          <feMergeNode in="blur"/>
+          <feMergeNode in="SourceGraphic"/>
+        </feMerge>
+      </filter>
+
+    </defs>
+
+
+    <!-- ========================= -->
+    <!-- BRAIN OUTLINE -->
+    <!-- ========================= -->
+
+    <g class="brain-outline">
+
+      <!-- LEFT HEMISPHERE -->
+      <path d="
+        M395 105
+        C350 65 280 65 250 105
+        C205 105 180 140 185 178
+        C145 195 140 240 165 268
+        C145 305 165 350 205 360
+        C207 400 245 425 285 414
+        C312 449 365 438 395 405
+      "/>
+
+      <!-- RIGHT HEMISPHERE -->
+      <path d="
+        M405 105
+        C450 65 520 65 550 105
+        C595 105 620 140 615 178
+        C655 195 660 240 635 268
+        C655 305 635 350 595 360
+        C593 400 555 425 515 414
+        C488 449 435 438 405 405
+      "/>
+
+      <!-- CENTER -->
+      <path d="M400 105 C390 170 410 220 400 275 C390 330 410 370 400 405"/>
+
+    </g>
+
+
+    <!-- ========================= -->
+    <!-- INTERNAL NEURAL NETWORK -->
+    <!-- ========================= -->
+
+    <g class="brain-connections">
+
+      <!-- LEFT NETWORK -->
+
+      <path d="M250 130 C280 150 300 165 325 190"/>
+      <path d="M325 190 C290 210 255 220 215 210"/>
+      <path d="M325 190 C345 225 345 250 325 280"/>
+      <path d="M215 210 C220 255 245 280 285 295"/>
+      <path d="M285 295 C255 320 245 350 260 380"/>
+      <path d="M285 295 C320 310 345 330 360 365"/>
+      <path d="M325 280 C360 270 380 270 400 280"/>
+      <path d="M250 130 C225 160 215 180 215 210"/>
+
+      <!-- RIGHT NETWORK -->
+
+      <path d="M550 130 C520 150 500 165 475 190"/>
+      <path d="M475 190 C510 210 545 220 585 210"/>
+      <path d="M475 190 C455 225 455 250 475 280"/>
+      <path d="M585 210 C580 255 555 280 515 295"/>
+      <path d="M515 295 C545 320 555 350 540 380"/>
+      <path d="M515 295 C480 310 455 330 440 365"/>
+      <path d="M475 280 C440 270 420 270 400 280"/>
+      <path d="M550 130 C575 160 585 180 585 210"/>
+
+      <!-- CROSS CONNECTIONS -->
+
+      <path d="M325 190 C370 170 430 170 475 190"/>
+      <path d="M285 295 C330 280 365 280 400 280"/>
+      <path d="M515 295 C470 280 435 280 400 280"/>
+      <path d="M360 365 C380 350 420 350 440 365"/>
+
+    </g>
+
+
+    <!-- ========================= -->
+    <!-- NETWORK NODES -->
+    <!-- ========================= -->
+
+    <g class="brain-nodes">
+
+      <circle cx="250" cy="130" r="6"/>
+      <circle cx="325" cy="190" r="7"/>
+      <circle cx="215" cy="210" r="5"/>
+      <circle cx="325" cy="280" r="6"/>
+      <circle cx="285" cy="295" r="6"/>
+      <circle cx="260" cy="380" r="5"/>
+      <circle cx="360" cy="365" r="6"/>
+
+      <circle cx="550" cy="130" r="6"/>
+      <circle cx="475" cy="190" r="7"/>
+      <circle cx="585" cy="210" r="5"/>
+      <circle cx="475" cy="280" r="6"/>
+      <circle cx="515" cy="295" r="6"/>
+      <circle cx="540" cy="380" r="5"/>
+      <circle cx="440" cy="365" r="6"/>
+
+      <circle class="central-node" cx="400" cy="280" r="9"/>
+
+    </g>
+
+
+    <!-- ========================= -->
+    <!-- SIGNALS -->
+    <!-- ========================= -->
+
+    <circle class="brain-signal signal-a" r="5">
+      <animateMotion
+        dur="5s"
+        repeatCount="indefinite"
+        path="
+          M250 130
+          C280 150 300 165 325 190
+          C345 225 345 250 325 280
+          C360 270 380 270 400 280
+        "
+      />
+    </circle>
+
+
+    <circle class="brain-signal signal-b" r="5">
+      <animateMotion
+        dur="5.8s"
+        begin="1.3s"
+        repeatCount="indefinite"
+        path="
+          M550 130
+          C520 150 500 165 475 190
+          C455 225 455 250 475 280
+          C440 270 420 270 400 280
+        "
+      />
+    </circle>
+
+
+    <circle class="brain-signal signal-c" r="4">
+      <animateMotion
+        dur="6.5s"
+        begin="2.1s"
+        repeatCount="indefinite"
+        path="
+          M215 210
+          C220 255 245 280 285 295
+          C330 280 365 280 400 280
+        "
+      />
+    </circle>
+
+
+    <circle class="brain-signal signal-d" r="4">
+      <animateMotion
+        dur="7s"
+        begin="3s"
+        repeatCount="indefinite"
+        path="
+          M585 210
+          C580 255 555 280 515 295
+          C470 280 435 280 400 280
+        "
+      />
+    </circle>
+
+  </svg>
+
+</div>
 
 </section>
 
@@ -1466,7 +1572,149 @@ document.addEventListener(
   }
 
 }
+/* ============================= */
+/* BRAIN NETWORK ANIMATION */
+/* ============================= */
 
+.brain-svg {
+  width: 100%;
+  height: 100%;
+  overflow: visible;
+}
+
+
+/* Brain outer silhouette */
+
+.brain-outline path {
+  fill: none;
+  stroke: rgba(105, 140, 255, 0.45);
+  stroke-width: 2.5;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  filter: url(#brainGlow);
+
+  animation: brainPulse 5s ease-in-out infinite;
+}
+
+
+/* Neural connections */
+
+.brain-connections path {
+  fill: none;
+  stroke: rgba(100, 135, 255, 0.38);
+  stroke-width: 2;
+  stroke-linecap: round;
+
+  animation: connectionPulse 6s ease-in-out infinite;
+}
+
+
+/* Nodes */
+
+.brain-nodes circle {
+  fill: #7595ff;
+  filter: url(#brainGlow);
+
+  transform-box: fill-box;
+  transform-origin: center;
+
+  animation: nodePulse 3.8s ease-in-out infinite;
+}
+
+
+/* Central node */
+
+.brain-nodes .central-node {
+  fill: #ffffff;
+  stroke: #7f9cff;
+  stroke-width: 5;
+
+  filter: url(#brainGlowStrong);
+
+  animation: centralPulse 2.8s ease-in-out infinite;
+}
+
+
+/* Moving electrical signals */
+
+.brain-signal {
+  fill: #86f7ff;
+
+  filter: url(#brainGlowStrong);
+}
+
+
+/* Slightly vary node timing */
+
+.brain-nodes circle:nth-child(2n) {
+  animation-delay: 0.7s;
+}
+
+.brain-nodes circle:nth-child(3n) {
+  animation-delay: 1.4s;
+}
+
+
+/* Animations */
+
+@keyframes nodePulse {
+
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.85);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.25);
+  }
+
+}
+
+
+@keyframes centralPulse {
+
+  0%,
+  100% {
+    opacity: 0.8;
+    transform: scale(0.9);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1.35);
+  }
+
+}
+
+
+@keyframes connectionPulse {
+
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+
+  50% {
+    opacity: 0.8;
+  }
+
+}
+
+
+@keyframes brainPulse {
+
+  0%,
+  100% {
+    opacity: 0.45;
+  }
+
+  50% {
+    opacity: 0.85;
+  }
+
+}
 
 
 @keyframes nodePulse {
