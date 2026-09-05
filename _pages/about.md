@@ -356,7 +356,7 @@ redirect_from:
       </span>
 
       <p class="ab-subtitle">
-        PhD researcher in Applied Mathematics at
+        PhD researcher at
         <a href="https://www.math.uh.edu/~josic/"
            target="_blank"
            rel="noopener">Dr. Krešo's lab</a>,
