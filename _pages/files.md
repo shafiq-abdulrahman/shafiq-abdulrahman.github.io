@@ -415,6 +415,9 @@ body{
       <a href="https://shafiq-abdulrahman.github.io/images/numerical.png" target="_blank" rel="noopener">
         <img src="{{ '/images/numerical.png' | relative_url }}" alt="Numerical analysis cheat sheet">
       </a>
+      <a href="https://shafiq-abdulrahman.github.io/images/kkjst.jpg" target="_blank" rel="noopener">
+        <img src="{{ '/images/kkjst.jpg' | relative_url }}" alt="Numerical analysis cheat sheet">
+      </a>
     </div>
   </section>
 
