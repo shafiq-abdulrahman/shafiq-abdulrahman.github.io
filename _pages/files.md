@@ -418,7 +418,7 @@ body{
       <a href="https://shafiq-abdulrahman.github.io/images/kkjst.jpg" target="_blank" rel="noopener">
         <img src="{{ '/images/kkjst.jpg' | relative_url }}" alt="Numerical analysis cheat sheet">
       </a>
-       <a href="file:///C:/Users/shafi/OneDrive%20-%20University%20Of%20Houston/Documents/Bayesian_Stat_notes__AB.pdf" target="_blank" rel="noopener">
+       <a href="https://uofh-my.sharepoint.com/:b:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Bayesian_Stat_notes__AB.pdf?d=w067828e8caa6432daf252d95c33f0828&csf=1&web=1&e=lRlaFl" target="_blank" rel="noopener">
         <img src="{{ '/images/messi.jpg' | relative_url }}" alt="Numerical analysis cheat sheet">
       </a>
     </div>
