@@ -445,6 +445,34 @@ body{
     </div>
   </details>
 
+<section class="notes-section">
+  <h2>Short Notes & Summary</h2>
+
+  <div class="notes-grid">
+
+    <a
+      class="note-card"
+      href="https://uofh-my.sharepoint.com/:b:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Bayesian_Stat_notes__AB.pdf?d=w067828e8caa6432daf252d95c33f0828&csf=1&web=1&e=lRlaFl"
+      target="_blank"
+      rel="noopener"
+    >
+      <img
+        src="{{ '/images/cats.png' | relative_url }}"
+        alt="Bayesian Statistics Notes"
+      >
+
+      <div class="note-info">
+        <h3>Bayesian Statistics</h3>
+      </div>
+    </a>
+
+  </div>
+</section>
+
+
+
+
+
   <section class="cheat-section">
     <div class="cheat-heading">
       <small>VISUAL REFERENCES</small>
@@ -470,29 +498,7 @@ body{
     </div>
   </section>
 
-<section class="notes-section">
-  <h2>Short Notes & Summary</h2>
 
-  <div class="notes-grid">
-
-    <a
-      class="note-card"
-      href="https://uofh-my.sharepoint.com/:b:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Bayesian_Stat_notes__AB.pdf?d=w067828e8caa6432daf252d95c33f0828&csf=1&web=1&e=lRlaFl"
-      target="_blank"
-      rel="noopener"
-    >
-      <img
-        src="{{ '/images/cats.png' | relative_url }}"
-        alt="Bayesian Statistics Notes"
-      >
-
-      <div class="note-info">
-        <h3>Bayesian Statistics</h3>
-      </div>
-    </a>
-
-  </div>
-</section>
 
 
   <div class="files-note">
