@@ -471,7 +471,7 @@ body{
   </section>
 
 <section class="notes-section">
-  <h2>Notes & Cheat Sheets</h2>
+  <h2>Short Notes & Summary</h2>
 
   <div class="notes-grid">
 
@@ -488,7 +488,6 @@ body{
 
       <div class="note-info">
         <h3>Bayesian Statistics</h3>
-        <p>Notes & Cheat Sheet</p>
       </div>
     </a>
 
