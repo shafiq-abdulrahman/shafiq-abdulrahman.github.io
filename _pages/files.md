@@ -482,7 +482,7 @@ body{
       rel="noopener"
     >
       <img
-        src="{{ '/images/messi.jpg' | relative_url }}"
+        src="{{ '/images/cats.png' | relative_url }}"
         alt="Bayesian Statistics Notes"
       >
 
