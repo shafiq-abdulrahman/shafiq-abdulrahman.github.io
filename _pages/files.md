@@ -278,6 +278,55 @@ body{
   filter:saturate(.82) contrast(.95);
   transition:transform .35s ease,filter .35s ease;
 }
+.notes-section {
+  margin: 60px 0;
+}
+
+.notes-section h2 {
+  margin-bottom: 25px;
+}
+
+.notes-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 300px));
+  gap: 25px;
+}
+
+.note-card {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+  border-radius: 12px;
+  overflow: hidden;
+  transition: transform 0.25s ease;
+}
+
+.note-card:hover {
+  transform: translateY(-6px);
+}
+
+.note-card img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  display: block;
+}
+
+.note-info {
+  padding: 14px 4px;
+}
+
+.note-info h3 {
+  margin: 0 0 5px;
+  font-size: 1.15rem;
+}
+
+.note-info p {
+  margin: 0;
+  opacity: 0.7;
+  font-size: 0.9rem;
+}
+  
 .cheat-grid a:hover img{
   transform:scale(1.035);
   filter:saturate(1) contrast(1);
@@ -420,6 +469,32 @@ body{
       </a>
     </div>
   </section>
+
+<section class="notes-section">
+  <h2>Notes & Cheat Sheets</h2>
+
+  <div class="notes-grid">
+
+    <a
+      class="note-card"
+      href="https://uofh-my.sharepoint.com/:b:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Bayesian_Stat_notes__AB.pdf?d=w067828e8caa6432daf252d95c33f0828&csf=1&web=1&e=lRlaFl"
+      target="_blank"
+      rel="noopener"
+    >
+      <img
+        src="{{ '/images/messi.jpg' | relative_url }}"
+        alt="Bayesian Statistics Notes"
+      >
+
+      <div class="note-info">
+        <h3>Bayesian Statistics</h3>
+        <p>Notes & Cheat Sheet</p>
+      </div>
+    </a>
+
+  </div>
+</section>
+
 
   <div class="files-note">
     Learn · update · revisit · repeat.
