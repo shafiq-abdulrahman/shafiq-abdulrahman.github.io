@@ -376,7 +376,7 @@ body{
       </div>
 
       <div class="file-links">
-        <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Probabilty_Alan?csf=1&web=1&e=PLDMYI" target="_blank" rel="noopener">
+        <a href="https://uofh-my.sharepoint.com/:f:/g/personal/arahmans_cougarnet_uh_edu/IgBb-MkFq-TgRr2y9ujVYAMbAUDwApIsmpDUmAedPIUK9Js?e=WF0Gsk" target="_blank" rel="noopener">
           Probability · Dr. Alan Haynes <span>↗</span>
         </a>
         <a href="https://uofh-my.sharepoint.com/:f:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Statistics_Mikyoung?csf=1&web=1&e=o78F3P" target="_blank" rel="noopener">
