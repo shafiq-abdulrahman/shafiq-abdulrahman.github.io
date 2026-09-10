@@ -634,7 +634,7 @@ redirect_from:
   </details>
 
   <details>
-    <summary>Seminars & Presentations</summary>
+    <summary>Talks & Presentations</summary>
     <div class="ab-details-body">
       <ul>
         <li><b>June 2024:</b> Contributory lectures on “Gaussian Functions, Errors and Stirling’s Approximations” — Summer Workshop on Pure Mathematics</li>
