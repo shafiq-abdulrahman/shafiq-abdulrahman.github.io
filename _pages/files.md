@@ -452,7 +452,7 @@ body{
 
     <a
       class="note-card"
-      href="https://uofh-my.sharepoint.com/:b:/r/personal/arahmans_cougarnet_uh_edu/Documents/Documents/Bayesian_Stat_notes__AB.pdf?d=w067828e8caa6432daf252d95c33f0828&csf=1&web=1&e=lRlaFl"
+      href="https://uofh-my.sharepoint.com/:b:/g/personal/arahmans_cougarnet_uh_edu/IQDoKHgGpsotQ68lLZXDPwgoASW3sk8A2yD3gj9inCpx4RA?e=1yxyrG"
       target="_blank"
       rel="noopener"
     >
