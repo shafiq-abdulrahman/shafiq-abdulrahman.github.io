@@ -482,9 +482,6 @@ author_profile: false
      ======================================================== -->
 
 <div class="projects-header">
-
-  <h1>Projects</h1>
-
   <p>
     Selected projects spanning computational neuroscience,
     machine learning, artificial intelligence, applied mathematics,
