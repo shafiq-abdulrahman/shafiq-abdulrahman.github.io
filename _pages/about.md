@@ -399,10 +399,6 @@ redirect_from:
         mathematical structure can help explain neural computation
         and representation.
       </p>
-
-
-      <!-- Current work -->
-
       <div class="ab-current">
         <span class="ab-current-label">
           On my desk right now →
@@ -420,11 +416,8 @@ redirect_from:
   const text = "Check out my new flashcard app in the Project section....";
   const el = document.getElementById("typewriter");
   const container = document.getElementById("typewriter-container");
-
   if (!el || !container) return;
-
   let i = 0;
-
   function type() {
     if (i < text.length) {
       el.textContent += text.charAt(i);
@@ -444,7 +437,6 @@ redirect_from:
 ========================================================= -->
 
 <section class="ab-section">
-
   <div class="ab-section-head">
     <div class="ab-section-kicker">Research</div>
     <h2 class="ab-section-title">Questions I am interested in</h2>
@@ -453,9 +445,7 @@ redirect_from:
       population-level representations, and data-driven analysis.
     </p>
   </div>
-
   <div class="ab-grid-3">
-
     <div class="ab-card">
       <div class="ab-card-icon">🧠</div>
       <h3>Neural Representation</h3>
@@ -464,7 +454,6 @@ redirect_from:
         including how neural systems represent task variables and abstract quantities.
       </p>
     </div>
-
     <div class="ab-card">
       <div class="ab-card-icon">📐</div>
       <h3>Neural Circuit Modelling</h3>
@@ -473,7 +462,6 @@ redirect_from:
         dynamics, stability, bifurcation theory, and computational simulation.
       </p>
     </div>
-
     <div class="ab-card">
       <div class="ab-card-icon">📊</div>
       <h3>Neural Data Analysis</h3>
@@ -482,7 +470,6 @@ redirect_from:
         neural population activity, and low-dimensional structure in high-dimensional data.
       </p>
     </div>
-
   </div>
 </section>
 
@@ -491,12 +478,10 @@ redirect_from:
 ========================================================= -->
 
 <!-- <section class="ab-section">
-
   <div class="ab-section-head">
     <div class="ab-section-kicker">Current work</div>
     <h2 class="ab-section-title">What I am working on now</h2>
   </div>
-
   <div class="ab-project">
     <h3>Computational neuroscience & neural representation</h3>
     <p>
@@ -508,13 +493,10 @@ redirect_from:
   </div>
 
 </section> -->
-
 <!-- =========================================================
      ABOUT
 ========================================================= -->
-
 <section class="ab-section">
-
   <div class="ab-section-head">
     <div class="ab-section-kicker">About</div>
     <h2 class="ab-section-title">A little about me</h2>
