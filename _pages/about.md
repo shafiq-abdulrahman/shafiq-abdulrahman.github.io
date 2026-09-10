@@ -365,16 +365,15 @@ redirect_from:
 
 
       <!-- Research areas -->
-
-      <div class="ab-tags">
-        <span class="ab-tag">Computational Neuroscience</span>
-        <span class="ab-tag">Neural Representation</span>
-        <span class="ab-tag">Dynamical Systems</span>
-        <span class="ab-tag">Probability</span>
-        <span class="ab-tag">Stochastic Models</span>
-        <span class="ab-tag">Statistics</span>
-        <span class="ab-tag">Bayesian Inference</span>
-      </div>
+    <div class="ab-tags">
+      <span class="ab-tag">Computational Neuroscience</span>
+      <span class="ab-tag">Neural Representation</span>
+      <span class="ab-tag">Neural Dynamics</span>
+      <span class="ab-tag">Dynamical Systems</span>
+      <span class="ab-tag">Statistical Modeling</span>
+      <span class="ab-tag">Machine Learning</span>
+      <span class="ab-tag">Artificial Intelligence</span>
+    </div>
 
 
       <!-- Typewriter -->
