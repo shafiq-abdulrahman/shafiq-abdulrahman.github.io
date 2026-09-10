@@ -373,6 +373,7 @@ redirect_from:
         <span class="ab-tag">Probability</span>
         <span class="ab-tag">Stochastic Models</span>
         <span class="ab-tag">Statistics</span>
+        <span class="ab-tag">Bayesian Inference</span>
       </div>
 
 
