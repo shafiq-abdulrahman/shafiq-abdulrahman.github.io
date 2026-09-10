@@ -371,6 +371,7 @@ redirect_from:
       <span class="ab-tag">Neural Dynamics</span>
       <span class="ab-tag">Dynamical Systems</span>
       <span class="ab-tag">Statistical Modeling</span>
+      <span class="ab-tag">Bayesian Inference</span>
       <span class="ab-tag">Machine Learning</span>
       <span class="ab-tag">Artificial Intelligence</span>
     </div>
