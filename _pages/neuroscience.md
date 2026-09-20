@@ -292,182 +292,268 @@ author_profile: true
   </div>
 
 
-  <!-- TAB BUTTONS -->
+<!-- =====================================================
+     TAB BUTTONS
+====================================================== -->
 
-  <div class="neuro-tabs" role="tablist">
-    <button class="neuro-tab active" data-tab="learning">
-      📘 Learning
-    </button>
-     <button class="neuro-tab" data-tab="books">
-      📝 Books
-    </button>
-    <button class="neuro-tab" data-tab="institutes">
-      🏛 Institutes
-    </button>
-    <button class="neuro-tab" data-tab="conferences">
-      🎤 Conferences
-    </button>
-    <button class="neuro-tab" data-tab="people">
-      🧠 People
-    </button>
-    <button class="neuro-tab" data-tab="tools">
-      💻 Tools
-    </button>
-    <button class="neuro-tab" data-tab="datasets">
-      📊 Data
-    </button>
-    <button class="neuro-tab" data-tab="media">
-      🎧 Media
-    </button>
+<div class="neuro-tabs" role="tablist">
 
-  </div>
+  <button class="neuro-tab active" data-tab="learning">
+    📘 Learning
+  </button>
 
+  <button class="neuro-tab" data-tab="books">
+    📝 Books
+  </button>
 
+  <button class="neuro-tab" data-tab="institutes">
+    🏛 Institutes
+  </button>
 
-  <!-- =====================================================
-       LEARNING
-  ====================================================== -->
+  <button class="neuro-tab" data-tab="conferences">
+    🎤 Conferences
+  </button>
 
-  <div class="neuro-panel active" id="learning">
-    <h3>Courses & Books</h3>
-    <div class="resource-grid">
-      <a class="resource-card"
-         href="https://compneuro.neuromatch.io/tutorials/intro.html"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">📘</span>
-        <div>
-          <strong>Neuromatch Computational Neuroscience</strong>
-          <p>
-            Tutorials, prerequisite material and computational neuroscience
-            course videos.
-          </p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://neural-reckoning.org/comp-neuro-resources.html"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🎓</span>
-        <div>
-          <strong>Dan Goodmans's (Neural Reckoning) resources</strong>
-          <p>
-            Lists all resources and links on computational neuroscience
-          </p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🎓</span>
-        <div>
-          <strong>EPFL (Gerstner) Neuronal Dynamics Course</strong>
-          <p>
-            Full computational neuroscience course from the
-            Laboratory of Computational Neuroscience.
-          </p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">🐍</span>
-        <div>
-          <strong>Network Machine Learning with Python</strong>
-          <p>
-            Networks, machine learning and Python.
-          </p>
-        </div>
-      </a>
-        <a class="resource-card"
-         href="https://kordinglab.com/resources/"
-         target="_blank" rel="noopener noreferrer">
-       <span class="resource-icon">🤖</span>
-        <div>
-          <strong>Kording Lab(Penn) resources</strong>
-          <p>
-            Lists all resources and links on computational neuroscience
-          </p>
-        </div>
-      </a>
-      <a class="resource-card"
-         href="https://mitpress.mit.edu/9780262548083/theoretical-neuroscience/"
-         target="_blank" rel="noopener noreferrer">
-        <span class="resource-icon">📚</span>
-        <div>
-          <strong>Theoretical Neuroscience</strong>
-          <p>
-            Dayan & Abbott.
-          </p>
-        </div>
-      </a>
-    </div>
-  </div>
+  <button class="neuro-tab" data-tab="people">
+    🧠 People
+  </button>
 
+  <button class="neuro-tab" data-tab="tools">
+    💻 Tools
+  </button>
 
-  <!-- =====================================================
-       Books
-  ====================================================== -->
-  <div class="neuro-panel active" id="books">
-    <h3>Text Books</h3>
-  <div class="resource-grid">
-    <a class="resource-card"
-       href="https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">🧠</span>
-      <div>
-        <strong>Theoretical Neuroscience</strong>
-        <p>Peter Dayan &amp; L. F. Abbott — neural coding, biophysics, networks, learning and plasticity.</p>
-      </div>
-    </a>
-    <a class="resource-card"
-       href="https://neuronaldynamics.epfl.ch/"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">⚡</span>
-      <div>
-        <strong>Neuronal Dynamics</strong>
-        <p>Gerstner, Kistler, Naud &amp; Paninski — neurons, networks, neural coding and dynamics.</p>
-      </div>
-    </a>
-    <a class="resource-card"
-       href="https://www.routledge.com/Theoretical-Neuroscience-Understanding-Cognition/Wang/p/book/9781032604817"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">🧩</span>
-      <div>
-        <strong>Theoretical Neuroscience: Understanding Cognition</strong>
-        <p>Xiao-Jing Wang — neural circuits, dynamical systems, cognition and decision making.</p>
-      </div>
-    </a>
-    <a class="resource-card"
-       href="https://mitpress.mit.edu/9780262548083/modeling-neural-circuits-made-simple-with-python/"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">🐍</span>
-      <div>
-        <strong>Modeling Neural Circuits Made Simple with Python</strong>
-        <p>Robert Rosenbaum — mathematical and computational modeling of neurons and neural circuits.</p>
-      </div>
-    </a>
-    <a class="resource-card"
-       href="https://mitpress.mit.edu/9780262013277/dynamical-systems-in-neuroscience/"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">📈</span>
-      <div>
-        <strong>Dynamical Systems in Neuroscience</strong>
-        <p>Eugene Izhikevich — nonlinear dynamics, excitability, bifurcations and neuronal models.</p>
-      </div>
-    </a>
-    <a class="resource-card"
-       href="https://www.cambridge.org/core/books/spikes/"
-       target="_blank" rel="noopener noreferrer">
-      <span class="resource-icon">📊</span>
-      <div>
-        <strong>Spikes</strong>
-        <p>Rieke, Warland, de Ruyter van Steveninck &amp; Bialek — neural coding and information in spike trains.</p>
-      </div>
-    </a>
+  <button class="neuro-tab" data-tab="datasets">
+    📊 Data
+  </button>
 
-  </div>
+  <button class="neuro-tab" data-tab="media">
+    🎧 Media
+  </button>
+
 </div>
 
 
+<!-- =====================================================
+     LEARNING
+====================================================== -->
+
+<div class="neuro-panel active" id="learning">
+
+  <h3>Courses &amp; Learning Resources</h3>
+
+  <div class="resource-grid">
+
+    <a class="resource-card"
+       href="https://compneuro.neuromatch.io/tutorials/intro.html"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">📘</span>
+
+      <div>
+        <strong>Neuromatch Computational Neuroscience</strong>
+        <p>
+          Tutorials, prerequisite material and computational neuroscience
+          course videos.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://neural-reckoning.org/comp-neuro-resources.html"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🎓</span>
+
+      <div>
+        <strong>Dan Goodman's (Neural Reckoning) Resources</strong>
+        <p>
+          Collection of resources and links for computational neuroscience.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://lcnwww.epfl.ch/gerstner/NeuronalDynamics-MOOCall.html"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🎓</span>
+
+      <div>
+        <strong>EPFL (Gerstner) Neuronal Dynamics Course</strong>
+        <p>
+          Full computational neuroscience course from the
+          Laboratory of Computational Neuroscience.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://www.cambridge.org/core/books/handson-network-machine-learning-with-python/9735741A096973A9C963E930BBAF5368"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🐍</span>
+
+      <div>
+        <strong>Network Machine Learning with Python</strong>
+        <p>
+          Networks, machine learning and Python.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://kordinglab.com/resources/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🤖</span>
+
+      <div>
+        <strong>Kording Lab (Penn) Resources</strong>
+        <p>
+          Collection of resources and links for computational neuroscience.
+        </p>
+      </div>
+
+    </a>
+
+  </div>
+
+</div>
+
+
+<!-- =====================================================
+     BOOKS
+====================================================== -->
+
+<div class="neuro-panel" id="books">
+
+  <h3>Textbooks</h3>
+
+  <div class="resource-grid">
+
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🧠</span>
+
+      <div>
+        <strong>Theoretical Neuroscience</strong>
+        <p>
+          Peter Dayan &amp; L. F. Abbott — neural coding, biophysics,
+          networks, learning and plasticity.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://neuronaldynamics.epfl.ch/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">⚡</span>
+
+      <div>
+        <strong>Neuronal Dynamics</strong>
+        <p>
+          Gerstner, Kistler, Naud &amp; Paninski — neurons, networks,
+          neural coding and dynamics.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://www.routledge.com/Theoretical-Neuroscience-Understanding-Cognition/Wang/p/book/9781032604817"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🧩</span>
+
+      <div>
+        <strong>Theoretical Neuroscience: Understanding Cognition</strong>
+        <p>
+          Xiao-Jing Wang — neural circuits, dynamical systems,
+          cognition and decision making.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262548083/modeling-neural-circuits-made-simple-with-python/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🐍</span>
+
+      <div>
+        <strong>Modeling Neural Circuits Made Simple with Python</strong>
+        <p>
+          Robert Rosenbaum — mathematical and computational modeling
+          of neurons and neural circuits.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262013277/dynamical-systems-in-neuroscience/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">📈</span>
+
+      <div>
+        <strong>Dynamical Systems in Neuroscience</strong>
+        <p>
+          Eugene Izhikevich — nonlinear dynamics, excitability,
+          bifurcations and neuronal models.
+        </p>
+      </div>
+
+    </a>
+
+
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262681087/spikes/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">📊</span>
+
+      <div>
+        <strong>Spikes</strong>
+        <p>
+          Rieke, Warland, de Ruyter van Steveninck &amp; Bialek —
+          neural coding and information in spike trains.
+        </p>
+      </div>
+
+    </a>
+
+  </div>
+
+</div>
 
   <!-- =====================================================
        INSTITUTES
