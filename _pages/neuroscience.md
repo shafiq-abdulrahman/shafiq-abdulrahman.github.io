@@ -298,6 +298,9 @@ author_profile: true
     <button class="neuro-tab active" data-tab="learning">
       📘 Learning
     </button>
+     <button class="neuro-tab" data-tab="books">
+      📝 Books
+    </button>
     <button class="neuro-tab" data-tab="institutes">
       🏛 Institutes
     </button>
@@ -398,6 +401,71 @@ author_profile: true
       </a>
     </div>
   </div>
+
+
+  <!-- =====================================================
+       Books
+  ====================================================== -->
+
+
+  <div class="resource-grid">
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧠</span>
+      <div>
+        <strong>Theoretical Neuroscience</strong>
+        <p>Peter Dayan &amp; L. F. Abbott — neural coding, biophysics, networks, learning and plasticity.</p>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://neuronaldynamics.epfl.ch/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">⚡</span>
+      <div>
+        <strong>Neuronal Dynamics</strong>
+        <p>Gerstner, Kistler, Naud &amp; Paninski — neurons, networks, neural coding and dynamics.</p>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://www.routledge.com/Theoretical-Neuroscience-Understanding-Cognition/Wang/p/book/9781032604817"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🧩</span>
+      <div>
+        <strong>Theoretical Neuroscience: Understanding Cognition</strong>
+        <p>Xiao-Jing Wang — neural circuits, dynamical systems, cognition and decision making.</p>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262548083/modeling-neural-circuits-made-simple-with-python/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">🐍</span>
+      <div>
+        <strong>Modeling Neural Circuits Made Simple with Python</strong>
+        <p>Robert Rosenbaum — mathematical and computational modeling of neurons and neural circuits.</p>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://mitpress.mit.edu/9780262013277/dynamical-systems-in-neuroscience/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">📈</span>
+      <div>
+        <strong>Dynamical Systems in Neuroscience</strong>
+        <p>Eugene Izhikevich — nonlinear dynamics, excitability, bifurcations and neuronal models.</p>
+      </div>
+    </a>
+    <a class="resource-card"
+       href="https://www.cambridge.org/core/books/spikes/"
+       target="_blank" rel="noopener noreferrer">
+      <span class="resource-icon">📊</span>
+      <div>
+        <strong>Spikes</strong>
+        <p>Rieke, Warland, de Ruyter van Steveninck &amp; Bialek — neural coding and information in spike trains.</p>
+      </div>
+    </a>
+
+  </div>
+</div>
 
 
 
