@@ -406,8 +406,8 @@ author_profile: true
   <!-- =====================================================
        Books
   ====================================================== -->
-
-
+  <div class="neuro-panel active" id="books">
+    <h3>Text Books</h3>
   <div class="resource-grid">
     <a class="resource-card"
        href="https://mitpress.mit.edu/9780262541855/theoretical-neuroscience/"
