@@ -41,7 +41,7 @@ author_profile: false
 }
 
 
-/* ---------- Research / Category Tabs ---------- */
+/* ---------- Interest Tags ---------- */
 
 .project-tabs {
   display: flex;
@@ -333,7 +333,7 @@ author_profile: false
 
 /* ---------- QR ---------- */
 
-.flashcard-media {
+.project-media {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -341,20 +341,58 @@ author_profile: false
   gap: 1.5rem;
 }
 
-.flashcard-media .project-image {
-  max-width: 320px;
-  height: 190px;
-}
-
 .project-qr {
-  width: 105px;
-  height: 105px;
+  width: 180px;
+  height: 180px;
 
-  padding: 5px;
+  padding: 7px;
 
   background: white;
   border: 1px solid #ddd;
-  border-radius: 10px;
+  border-radius: 12px;
+}
+
+
+/* ---------- Project Status ---------- */
+
+.project-status {
+  display: inline-flex;
+  align-items: center;
+
+  width: fit-content;
+
+  margin: 0 0 0.9rem;
+
+  padding: 0.34rem 0.68rem;
+
+  border-radius: 999px;
+
+  background: rgba(30,144,255,0.10);
+  color: #1671c5;
+
+  font-size: 0.75rem;
+  font-weight: 700;
+}
+
+.project-status.archived {
+  background: rgba(120,120,120,0.12);
+  color: #777;
+}
+
+
+/* ---------- Archived Note ---------- */
+
+.project-note {
+  margin-top: 0.8rem;
+
+  padding: 0.7rem 0.85rem;
+
+  border-left: 3px solid #aaa;
+  border-radius: 4px;
+
+  background: rgba(120,120,120,0.06);
+
+  font-size: 0.88rem;
 }
 
 
@@ -387,7 +425,7 @@ author_profile: false
 }
 
 .project-section-heading p {
-  max-width: 650px;
+  max-width: 700px;
 
   margin-top: 0.6rem;
 
@@ -429,6 +467,10 @@ author_profile: false
     border-color: #444;
   }
 
+  .project-status.archived {
+    color: #aaa;
+  }
+
 }
 
 
@@ -465,8 +507,13 @@ author_profile: false
     padding: 1.1rem;
   }
 
-  .flashcard-media {
+  .project-media {
     flex-direction: column;
+  }
+
+  .project-qr {
+    width: 150px;
+    height: 150px;
   }
 
 }
@@ -482,10 +529,11 @@ author_profile: false
      ======================================================== -->
 
 <div class="projects-header">
+
   <p>
-    Selected projects spanning computational neuroscience,
-    machine learning, artificial intelligence, applied mathematics,
-    stochastic modeling, and quantitative finance.
+    Selected projects in computational neuroscience,
+    machine learning, artificial intelligence,
+    optimization, and applied mathematics.
   </p>
 
 </div>
@@ -501,48 +549,107 @@ author_profile: false
   <span class="project-tab">Machine Learning</span>
   <span class="project-tab">Artificial Intelligence</span>
   <span class="project-tab">Applied Mathematics</span>
-  <span class="project-tab">Statistical Modeling</span>
 
 </div>
 
 
 
 <!-- ========================================================
-     FEATURED PROJECT
+     COMPUTATIONAL NEUROSCIENCE
+     ======================================================== -->
+
+<div class="project-section-heading">
+
+  <span>Computational Neuroscience</span>
+
+  <h2>Computational Neuroscience Learning Projects</h2>
+
+  <p>
+    A continuing learning series where I build one focused
+    computational neuroscience project approximately every two months.
+    Each project is designed to turn mathematical and theoretical ideas
+    into working computational models and interactive experiments.
+  </p>
+
+</div>
+
+
+
+<!-- ========================================================
+     PROJECT 01 — ctRNN
      ======================================================== -->
 
 <div class="featured-project">
 
   <div>
 
-    <span class="featured-badge">Featured Project</span>
+    <span class="featured-badge">
+      Project 01 · Current Project
+    </span>
 
-    <h2>AI Flashcard Study App</h2>
+    <h2>
+      Continuous-Time Recurrent Neural Network (ctRNN) Learning Playground
+    </h2>
+
+    <div class="project-status">
+      Currently Developing
+    </div>
 
     <p>
-      An AI-powered study application that transforms PDFs and
-      lecture notes into interactive flashcards. The application
-      combines a FastAPI backend with OpenAI models and a
-      lightweight web interface designed for active recall and
-      self-study.
+      An interactive learning project for exploring continuous-time
+      recurrent neural networks and understanding how recurrent dynamics
+      evolve through time.
     </p>
 
+    <p>
+      The playground is designed for hands-on experimentation with
+      network inputs, time constants, hidden-state dynamics, recurrent
+      activity, training, and learned temporal behavior.
+    </p>
+
+    <p>
+      This is the first project in my computational neuroscience
+      learning-project series.
+    </p>
+
+
     <div class="tech-tags">
-      <span class="tech-tag">Python</span>
-      <span class="tech-tag">FastAPI</span>
-      <span class="tech-tag">OpenAI API</span>
-      <span class="tech-tag">PWA</span>
-      <span class="tech-tag">GitHub Pages</span>
-      <span class="tech-tag">Render</span>
+
+      <span class="tech-tag">
+        Computational Neuroscience
+      </span>
+
+      <span class="tech-tag">
+        ctRNN
+      </span>
+
+      <span class="tech-tag">
+        Recurrent Neural Networks
+      </span>
+
+      <span class="tech-tag">
+        Dynamical Systems
+      </span>
+
+      <span class="tech-tag">
+        PyTorch
+      </span>
+
+      <span class="tech-tag">
+        Interactive Learning
+      </span>
+
     </div>
+
 
     <div class="project-links">
 
       <a
-        href="https://shafiq-abdu.github.io/flashcards-app/"
+        href="https://shafiq-abdu.github.io/ctrnn_learning_playground/training/index.html"
         target="_blank"
+        rel="noopener noreferrer"
         class="project-button primary">
-        Launch App ↗
+        Open Project ↗
       </a>
 
     </div>
@@ -550,16 +657,11 @@ author_profile: false
   </div>
 
 
-  <div class="flashcard-media">
+  <div class="project-media">
 
     <img
-      src="/images/fl.png"
-      alt="AI Flashcard Study App"
-      class="project-image">
-
-    <img
-      src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://shafiq-abdu.github.io/flashcards-app/"
-      alt="QR code for AI Flashcard App"
+      src="https://api.qrserver.com/v1/create-qr-code/?size=220x220&data=https%3A%2F%2Fshafiq-abdu.github.io%2Fctrnn_learning_playground%2Ftraining%2Findex.html"
+      alt="QR code for the ctRNN Learning Playground"
       class="project-qr">
 
   </div>
@@ -569,18 +671,18 @@ author_profile: false
 
 
 <!-- ========================================================
-     AI / MACHINE LEARNING
+     MACHINE LEARNING & AI
      ======================================================== -->
 
 <div class="project-section-heading">
 
   <span>Machine Learning & AI</span>
 
-  <h2>Machine Learning Projects</h2>
+  <h2>Machine Learning & AI Projects</h2>
 
   <p>
-    Projects exploring reinforcement learning, neural networks,
-    graph learning, and intelligent computational systems.
+    Selected projects exploring reinforcement learning
+    and intelligent computational systems.
   </p>
 
 </div>
@@ -589,32 +691,48 @@ author_profile: false
 <div class="projects-grid">
 
 
-<!-- Snake Game -->
+
+<!-- ========================================================
+     AI SNAKE GAME
+     ======================================================== -->
 
 <div class="project-card">
 
   <div class="project-image-container">
+
     <img
       src="/images/1.gif"
       alt="AI Snake Game"
       class="project-image">
+
   </div>
 
+
   <div class="project-meta">
-    <span class="project-category">Reinforcement Learning</span>
-    <span class="project-date">Nov 2024</span>
+
+    <span class="project-category">
+      Reinforcement Learning
+    </span>
+
+    <span class="project-date">
+      Nov 2024
+    </span>
+
   </div>
+
 
   <div class="project-title">
     AI Snake Game with Deep Reinforcement Learning
   </div>
 
+
   <div class="project-description">
 
-    Developed an autonomous agent capable of learning to play
-    the classic Snake game using Deep Q-Learning.
+    Developed an autonomous agent capable of learning
+    to play the classic Snake game using Deep Q-Learning.
 
     <ul>
+
       <li>
         Implemented the reinforcement-learning environment
         and training pipeline in Python.
@@ -628,29 +746,40 @@ author_profile: false
         Trained the agent through reward-driven interaction
         with the environment.
       </li>
+
     </ul>
 
   </div>
 
+
   <div class="tech-tags">
+
     <span class="tech-tag">Python</span>
+
     <span class="tech-tag">PyTorch</span>
+
     <span class="tech-tag">Deep Q-Learning</span>
+
     <span class="tech-tag">Pygame</span>
+
   </div>
+
 
   <div class="project-links">
 
     <a
       href="https://github.com/Shafiq-Abdu/Snake_Game_AI.git"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button primary">
       GitHub ↗
     </a>
 
+
     <a
       href="https://youtu.be/-tuAOXsDKyw"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button">
       Training Demo ↗
     </a>
@@ -661,87 +790,93 @@ author_profile: false
 
 
 
-<!-- GCN -->
+<!-- ========================================================
+     AI FLASHCARD APP
+     ======================================================== -->
 
 <div class="project-card">
 
   <div class="project-image-container">
+
     <img
-      src="/images/2.gif"
-      alt="GCN Portfolio Optimization"
+      src="/images/fl.png"
+      alt="AI Flashcard Study App"
       class="project-image">
+
   </div>
+
 
   <div class="project-meta">
-    <span class="project-category">Graph Machine Learning</span>
-    <span class="project-date">Nov 2024</span>
+
+    <span class="project-category">
+      AI Application
+    </span>
+
+    <span class="project-date">
+      Archived
+    </span>
+
   </div>
 
+
   <div class="project-title">
-    Portfolio Optimization with Graph Convolutional Networks
+    AI Flashcard Study App
   </div>
+
+
+  <div class="project-status archived">
+    Archived · App No Longer Working
+  </div>
+
 
   <div class="project-description">
 
-    Explored graph-based machine learning for modeling
-    dependencies among Nifty 50 stocks.
+    An AI-powered study application built to transform
+    PDFs and lecture notes into interactive flashcards
+    for active recall and self-study.
 
-    <ul>
-      <li>
-        Represented stocks as nodes and correlation structure
-        as graph edges.
-      </li>
+    <div class="project-note">
 
-      <li>
-        Used Graph Convolutional Networks to learn relationships
-        between securities.
-      </li>
+      This was an earlier experimental project.
+      The deployed application is no longer operational.
 
-      <li>
-        Combined graph representations with spectral clustering
-        to study portfolio diversification.
-      </li>
-    </ul>
+    </div>
 
   </div>
+
 
   <div class="tech-tags">
-    <span class="tech-tag">GCN</span>
-    <span class="tech-tag">Graph Learning</span>
-    <span class="tech-tag">Spectral Clustering</span>
-    <span class="tech-tag">Finance</span>
-  </div>
 
-  <div class="project-links">
+    <span class="tech-tag">Python</span>
 
-    <a
-      href="https://github.com/Shafiq-Abdu/GCN_Spectral_Portfolio.git"
-      target="_blank"
-      class="project-button primary">
-      GitHub ↗
-    </a>
+    <span class="tech-tag">FastAPI</span>
+
+    <span class="tech-tag">OpenAI API</span>
+
+    <span class="tech-tag">PWA</span>
 
   </div>
 
 </div>
+
 
 </div>
 
 
 
 <!-- ========================================================
-     MATHEMATICAL / STOCHASTIC MODELING
+     SELECTED EARLIER PROJECTS
      ======================================================== -->
 
 <div class="project-section-heading">
 
-  <span>Applied Mathematics</span>
+  <span>Selected Earlier Work</span>
 
-  <h2>Stochastic & Mathematical Modeling</h2>
+  <h2>Mathematics & Optimization Projects</h2>
 
   <p>
-    Earlier work applying stochastic simulation, optimization,
-    and mathematical modeling to financial systems.
+    A small selection of earlier projects in optimization,
+    applied linear algebra, machine learning, and quantitative modeling.
   </p>
 
 </div>
@@ -750,285 +885,46 @@ author_profile: false
 <div class="projects-grid">
 
 
-<!-- Monte Carlo -->
+
+<!-- ========================================================
+     SUPER TREND
+     ======================================================== -->
 
 <div class="project-card">
 
   <div class="project-image-container">
-    <img
-      src="/images/3.gif"
-      alt="Monte Carlo Simulation"
-      class="project-image">
-  </div>
 
-  <div class="project-meta">
-    <span class="project-category">Stochastic Modeling</span>
-    <span class="project-date">May – Jun 2024</span>
-  </div>
-
-  <div class="project-title">
-    Monte Carlo Simulation for Portfolio Risk Management
-  </div>
-
-  <div class="project-description">
-
-    Applied Monte Carlo methods to investigate portfolio
-    allocation and financial risk.
-
-    <ul>
-      <li>
-        Simulated alternative portfolio configurations.
-      </li>
-
-      <li>
-        Evaluated risk using Value at Risk and Conditional
-        Value at Risk.
-      </li>
-
-      <li>
-        Investigated risk-return tradeoffs using Sharpe-ratio
-        based portfolio selection.
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="tech-tags">
-    <span class="tech-tag">Monte Carlo</span>
-    <span class="tech-tag">Statistics</span>
-    <span class="tech-tag">VaR</span>
-    <span class="tech-tag">CVaR</span>
-  </div>
-
-  <div class="project-links">
-
-    <a
-      href="https://github.com/Shafiq-Abdu/Monte-Carlo-portfolio.git"
-      target="_blank"
-      class="project-button primary">
-      GitHub ↗
-    </a>
-
-  </div>
-
-</div>
-
-
-
-<!-- Hull White -->
-
-<div class="project-card">
-
-  <div class="project-image-container">
-    <img
-      src="/images/4.gif"
-      alt="Hull White Interest Rate Model"
-      class="project-image">
-  </div>
-
-  <div class="project-meta">
-    <span class="project-category">Stochastic Processes</span>
-    <span class="project-date">May 2024</span>
-  </div>
-
-  <div class="project-title">
-    Interest Rate Modeling with the Hull–White Model
-  </div>
-
-  <div class="project-description">
-
-    Studied stochastic interest-rate dynamics and derivative
-    pricing using the Hull–White model.
-
-    <ul>
-      <li>
-        Calibrated mean-reversion and volatility parameters.
-      </li>
-
-      <li>
-        Simulated short-rate trajectories using Monte Carlo methods.
-      </li>
-
-      <li>
-        Applied simulated rate paths to pricing caps and floors.
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="tech-tags">
-    <span class="tech-tag">SDEs</span>
-    <span class="tech-tag">Hull–White</span>
-    <span class="tech-tag">Monte Carlo</span>
-  </div>
-
-  <div class="project-links">
-
-    <a
-      href="https://github.com/Shafiq-Abdu/Interest_Model_Hull_White.git"
-      target="_blank"
-      class="project-button primary">
-      GitHub ↗
-    </a>
-
-  </div>
-
-</div>
-
-
-
-<!-- Derivatives -->
-
-<div class="project-card">
-
-  <div class="project-image-container">
-    <img
-      src="/images/5.gif"
-      alt="Derivative Instruments Project"
-      class="project-image">
-  </div>
-
-  <div class="project-meta">
-    <span class="project-category">Mathematical Finance</span>
-    <span class="project-date">Jun – Aug 2024</span>
-  </div>
-
-  <div class="project-title">
-    Derivative Instruments and Mathematical Pricing
-  </div>
-
-  <div class="project-description">
-
-    Investigated mathematical models underlying futures,
-    options, and derivative-pricing strategies.
-
-    <ul>
-      <li>
-        Studied trading mechanisms and option strategies.
-      </li>
-
-      <li>
-        Investigated Black–Scholes and Heston models
-        through case studies.
-      </li>
-    </ul>
-
-  </div>
-
-  <div class="tech-tags">
-    <span class="tech-tag">Black–Scholes</span>
-    <span class="tech-tag">Heston Model</span>
-    <span class="tech-tag">Derivatives</span>
-  </div>
-
-  <div class="project-links">
-
-    <a
-      href="https://github.com/Shafiq-Abdu/Derivative_market_analysis.git"
-      target="_blank"
-      class="project-button primary">
-      GitHub ↗
-    </a>
-
-  </div>
-
-</div>
-
-
-
-<!-- Bayesian Optimization Thesis -->
-
-<div class="project-card">
-
-  <div class="project-image-container">
-    <img
-      src="/images/6.gif"
-      alt="Bayesian Optimization Project"
-      class="project-image">
-  </div>
-
-  <div class="project-meta">
-    <span class="project-category">Optimization</span>
-    <span class="project-date">Jan – May 2024</span>
-  </div>
-
-  <div class="project-title">
-    Bayesian Optimization of Supertrend Parameters
-  </div>
-
-  <div class="project-description">
-
-    Developed an optimization framework for selecting
-    Supertrend indicator parameters to improve trading
-    strategy performance.
-
-    <p>
-      <strong>Advisor:</strong>
-      Dr. Neelesh Upadhye, IIT Madras
-    </p>
-
-  </div>
-
-  <div class="tech-tags">
-    <span class="tech-tag">Bayesian Optimization</span>
-    <span class="tech-tag">Optimization</span>
-    <span class="tech-tag">Time Series</span>
-  </div>
-
-  <div class="project-links">
-
-    <a
-      href="https://drive.google.com/file/d/1LVLeb_6oD-0l1u7OnpLZcG0PR2qSD0y4/view?usp=drive_link"
-      target="_blank"
-      class="project-button primary">
-      Thesis ↗
-    </a>
-
-    <a
-      href="https://drive.google.com/file/d/1BEsEWh6Sov_E_nqXE6dj1xjnjKQ0alop/view?usp=drive_link"
-      target="_blank"
-      class="project-button">
-      Slides ↗
-    </a>
-
-    <a
-      href="https://github.com/Shafiq-Abdu/Masters_Thesis-Seminar.git"
-      target="_blank"
-      class="project-button">
-      GitHub ↗
-    </a>
-
-  </div>
-
-</div>
-
-
-
-<!-- Grid Search -->
-
-<div class="project-card">
-
-  <div class="project-image-container">
     <img
       src="/images/7.gif"
       alt="Supertrend Grid Search Optimization"
       class="project-image">
+
   </div>
 
+
   <div class="project-meta">
-    <span class="project-category">Optimization</span>
-    <span class="project-date">Jun – Dec 2023</span>
+
+    <span class="project-category">
+      Optimization
+    </span>
+
+    <span class="project-date">
+      Jun – Dec 2023
+    </span>
+
   </div>
+
 
   <div class="project-title">
     Supertrend Parameter Optimization for Sharpe Ratio
   </div>
 
+
   <div class="project-description">
 
-    Developed a systematic parameter-search framework for
-    improving risk-adjusted performance of a Supertrend-based
-    trading strategy.
+    Developed a systematic parameter-search framework
+    for improving risk-adjusted performance of a
+    Supertrend-based trading strategy.
 
     <p>
       <strong>Advisor:</strong>
@@ -1037,31 +933,48 @@ author_profile: false
 
   </div>
 
+
   <div class="tech-tags">
-    <span class="tech-tag">Grid Search</span>
-    <span class="tech-tag">Optimization</span>
-    <span class="tech-tag">Sharpe Ratio</span>
+
+    <span class="tech-tag">
+      Grid Search
+    </span>
+
+    <span class="tech-tag">
+      Optimization
+    </span>
+
+    <span class="tech-tag">
+      Sharpe Ratio
+    </span>
+
   </div>
+
 
   <div class="project-links">
 
     <a
       href="https://drive.google.com/file/d/12P2fP9daJdOuK8h4ZHe3NVbLzjM3QzZP/view?usp=drive_link"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button primary">
       Report ↗
     </a>
 
+
     <a
       href="https://drive.google.com/file/d/12U5UjOgF31RsF6qTlEnapLzRuc1a1ElZ/view?usp=drive_link"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button">
       Slides ↗
     </a>
 
+
     <a
       href="https://github.com/Shafiq-Abdu/Masters_Thesis-Seminar.git"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button">
       GitHub ↗
     </a>
@@ -1072,25 +985,39 @@ author_profile: false
 
 
 
-<!-- Linear Algebra -->
+<!-- ========================================================
+     LINEAR ALGEBRA
+     ======================================================== -->
 
 <div class="project-card">
 
   <div class="project-image-container">
+
     <img
       src="/images/8.gif"
       alt="Linear Algebra for Machine Learning"
       class="project-image">
+
   </div>
 
+
   <div class="project-meta">
-    <span class="project-category">Applied Linear Algebra</span>
-    <span class="project-date">Jun – Dec 2021</span>
+
+    <span class="project-category">
+      Applied Linear Algebra
+    </span>
+
+    <span class="project-date">
+      Jun – Dec 2021
+    </span>
+
   </div>
+
 
   <div class="project-title">
     Linear Algebra for Machine Learning and Data Science
   </div>
+
 
   <div class="project-description">
 
@@ -1105,17 +1032,30 @@ author_profile: false
 
   </div>
 
+
   <div class="tech-tags">
-    <span class="tech-tag">Linear Algebra</span>
-    <span class="tech-tag">Machine Learning</span>
-    <span class="tech-tag">Data Science</span>
+
+    <span class="tech-tag">
+      Linear Algebra
+    </span>
+
+    <span class="tech-tag">
+      Machine Learning
+    </span>
+
+    <span class="tech-tag">
+      Data Science
+    </span>
+
   </div>
+
 
   <div class="project-links">
 
     <a
       href="https://drive.google.com/file/d/17aJOT-fgtL5HDjNwfpwJnS-C-Py9wIw-/view?usp=sharing"
       target="_blank"
+      rel="noopener noreferrer"
       class="project-button primary">
       Report ↗
     </a>
