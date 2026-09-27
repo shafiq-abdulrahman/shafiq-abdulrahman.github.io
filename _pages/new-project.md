@@ -528,15 +528,6 @@ author_profile: false
      INTRO
      ======================================================== -->
 
-<div class="projects-header">
-
-  <p>
-    Selected projects in computational neuroscience,
-    machine learning, artificial intelligence,
-    optimization, and applied mathematics.
-  </p>
-
-</div>
 
 
 <!-- ========================================================
