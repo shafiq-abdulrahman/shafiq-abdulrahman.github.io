@@ -625,7 +625,7 @@ redirect_from:
     </div>
   </details>
 
-```html
+
 <details>
   <summary>Workshops & Conferences</summary>
 
@@ -740,11 +740,9 @@ redirect_from:
         <b>2020:</b> Vedic Mathematics & Foundations —
         Government Arts College, Coimbatore
       </li>
-
     </ul>
   </div>
 </details>
-```
 
   <details>
     <summary>Entrepreneurial & Extracurricular Activities</summary>
