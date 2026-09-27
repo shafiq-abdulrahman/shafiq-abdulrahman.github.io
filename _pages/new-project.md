@@ -564,13 +564,6 @@ author_profile: false
 
   <h2>Computational Neuroscience Learning Projects</h2>
 
-  <p>
-    A continuing learning series where I build one focused
-    computational neuroscience project approximately every two months.
-    Each project is designed to turn mathematical and theoretical ideas
-    into working computational models and interactive experiments.
-  </p>
-
 </div>
 
 
@@ -584,7 +577,7 @@ author_profile: false
   <div>
 
     <span class="featured-badge">
-      Project 01 · Current Project
+      · Current Project
     </span>
 
     <h2>
@@ -605,11 +598,6 @@ author_profile: false
       The playground is designed for hands-on experimentation with
       network inputs, time constants, hidden-state dynamics, recurrent
       activity, training, and learned temporal behavior.
-    </p>
-
-    <p>
-      This is the first project in my computational neuroscience
-      learning-project series.
     </p>
 
 
@@ -681,8 +669,7 @@ author_profile: false
   <h2>Machine Learning & AI Projects</h2>
 
   <p>
-    Selected projects exploring reinforcement learning
-    and intelligent computational systems.
+    Selected projects exploring reinforcement learning and intelligent computational systems.
   </p>
 
 </div>
@@ -875,8 +862,7 @@ author_profile: false
   <h2>Mathematics & Optimization Projects</h2>
 
   <p>
-    A small selection of earlier projects in optimization,
-    applied linear algebra, machine learning, and quantitative modeling.
+    A small selection of earlier projects in optimization, applied linear algebra, machine learning, and quantitative modeling.
   </p>
 
 </div>
