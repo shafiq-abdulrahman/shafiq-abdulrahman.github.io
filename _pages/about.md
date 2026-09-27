@@ -625,30 +625,126 @@ redirect_from:
     </div>
   </details>
 
-  <details>
-    <summary>Workshops & Conferences</summary>
-    <div class="ab-details-body">
-      <ul>
-        <li><b>2026:</b> Summer School on Stochastic Dynamics and Persistence in Biology, Texas A&M (Jun 21–27)</li>
-        <li><b>2024:</b> Mini Course on Markov Chains by Prof. Manjunath Krishnapur, IISc Bangalore</li>
-        <li><b>2024:</b> International FDP on Financial Mathematics, SPDE Theory, and Mathematical Modeling — VIT AP University</li>
-        <li><b>2024:</b> International Conference on Stochastic Calculus & Applications to Finance — King’s College London & IIT Madras</li>
-        <li><b>2024:</b> Workshop on Valuation of Equity Options using the Black–Scholes Model — IIQF</li>
-        <li><b>2024:</b> Python in Finance & Open Range Breakout Strategy Workshop — StockGro at IIT Madras</li>
-        <li><b>2024:</b> Statistical Modeling & Quant Challenge — Millennium Investment Management, IIT Madras</li>
-        <li><b>2024:</b> Advanced Training School on PDEs & MATLAB — K. J. Somaiya College, Mumbai</li>
-        <li><b>2023:</b> One-month Summer School integrating Linear Algebra, Probability, Markov Chains, and Differential Equations — IIT Madras</li>
-        <li><b>2023:</b> MTTS Programme — Linear Algebra, Complex Analysis, Topology, Module & Ring Theory, IIT Madras</li>
-        <li><b>2023:</b> Mathematics In-house Symposium — IIT Madras</li>
-        <li><b>2022:</b> National Conference on Computational Mathematics — NIT Puducherry</li>
-        <li><b>2022:</b> Workshop on Nonlinear Phenomena in Mathematical Biology — IIITM Gwalior</li>
-        <li><b>2021:</b> NPTEL Modern Algebra Course — Madurai Kamaraj University</li>
-        <li><b>2021:</b> KLA Workshop on AI & HPC in Semiconductor Manufacturing — IIT Madras</li>
-        <li><b>2020:</b> Initiation into Linear Algebra — International Workshop, Mar Thoma College</li>
-        <li><b>2020:</b> Vedic Mathematics & Foundations — Government Arts College, Coimbatore</li>
-      </ul>
-    </div>
-  </details>
+```html
+<details>
+  <summary>Workshops & Conferences</summary>
+
+  <div class="ab-details-body">
+    <ul>
+
+      <!-- ===================== PhD ===================== -->
+
+      <li style="list-style: none; margin: 0.5rem 0 0.8rem -1.2rem;">
+        <strong style="color: #1e90ff;">PhD</strong>
+      </li>
+
+      <li>
+        <b>2026:</b> Summer School on Stochastic Dynamics and Persistence in Biology,
+        Texas A&M (Jun 21–27)
+      </li>
+
+
+      <!-- ===================== DIVIDER ===================== -->
+
+      <li style="list-style: none; margin: 1.4rem 0 1rem -1.2rem;">
+        <div style="
+          border-top: 1px solid #d8d8d8;
+          padding-top: 0.8rem;
+          font-size: 0.85rem;
+          font-weight: 700;
+          color: #777;
+          letter-spacing: 0.03em;
+        ">
+          Master's & Undergraduate
+        </div>
+      </li>
+
+
+      <!-- ===================== MASTER'S / UNDERGRAD ===================== -->
+
+      <li>
+        <b>2024:</b> Mini Course on Markov Chains by Prof. Manjunath Krishnapur,
+        IISc Bangalore
+      </li>
+
+      <li>
+        <b>2024:</b> International FDP on Financial Mathematics, SPDE Theory,
+        and Mathematical Modeling — VIT AP University
+      </li>
+
+      <li>
+        <b>2024:</b> International Conference on Stochastic Calculus & Applications
+        to Finance — King’s College London & IIT Madras
+      </li>
+
+      <li>
+        <b>2024:</b> Workshop on Valuation of Equity Options using the
+        Black–Scholes Model — IIQF
+      </li>
+
+      <li>
+        <b>2024:</b> Python in Finance & Open Range Breakout Strategy Workshop —
+        StockGro at IIT Madras
+      </li>
+
+      <li>
+        <b>2024:</b> Statistical Modeling & Quant Challenge —
+        Millennium Investment Management, IIT Madras
+      </li>
+
+      <li>
+        <b>2024:</b> Advanced Training School on PDEs & MATLAB —
+        K. J. Somaiya College, Mumbai
+      </li>
+
+      <li>
+        <b>2023:</b> One-month Summer School integrating Linear Algebra,
+        Probability, Markov Chains, and Differential Equations — IIT Madras
+      </li>
+
+      <li>
+        <b>2023:</b> MTTS Programme — Linear Algebra, Complex Analysis,
+        Topology, Module & Ring Theory, IIT Madras
+      </li>
+
+      <li>
+        <b>2023:</b> Mathematics In-house Symposium — IIT Madras
+      </li>
+
+      <li>
+        <b>2022:</b> National Conference on Computational Mathematics —
+        NIT Puducherry
+      </li>
+
+      <li>
+        <b>2022:</b> Workshop on Nonlinear Phenomena in Mathematical Biology —
+        IIITM Gwalior
+      </li>
+
+      <li>
+        <b>2021:</b> NPTEL Modern Algebra Course —
+        Madurai Kamaraj University
+      </li>
+
+      <li>
+        <b>2021:</b> KLA Workshop on AI & HPC in Semiconductor Manufacturing —
+        IIT Madras
+      </li>
+
+      <li>
+        <b>2020:</b> Initiation into Linear Algebra —
+        International Workshop, Mar Thoma College
+      </li>
+
+      <li>
+        <b>2020:</b> Vedic Mathematics & Foundations —
+        Government Arts College, Coimbatore
+      </li>
+
+    </ul>
+  </div>
+</details>
+```
 
   <details>
     <summary>Entrepreneurial & Extracurricular Activities</summary>
