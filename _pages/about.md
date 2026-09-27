@@ -668,6 +668,21 @@ redirect_from:
     </div>
   </details>
 
+  <details>
+  <summary>CV / Resume</summary>
+  <div class="ab-details-body">
+    <ul>
+      <li>
+        <a href="https://drive.google.com/file/d/1qENdg9ZravFvvTaBSDhjnZkzPVPE1wqh/view?usp=sharing"
+           target="_blank"
+           rel="noopener noreferrer">
+          <b>Curriculum Vitae</b>
+        </a>
+      </li>
+    </ul>
+  </div>
+</details>
+
 </section>
 
 </div>
