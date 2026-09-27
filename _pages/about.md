@@ -582,10 +582,6 @@ redirect_from:
   <div class="ab-section-head">
     <div class="ab-section-kicker">More</div>
     <h2 class="ab-section-title">Professional highlights</h2>
-    <p class="ab-section-note">
-      Expanded academic history is kept here so the homepage stays focused on
-      current research while still preserving the details.
-    </p>
   </div>
 
   <details>
