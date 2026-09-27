@@ -598,7 +598,24 @@ redirect_from:
     <summary>Honors & Awards</summary>
     <div class="ab-details-body">
       <ul>
+        <li style="list-style: none; margin: 0.5rem 0 0.8rem -1.2rem;">
+        <strong style="color: #1e90ff;">PhD</strong>
+       </li>
         <li><b>2026:</b> NSM Alumni Association (Eckhard Pfeifer/Carolyn Farb) Scholarship, University of Houston Alumni Association Foundation (UHAAF), 2026–2027 Academic Year</li>
+        <!-- ===================== DIVIDER ===================== -->
+
+      <li style="list-style: none; margin: 1.4rem 0 1rem -1.2rem;">
+        <div style="
+          border-top: 1px solid #d8d8d8;
+          padding-top: 0.8rem;
+          font-size: 0.85rem;
+          font-weight: 700;
+          color: #777;
+          letter-spacing: 0.03em;
+        ">
+          Master's & Undergraduate
+        </div>
+      </li>
         <li><b>2025:</b> Qualified CSIR NET, JRF — Eligible to be Assistant Professor in India</li>
         <li><b>2024:</b> Qualified Graduate Aptitude Test in Engineering (GATE)</li>
         <li><b>2022:</b> All India Rank 196 in IIT-JAM (among 12,716 mathematics aspirants)</li>
@@ -615,6 +632,23 @@ redirect_from:
     <summary>Talks & Presentations</summary>
     <div class="ab-details-body">
       <ul>
+        <li style="list-style: none; margin: 0.5rem 0 0.8rem -1.2rem;">
+        <strong style="color: #1e90ff;">PhD</strong>
+      </li>
+        <!-- ===================== DIVIDER ===================== -->
+
+      <li style="list-style: none; margin: 1.4rem 0 1rem -1.2rem;">
+        <div style="
+          border-top: 1px solid #d8d8d8;
+          padding-top: 0.8rem;
+          font-size: 0.85rem;
+          font-weight: 700;
+          color: #777;
+          letter-spacing: 0.03em;
+        ">
+          Master's & Undergraduate
+        </div>
+      </li>
         <li><b>June 2024:</b> Contributory lectures on “Gaussian Functions, Errors and Stirling’s Approximations” — Summer Workshop on Pure Mathematics</li>
         <li><b>April 2024:</b> Presented “Itô's Rule” proof under Prof. Neelesh Upadhye, IIT Madras — Mathematical Finance</li>
         <li><b>Feb 2024:</b> Presented approximation of a class of functions by simple functions using convolution and measure theory under Prof. Barun Sarkar, IIT Madras</li>
