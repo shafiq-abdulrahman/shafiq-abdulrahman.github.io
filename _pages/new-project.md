@@ -562,8 +562,6 @@ author_profile: false
 
   <span>Computational Neuroscience</span>
 
-  <h2>Computational Neuroscience Learning Projects</h2>
-
 </div>
 
 
