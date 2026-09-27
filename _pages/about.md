@@ -413,7 +413,7 @@ redirect_from:
 {% raw %}
 <script>
 (function () {
-  const text = "Check out my new flashcard app in the Project section....";
+  const text = "Check out my current projects in the Project section....";
   const el = document.getElementById("typewriter");
   const container = document.getElementById("typewriter-container");
   if (!el || !container) return;
@@ -669,7 +669,7 @@ redirect_from:
   </details>
 
   <details>
-  <summary>CV / Resume</summary>
+  <summary>CV / Resume (Updated Fall 26)</summary>
   <div class="ab-details-body">
     <ul>
       <li>
