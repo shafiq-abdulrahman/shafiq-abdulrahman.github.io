@@ -343,7 +343,7 @@ redirect_from:
 ========================================================= -->
 
 <div class="ab-top-image">
-  <img src="/images/77.png" alt="Shafiq Abdul Rahman">
+  <img src="/images/789.png" alt="Shafiq Abdul Rahman">
 </div>
 
 <section class="ab-hero">
