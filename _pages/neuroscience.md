@@ -550,6 +550,21 @@ author_profile: true
       </div>
 
     </a>
+    <a class="resource-card"
+       href="https://fbullo.github.io/lnd/"
+       target="_blank"
+       rel="noopener noreferrer">
+
+      <span class="resource-icon">🐍</span>
+
+      <div>
+        <strong>Neural Dynamics</strong>
+        <p>
+          Lectures by Francesco Bullo
+        </p>
+      </div>
+
+    </a>
 
   </div>
 
