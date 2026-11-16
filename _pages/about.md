@@ -389,21 +389,12 @@ redirect_from:
 
 
       <!-- Research description -->
-
-      <p class="ab-focus">
-        I work at the intersection of
-        <strong>computational neuroscience</strong>,
-        <strong>dynamical systems</strong>, and
-        <strong>neural data analysis</strong>, with an interest in how
-        mathematical structure can help explain neural computation
-        and representation.
-      </p>
       <div class="ab-current">
         <span class="ab-current-label">
           On my desk right now →
         </span>
         Neural representation · Modelling neural circuits ·
-        Cognitive Neuroscience · Artem's Neuro playlist 
+        Cognitive Neuroscience · Artem's Neuro playlist · Brain facts SfN book 
       </div>
     </div>
   </div>
@@ -453,6 +444,14 @@ redirect_from:
     </div>
     <div class="ab-card">
       <h3>Neural Data Analysis</h3>
+    </div>
+    <div class="ab-current">
+        <span class="ab-current-label">
+          On my desk right now →
+        </span>
+        Neural representation · Modelling neural circuits ·
+        Cognitive Neuroscience · Artem's Neuro playlist · Brain facts SfN book 
+      </div>
     </div>
   </div>
 </section>
