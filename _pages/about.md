@@ -1,3 +1,4 @@
+
 ---
 permalink: /
 title: #"Shafiq Abdul Rahman"
@@ -447,7 +448,7 @@ redirect_from:
     </div>
     <div class="ab-current">
         <span class="ab-current-label">
-         Courseworks :
+         Coursework :
         </span>
         Cognitive Neuroscience (PSYC) · Neuroscience (BIOL) ·
         Probability · Statistics · Bayesian Statistics · Numerical Analysis · Math in Data Science
