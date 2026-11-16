@@ -393,7 +393,7 @@ redirect_from:
         <span class="ab-current-label">
           On my desk right now →
         </span>
-        Neural representation · Modelling neural circuits ·
+        Neural representation ·
         Cognitive Neuroscience · Artem's Neuro playlist · Brain facts SfN book 
       </div>
     </div>
