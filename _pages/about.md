@@ -447,12 +447,11 @@ redirect_from:
     </div>
     <div class="ab-current">
         <span class="ab-current-label">
-          On my desk right now →
+         Courseworks :
         </span>
-        Neural representation · Modelling neural circuits ·
-        Cognitive Neuroscience · Artem's Neuro playlist · Brain facts SfN book 
+        Cognitive Neuroscience (PSYC) · Neuroscience (BIOL) ·
+        Probability · Statistics · Bayesian Statistics · Numerical Analysis · Math in Data Science
       </div>
-    </div>
   </div>
 </section>
 
