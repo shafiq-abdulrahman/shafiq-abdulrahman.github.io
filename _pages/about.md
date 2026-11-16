@@ -1,4 +1,3 @@
-
 ---
 permalink: /
 title: #"Shafiq Abdul Rahman"
@@ -446,6 +445,7 @@ redirect_from:
     <div class="ab-card">
       <h3>Neural Data Analysis</h3>
     </div>
+     </div>
     <div class="ab-current">
         <span class="ab-current-label">
          Coursework :
@@ -453,7 +453,6 @@ redirect_from:
         Cognitive Neuroscience (PSYC) · Neuroscience (BIOL) ·
         Probability · Statistics · Bayesian Statistics · Numerical Analysis · Math in Data Science
       </div>
-  </div>
 </section>
 
 <!-- =========================================================
