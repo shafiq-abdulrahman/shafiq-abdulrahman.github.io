@@ -416,7 +416,11 @@ body{
 
     <div class="journal-body">
       <div class="journal-timeline">
-
+      <div class="journal-entry">
+        <span class="journal-date">Nov 2-4 ,Fall'26</span>
+        <p>Attended NITMB workshop on Probabilistic Inference in Theoretical Neuroscience at Chicago.</p>
+      </div>
+      
       <div class="journal-entry">
         <span class="journal-date">FALL 2026</span>
         <p>Began reading papers on neural representation from Dr. Hayden's lab at Baylor College of Medicine.</p>
